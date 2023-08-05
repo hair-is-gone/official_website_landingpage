@@ -1,0 +1,35 @@
+---
+- hosts: mm4
+  vars:
+    local_code_dir: ../../
+    remote_code_dir: /home/ubuntu/project/office_mania
+    ansible_python_interpreter: /usr/bin/python3
+  gather_facts: no
+  become: yes
+  tasks:
+    - name: build # 打包
+      local_action:
+        module: shell
+        cmd:  npm run build prod
+        args:
+          chdir: "{{ local_code_dir }}"
+      run_once: True
+      become: no
+    - name: add # 添加track
+      local_action:
+        module: shell
+        cmd: python add_track.py
+        args:
+          chdir: "{{ local_code_dir }}"
+      run_once: True
+      become: no
+    - name: upload code # 上传文件
+      become: no
+      synchronize:
+        src: "{{ local_code_dir }}/dist"
+        dest: "{{ remote_code_dir }}"
+        checksum: yes
+    - name: chown  # 修改权限并可执行
+      shell:
+        cmd: "chown -R ubuntu *"
+        chdir: "{{ remote_code_dir }}"
