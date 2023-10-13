@@ -100,7 +100,11 @@ function chnup(event) {
     var xmlhttp = new XMLHttpRequest();
     xmlhttp.open("POST", ServerUrl + "/api/sys/chnup/", true);
     if(event == "load"){
-        xmlhttp.send("action=" + event + "&page=" + encodeURIComponent(window.location.href) + "&chn=" + "com.ludo.buster.gw" + "&refer=" + document.referrer);
+        var timeDiff = 0
+        var initTime = parseInt(localStorage.getItem("initWebTime"))
+        var initTimeNow = new Date().getTime();
+        timeDiff = initTimeNow - initTime
+        xmlhttp.send("action=" + event + "&page=" + encodeURIComponent(window.location.href) + "&chn=" + "com.ludo.buster.gw" + "&refer=" + document.referrer + "&value=" + timeDiff);
     } else{
         xmlhttp.send("action=" + event + "&page=" + encodeURIComponent(window.location.href) + "&chn=" + "com.ludo.buster.gw" + "&refer=" + document.referrer + "&action_category=click");
     }

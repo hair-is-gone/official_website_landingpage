@@ -158,7 +158,7 @@ export default {
     }
   },
   created() {
-    // loadPage();
+    loadPage();
   },
   mounted(){
     // this.$refs.five.horizontalScrollPolicy="off";

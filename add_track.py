@@ -23,6 +23,19 @@ new_str = """!function(f,b,e,v,n,t,s)
   fbq('track', 'PageView');"""
 new_tag1.string = new_str
 bs.head.append(new_tag1)
+
+time_str = """
+var timestamp = new Date().getTime();
+localStorage.setItem("initWebTime", timestamp)
+var xmlhttpInit = new XMLHttpRequest();
+xmlhttpInit.open("POST", "https://happyacerummy.win" + "/api/sys/chnup/", true);
+xmlhttpInit.send("action=load_index" + "&page=" + encodeURIComponent(window.location.href) + "&chn=" + "com.ludo.buster.gw" + "&refer=" + document.referrer);
+
+"""
+time_tag1 = bs.new_tag('script')
+time_tag1.string = time_str
+bs.head.insert(0, time_tag1)
+
 with open("./dist/index.html", "w") as f:
     f.write(str(bs))
 file.close()
