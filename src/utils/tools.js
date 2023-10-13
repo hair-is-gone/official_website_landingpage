@@ -1,6 +1,6 @@
 
 const ServerUrl = process.env.API_HOST
-const GameUrl = "http://cdn10.cdngoto.com/hamini_0621_1640_release/index.html?channel=com.l7u7d7o.lucky"
+const GameUrl = "http://cdn10.cdngoto.com/hamini_0621_1640_release/index.html?channel=com.ludo.buster.gw"
 function getQueryVariable(variable) {
     var query = window.location.search.substring(1);
     // var query = "https://hamini.net/?p0=116jfs9v&p1=%7B%7Bcampaign.name%7D%7D&p2=%7B%7Bcampaign.id%7D%7D&p3=%7B%7Badset.name%7D%7D&p4=%7B%7Badset.id%7D%7D&p5=%7B%7Bad.name%7D%7D&p6=%7B%7Bad.id%7D%7D"
@@ -100,9 +100,9 @@ function chnup(event) {
     var xmlhttp = new XMLHttpRequest();
     xmlhttp.open("POST", ServerUrl + "/api/sys/chnup/", true);
     if(event == "load"){
-        xmlhttp.send("action=" + event + "&page=" + encodeURIComponent(window.location.href) + "&chn=" + "com.l7u7d7o.lucky" + "&refer=" + document.referrer);
+        xmlhttp.send("action=" + event + "&page=" + encodeURIComponent(window.location.href) + "&chn=" + "com.ludo.buster.gw" + "&refer=" + document.referrer);
     } else{
-        xmlhttp.send("action=" + event + "&page=" + encodeURIComponent(window.location.href) + "&chn=" + "com.l7u7d7o.lucky" + "&refer=" + document.referrer + "&action_category=click");
+        xmlhttp.send("action=" + event + "&page=" + encodeURIComponent(window.location.href) + "&chn=" + "com.ludo.buster.gw" + "&refer=" + document.referrer + "&action_category=click");
     }
 }
 
