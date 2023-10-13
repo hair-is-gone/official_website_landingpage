@@ -15,14 +15,14 @@
           chdir: "{{ local_code_dir }}"
       run_once: True
       become: no
-    # - name: add # 添加track
-    #   local_action:
-    #     module: shell
-    #     cmd: python add_track.py
-    #     args:
-    #       chdir: "{{ local_code_dir }}"
-    #   run_once: True
-    #   become: no
+    - name: add # 添加track
+      local_action:
+        module: shell
+        cmd: python add_track.py
+        args:
+          chdir: "{{ local_code_dir }}"
+      run_once: True
+      become: no
     - name: upload code # 上传文件
       become: no
       synchronize:
