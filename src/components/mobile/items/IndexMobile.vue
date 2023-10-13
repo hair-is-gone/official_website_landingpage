@@ -10,7 +10,7 @@
 
       <div class="center-box">
         <div class="muti-bg">
-          <span class="muti-title-head">THE MULTIPLE WITHDRAW METHODS YOU CAN CHOOSE</span>
+          <span class="muti-title-head">Various Instant Withdraw Channels Provided</span>
           <div class="muti-card-box"> 
             <div class="muti-card" v-for="mutiInfo in mutiInfoS" :key="mutiInfo.title1">
               <img :src="mutiInfo.pict" alt="" class="pict">
