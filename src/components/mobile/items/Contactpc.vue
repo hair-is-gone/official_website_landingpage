@@ -11,7 +11,7 @@
         <contact>
           <template v-slot:pict>
             <div class="pict-email">
-                <img src="../../../../static/mobile/email.png" alt="" class="pict">
+                <img src="https://dapv7y4era0s5.cloudfront.net/ludobuster/email.png" alt="" class="pict">
               </div>
           </template>
           <template v-slot:info>
@@ -21,7 +21,7 @@
         <contact>
           <template v-slot:pict>
             <div class="pict-phone">
-                <img src="../../../../static/mobile/phone.png" alt="" class="pict">
+                <img src="https://dapv7y4era0s5.cloudfront.net/ludobuster/phone.png" alt="" class="pict">
               </div>
           </template>
           <template v-slot:info>
@@ -32,7 +32,7 @@
         <contact :isLong="true">
           <template v-slot:pict>
             <div class="pict-addr">
-                <img src="../../../../static/mobile/location.png" alt="" class="pict">
+                <img src="https://dapv7y4era0s5.cloudfront.net/ludobuster/location.png" alt="" class="pict">
               </div>
           </template>
           <template v-slot:info>

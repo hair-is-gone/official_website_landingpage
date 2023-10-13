@@ -1,38 +1,8 @@
 <template>
   <div class="head-box">
-    
-    
-
-    <!-- <div class="button-box">
-      <el-dropdown trigger="click" @command="changeTitle">
-        <span class="el-dropdown-link">
-          <div class="link-pict">
-            <img src="../../../../static/mobile/link.png" alt="link" class="pict">
-          </div>
-        </span>
-        <el-dropdown-menu slot="dropdown">
-          <el-dropdown-item command="0">About Us</el-dropdown-item>
-          <el-dropdown-item command="1">Legality</el-dropdown-item>
-          <el-dropdown-item command="2">Terms & Conditions</el-dropdown-item>
-          <el-dropdown-item command="3">Privacy Policy</el-dropdown-item>
-          <el-dropdown-item command="4">Refunds/Cancellations</el-dropdown-item>
-          <el-dropdown-item command="6">Contact Us</el-dropdown-item>
-        </el-dropdown-menu>
-      </el-dropdown>
-    </div> -->
-
     <div class="h5-logo-box" @click="goToIndex()">
-      <img src="../../../../static/mobile/logo.png" alt="logo" class="pict">
+      <img src="https://dapv7y4era0s5.cloudfront.net/ludobuster/logo.png" alt="logo" class="pict">
     </div>
-
-    
-
-    
-
-    
-
-    
-    
   </div>
 </template>
 
@@ -72,19 +42,18 @@ export default {
 
 <style lang="less" scoped>
 .head-box {
-  height: 11.39vw;
+  height: 13.06vw;
   width: 100%;
   position: fixed;
   z-index: 300;
-  background-color: #a238c1;
+	background-color: #056703;
   .mid-box;
   box-sizing: border-box;
 }
 .h5-logo-box {
-  width: 23.06vw;
-	height: 8.47vw;
-  // margin-top: 1.5vw;
-  // margin-left: 20.56vw;
+  width: 24.86vw;
+	height: 11.25vw;
+  margin-top: 1vw;
 }
 .h5-logo-box-pict {
   width: 100%;

@@ -3,7 +3,7 @@
     <div class="mobile-title-box">
       <span>Home </span>
       <div class="splite-pict">
-        <img src="../../../../static/mobile/ic_page.png" alt="" class="pict">
+        <img src="https://dapv7y4era0s5.cloudfront.net/ludobuster/ic_page.png" alt="" class="pict">
       </div>
       <span class="head-color">
         <slot name="title-first"></slot>

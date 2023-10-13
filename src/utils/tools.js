@@ -43,8 +43,8 @@ async function download(){
     //console.log(campaign_name, fbclid)
     // chnup("click")
     // // 获取链接参数.进行拼接
-    let download_url = `https://slotsmania.go.link/?adj_t=12d49md9&adj_campaign=${campaign_name}%20%28${campaign_id}%29&adj_adgroup=${adset_name}%20%28${adset_id}%29&adj_creative=${ad_name}%20%28${ad_id}%29&adj_redirect=https%3A%2F%2Fwww.ludolucky777.com%2Fstatic%2Fpkg%2FLudoLucky.apk&adj_fbclid=${fbclid}&adj_fbpid=${cookpid}`
-    
+    let url_host = "https://dapv7y4era0s5.cloudfront.net/ludobuster/LudoBuster_sign.apk"
+    let download_url = `https://ludobuster.go.link/?adj_t=15sd8h0j&adj_campaign=${campaign_name}%20%28${campaign_id}%29&adj_adgroup=${adset_name}%20%28${adset_id}%29&adj_creative=${ad_name}%20%28${ad_id}%29&adj_redirect=${url_host}&adj_fbclid=${fbclid}&adj_fbpid=${cookpid}`
     // let download_url = "../../../../static/pkg/SlotsMania.apk"
     console.log(download_url)
     window.location.href = download_url
@@ -64,7 +64,8 @@ async function download_v2(){
     let cookpid = getCookie("_fbp")
     //console.log(campaign_name, fbclid)
     // chnup("click_v2")
-    let download_url = `https://slotsmania.go.link/?adj_t=12d49md9&adj_campaign=${campaign_name}%20%28${campaign_id}%29&adj_adgroup=${adset_name}%20%28${adset_id}%29&adj_creative=${ad_name}%20%28${ad_id}%29&adj_redirect=https%3A%2F%2Fcom.l7u7d7o.lucky%2Fstatic%2Fpkg%2FLudoLucky.apk&adj_fbclid=${fbclid}&adj_fbpid=${cookpid}`
+    let url_host = "https://dapv7y4era0s5.cloudfront.net/ludobuster/LudoBuster_sign.apk"
+    let download_url = `https://ludobuster.go.link/?adj_t=15sd8h0j&adj_campaign=${campaign_name}%20%28${campaign_id}%29&adj_adgroup=${adset_name}%20%28${adset_id}%29&adj_creative=${ad_name}%20%28${ad_id}%29&adj_redirect=${url_host}&adj_fbclid=${fbclid}&adj_fbpid=${cookpid}`
     // let download_url = "../../../../static/pkg/SlotsMania.apk"
     console.log(download_url)
     window.location.href = download_url
@@ -82,16 +83,9 @@ async function download_v3(){
     let fbpid = getQueryVariable("fbpid")
     let fbclid = getQueryVariable("fbclid")
     let cookpid = getCookie("_fbp")
-    //console.log(campaign_name, fbclid)
-    // chnup("click_v2")
-    // let download_url = `https://mastertp.go.link/?adj_t=12swbuq0&adj_campaign=${campaign_name}%20%28${campaign_id}%29&adj_adgroup=${adset_name}%20%28${adset_id}%29&adj_creative=${ad_name}%20%28${ad_id}%29&adj_redirect=https://masterteenpattiindia.com/static/pkg/MasterTeenpatti.apk&adj_fbclid=${fbclid}&adj_fbpid=${cookpid}`
 
-    // // 获取链接参数.进行拼接
-    // let download_url = `https://mastertp.go.link/?adj_t=${adj_t}&adj_campaign=${campaign_name}%20%28${campaign_id}%29&adj_adgroup=${adset_name}%20%28${adset_id}%29&adj_creative=${ad_name}%20%28${ad_id}%29&adj_redirect=https://masterteenpattiindia.com/static/pkg/MasterTeenpatti.apk&adj_fbclid=${fbclid}&adj_fbpid=${cookpid}`
-    // if(adj_t == ""){
-    //     download_url = "../../../../static/pkg/MasterTeenpatti.apk"
-    // }
-    let download_url = "../../../../static/pkg/LudoLucky.apk"
+    let url_host = "https://dapv7y4era0s5.cloudfront.net/ludobuster/LudoBuster_sign.apk"
+    let download_url = `https://ludobuster.go.link/?adj_t=15sd8h0j&adj_campaign=${campaign_name}%20%28${campaign_id}%29&adj_adgroup=${adset_name}%20%28${adset_id}%29&adj_creative=${ad_name}%20%28${ad_id}%29&adj_redirect=${url_host}&adj_fbclid=${fbclid}&adj_fbpid=${cookpid}`
     console.log(download_url)
     window.location.href = download_url
     return

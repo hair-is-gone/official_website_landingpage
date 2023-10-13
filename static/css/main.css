@@ -13,3 +13,7 @@ body {
   font-family: "me";
   src: url("./me.ttf");
 }
+@font-face {
+  font-family: "ac";
+  src: url("./ac.ttf");
+}

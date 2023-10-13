@@ -3,24 +3,43 @@
     <div class="main">
       
       <div class="banner-box" @click="clickTrack('bannerClick1')">
-        <!-- <div class="logo-pict" @click="clickTrack('headClick1')">
-          <img src="../../../../static/mobile/logo.png" alt="" class="pict">
-        </div> -->
-        <div class="download-pict" @click="download_apk()">
-          <img src="../../../../static/mobile/btn_ad.png" alt="" class="pict">
+        <div class="download-pict" @click.stop="download_apk()">
+          <img src="https://dapv7y4era0s5.cloudfront.net/ludobuster/banner_android.png" alt="" class="pict">
         </div>
-        <!-- <div class="gp-bg" @click="download_gp()">
-            <img src="../../../../static/mobile/btn_gp.png" alt="" class="pict">
-        </div> -->
       </div>
 
       <div class="center-box">
         <div class="muti-bg">
-          <div class="muti-card" v-for="mutiInfo in mutiInfoS" :key="mutiInfo.title1"  v-bind:style="{ backgroundColor: mutiInfo.bgColor }" >
-            <div class="muti-card-pict">
+          <span class="muti-title-head">THE MULTIPLE WITHDRAW METHODS YOU CAN CHOOSE</span>
+          <div class="muti-card-box"> 
+            <div class="muti-card" v-for="mutiInfo in mutiInfoS" :key="mutiInfo.title1">
               <img :src="mutiInfo.pict" alt="" class="pict">
             </div>
-            <span class="muti-title-1">{{ mutiInfo.title1 }}</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="center-box">
+        <div class="game-show-bg">
+          <div class="game-show-pict">
+            <img src="https://dapv7y4era0s5.cloudfront.net/ludobuster/img_01.png" alt="" class="pict">
+          </div>
+          <div class="game-show-pict">
+            <img src="https://dapv7y4era0s5.cloudfront.net/ludobuster/img_02_new.png" alt="" class="pict">
+          </div>
+        </div>
+      </div>
+
+      <div class="center-box">
+        <div class="channel-bg">
+          <div class="bank-card-box">
+            <div class="bank-card" v-for="bankInfo in bankInfoS" :key="bankInfo.title"  >
+              <div class="bank-pict">
+                <img :src="bankInfo.pict" alt="" class="pict">
+              </div>
+              <span class="bank-title">{{ bankInfo.title }}</span>
+              <span class="bank-title bank-title-margin">{{ bankInfo.title2 }}</span>
+            </div>
           </div>
         </div>
       </div>
@@ -28,35 +47,20 @@
 
       <div class="center-box">
         <div class="five-bg">
-          <div class="five-bg-title"></div>
-          <span class="five-title white-color">HOW TO ACCESS THE LUDO GAME?</span>
+          <span class="five-title white-color">Steps to Download the Game</span>
 
           <div class="five-card-box">
-            <div class="five-card" v-for="fiveInfo in fiveInfoS" :key="fiveInfo.title" @click="clickTrack(fiveInfo.track)"  v-bind:style="{height: fiveInfo.pictH, width: fiveInfo.pictW, backgroundImage: fiveInfo.pict, marginBottom: fiveInfo.marginBottom}">
-              <div class="five-card-title">
-                <span >{{ fiveInfo.title }}</span>
+            <div class="five-card" v-for="fiveInfo in fiveInfoS" :key="fiveInfo.title">
+              <div class="five-card-pict">
+                <img :src="fiveInfo.pict" alt="" class="pict">
               </div>
-              <div class="five-card-text">
-                <span>{{fiveInfo.text}}</span>
-              </div>
+              <span class="five-card-text">{{ fiveInfo.title }}</span>
             </div>
           </div>
         </div>
       </div>
 
-      <div class="center-box">
-        <div class="channel-bg">
-          <span class="channel-title pay-color">THE PAYMENT CHANNELS YOU CAN CHOOS</span>
-          <div class="bank-card-box">
-            <div class="bank-card" v-for="bankInfo in bankInfoS" :key="bankInfo.name" v-bind:style="{marginRight: bankInfo.marginRight, marginBottom: bankInfo.marginBottom}" >
-              <div class="bank-pict">
-                <img :src="bankInfo.pict" alt="" class="pict">
-              </div>
-              <span class="bank-title">{{ bankInfo.name }}</span>
-            </div>
-          </div>
-        </div>
-      </div>
+      
     </div>
   </div>
 </template>
@@ -69,121 +73,69 @@ export default {
     return {
       mutiInfoS: [
         {
-          pict: "../../../../static/img/ic_01.png",
-          title1: "THRILLING LUDO VARIANTS & MODE",
-          title2: "",
-          track: "mIcon1",
-          bgColor: "#ff49db",
+          pict: "https://dapv7y4era0s5.cloudfront.net/ludobuster/paytm.png",
+          title1: "paytm",
         },
         {
-          pict: "../../../../static/img/ic_02.png",
-          title1: "PLAY LUDO ANYTIME & ANYWHERE",
-          title2: "",
-          track: "mIcon2",
-          bgColor: "#4978ff",
+          pict: "https://dapv7y4era0s5.cloudfront.net/ludobuster/icic.png",
+          title1: "icic",
         },
         {
-          pict: "../../../../static/img/ic_03.png",
-          title1: "100% FAIR PLAY EXPERIENCE",
-          title2: "",
-          track: "mIcon3",
-          bgColor: "#08b449",
+          pict: "https://dapv7y4era0s5.cloudfront.net/ludobuster/upi.png",
+          title1: "upi",
         },
         {
-          pict: "../../../../static/img/ic_04.png",
-          title1: "PLAY BIG TO WIN HUGE BONUS",
-          title2: "",
-          track: "mIcon4",
-          bgColor: "#eb9704",
+          pict: "https://dapv7y4era0s5.cloudfront.net/ludobuster/cardpayments.png",
+          title1: "card",
+        },
+        {
+          pict: "https://dapv7y4era0s5.cloudfront.net/ludobuster/netbanking.png",
+          title1: "netbank",
         },
       ],
       fiveInfoS: [
         {
-          title: 'Step 1',
-          pict: "url('../../../../static/mobile/steps1.png')",
-          num: "../../../../static/mobile/ic_1.png",
-          track: "stepPict1",
-          text: "1. Click the \"Download\" button.",
-          pictW: 42.92 + "vw",
-          pictH: 35.14 + "vw",
-          marginBottom: 1.94 + "vw",
+          title: '1.Click the "Download" button.',
+          pict: "https://dapv7y4era0s5.cloudfront.net/ludobuster/img_03.png",
         },
         {
-          title: 'Step 2',
-          pict: "url('../../../../static/mobile/steps2.png')",
-          num: "../../../../static/mobile/ic_2.png",
-          track: "stepPict2",
-          text: "2.	Click \"OK\" to keep the APK.",
-          pictW: 42.92 + "vw",
-          pictH: 35.14 + "vw",
-          marginBottom: 1.94 + "vw",
+          title: '2.Click "OK" to keep the APK.',
+          pict: "https://dapv7y4era0s5.cloudfront.net/ludobuster/img_04.png",
         },
         {
-          title: 'Step 3',
-          pict: "url('../../../../static/mobile/steps3.png')",
-          num: "../../../../static/mobile/ic_3.png",
-          track: "stepPict3",
-          text: "3. Turn on the Settings of your device.",
-          pictW: 42.92 + "vw",
-          pictH: 35.14 + "vw",
-          marginBottom: 1.94 + "vw",
+          title: '3.Turn on the settings of your device.',
+          pict: "https://dapv7y4era0s5.cloudfront.net/ludobuster/img_05.png",
         },
         {
-          title: "Step 4",
-          pict: "url('../../../../static/mobile/steps4.png')",
-          num: "../../../../static/mobile/ic_4.png",
-          track: "stepPict4",
-          text: "4. Allow your device to install the app.",
-          pictW: 42.92 + "vw",
-          pictH: 35.14 + "vw",
-          marginBottom: 1.94 + "vw",
+          title: '4.Allow your device to install the app.',
+          pict: "https://dapv7y4era0s5.cloudfront.net/ludobuster/img_06.png",
         },
         {
-          title: "Step 5",
-          pict: "url('../../../../static/mobile/steps5.png')",
-          num: "../../../../static/mobile/ic_5.png",
-          track: "stepPict5",
-          text: "5. Start installing, then enjoy the game.",
-          pictW: 86.53 + "vw",
-          pictH: 27.22 + "vw",
-          marginBottom: 0 + "vw",
+          title: '5.Install and have a great time.',
+          pict: "https://dapv7y4era0s5.cloudfront.net/ludobuster/img_07.png",
         },
       ],
       bankInfoS: [
         {
-          pict: "../../../../static/mobile/ic_paytm.png",
-          name: "PayTM",
-          track: "bankPict1",
-          marginRight: -1 + "vw",
-          marginBottom: 1 + "vw",
+          pict: "https://dapv7y4era0s5.cloudfront.net/ludobuster/ic_01.png",
+          title: "VARIETY",
+          title2: "OF OPTIONS",
         },
         {
-          pict: "../../../../static/mobile/ic_bhim.png",
-          name: "Google Pay",
-          track: "bankPict2",
-          marginRight: -1 + "vw",
-          marginBottom: 1 + "vw",
+          pict: "https://dapv7y4era0s5.cloudfront.net/ludobuster/ic_02.png",
+          title: "PLAY TO",
+          title2: "GET REWARDS",
         },
         {
-          pict: "../../../../static/mobile/ic_upi.png",
-          name: "UPI",
-          track: "bankPict3",
-          marginBottom: 1 + "vw",
+          pict: "https://dapv7y4era0s5.cloudfront.net/ludobuster/ic_03.png",
+          title: "SECURE AND",
+          title2: "FAIR SPACE",
         },
         {
-          pict: "../../../../static/mobile/ic_cardpay.png",
-          name: "Card Payments",
-          track: "bankPict4",
-          marginRight: 4 + "vw",
-          marginBottom: 0 + "vw",
-        },
-        {
-          pict: "../../../../static/mobile/ic_netbank.png",
-          name: "Net Banking",
-          track: "bankPict5",
-          marginRight: 0 + "vw",
-          marginBottom: 0 + "vw",
-        },
+          pict: "https://dapv7y4era0s5.cloudfront.net/ludobuster/ic_04.png",
+          title: "EFFICIENT",
+          title2: "WITHDRAWAL SYSTEM",
+        },  
       ]
     };
   },
@@ -191,6 +143,7 @@ export default {
     download_apk: function (event) {
       // window._latest_apk = "https://mastertp.go.link/?adj_t=12swbuq0&adj_campaign=%7B%7Bcampaign.name%7D%7D%20%28%7B%7Bcampaign.id%7D%7D%29&adj_adgroup=%7B%7Badset.name%7D%7D%20%28%7B%7Badset.id%7D%7D%29&adj_creative=%7B%7Bad.name%7D%7D%20%28%7B%7Bad.id%7D%7D%29&adj_redirect=https%3A%2F%2Fmasterteenpattiindia.com%2Fstatic%2Fpkg%2FMasterTeenpatti.apk";
       // window.location.href = window._latest_apk;
+      chnup("click")
       download()
     },
     download_gp: function(){
@@ -247,8 +200,8 @@ export default {
 }
 .banner-box {
   width: 100%;
-  height: 59.17vw;
-  background-image: url("../../../../static/mobile/banner1.png");
+  height: 62.5vw;
+  background-image: url("https://dapv7y4era0s5.cloudfront.net/ludobuster/banner_new.png");
   background-size: cover;
   .flex-change-box;
   justify-content: flex-end;
@@ -260,10 +213,10 @@ export default {
   margin-top: 3vw;
 }
 .download-pict{
-  width: 37.5vw;
-	height: 12.5vw;
-  margin-right: 9.17vw;
-  margin-bottom: 1.53vw;
+  width: 33.19vw;
+	height: 10.56vw;
+  margin-right: 16.17vw;
+  margin-bottom: 1.39vw;
 }
 .center-box{
   .mid-box;
@@ -271,61 +224,63 @@ export default {
   box-sizing: border-box;
 }
 .muti-bg{
-  width: 90vw;
-  height: 53.2vw;
+  width: 100%;
+  height: 38.19vw;
+  .flex-change-box;
+}
+.muti-title-head{
+  font-size: 4.17vw;
+	// font-weight: bold;
+	color: #333333;
+  text-align: center;
+  font-family: "ac";
+}
+.muti-card-box{
+  width: 95.28vw;
   .flex-between;
-  flex-direction: column;
-  margin-top: 2.78vw;
+  margin-top: 2.44vw;
 }
 .muti-card{
+  .mid-box;
+  width: 16.81vw;
+	height: 19.86vw;
+}
+.game-show-bg{
+  width: 100vw;
+	height: 117.78vw;
+	background-image: linear-gradient(0deg, 
+		#035d01 0%, 
+		#20a21d 100%);
   .flex-change-box;
-  width: 75.36vw;
-	height: 12.92vw;
-  justify-content: flex-start;
-  align-items: center;
-  flex-direction: row;
+  justify-content: space-around;
+  padding: 4vw 0;
+  box-sizing: border-box;
 }
-.muti-card-pict{
-  width: 12.92vw;
-	height: 12.22vw;
-  margin-top: 1vw;
-  margin-left: 6.5vw;
-  margin-right: 2.2vw;
-}
-.muti-title-1{
-  font-weight: bold;
-  font-size: 2.60vw;
-  font-stretch: normal;
-  line-height: 5.56vw;
-  letter-spacing: 0vw;
-  color: #ffffff;
+.game-show-pict{
+  width: 91.39vw;
+	height: 47.5vw;
 }
 .five-bg{
   width: 100vw;
   .flex-change-box;
   justify-content: flex-start;
-  margin-top: 3.89vw;
-}
-.five-bg-title{
-  width: 89.72vw;
-  .mid-box;
-  height: 1.39vw;
-  background-color: #a238c1;
+  margin-top: 2.2vw;
+  height: auto;
+  background-image: url("https://dapv7y4era0s5.cloudfront.net/ludobuster/bg_02.png");
+  background-size: cover;
+  padding-bottom: 3vw;
 }
 .five-title{
   font-size: 4.17vw;
-  font-weight: bold;
-  margin-top: 2.27vw;
-  color: #a238c1;
+  margin-top: 6.39vw;
+  color: #fff;
+  font-family: "ac";
 }
 .five-card-box{
   width: 86.53vw;
-  .flex-start;
-  flex-flow: row;
-  justify-content: space-between;
-  flex-wrap: wrap;
+  .flex-change-box;
+  justify-content: flex-start;
   box-sizing: border-box;
-  margin-top: 3.7vw;
 }
 .five-card{
   .flex-change-box;
@@ -341,34 +296,20 @@ export default {
   .mid-box;
 }
 .five-card-text{
-  .mid-box;
-  font-size: 2.3vw;
-  font-family: Roboto-Bold;
-  font-weight: normal;
-  font-stretch: normal;
-  margin-bottom: 1.41vw;
-  align-self: center;
+  font-size: 3.61vw;
   color: #ffffff;
-}
-.five-num{
-  width: 4.44vw;
-	height: 4.44vw;
-  margin-right: 2vw;
+  margin-top: 2.78vw;
 }
 .five-card-pict{
-  width: 59.44vw;
-	height: 42.64vw;
-  margin-top: 3vw;
+  width: 86.25vw;
+	height: 78.47vw;
+  margin-top: 5vw;
 }
 .channel-bg{
   width: 86.53vw;
-  height: 62.64vw;
+  height: 37.5vw;
   .flex-change-box;
-  justify-content: flex-start;
-  margin-top: 4.03vw;
-  margin-bottom: 8.19vw;
   box-sizing: border-box;
-  background-color: #ffedff;
 }
 .channel-title{
   font-size: 3.33vw;
@@ -377,27 +318,30 @@ export default {
   color: #a238c1;
 }
 .bank-card-box{
-  width: 64vw;
-  .mid-box;
-  justify-content: center;
-  flex-wrap: wrap;
-  margin-top: 3.44vw;
+  width: 96.5vw;
+  .flex-around;
+  margin-top: 4.58vw;
+  position: relative;
+  left: 2.5vw;
 }
 .bank-card{
-  width: 22.08vw;
   .flex-change-box;
-  justify-content: center;
-  margin-right: -1vw;
+  justify-content: flex-start;
+  position: relative;
+  left: 1vw;
+}
+.bank-card:last-child{
+  position: relative;
+  left: -1.5vw;
 }
 .bank-pict{
-  width: 22.08vw;
+  width: 20.69vw;
   height: auto;
 }
 .bank-title{
-  font-size: 2.20vw;
-  color: #858585;
-  margin-top: -2.0vw;
-  font-weight: bold;
+  font-size: 2.5vw;
+  line-height: 5vw;
+  color: #333333;
 }
 
 .gp-bg{
