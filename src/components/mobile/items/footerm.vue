@@ -3,51 +3,43 @@
     <div class="mid-box footer-info">
 
       <div class="m-footer-container">
-        <div class="footer-left">
-          <div class="security-box">
-            <div class="security-items-1" @click="gotoPage('sslClick2')">
-              <img src="https://dapv7y4era0s5.cloudfront.net/ludobuster/secured.png" alt="security-pict" class="pict" />
-            </div>
-            <div class="security-items-1" @click="gotoPage('sslClick1')">
-              <img src="https://dapv7y4era0s5.cloudfront.net/ludobuster/ssl.png" alt="security-pict" class="pict" />
-            </div>
-            <div class="security-items-1" @click="gotoPage('sslClick3')">
-              <img src="https://dapv7y4era0s5.cloudfront.net/ludobuster/fraud.png" alt="security-pict" class="pict" />
-            </div>
-            <div class="security-items-1" @click="gotoPage('sslClick5')">
-              <img src="https://dapv7y4era0s5.cloudfront.net/ludobuster/know.png" alt="security-pict" class="pict" />
-            </div>
-            <div class="security-items-1" @click="gotoPage('sslClick4')">
-              <img src="https://dapv7y4era0s5.cloudfront.net/ludobuster/age18.png" alt="security-pict" class="pict" />
-            </div>
+        <div class="footer-link-box">
+          <div class="link-box">
+            <span @click="gotoPage('linkClick4')" class="link-style">Privacy Policy</span>
+            <span @click="gotoPage('linkClick1')" class="link-style">Contact Us</span>
+          </div>
+          <div class="link-box">
+            <span @click="gotoPage('linkClick2')" class="link-style">Terms & Conditions</span>
+            <span @click="gotoPage('linkClick3')" class="link-style">Refunds/Cancellations</span>
           </div>
         </div>
-
-        <div class="footer-right">
-          <div class="footer-logo">
-            <img src="https://dapv7y4era0s5.cloudfront.net/ludobuster/logo.png" alt="" class="pict">
+        <div class="security-box">
+          <div class="security-items-1" @click="gotoPage('sslClick2')">
+            <img src="https://dapv7y4era0s5.cloudfront.net/teenmillion/mobile/secured.png" alt="security-pict" class="pict" />
           </div>
-          <div class="footer-link-box">
-            <div class="link-box">
-              <span @click="gotoPage('linkClick4')" class="link-style margin-1">Privacy Policy</span>
-              <span @click="gotoPage('linkClick1')" class="link-style">Contact Us</span>
-            </div>
-            <div class="link-box">
-              <span @click="gotoPage('linkClick2')" class="link-style  margin-1">Terms & Conditions</span>
-              <span @click="gotoPage('linkClick3')" class="link-style">Refunds/Cancellations</span>
-            </div>
+          <div class="security-items-1" @click="gotoPage('sslClick1')">
+            <img src="https://dapv7y4era0s5.cloudfront.net/teenmillion/mobile/ssl.png" alt="security-pict" class="pict" />
+          </div>
+          <div class="security-items-1" @click="gotoPage('sslClick3')">
+            <img src="https://dapv7y4era0s5.cloudfront.net/teenmillion/mobile/fraud.png" alt="security-pict" class="pict" />
+          </div>
+          <div class="security-items-1" @click="gotoPage('sslClick5')">
+            <img src="https://dapv7y4era0s5.cloudfront.net/teenmillion/mobile/know.png" alt="security-pict" class="pict" />
+          </div>
+          <div class="security-items-1" @click="gotoPage('sslClick4')">
+            <img src="https://dapv7y4era0s5.cloudfront.net/teenmillion/mobile/ic_18.png" alt="security-pict" class="pict" />
           </div>
         </div>
 
       </div>
 
       <div class="copy-right">
-        <span style="color: #fff; opacity: 0.55; font-size: 2.78vw">@ 2023 Ludo Buster</span>
+        <span style="color: #fff; opacity: 0.55; font-size: 2.78vw">@ 2023 Teenpatti Million</span>
       </div>
     </div>
     <div class="last-banner">
-      <img src="https://dapv7y4era0s5.cloudfront.net/ludobuster/banner_android.png" alt="download-pict" class="download-pict" @click="download_apk()">
-      <img src="https://dapv7y4era0s5.cloudfront.net/ludobuster/ic_arrow.png" alt="" class="arrow-pict">
+      <img src="https://dapv7y4era0s5.cloudfront.net/teenmillion/mobile/btn_download.png" alt="download-pict" class="download-pict" @click="download_apk()">
+      <img src="https://dapv7y4era0s5.cloudfront.net/teenmillion/mobile/ic_arrow.png" alt="" class="arrow-pict">
     </div>
   </div>
 </template>
@@ -64,7 +56,7 @@ export default {
     download_apk: function () {
       // window._latest_apk = "https://mastertp.go.link/?adj_t=12swbuq0&adj_campaign=%7B%7Bcampaign.name%7D%7D%20%28%7B%7Bcampaign.id%7D%7D%29&adj_adgroup=%7B%7Badset.name%7D%7D%20%28%7B%7Badset.id%7D%7D%29&adj_creative=%7B%7Bad.name%7D%7D%20%28%7B%7Bad.id%7D%7D%29&adj_redirect=https%3A%2F%2Fmasterteenpattiindia.com%2Fstatic%2Fpkg%2FMasterTeenpatti.apk";
       // window.location.href = window._latest_apk;
-      chnup("click_v3");
+      chnup("click_v2");
       download_v2();
     },
     download_gp: function () {
@@ -85,10 +77,10 @@ export default {
   align-items: center;
   background-size: cover;
   box-sizing: border-box;
-  padding-bottom: 28.61vw;
-  background-color: #056703;
-  padding-top: 4.69vw;
-  margin-top: -0.5vw;
+  padding-bottom: 25.69vw;
+  background-color: #004cd7;
+  padding-top: 8.69vw;
+  // margin-top: -0.5vw;
 }
 
 .h5-footer-url-box {
@@ -126,11 +118,10 @@ export default {
 }
 
 .security-box-items {
-  width: 52vw;
+  width: 80vw;
   height: 17vw;
   .flex-between;
   box-sizing: border-box;
-  flex-wrap: wrap;
   justify-content: center;
 }
 
@@ -140,13 +131,8 @@ export default {
 }
 
 .security-items-1 {
-  width: 17.78vw;
-  height: 7.78vw;
-  margin-right: 1.51vw;
-  margin-top: 2.78vw;
-}
-.security-items-1:nth-child(3) {
-  margin-right: 0vw;
+  width: 12.36vw;
+	height: 12.36vw;
 }
 
 .pict-box {
@@ -164,7 +150,7 @@ export default {
   justify-content: center;
   font-size: 3.04vw;
   letter-spacing: 0vw;
-  background-color: #178614;
+  background-color: #002d8d;
   height: 6.53vw;
 }
 
@@ -194,7 +180,7 @@ export default {
 
 .link-style {
   color: #fff;
-  font-size: 2.22vw;
+  font-size: 3.22vw;
   line-height: 5vw;
 }
 
@@ -204,12 +190,11 @@ export default {
 }
 
 .security-box {
-  width: 57.22vw;
-  .mid-box;
-  justify-content: flex-start;
+  width: 80vw;
+  .flex-between;
   box-sizing: border-box;
-  flex-wrap: wrap;
-  margin-left: -4vw;
+  margin-top: 6vw;
+  margin-bottom: 8vw;
 }
 
 .footer-title-quick {
@@ -229,9 +214,11 @@ export default {
 
 .m-footer-container {
   display: flex;
-  width: 86.53vw;
+  width: 80.53vw;
   height: 28.19vw;
-  justify-content: space-between;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 .footer-logo {
@@ -311,29 +298,29 @@ export default {
 .last-banner {
   .mid-box;
   width: 100%;
-  height: 28.61vw;
+  height: 25.69vw;
   background-size: cover;
   box-sizing: border-box;
-  margin-top: 2vw;
   position: fixed;
   z-index: 301;
   bottom: 0;
-  background-image: url("https://dapv7y4era0s5.cloudfront.net/ludobuster/last_bg.png");
+  background-image: url("https://dapv7y4era0s5.cloudfront.net/teenmillion/mobile/last_bg.png");
   background-size: cover;
 }
 
 .download-pict {
-  width: 48.56vw;
-  height: auto;
+  width: 44.72vw;
+	height: auto;  
   position: relative;
-  left: 13vw;
+  left: 25vw;
+  top: 2vw;
 }
 .arrow-pict {
-  	width: 16.25vw;
-	height: 15.14vw;
+  width: 11.53vw;
+	height: 10.28vw;  
   position: relative;
-  left: 2vw;
-  top: -7vw;
+  left: 20vw;
+  top: 7vw;
   animation: flash 1s ease-in-out 0s infinite;
 }
 @keyframes flash {
@@ -353,24 +340,13 @@ export default {
 }
 
 .footer-link-box {
-  .flex-change-box;
-  // width: 40.97vw;
+  .flex-between;
+  width: 70.97vw;
   height: 6.39vw;
-  justify-content: flex-end;
-  position: relative;
-  right: 5vw;
-  top: 5vw;
 }
 .link-box {
-  .mid-box;
-  justify-content: flex-end;
-}
-.link-box:nth-child(1) {
-  width: 48vw;
-  text-align: right;
-}
-.link-box:nth-child(2) {
-  width: 48vw;
+  .flex-change-box;
+  align-items: flex-start;
 }
 .footer-right {
   .flex-change-box;

@@ -1,39 +1,17 @@
 <template>
   <div id="gf-Main">
     <div class="main">
-      
+
       <div class="banner-box" @click="clickTrack('bannerClick1')">
         <div class="download-pict" @click.stop="download_apk()">
-          <img src="https://dapv7y4era0s5.cloudfront.net/ludobuster/banner_android.png" alt="" class="pict">
-        </div>
-      </div>
-
-      <div class="center-box">
-        <div class="muti-bg">
-          <span class="muti-title-head">Various Instant Withdraw Channels Provided</span>
-          <div class="muti-card-box"> 
-            <div class="muti-card" v-for="mutiInfo in mutiInfoS" :key="mutiInfo.title1">
-              <img :src="mutiInfo.pict" alt="" class="pict">
-            </div>
-          </div>
-        </div>
-      </div>
-
-      <div class="center-box">
-        <div class="game-show-bg">
-          <div class="game-show-pict">
-            <img src="https://dapv7y4era0s5.cloudfront.net/ludobuster/img_01.png" alt="" class="pict">
-          </div>
-          <div class="game-show-pict">
-            <img src="https://dapv7y4era0s5.cloudfront.net/ludobuster/img_02_new.png" alt="" class="pict">
-          </div>
+          <img src="https://dapv7y4era0s5.cloudfront.net/teenmillion/mobile/android_app_btn.png" alt="" class="pict">
         </div>
       </div>
 
       <div class="center-box">
         <div class="channel-bg">
           <div class="bank-card-box">
-            <div class="bank-card" v-for="bankInfo in bankInfoS" :key="bankInfo.title"  >
+            <div class="bank-card" v-for="bankInfo in bankInfoS" :key="bankInfo.title">
               <div class="bank-pict">
                 <img :src="bankInfo.pict" alt="" class="pict">
               </div>
@@ -44,125 +22,200 @@
         </div>
       </div>
 
-
       <div class="center-box">
-        <div class="five-bg">
-          <span class="five-title white-color">Steps to Download the Game</span>
-
-          <div class="five-card-box">
-            <div class="five-card" v-for="fiveInfo in fiveInfoS" :key="fiveInfo.title">
-              <div class="five-card-pict">
-                <img :src="fiveInfo.pict" alt="" class="pict">
-              </div>
-              <span class="five-card-text">{{ fiveInfo.title }}</span>
+        <div class="muti-bg">
+          <span class="muti-title-head">MULTIPLE WITHDRAWAL METHODS</span>
+          <div class="muti-card-box">
+            <div class="muti-card" v-for="mutiInfo in mutiInfoS" :key="mutiInfo.title1">
+              <img :src="mutiInfo.pict" alt="" class="pict">
             </div>
           </div>
         </div>
       </div>
 
-      
+      <div class="center-box">
+        <div class="five-bg">
+          <span class="five-title white-color">FIVE-STEP INSTALLATION METHOD</span>
+
+          <div class="five-card-box">
+            <div class="step-1-card">
+              <div class="step-1-title">
+                <span class="step-title-blue">STEP 1</span> <span class="step-title-mini step-title-mini-1">Tap the "download" button.</span>
+              </div>
+              <div class="step-1-pict" @click="clickTrack('stepPict1')">
+                <img src="https://dapv7y4era0s5.cloudfront.net/teenmillion/mobile/step_1.png" alt="" class="pict">
+              </div>
+              <div class="arrow-pict arrow-step-1">
+                <img src="https://dapv7y4era0s5.cloudfront.net/teenmillion/mobile/ic_blue_arrow.png" alt="" class="pict">
+              </div>
+            </div>
+            <div class="step-2-card">
+
+              <img src="https://dapv7y4era0s5.cloudfront.net/teenmillion/mobile/step_2.png" alt="" class="step-2-pict">
+              <!-- <div class="step-2-pict">
+              </div> -->
+              <div class="step-right">
+                <div class="step-2-title">
+                  <span class="step-title-blue-right">STEP 2</span>
+                  <span class="step-title-mini-right step-title-mini-2">Click "OK" button to continue.</span>
+                </div>
+
+                <div class="arrow-pict-reverse arrow-pict-margin-2">
+                  <img src="https://dapv7y4era0s5.cloudfront.net/teenmillion/mobile/ic_blue_arrow.png" alt="" class="pict">
+                </div>
+              </div>
+            </div>
+
+            <div class="step-3-card step-2-card-reverse">
+
+              <img src="https://dapv7y4era0s5.cloudfront.net/teenmillion/mobile/step_3.png" alt="" class="step-3-pict">
+              <div class="step-left">
+                <div class="step-3-title">
+                  <span class="step-title-blue-right">STEP 3</span>
+                  <span class="step-title-mini-right step-title-mini-3">Turn on "SETTINGS"
+                    to set your device</span>
+                </div>
+
+                <div class="arrow-pict arrow-pict-margin-3">
+                  <img src="https://dapv7y4era0s5.cloudfront.net/teenmillion/mobile/ic_blue_arrow.png" alt="" class="pict">
+                </div>
+              </div>
+            </div>
+
+            <div class="step-3-card">
+              <img src="https://dapv7y4era0s5.cloudfront.net/teenmillion/mobile/step_4.png" alt="" class="step-4-pict">
+              <div class="step-right step-height-4">
+                <div class="step-2-title">
+                  <span class="step-title-blue-right">STEP 4</span>
+                  <span class="step-title-mini-right step-title-mini-2">Allow your device to
+                    install the app.</span>
+                </div>
+
+                <div class="arrow-pict-reverse arrow-pict-margin-2">
+                  <img src="https://dapv7y4era0s5.cloudfront.net/teenmillion/mobile/ic_blue_arrow.png" alt="" class="pict">
+                </div>
+              </div>
+            </div>
+
+            <div class="step-3-card step-2-card-reverse">
+
+              <img src="https://dapv7y4era0s5.cloudfront.net/teenmillion/mobile/step_5.png" alt="" class="step-5-pict">
+              <div class="step-left step-height-5">
+                <div class="step-3-title">
+                  <span class="step-title-blue-right">STEP 5</span>
+                  <span class="step-title-mini-right step-title-mini-3">Confirm installation to
+                    start the game.</span>
+                </div>
+
+              </div>
+            </div>
+
+          </div>
+        </div>
+      </div>
+
     </div>
   </div>
 </template>
 
 <script>
-import { download, loadPage, chnup } from "../../../utils/tools"
+import { download, loadPage, chnup } from "../../../utils/tools";
 
 export default {
   data() {
     return {
       mutiInfoS: [
         {
-          pict: "https://dapv7y4era0s5.cloudfront.net/ludobuster/paytm.png",
+          pict: "https://dapv7y4era0s5.cloudfront.net/teenmillion/mobile/ic_5.png",
           title1: "paytm",
         },
         {
-          pict: "https://dapv7y4era0s5.cloudfront.net/ludobuster/icic.png",
+          pict: "https://dapv7y4era0s5.cloudfront.net/teenmillion/mobile/ic_6.png",
           title1: "icic",
         },
         {
-          pict: "https://dapv7y4era0s5.cloudfront.net/ludobuster/upi.png",
+          pict: "https://dapv7y4era0s5.cloudfront.net/teenmillion/mobile/ic_7.png",
           title1: "upi",
         },
         {
-          pict: "https://dapv7y4era0s5.cloudfront.net/ludobuster/cardpayments.png",
+          pict: "https://dapv7y4era0s5.cloudfront.net/teenmillion/mobile/ic_8.png",
           title1: "card",
         },
         {
-          pict: "https://dapv7y4era0s5.cloudfront.net/ludobuster/netbanking.png",
+          pict: "https://dapv7y4era0s5.cloudfront.net/teenmillion/mobile/ic_9.png",
           title1: "netbank",
         },
       ],
       fiveInfoS: [
         {
           title: '1.Click the "Download" button.',
-          pict: "https://dapv7y4era0s5.cloudfront.net/ludobuster/img_03.png",
+          pict: "https://dapv7y4era0s5.cloudfront.net/teenmillion/mobile/img_03.png",
         },
         {
           title: '2.Click "OK" to keep the APK.',
-          pict: "https://dapv7y4era0s5.cloudfront.net/ludobuster/img_04.png",
+          pict: "https://dapv7y4era0s5.cloudfront.net/teenmillion/mobile/img_04.png",
         },
         {
-          title: '3.Turn on the settings of your device.',
-          pict: "https://dapv7y4era0s5.cloudfront.net/ludobuster/img_05.png",
+          title: "3.Turn on the settings of your device.",
+          pict: "https://dapv7y4era0s5.cloudfront.net/teenmillion/mobile/img_05.png",
         },
         {
-          title: '4.Allow your device to install the app.',
-          pict: "https://dapv7y4era0s5.cloudfront.net/ludobuster/img_06.png",
+          title: "4.Allow your device to install the app.",
+          pict: "https://dapv7y4era0s5.cloudfront.net/teenmillion/mobile/img_06.png",
         },
         {
-          title: '5.Install and have a great time.',
-          pict: "https://dapv7y4era0s5.cloudfront.net/ludobuster/img_07.png",
+          title: "5.Install and have a great time.",
+          pict: "https://dapv7y4era0s5.cloudfront.net/teenmillion/mobile/img_07.png",
         },
       ],
       bankInfoS: [
         {
-          pict: "https://dapv7y4era0s5.cloudfront.net/ludobuster/ic_01.png",
-          title: "VARIETY",
-          title2: "OF OPTIONS",
+          pict: "https://dapv7y4era0s5.cloudfront.net/teenmillion/mobile/ic_1.png",
+          title: "VARIOUS",
+          title2: "GAME MODES",
         },
         {
-          pict: "https://dapv7y4era0s5.cloudfront.net/ludobuster/ic_02.png",
-          title: "PLAY TO",
-          title2: "GET REWARDS",
+          pict: "https://dapv7y4era0s5.cloudfront.net/teenmillion/mobile/ic_4.png",
+          title: "QUICK",
+          title2: "WITHDRAWAL",
         },
         {
-          pict: "https://dapv7y4era0s5.cloudfront.net/ludobuster/ic_03.png",
-          title: "SECURE AND",
-          title2: "FAIR SPACE",
+          pict: "https://dapv7y4era0s5.cloudfront.net/teenmillion/mobile/ic_3.png",
+          title: "SAFE GAMING",
+          title2: "SYSTEM",
         },
         {
-          pict: "https://dapv7y4era0s5.cloudfront.net/ludobuster/ic_04.png",
-          title: "EFFICIENT",
-          title2: "WITHDRAWAL SYSTEM",
-        },  
-      ]
+          pict: "https://dapv7y4era0s5.cloudfront.net/teenmillion/mobile/ic_2.png",
+          title: "SMOOTH",
+          title2: "MATCHING",
+        },
+      ],
     };
   },
   methods: {
     download_apk: function (event) {
       // window._latest_apk = "https://mastertp.go.link/?adj_t=12swbuq0&adj_campaign=%7B%7Bcampaign.name%7D%7D%20%28%7B%7Bcampaign.id%7D%7D%29&adj_adgroup=%7B%7Badset.name%7D%7D%20%28%7B%7Badset.id%7D%7D%29&adj_creative=%7B%7Bad.name%7D%7D%20%28%7B%7Bad.id%7D%7D%29&adj_redirect=https%3A%2F%2Fmasterteenpattiindia.com%2Fstatic%2Fpkg%2FMasterTeenpatti.apk";
       // window.location.href = window._latest_apk;
-      chnup("click")
-      download()
+      chnup("click");
+      download();
     },
-    download_gp: function(){
-      chnup("click_v3")
+    download_gp: function () {
+      chnup("click_v3");
       window.location.href = "https://teempattirich.go.link/?adj_t=12o5qq65";
     },
-    clickTrack: function(msg){
-        if(msg == "stepPict2" || msg=="stepPict3" || msg=="stepPict4"){
-          return
-        }
-        chnup(msg)
-    }
+    clickTrack: function (msg) {
+      if (msg == "stepPict2" || msg == "stepPict3" || msg == "stepPict4") {
+        return;
+      }
+      chnup(msg);
+    },
   },
   created() {
     loadPage();
   },
-  mounted(){
+  mounted() {
     // this.$refs.five.horizontalScrollPolicy="off";
-  }
+  },
 };
 </script>
 <style scoped>
@@ -170,12 +223,11 @@ export default {
   background: #ffffff;
   height: auto;
 }
-
 </style>
 <style lang="less" scoped>
 @media screen and (max-width: 767px) {
   #gf-Main {
-    padding-top: 11.3vw;
+    // padding-top: 11.81vw;
   }
 }
 .head-title {
@@ -189,170 +241,292 @@ export default {
 .green-color {
   color: #2a5c29;
 }
-.black-color{
+.black-color {
   color: #000;
 }
-.red-color{
+.red-color {
   color: #e10101;
 }
-.grey-color{
+.grey-color {
   color: #6b6a80;
 }
 .banner-box {
   width: 100%;
-  height: 62.5vw;
-  background-image: url("https://dapv7y4era0s5.cloudfront.net/ludobuster/banner_new.png");
+  height: 68.61vw;
+  background-image: url("https://dapv7y4era0s5.cloudfront.net/teenmillion/mobile/banner.png");
   background-size: cover;
   .flex-change-box;
   justify-content: flex-end;
   align-items: flex-end;
 }
-.logo-pict{
+.logo-pict {
   width: 27.92vw;
-	height: 15.42vw;
+  height: 15.42vw;
   margin-top: 3vw;
 }
-.download-pict{
-  width: 33.19vw;
-	height: 10.56vw;
-  margin-right: 16.17vw;
-  margin-bottom: 1.39vw;
+.download-pict {
+  width: 66.25vw;
+  height: 17.92vw;
+  margin-right: 6.17vw;
+  margin-bottom: 3.39vw;
 }
-.center-box{
+.center-box {
   .mid-box;
   width: 100%;
   box-sizing: border-box;
 }
-.muti-bg{
+.muti-bg {
   width: 100%;
-  height: 38.19vw;
+  height: 38.75vw;
   .flex-change-box;
+  background-color: #2177e0;
 }
-.muti-title-head{
+.muti-title-head {
   font-size: 4.17vw;
-	// font-weight: bold;
-	color: #333333;
+  font-weight: bold;
+  color: #fff;
   text-align: center;
-  font-family: "ac";
 }
-.muti-card-box{
-  width: 95.28vw;
+.muti-card-box {
+  width: 90.7vw;
   .flex-between;
   margin-top: 2.44vw;
 }
-.muti-card{
+.muti-card {
   .mid-box;
-  width: 16.81vw;
-	height: 19.86vw;
+  width: 16.39vw;
+  height: 16.39vw;
 }
-.game-show-bg{
+.game-show-bg {
   width: 100vw;
-	height: 117.78vw;
-	background-image: linear-gradient(0deg, 
-		#035d01 0%, 
-		#20a21d 100%);
+  height: 117.78vw;
+  background-image: linear-gradient(0deg, #035d01 0%, #20a21d 100%);
   .flex-change-box;
   justify-content: space-around;
   padding: 4vw 0;
   box-sizing: border-box;
 }
-.game-show-pict{
+.game-show-pict {
   width: 91.39vw;
-	height: 47.5vw;
+  height: 47.5vw;
 }
-.five-bg{
+.five-bg {
   width: 100vw;
   .flex-change-box;
   justify-content: flex-start;
-  margin-top: 2.2vw;
   height: auto;
-  background-image: url("https://dapv7y4era0s5.cloudfront.net/ludobuster/bg_02.png");
-  background-size: cover;
-  padding-bottom: 3vw;
+  padding-bottom: 10vw;
+  background-image: linear-gradient(
+      0deg,
+      #b07800 0%,
+      #595369 0%,
+      #022dd1 0%,
+      #0126ab 0%,
+      #001e84 0%,
+      #0070de 100%
+    ),
+    linear-gradient(#004cd7, #004cd7);
+  background-blend-mode: normal, normal;
 }
-.five-title{
+.five-title {
   font-size: 4.17vw;
   margin-top: 6.39vw;
   color: #fff;
-  font-family: "ac";
+  font-weight: bold;
 }
-.five-card-box{
+.five-card-box {
   width: 86.53vw;
   .flex-change-box;
   justify-content: flex-start;
   box-sizing: border-box;
 }
-.five-card{
+.five-card {
   .flex-change-box;
   justify-content: space-between;
   background-size: cover;
 }
-.five-card-title{
+.five-card-title {
   font-size: 2.96vw;
-	color: #a238c1;
+  color: #a238c1;
   font-weight: bold;
   margin-top: 1.31vw;
   justify-content: space-between;
   .mid-box;
 }
-.five-card-text{
+.five-card-text {
   font-size: 3.61vw;
   color: #ffffff;
   margin-top: 2.78vw;
 }
-.five-card-pict{
+.five-card-pict {
   width: 86.25vw;
-	height: 78.47vw;
+  height: 78.47vw;
   margin-top: 5vw;
 }
-.channel-bg{
-  width: 86.53vw;
-  height: 37.5vw;
+.channel-bg {
+  width: 100vw;
+  height: 35.56vw;
   .flex-change-box;
   box-sizing: border-box;
+  background-image: url("https://dapv7y4era0s5.cloudfront.net/teenmillion/mobile/bg_1.png");
+  background-size: cover;
 }
-.channel-title{
+.channel-title {
   font-size: 3.33vw;
   font-weight: bold;
   margin-top: 3.09vw;
   color: #a238c1;
 }
-.bank-card-box{
+.bank-card-box {
   width: 96.5vw;
   .flex-around;
-  margin-top: 4.58vw;
-  position: relative;
-  left: 2.5vw;
 }
-.bank-card{
+.bank-card {
   .flex-change-box;
   justify-content: flex-start;
-  position: relative;
-  left: 1vw;
 }
-.bank-card:last-child{
-  position: relative;
-  left: -1.5vw;
+.bank-pict {
+  width: 17.78vw;
+  height: 17.92vw;
+  margin-bottom: 2.08vw;
 }
-.bank-pict{
-  width: 20.69vw;
-  height: auto;
-}
-.bank-title{
+.bank-title {
   font-size: 2.5vw;
-  line-height: 5vw;
-  color: #333333;
+  font-weight: bold;
+  line-height: 4 vw;
+  color: #fff;
 }
 
-.gp-bg{
+.gp-bg {
   .mid-box;
   width: 44.86vw;
-	height: 14.31vw;
+  height: 14.31vw;
   position: absolute;
   top: 55vw;
   left: 5vw;
 }
-.pay-color{
+.pay-color {
   color: #a238c1;
+}
+.step-1-card {
+  .flex-change-box;
+  justify-content: flex-start;
+  margin-top: 4.44vw;
+   width: 92.5vw;
+}
+.step-1-title {
+  .flex-start;
+  margin-bottom: 3.33vw;
+}
+.step-title-blue {
+  font-size: 4.17vw;
+  font-weight: bold;
+  line-height: 6.01vw;
+  color: #09e7fb;
+}
+.step-title-mini {
+  font-size: 3.33vw;
+  line-height: 5.5vw;
+  color: #ffffff;
+}
+.step-title-mini-1 {
+  margin-left: 2.22vw;
+}
+.step-1-pict {
+  width: 76.81vw;
+  height: 36.53vw;
+}
+.arrow-pict {
+  width: 15vw;
+  height: 15.56vw;
+}
+.arrow-step-1 {
+  position: relative;
+  right: 38vw;
+  top: -4vw;
+}
+.step-2-card {
+  .mid-box;
+  width: 92.5vw;
+}
+.step-3-card {
+  .mid-box;
+  margin-top: 4.17vw;
+   width: 92.5vw; 
+}
+.step-2-pict {
+  width: 55.69vw;
+  height: 41.67vw;
+}
+.step-right {
+  .flex-change-box;
+  justify-content: flex-start;
+  height: 43.67vw;
+}
+.step-left {
+  .flex-change-box;
+  justify-content: flex-start;
+  height: 41.67vw;
+}
+.step-2-title {
+  .flex-change-box;
+  align-items: flex-start;
+}
+.step-3-title {
+  .flex-change-box;
+  align-items: flex-end;
+}
+.step-title-mini-2 {
+  // margin-top: 2.22vw;
+}
+.step-title-mini-3 {
+  text-align: right;
+}
+.step-title-blue-right {
+  font-size: 4.17vw;
+  font-weight: bold;
+  color: #09e7fb;
+}
+.step-title-mini-right {
+  font-size: 3.33vw;
+  color: #ffffff;
+}
+.arrow-pict-reverse {
+  width: 15vw;
+  height: 15.56vw;
+  transform: rotateY(180deg);
+}
+.arrow-pict-margin-2 {
+  position: relative;
+  right: 5vw;
+  top: 12vw;
+}
+.step-2-card-reverse {
+  flex-direction: row-reverse;
+}
+.step-3-pict {
+  width: 54.58vw;
+  height: 39.86vw;
+  padding-left: 2.08vw;
+}
+.arrow-pict-margin-3 {
+  position: relative;
+  top: 5vw;
+  right: 5vw;
+}
+.step-4-pict {
+  width: 57.78vw;
+  height: 39.86vw;
+}
+.step-height-4 {
+  height: 41.56vw;
+}
+.step-5-pict{
+  width: 54.58vw;
+	height: 41.67vw;
+}
+.step-height-5 {
+  height: 43.67vw;
+  padding-right: 2vw;
 }
 </style>

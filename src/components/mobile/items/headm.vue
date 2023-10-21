@@ -1,7 +1,10 @@
 <template>
   <div class="head-box">
     <div class="h5-logo-box" @click="goToIndex()">
-      <img src="https://dapv7y4era0s5.cloudfront.net/ludobuster/logo.png" alt="logo" class="pict">
+      <img src="https://dapv7y4era0s5.cloudfront.net/teenmillion/mobile/logo.png" alt="logo" class="pict">
+    </div>
+    <div class="download-pict" @click="goToIndex()">
+      <img src="https://dapv7y4era0s5.cloudfront.net/teenmillion/mobile/android_app_btn.png" alt="logo" class="pict">
     </div>
   </div>
 </template>
@@ -42,18 +45,19 @@ export default {
 
 <style lang="less" scoped>
 .head-box {
-  height: 13.06vw;
+  height: 11.81vw;
   width: 100%;
   position: fixed;
   z-index: 300;
-	background-color: #056703;
+	background-color: #004cd7;
   .mid-box;
   box-sizing: border-box;
+  display: none;
 }
 .h5-logo-box {
-  width: 24.86vw;
-	height: 11.25vw;
-  margin-top: 1vw;
+  width: 20.69vw;
+	height: 9.17vw;
+  margin-top: 2.5vw;
 }
 .h5-logo-box-pict {
   width: 100%;
@@ -95,5 +99,11 @@ export default {
 .lin-box-pict {
   width: 9.72vw;
   height: 6.67vw;
+}
+.download-pict{
+  width: 25.69vw;
+	height: auto;
+  margin-left: 45vw;
+  margin-top: 1vw;
 }
 </style>
