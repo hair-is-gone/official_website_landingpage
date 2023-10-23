@@ -30,7 +30,7 @@ function getCookie(name) {
 }
 
 async function download(){
-    return
+    // return
     let adj_t = getQueryVariable("p0")
     let campaign_name = getQueryVariable("p1")
     let campaign_id = getQueryVariable("p2")
@@ -44,8 +44,8 @@ async function download(){
     //console.log(campaign_name, fbclid)
     // chnup("click")
     // // 获取链接参数.进行拼接
-    let url_host = "https://dapv7y4era0s5.cloudfront.net/teenmillion/pkg/TeenpattiMillion.apk"
-    let download_url = `https://ludobuster.go.link/?adj_t=15sd8h0j&adj_campaign=${campaign_name}%20%28${campaign_id}%29&adj_adgroup=${adset_name}%20%28${adset_id}%29&adj_creative=${ad_name}%20%28${ad_id}%29&adj_redirect=${url_host}&adj_fbclid=${fbclid}&adj_fbpid=${cookpid}`
+    let url_host = "https://dapv7y4era0s5.cloudfront.net/coindozer/CoinsDozerAce.apk"
+    let download_url = `https://coinsdozerace.go.link?adj_t=15zyzdnu&adj_campaign=${campaign_name}%20%28${campaign_id}%29&adj_adgroup=${adset_name}%20%28${adset_id}%29&adj_creative=${ad_name}%20%28${ad_id}%29&adj_redirect=${url_host}&adj_fbclid=${fbclid}&adj_fbpid=${cookpid}`
     // let download_url = "../../../../static/pkg/SlotsMania.apk"
     console.log(download_url)
     window.location.href = download_url
@@ -53,7 +53,7 @@ async function download(){
 }
 
 async function download_v2(){
-    return
+    // return
     let adj_t = getQueryVariable("p0")
     let campaign_name = getQueryVariable("p1")
     let campaign_id = getQueryVariable("p2")
@@ -66,8 +66,8 @@ async function download_v2(){
     let cookpid = getCookie("_fbp")
     //console.log(campaign_name, fbclid)
     // chnup("c")
-    let url_host = "https://dapv7y4era0s5.cloudfront.net/teenmillion/pkg/TeenpattiMillion.apk"
-    let download_url = `https://ludobuster.go.link/?adj_t=15sd8h0j&adj_campaign=${campaign_name}%20%28${campaign_id}%29&adj_adgroup=${adset_name}%20%28${adset_id}%29&adj_creative=${ad_name}%20%28${ad_id}%29&adj_redirect=${url_host}&adj_fbclid=${fbclid}&adj_fbpid=${cookpid}`
+    let url_host = "https://dapv7y4era0s5.cloudfront.net/coindozer/CoinsDozerAce.apk"
+    let download_url = `https://coinsdozerace.go.link?adj_t=15zyzdnu&adj_campaign=${campaign_name}%20%28${campaign_id}%29&adj_adgroup=${adset_name}%20%28${adset_id}%29&adj_creative=${ad_name}%20%28${ad_id}%29&adj_redirect=${url_host}&adj_fbclid=${fbclid}&adj_fbpid=${cookpid}`
     // let download_url = "../../../../static/pkg/SlotsMania.apk"
     console.log(download_url)
     window.location.href = download_url
@@ -75,7 +75,7 @@ async function download_v2(){
 }
 
 async function download_v3(){
-    return
+    // return
     let adj_t = getQueryVariable("p0")
     let campaign_name = getQueryVariable("p1")
     let campaign_id = getQueryVariable("p2")
@@ -87,8 +87,8 @@ async function download_v3(){
     let fbclid = getQueryVariable("fbclid")
     let cookpid = getCookie("_fbp")
 
-    let url_host = "https://dapv7y4era0s5.cloudfront.net/teenmillion/pkg/TeenpattiMillion.apk"
-    let download_url = `https://ludobuster.go.link/?adj_t=15sd8h0j&adj_campaign=${campaign_name}%20%28${campaign_id}%29&adj_adgroup=${adset_name}%20%28${adset_id}%29&adj_creative=${ad_name}%20%28${ad_id}%29&adj_redirect=${url_host}&adj_fbclid=${fbclid}&adj_fbpid=${cookpid}`
+    let url_host = "https://dapv7y4era0s5.cloudfront.net/coindozer/CoinsDozerAce.apk"
+    let download_url = `https://coinsdozerace.go.link?adj_t=15zyzdnu&adj_campaign=${campaign_name}%20%28${campaign_id}%29&adj_adgroup=${adset_name}%20%28${adset_id}%29&adj_creative=${ad_name}%20%28${ad_id}%29&adj_redirect=${url_host}&adj_fbclid=${fbclid}&adj_fbpid=${cookpid}`
     console.log(download_url)
     window.location.href = download_url
     return
@@ -100,7 +100,7 @@ async function loadPage(){
 }
 
 function chnup(event) {
-    return
+    // return
     var xmlhttp = new XMLHttpRequest();
     xmlhttp.open("POST", ServerUrl + "/api/sys/chnup/", true);
     if(event == "load"){

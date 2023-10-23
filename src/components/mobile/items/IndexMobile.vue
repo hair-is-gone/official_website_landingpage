@@ -4,14 +4,14 @@
 
       <div class="banner-box" @click="clickTrack('bannerClick1')">
         <div class="download-pict" @click.stop="download_apk()">
-          <img src="../../../../static/mobile/Download.png" alt="" class="pict">
+          <img src="https://dapv7y4era0s5.cloudfront.net/coindozer/Download.png" alt="" class="pict">
         </div>
       </div>
 
       <div class="center-box">
         <div class="muti-bg">
           <div class="muti-title-pict">
-            <img src="../../../../static/mobile/muti_title.png" alt="" class="pict">
+            <img src="https://dapv7y4era0s5.cloudfront.net/coindozer/muti_title.png" alt="" class="pict">
           </div>
           <div class="muti-card-box">
             <div class="muti-card" v-for="mutiInfo in mutiInfoS" :key="mutiInfo.title1">
@@ -43,12 +43,12 @@
       <div class="center-box">
         <div class="five-bg">
           <div class="five-title-pict"> 
-            <img src="../../../../static/mobile/step_title.png" alt="" class="pict">
+            <img src="https://dapv7y4era0s5.cloudfront.net/coindozer/step_title.png" alt="" class="pict">
           </div>
 
           <div class="five-card-box">
             <div class="five-card" v-for="fiveInfo in fiveInfoS" :key="fiveInfo.title">
-              <div class="five-card-pict">
+              <div class="five-card-pict" @click="clickTrack(fiveInfo.track)">
                 <img :src="fiveInfo.pict" alt="" class="pict">
               </div>
               <div class="five-color-span-box">
@@ -72,66 +72,71 @@ export default {
     return {
       mutiInfoS: [
         {
-          pict: "../../../../static/mobile/PayTM.png",
+          pict: "https://dapv7y4era0s5.cloudfront.net/coindozer/PayTM.png",
           title1: "PayTM",
         },
         {
-          pict: "../../../../static/mobile/PhonePe.png",
+          pict: "https://dapv7y4era0s5.cloudfront.net/coindozer/PhonePe.png",
           title1: "PhonePe",
         },
         {
-          pict: "../../../../static/mobile/UPI.png",
+          pict: "https://dapv7y4era0s5.cloudfront.net/coindozer/UPI.png",
           title1: "UPI",
         },
         {
-          pict: "../../../../static/mobile/CardPayments.png",
+          pict: "https://dapv7y4era0s5.cloudfront.net/coindozer/CardPayments.png",
           title1: "Card Payments",
         },
         {
-          pict: "../../../../static/mobile/NetBanking.png",
+          pict: "https://dapv7y4era0s5.cloudfront.net/coindozer/NetBanking.png",
           title1: "Net Banking",
         },
       ],
       fiveInfoS: [
         {
           title: '1:Click the button to download the game.',
-          pict: "../../../../static/mobile/img_01.png",
+          pict: "https://dapv7y4era0s5.cloudfront.net/coindozer/img_01.png",
+          track: "stepPict1"
         },
         {
           title: '2:Tap "OK" to keep the APK.',
-          pict: "../../../../static/mobile/img_02.png",
+          pict: "https://dapv7y4era0s5.cloudfront.net/coindozer/img_02.png",
+          track: "stepPict2"
         },
         {
           title: '3:Switch on the "SETTINGS".',
-          pict: "../../../../static/mobile/img_03.png",
+          pict: "https://dapv7y4era0s5.cloudfront.net/coindozer/img_03.png",
+          track: "stepPict3"
         },
         {
           title: "4:Allow the app to be installed on your device.",
-          pict: "../../../../static/mobile/img_04.png",
+          pict: "https://dapv7y4era0s5.cloudfront.net/coindozer/img_04.png",
+          track: "stepPict4"
         },
         {
           title: "5:Install the game and embark on the journey!",
-          pict: "../../../../static/mobile/img_05.png",
+          pict: "https://dapv7y4era0s5.cloudfront.net/coindozer/img_05.png",
+          track: "stepPict5"
         },
       ],
       bankInfoS: [
         {
-          pict: "../../../../static/mobile/ic_01.png",
+          pict: "https://dapv7y4era0s5.cloudfront.net/coindozer/ic_01.png",
           title: "QUICK",
           title2: "WITHDRAWAL",
         },
         {
-          pict: "../../../../static/mobile/ic_04.png",
+          pict: "https://dapv7y4era0s5.cloudfront.net/coindozer/ic_04.png",
           title: "BREATH-TAKING",
           title2: "GAMEPLAY",
         },
         {
-          pict: "../../../../static/mobile/ic_03.png",
+          pict: "https://dapv7y4era0s5.cloudfront.net/coindozer/ic_03.png",
           title: "OVERWHELMING",
           title2: "VICTORY",
         },
         {
-          pict: "../../../../static/mobile/ic_02.png",
+          pict: "https://dapv7y4era0s5.cloudfront.net/coindozer/ic_02.png",
           title: "SAFE",
           title2: "ENVIRONMENT",
         },
@@ -150,10 +155,10 @@ export default {
       window.location.href = "https://teempattirich.go.link/?adj_t=12o5qq65";
     },
     clickTrack: function (msg) {
-      if (msg == "stepPict2" || msg == "stepPict3" || msg == "stepPict4") {
+      if (msg == "stepPict1" || msg == "bannerClick1") {
+        chnup(msg);
         return;
       }
-      chnup(msg);
     },
   },
   created() {
@@ -199,7 +204,7 @@ export default {
 .banner-box {
   width: 100%;
   height: 111.11vw;
-  background-image: url("../../../../static/mobile/banner.png");
+  background-image: url("https://dapv7y4era0s5.cloudfront.net/coindozer/banner.png");
   background-size: cover;
   .flex-change-box;
   justify-content: flex-end;
@@ -225,7 +230,7 @@ export default {
   width: 100%;
   height: 39.58vw;
   .flex-change-box;
-  background-image: url("../../../../static/mobile/bg_01.png");
+  background-image: url("https://dapv7y4era0s5.cloudfront.net/coindozer/bg_01.png");
   background-size: cover;
   justify-content: flex-start;
 }
@@ -269,7 +274,7 @@ export default {
   justify-content: flex-start;
   height: auto;
   padding-bottom: 5vw;
-  background-image: url("../../../../static/mobile/bg_02.png");
+  background-image: url("https://dapv7y4era0s5.cloudfront.net/coindozer/bg_02.png");
   background-size: cover;
 }
 .five-title {

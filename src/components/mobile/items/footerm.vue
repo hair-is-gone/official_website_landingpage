@@ -17,19 +17,19 @@
       </div>        
       <div class="security-box">
         <div class="security-items-1" @click="gotoPage('sslClick2')">
-          <img src="../../../../static/mobile/secured.png" alt="security-pict" class="pict" />
+          <img src="https://dapv7y4era0s5.cloudfront.net/coindozer/secured.png" alt="security-pict" class="pict" />
         </div>
         <div class="security-items-2" @click="gotoPage('sslClick1')">
-          <img src="../../../../static/mobile/ssl.png" alt="security-pict" class="pict" />
+          <img src="https://dapv7y4era0s5.cloudfront.net/coindozer/ssl.png" alt="security-pict" class="pict" />
         </div>
         <div class="security-items-3" @click="gotoPage('sslClick3')">
-          <img src="../../../../static/mobile/fraud.png" alt="security-pict" class="pict" />
+          <img src="https://dapv7y4era0s5.cloudfront.net/coindozer/fraud.png" alt="security-pict" class="pict" />
         </div>
         <div class="security-items-4" @click="gotoPage('sslClick4')">
-          <img src="../../../../static/mobile/ic_18.png" alt="security-pict" class="pict" />
+          <img src="https://dapv7y4era0s5.cloudfront.net/coindozer/ic_18.png" alt="security-pict" class="pict" />
         </div>
         <div class="security-items-5" @click="gotoPage('sslClick5')">
-          <img src="../../../../static/mobile/know.png" alt="security-pict" class="pict" />
+          <img src="https://dapv7y4era0s5.cloudfront.net/coindozer/know.png" alt="security-pict" class="pict" />
         </div>
       </div>
       <div class="copy-right">
@@ -37,8 +37,8 @@
       </div>
     </div>
     <div class="last-banner">
-      <img src="../../../../static/mobile/Download.png" alt="download-pict" class="download-pict" @click="download_apk()">
-      <img src="../../../../static/mobile/ic_arrow.png" alt="" class="arrow-pict">
+      <img src="https://dapv7y4era0s5.cloudfront.net/coindozer/Download.png" alt="download-pict" class="download-pict" @click="download_apk()">
+      <img src="https://dapv7y4era0s5.cloudfront.net/coindozer/ic_arrow.png" alt="" class="arrow-pict">
     </div>
   </div>
 </template>
@@ -55,7 +55,7 @@ export default {
     download_apk: function () {
       // window._latest_apk = "https://mastertp.go.link/?adj_t=12swbuq0&adj_campaign=%7B%7Bcampaign.name%7D%7D%20%28%7B%7Bcampaign.id%7D%7D%29&adj_adgroup=%7B%7Badset.name%7D%7D%20%28%7B%7Badset.id%7D%7D%29&adj_creative=%7B%7Bad.name%7D%7D%20%28%7B%7Bad.id%7D%7D%29&adj_redirect=https%3A%2F%2Fmasterteenpattiindia.com%2Fstatic%2Fpkg%2FMasterTeenpatti.apk";
       // window.location.href = window._latest_apk;
-      chnup("click_v2");
+      chnup("click_v3");
       download_v2();
     },
     download_gp: function () {
@@ -323,7 +323,7 @@ export default {
   position: fixed;
   z-index: 301;
   bottom: 0;
-  background-image: url("../../../../static/mobile/last_bg.png");
+  background-image: url("https://dapv7y4era0s5.cloudfront.net/coindozer/last_bg.png");
   background-size: cover;
 }
 

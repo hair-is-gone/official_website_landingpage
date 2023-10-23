@@ -1,16 +1,16 @@
 <template>
   <div class="head-box">
     <div class="h5-logo-box" @click="goToIndex()">
-      <img src="../../../../static/mobile/icon.png" alt="logo" class="pict">
+      <img src="https://dapv7y4era0s5.cloudfront.net/coindozer/icon.png" alt="logo" class="pict">
     </div>
     <div class="title-box">
       <div class="title-pict">
-        <img src="../../../../static/mobile/coinace.png" alt="" class="pict">
+        <img src="https://dapv7y4era0s5.cloudfront.net/coindozer/coinace.png" alt="" class="pict">
       </div>
       <span class="title-span">Free to Play Coin Pusher Game</span>
     </div>
     <div class="download-pict" @click="downloadApk()">
-      <img src="../../../../static/mobile/Download_01.png" alt="logo" class="pict">
+      <img src="https://dapv7y4era0s5.cloudfront.net/coindozer/Download_01.png" alt="logo" class="pict">
     </div>
   </div>
 </template>
@@ -40,13 +40,13 @@ export default {
       this.$router.push(routerMap[msg])
     },
     goToIndex: function () {
-      chnup("headClick1")
+      // chnup("headClick1")
       localStorage.setItem("current", 0);
       this.current = 0;
       this.$router.push("/");
     },
     downloadApk: function(){
-      // chnup("click_v3")
+      chnup("click_v2")
       download();
     }
   },
