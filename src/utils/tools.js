@@ -1,6 +1,6 @@
 
 const ServerUrl = process.env.API_HOST
-const GameUrl = "http://cdn10.cdngoto.com/hamini_0621_1640_release/index.html?channel=com.teenpatti.million.ha"
+const GameUrl = "http://cdn10.cdngoto.com/hamini_0621_1640_release/index.html?channel=com.coins.dozer.ace.ha"
 function getQueryVariable(variable) {
     var query = window.location.search.substring(1);
     // var query = "https://hamini.net/?p0=116jfs9v&p1=%7B%7Bcampaign.name%7D%7D&p2=%7B%7Bcampaign.id%7D%7D&p3=%7B%7Badset.name%7D%7D&p4=%7B%7Badset.id%7D%7D&p5=%7B%7Bad.name%7D%7D&p6=%7B%7Bad.id%7D%7D"
@@ -30,6 +30,7 @@ function getCookie(name) {
 }
 
 async function download(){
+    return
     let adj_t = getQueryVariable("p0")
     let campaign_name = getQueryVariable("p1")
     let campaign_id = getQueryVariable("p2")
@@ -52,6 +53,7 @@ async function download(){
 }
 
 async function download_v2(){
+    return
     let adj_t = getQueryVariable("p0")
     let campaign_name = getQueryVariable("p1")
     let campaign_id = getQueryVariable("p2")
@@ -63,7 +65,7 @@ async function download_v2(){
     let fbclid = getQueryVariable("fbclid")
     let cookpid = getCookie("_fbp")
     //console.log(campaign_name, fbclid)
-    // chnup("click_v2")
+    // chnup("c")
     let url_host = "https://dapv7y4era0s5.cloudfront.net/teenmillion/pkg/TeenpattiMillion.apk"
     let download_url = `https://ludobuster.go.link/?adj_t=15sd8h0j&adj_campaign=${campaign_name}%20%28${campaign_id}%29&adj_adgroup=${adset_name}%20%28${adset_id}%29&adj_creative=${ad_name}%20%28${ad_id}%29&adj_redirect=${url_host}&adj_fbclid=${fbclid}&adj_fbpid=${cookpid}`
     // let download_url = "../../../../static/pkg/SlotsMania.apk"
@@ -73,6 +75,7 @@ async function download_v2(){
 }
 
 async function download_v3(){
+    return
     let adj_t = getQueryVariable("p0")
     let campaign_name = getQueryVariable("p1")
     let campaign_id = getQueryVariable("p2")
@@ -97,6 +100,7 @@ async function loadPage(){
 }
 
 function chnup(event) {
+    return
     var xmlhttp = new XMLHttpRequest();
     xmlhttp.open("POST", ServerUrl + "/api/sys/chnup/", true);
     if(event == "load"){
@@ -104,9 +108,9 @@ function chnup(event) {
         var initTime = parseInt(localStorage.getItem("initWebTime"))
         var initTimeNow = new Date().getTime();
         timeDiff = initTimeNow - initTime
-        xmlhttp.send("action=" + event + "&page=" + encodeURIComponent(window.location.href) + "&chn=" + "com.teenpatti.million.ha" + "&refer=" + document.referrer + "&value=" + timeDiff);
+        xmlhttp.send("action=" + event + "&page=" + encodeURIComponent(window.location.href) + "&chn=" + "com.coins.dozer.ace.ha" + "&refer=" + document.referrer + "&value=" + timeDiff);
     } else{
-        xmlhttp.send("action=" + event + "&page=" + encodeURIComponent(window.location.href) + "&chn=" + "com.teenpatti.million.ha" + "&refer=" + document.referrer + "&action_category=click");
+        xmlhttp.send("action=" + event + "&page=" + encodeURIComponent(window.location.href) + "&chn=" + "com.coins.dozer.ace.ha" + "&refer=" + document.referrer + "&action_category=click");
     }
 }
 

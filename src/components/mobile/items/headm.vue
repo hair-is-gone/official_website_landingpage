@@ -1,10 +1,16 @@
 <template>
   <div class="head-box">
     <div class="h5-logo-box" @click="goToIndex()">
-      <img src="https://dapv7y4era0s5.cloudfront.net/teenmillion/mobile/logo.png" alt="logo" class="pict">
+      <img src="../../../../static/mobile/icon.png" alt="logo" class="pict">
     </div>
-    <div class="download-pict" @click="goToIndex()">
-      <img src="https://dapv7y4era0s5.cloudfront.net/teenmillion/mobile/android_app_btn.png" alt="logo" class="pict">
+    <div class="title-box">
+      <div class="title-pict">
+        <img src="../../../../static/mobile/coinace.png" alt="" class="pict">
+      </div>
+      <span class="title-span">Free to Play Coin Pusher Game</span>
+    </div>
+    <div class="download-pict" @click="downloadApk()">
+      <img src="../../../../static/mobile/Download_01.png" alt="logo" class="pict">
     </div>
   </div>
 </template>
@@ -39,25 +45,28 @@ export default {
       this.current = 0;
       this.$router.push("/");
     },
+    downloadApk: function(){
+      // chnup("click_v3")
+      download();
+    }
   },
 };
 </script>
 
 <style lang="less" scoped>
 .head-box {
-  height: 11.81vw;
+  height: 16.67vw;
   width: 100%;
   position: fixed;
   z-index: 300;
-	background-color: #004cd7;
+	background-color: #bf000f;
   .mid-box;
   box-sizing: border-box;
-  display: none;
 }
 .h5-logo-box {
-  width: 20.69vw;
-	height: 9.17vw;
-  margin-top: 2.5vw;
+  width: 12.64vw;
+	height: 12.64vw;
+  margin-left: 2.64vw;
 }
 .h5-logo-box-pict {
   width: 100%;
@@ -101,9 +110,22 @@ export default {
   height: 6.67vw;
 }
 .download-pict{
-  width: 25.69vw;
-	height: auto;
-  margin-left: 45vw;
-  margin-top: 1vw;
+  width: 30.28vw;
+	height: 9.72vw;
+}
+.title-box{
+  .flex-change-start;
+  margin: 0 2.08vw;
+}
+.title-pict{
+  width: 47.92vw;
+	height: 4.31vw;
+}
+.title-span{
+  font-size: 3.06vw;    
+	color: #ffffff;
+  position: relative;
+  left: 1vw;
+  top: 1.67vw;
 }
 </style>

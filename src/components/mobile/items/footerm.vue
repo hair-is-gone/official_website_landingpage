@@ -1,45 +1,44 @@
 <template>
   <div id="h5-footer">
     <div class="mid-box footer-info">
-
-      <div class="m-footer-container">
+      <div class="link-box-bg">
         <div class="footer-link-box">
           <div class="link-box">
-            <span @click="gotoPage('linkClick4')" class="link-style">Privacy Policy</span>
-            <span @click="gotoPage('linkClick1')" class="link-style">Contact Us</span>
-          </div>
-          <div class="link-box">
             <span @click="gotoPage('linkClick2')" class="link-style">Terms & Conditions</span>
+            <span @click="gotoPage('linkClick4')" class="link-style-hr">|</span>
             <span @click="gotoPage('linkClick3')" class="link-style">Refunds/Cancellations</span>
           </div>
-        </div>
-        <div class="security-box">
-          <div class="security-items-1" @click="gotoPage('sslClick2')">
-            <img src="https://dapv7y4era0s5.cloudfront.net/teenmillion/mobile/secured.png" alt="security-pict" class="pict" />
-          </div>
-          <div class="security-items-1" @click="gotoPage('sslClick1')">
-            <img src="https://dapv7y4era0s5.cloudfront.net/teenmillion/mobile/ssl.png" alt="security-pict" class="pict" />
-          </div>
-          <div class="security-items-1" @click="gotoPage('sslClick3')">
-            <img src="https://dapv7y4era0s5.cloudfront.net/teenmillion/mobile/fraud.png" alt="security-pict" class="pict" />
-          </div>
-          <div class="security-items-1" @click="gotoPage('sslClick5')">
-            <img src="https://dapv7y4era0s5.cloudfront.net/teenmillion/mobile/know.png" alt="security-pict" class="pict" />
-          </div>
-          <div class="security-items-1" @click="gotoPage('sslClick4')">
-            <img src="https://dapv7y4era0s5.cloudfront.net/teenmillion/mobile/ic_18.png" alt="security-pict" class="pict" />
+          <div class="link-box">
+            <span @click="gotoPage('linkClick4')" class="link-style">Privacy Policy</span>
+            <span @click="gotoPage('linkClick4')" class="link-style-hr">|</span>
+            <span @click="gotoPage('linkClick1')" class="link-style">Contact Us</span>
           </div>
         </div>
-
+      </div>        
+      <div class="security-box">
+        <div class="security-items-1" @click="gotoPage('sslClick2')">
+          <img src="../../../../static/mobile/secured.png" alt="security-pict" class="pict" />
+        </div>
+        <div class="security-items-2" @click="gotoPage('sslClick1')">
+          <img src="../../../../static/mobile/ssl.png" alt="security-pict" class="pict" />
+        </div>
+        <div class="security-items-3" @click="gotoPage('sslClick3')">
+          <img src="../../../../static/mobile/fraud.png" alt="security-pict" class="pict" />
+        </div>
+        <div class="security-items-4" @click="gotoPage('sslClick4')">
+          <img src="../../../../static/mobile/ic_18.png" alt="security-pict" class="pict" />
+        </div>
+        <div class="security-items-5" @click="gotoPage('sslClick5')">
+          <img src="../../../../static/mobile/know.png" alt="security-pict" class="pict" />
+        </div>
       </div>
-
       <div class="copy-right">
-        <span style="color: #fff; opacity: 0.55; font-size: 2.78vw">@ 2023 Teenpatti Million</span>
+        <span style="color: #fff; opacity: 0.55; font-size: 2.78vw">@ 2023 Coins Dozer Ace</span>
       </div>
     </div>
     <div class="last-banner">
-      <img src="https://dapv7y4era0s5.cloudfront.net/teenmillion/mobile/btn_download.png" alt="download-pict" class="download-pict" @click="download_apk()">
-      <img src="https://dapv7y4era0s5.cloudfront.net/teenmillion/mobile/ic_arrow.png" alt="" class="arrow-pict">
+      <img src="../../../../static/mobile/Download.png" alt="download-pict" class="download-pict" @click="download_apk()">
+      <img src="../../../../static/mobile/ic_arrow.png" alt="" class="arrow-pict">
     </div>
   </div>
 </template>
@@ -77,9 +76,8 @@ export default {
   align-items: center;
   background-size: cover;
   box-sizing: border-box;
-  padding-bottom: 25.69vw;
-  background-color: #004cd7;
-  padding-top: 8.69vw;
+  padding-bottom: 31.94vw;
+  background-color: #bf000f;
   // margin-top: -0.5vw;
 }
 
@@ -131,8 +129,24 @@ export default {
 }
 
 .security-items-1 {
-  width: 12.36vw;
-	height: 12.36vw;
+  width: 16.67vw;
+	height: 16.67vw;
+}
+.security-items-2 {
+  width: 14.72vw;
+	height: 16.67vw;
+}
+.security-items-3 {
+  width: 16.67vw;
+	height: 16.67vw;
+}
+.security-items-4 {
+  width: 16.67vw;
+	height: 16.53vw;
+}
+.security-items-5 {
+  width: 16.67vw;
+	height: 16.67vw;
 }
 
 .pict-box {
@@ -150,7 +164,7 @@ export default {
   justify-content: center;
   font-size: 3.04vw;
   letter-spacing: 0vw;
-  background-color: #002d8d;
+  background-color: #7b000a;
   height: 6.53vw;
 }
 
@@ -183,6 +197,11 @@ export default {
   font-size: 3.22vw;
   line-height: 5vw;
 }
+.link-style-hr {
+  color: #fff;
+  font-size: 3.22vw;
+  margin: 0 2.5vw;
+}
 
 .link-style:hover {
   cursor: pointer;
@@ -190,11 +209,11 @@ export default {
 }
 
 .security-box {
-  width: 80vw;
+  width: 95vw;
   .flex-between;
   box-sizing: border-box;
-  margin-top: 6vw;
-  margin-bottom: 8vw;
+  margin-top: 3vw;
+  margin-bottom: 4.44vw;
 }
 
 .footer-title-quick {
@@ -209,12 +228,12 @@ export default {
   flex-direction: column;
   width: 100%;
   box-sizing: border-box;
-  justify-content: space-between;
+  justify-content: flex-start;
 }
 
 .m-footer-container {
   display: flex;
-  width: 80.53vw;
+  width: 96.53vw;
   height: 28.19vw;
   flex-direction: column;
   justify-content: center;
@@ -298,29 +317,29 @@ export default {
 .last-banner {
   .mid-box;
   width: 100%;
-  height: 25.69vw;
+  height: 31.94vw;
   background-size: cover;
   box-sizing: border-box;
   position: fixed;
   z-index: 301;
   bottom: 0;
-  background-image: url("https://dapv7y4era0s5.cloudfront.net/teenmillion/mobile/last_bg.png");
+  background-image: url("../../../../static/mobile/last_bg.png");
   background-size: cover;
 }
 
 .download-pict {
-  width: 44.72vw;
-	height: auto;  
+  width: 58.33vw;
+	height: auto;
   position: relative;
-  left: 25vw;
+  left: 18vw;
   top: 2vw;
 }
 .arrow-pict {
-  width: 11.53vw;
-	height: 10.28vw;  
+  width: 17.08vw;
+	height: 10.97vw; 
   position: relative;
-  left: 20vw;
-  top: 7vw;
+  left: 6vw;
+  top: -7vw;
   animation: flash 1s ease-in-out 0s infinite;
 }
 @keyframes flash {
@@ -340,13 +359,15 @@ export default {
 }
 
 .footer-link-box {
-  .flex-between;
-  width: 70.97vw;
-  height: 6.39vw;
+  .flex-change-box;
+  width: 76.53vw;
 }
 .link-box {
-  .flex-change-box;
-  align-items: flex-start;
+  .mid-box;
+}
+.link-box:nth-child(2) {
+  position: relative;
+  right: 3.9vw;
 }
 .footer-right {
   .flex-change-box;
@@ -361,5 +382,12 @@ export default {
 .margin-2 {
   position: relative;
   right: 3vw;
+}
+.link-box-bg{
+  width: 100vw;
+	height: 16.81vw;
+	background-color: #9b000c;
+  .mid-box;
+  box-sizing: border-box;
 }
 </style>
