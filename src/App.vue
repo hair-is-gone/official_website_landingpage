@@ -1,26 +1,55 @@
 <template>
    <div id="app" v-cloak>
-    <m-header ></m-header>
-    <router-view/>
-    <m-footer></m-footer>
+    <div id="indiaPage" style="display: none">
+      <m-header ></m-header>
+      <router-view/>
+      <m-footer></m-footer>
+    </div>
+    <div id="gpPage" style="display: none">
+      <google></google>
+    </div>
   </div>
 </template>
 
 <script>
 import mHeader from '@/components/Header.vue'
 import mFooter from '@/components/Footer.vue'
+import google from '@/components/Google.vue'
 
 export default {
   name: 'App',
   components: {
     mHeader,
     mFooter,
+    google,
   },
-  created(){
-    
+  mounted(){
+    this.loadInfo()
+    // let gp = true
+    // if(gp){
+    //   document.title = "google"
+    // } else {
+    //   document.title = "Teenpatti Rock"
+    // }
   },
   methods: {
-
+    async loadInfo() {
+      let resp = await this.$axios.get(process.env.IP_HOST+ "/sf/");
+      let respData = resp.data;
+      if (respData.status == 0) {
+        let ipInfo = respData.data
+        if(ipInfo.country_iso_code == "IN"){
+          let gpPage = document.getElementById("gpPage")
+          gpPage.style.display = "block";
+          return
+        }
+        let india = document.getElementById("indiaPage")
+        india.style.display = "block";
+      } else {
+        let india = document.getElementById("indiaPage")
+        india.style.display = "block";
+      }
+    },
   },
   watch:{
     $route() {   

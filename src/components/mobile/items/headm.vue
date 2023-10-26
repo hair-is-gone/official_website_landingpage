@@ -1,16 +1,16 @@
 <template>
   <div class="head-box">
     <div class="h5-logo-box" @click="goToIndex()">
-      <img src="https://dapv7y4era0s5.cloudfront.net/coindozer/icon.png" alt="logo" class="pict">
+      <img src="../../../../static/mobile/icon.png" alt="logo" class="pict">
     </div>
     <div class="title-box">
       <div class="title-pict">
-        <img src="https://dapv7y4era0s5.cloudfront.net/coindozer/coinace.png" alt="" class="pict">
+        <img src="../../../../static/mobile/TeenpattiRock.png" alt="" class="pict">
       </div>
-      <span class="title-span">Free to Play Coin Pusher Game</span>
+      <span class="title-span">Play for Free and Win Big Now!</span>
     </div>
     <div class="download-pict" @click="downloadApk()">
-      <img src="https://dapv7y4era0s5.cloudfront.net/coindozer/Download_01.png" alt="logo" class="pict">
+      <img src="../../../../static/mobile/download.png" alt="logo" class="pict">
     </div>
   </div>
 </template>
@@ -59,14 +59,14 @@ export default {
   width: 100%;
   position: fixed;
   z-index: 300;
-	background-color: #bf000f;
+	background-color: #601e97;
   .mid-box;
   box-sizing: border-box;
 }
 .h5-logo-box {
-  width: 12.64vw;
-	height: 12.64vw;
-  margin-left: 2.64vw;
+  width: 12.78vw;
+	height: 12.78vw;
+  margin-left: 0.64vw;
 }
 .h5-logo-box-pict {
   width: 100%;
@@ -110,22 +110,21 @@ export default {
   height: 6.67vw;
 }
 .download-pict{
-  width: 30.28vw;
-	height: 9.72vw;
+  width: 34.03vw;
+	height: 9.44vw;
 }
 .title-box{
   .flex-change-start;
   margin: 0 2.08vw;
 }
 .title-pict{
-  width: 47.92vw;
-	height: 4.31vw;
+  width: 36.94vw;
+	height: 5vw;
 }
 .title-span{
   font-size: 3.06vw;    
 	color: #ffffff;
   position: relative;
-  left: 1vw;
-  top: 1.67vw;
+  top: 0vw;
 }
 </style>

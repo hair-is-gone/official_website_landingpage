@@ -7,6 +7,7 @@ import '../static/css/main.css';
 import ElementUI from 'element-ui';
 import 'element-ui/lib/theme-chalk/index.css';
 import 'element-ui/lib/theme-chalk/display.css';
+import axios from 'axios';
 
 Vue.config.productionTip = false
 Vue.use(ElementUI);
@@ -20,6 +21,7 @@ if(flag_first != null){
   var dom = document.getElementById("app")
   dom.style.fontFamily = "Droid Sans, Helvetica, HelveticaNeue !important";
 } 
+Vue.prototype.$axios = axios;
 
 
 /* eslint-disable no-new */

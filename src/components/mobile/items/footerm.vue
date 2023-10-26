@@ -3,48 +3,48 @@
     <div class="mid-box footer-info">
       <div class="link-box-bg">
         <div class="footer-link-box">
+          <span class="footer-head-title">QUICK LINKS</span>
           <div class="link-box">
-            <span @click="gotoPage('linkClick2')" class="link-style">Terms & Conditions</span>
-            <span @click="gotoPage('linkClick4')" class="link-style-hr">|</span>
-            <span @click="gotoPage('linkClick3')" class="link-style">Refunds/Cancellations</span>
-          </div>
-          <div class="link-box">
-            <span @click="gotoPage('linkClick4')" class="link-style">Privacy Policy</span>
-            <span @click="gotoPage('linkClick4')" class="link-style-hr">|</span>
-            <span @click="gotoPage('linkClick1')" class="link-style">Contact Us</span>
+            <div @click="gotoPage('linkClick3')" class="link-style"><div class="circle"></div>  Refunds/Cancellations</div>
+            <div @click="gotoPage('linkClick2')" class="link-style"><div class="circle"></div>Terms & Conditions</div>
+            <div @click="gotoPage('linkClick4')" class="link-style"><div class="circle"></div>Privacy Policy</div>
+            <div @click="gotoPage('linkClick1')" class="link-style"><div class="circle"></div>Contact Us</div>
           </div>
         </div>
-      </div>        
-      <div class="security-box">
-        <div class="security-items-1" @click="gotoPage('sslClick2')">
-          <img src="https://dapv7y4era0s5.cloudfront.net/coindozer/secured.png" alt="security-pict" class="pict" />
+      </div>  
+      <div class="security-box-bg">
+        <span class="footer-head-title">SECURITY & GAME INTEGRITY</span>
+        <div class="security-box">
+          <div class="security-items-1" @click="gotoPage('sslClick2')">
+            <img src="../../../../static/mobile/secured.png" alt="security-pict" class="pict" />
+          </div>
+          <div class="security-items-3" @click="gotoPage('sslClick3')">
+            <img src="../../../../static/mobile/fraud.png" alt="security-pict" class="pict" />
+          </div>
+          <div class="security-items-2" @click="gotoPage('sslClick1')">
+            <img src="../../../../static/mobile/ssl.png" alt="security-pict" class="pict" />
+          </div>
+          <div class="security-items-5" @click="gotoPage('sslClick5')">
+            <img src="../../../../static/mobile/18.png" alt="security-pict" class="pict" />
+          </div>
+          <div class="security-items-4" @click="gotoPage('sslClick4')">
+            <img src="../../../../static/mobile/know.png" alt="security-pict" class="pict" />
+          </div>
         </div>
-        <div class="security-items-2" @click="gotoPage('sslClick1')">
-          <img src="https://dapv7y4era0s5.cloudfront.net/coindozer/ssl.png" alt="security-pict" class="pict" />
-        </div>
-        <div class="security-items-3" @click="gotoPage('sslClick3')">
-          <img src="https://dapv7y4era0s5.cloudfront.net/coindozer/fraud.png" alt="security-pict" class="pict" />
-        </div>
-        <div class="security-items-4" @click="gotoPage('sslClick4')">
-          <img src="https://dapv7y4era0s5.cloudfront.net/coindozer/ic_18.png" alt="security-pict" class="pict" />
-        </div>
-        <div class="security-items-5" @click="gotoPage('sslClick5')">
-          <img src="https://dapv7y4era0s5.cloudfront.net/coindozer/know.png" alt="security-pict" class="pict" />
-        </div>
-      </div>
+      </div>      
       <div class="copy-right">
-        <span style="color: #fff; opacity: 0.55; font-size: 2.78vw">@ 2023 Coins Dozer Ace</span>
+        <span style="color: #fff; opacity: 0.55; font-size: 2.78vw">@ 2023 Teenpatti Rock</span>
       </div>
     </div>
     <div class="last-banner">
-      <img src="https://dapv7y4era0s5.cloudfront.net/coindozer/Download.png" alt="download-pict" class="download-pict" @click="download_apk()">
-      <img src="https://dapv7y4era0s5.cloudfront.net/coindozer/ic_arrow.png" alt="" class="arrow-pict">
+      <img src="../../../../static/mobile/download_footer.png" alt="download-pict" class="download-pict" @click="download_apk()">
+      <img src="../../../../static/mobile/ic_arrow.png" alt="" class="arrow-pict">
     </div>
   </div>
 </template>
 
 <script>
-import { download_v2, chnup } from "../../../utils/tools";
+import { chnup } from "../../../utils/tools";
 
 export default {
   methods: {
@@ -53,14 +53,8 @@ export default {
       // this.$router.push(msg);
     },
     download_apk: function () {
-      // window._latest_apk = "https://mastertp.go.link/?adj_t=12swbuq0&adj_campaign=%7B%7Bcampaign.name%7D%7D%20%28%7B%7Bcampaign.id%7D%7D%29&adj_adgroup=%7B%7Badset.name%7D%7D%20%28%7B%7Badset.id%7D%7D%29&adj_creative=%7B%7Bad.name%7D%7D%20%28%7B%7Bad.id%7D%7D%29&adj_redirect=https%3A%2F%2Fmasterteenpattiindia.com%2Fstatic%2Fpkg%2FMasterTeenpatti.apk";
-      // window.location.href = window._latest_apk;
       chnup("click_v3");
-      download_v2();
-    },
-    download_gp: function () {
-      chnup("click_v4");
-      download_v3();
+      download();
     },
   },
 };
@@ -77,7 +71,7 @@ export default {
   background-size: cover;
   box-sizing: border-box;
   padding-bottom: 31.94vw;
-  background-color: #bf000f;
+  background-color: #380068;
   // margin-top: -0.5vw;
 }
 
@@ -129,24 +123,24 @@ export default {
 }
 
 .security-items-1 {
-  width: 16.67vw;
-	height: 16.67vw;
+  width: 24.86vw;
+	height: 8.47vw;
 }
 .security-items-2 {
-  width: 14.72vw;
-	height: 16.67vw;
+  width: 21.94vw;
+	height: 9.31vw;
 }
 .security-items-3 {
-  width: 16.67vw;
-	height: 16.67vw;
+  width: 14.86vw;
+	height: 11.39vw;
 }
 .security-items-4 {
-  width: 16.67vw;
-	height: 16.53vw;
+  width: 15.97vw;
+	height: 7.5vw;
 }
 .security-items-5 {
-  width: 16.67vw;
-	height: 16.67vw;
+  width: 11.25vw;
+	height: 11.25vw;
 }
 
 .pict-box {
@@ -164,7 +158,7 @@ export default {
   justify-content: center;
   font-size: 3.04vw;
   letter-spacing: 0vw;
-  background-color: #7b000a;
+  background-color: #601e97;
   height: 6.53vw;
 }
 
@@ -194,13 +188,8 @@ export default {
 
 .link-style {
   color: #fff;
-  font-size: 3.22vw;
-  line-height: 5vw;
-}
-.link-style-hr {
-  color: #fff;
-  font-size: 3.22vw;
-  margin: 0 2.5vw;
+  font-size: 2.75vw;
+  .mid-box;
 }
 
 .link-style:hover {
@@ -262,7 +251,7 @@ export default {
 .footer-head-title {
   font-size: 4.17vw;
   color: #ffffff;
-  margin-left: 5.28vw;
+  font-weight: bold;
 }
 
 .white-hr-line {
@@ -323,22 +312,21 @@ export default {
   position: fixed;
   z-index: 301;
   bottom: 0;
-  background-image: url("https://dapv7y4era0s5.cloudfront.net/coindozer/last_bg.png");
+  background-image: url("../../../../static/mobile/last_bg.png");
   background-size: cover;
 }
 
 .download-pict {
-  width: 58.33vw;
+  width: 66.11vw;
 	height: auto;
   position: relative;
-  left: 18vw;
+  left: 20vw;
   top: 2vw;
 }
 .arrow-pict {
-  width: 17.08vw;
-	height: 10.97vw; 
+  width: 20.56vw;
+	height: 18.61vw;
   position: relative;
-  left: 6vw;
   top: -7vw;
   animation: flash 1s ease-in-out 0s infinite;
 }
@@ -360,14 +348,12 @@ export default {
 
 .footer-link-box {
   .flex-change-box;
-  width: 76.53vw;
+  width: 96.53vw;
 }
 .link-box {
-  .mid-box;
-}
-.link-box:nth-child(2) {
-  position: relative;
-  right: 3.9vw;
+  .flex-between;
+  width: 96.53vw;
+  margin-top: 3vw;
 }
 .footer-right {
   .flex-change-box;
@@ -385,9 +371,22 @@ export default {
 }
 .link-box-bg{
   width: 100vw;
-	height: 16.81vw;
-	background-color: #9b000c;
+	height: 22.92vw;
   .mid-box;
   box-sizing: border-box;
+  border-bottom: solid 0.28vw rgba(156,128,180,0.55);
+}
+.circle{
+  width: 0.97vw;
+	height: 1.11vw;
+	background-color: #ffffff;
+  border-radius: 4vw;
+  margin-right: 0.5vw;
+}
+.security-box-bg{
+  .flex-change-box;
+  justify-content: flex-start;
+  box-sizing: border-box;
+  padding-top: 5.25vw;
 }
 </style>

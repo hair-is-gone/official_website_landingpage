@@ -62,7 +62,7 @@ dependencies:
   axios: 1.4.0
   babel-runtime: 6.26.0
   element-ui: 2.15.12_vue@2.7.14
-  promise: link:babel-runtime/core-js/promise
+  promise: 2.0.0
   vue: 2.7.14
   vue-hot-reload-api: 2.3.4
   vue-router: 3.6.5_vue@2.7.14
@@ -5082,6 +5082,10 @@ packages:
     engines: {node: '>=0.10.0'}
     dev: true
 
+  /is-promise/1.0.1:
+    resolution: {integrity: sha512-mjWH5XxnhMA8cFnDchr6qRP9S/kLntKuEfIYku+PaN1CnS8v+OG9O/BKpRCVRJvpIkgAZm0Pf5Is3iSSOILlcg==}
+    dev: false
+
   /is-regex/1.1.4:
     resolution: {integrity: sha512-kvRdxDsxZjhzUX07ZnLydzS1TU/TJlTUHHY4YLL87e37oUA49DfkLqgy+VjFocowy29cKvcSiu+kIv728jTTVg==}
     engines: {node: '>= 0.4'}
@@ -7861,6 +7865,12 @@ packages:
     dependencies:
       bluebird: 3.7.2
     dev: true
+
+  /promise/2.0.0:
+    resolution: {integrity: sha512-OgMc+sxI3zWF8D5BJGtA0z7/IsrDy1/0cPaDv6HPpqa2fSTo7AdON5U10NbZCUeF+zCAj3PtfPE50Hf02386aA==}
+    dependencies:
+      is-promise: 1.0.1
+    dev: false
 
   /proto-list/1.2.4:
     resolution: {integrity: sha512-vtK/94akxsTMhe0/cbfpR+syPuszcuwhqVjJq26CuNDgFGj682oRBXOP5MJpv2r7JtE8MsiepGIqvvOTBwn2vA==}
