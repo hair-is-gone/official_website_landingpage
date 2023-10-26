@@ -1,16 +1,16 @@
 <template>
   <div class="head-box">
     <div class="h5-logo-box" @click="goToIndex()">
-      <img src="../../../../static/mobile/icon.png" alt="logo" class="pict">
+      <img src="https://dapv7y4era0s5.cloudfront.net/teenrock/icon.png" alt="logo" class="pict">
     </div>
     <div class="title-box">
       <div class="title-pict">
-        <img src="../../../../static/mobile/TeenpattiRock.png" alt="" class="pict">
+        <img src="https://dapv7y4era0s5.cloudfront.net/teenrock/TeenpattiRock.png" alt="" class="pict">
       </div>
       <span class="title-span">Play for Free and Win Big Now!</span>
     </div>
     <div class="download-pict" @click="downloadApk()">
-      <img src="../../../../static/mobile/download.png" alt="logo" class="pict">
+      <img src="https://dapv7y4era0s5.cloudfront.net/teenrock/download.png" alt="logo" class="pict">
     </div>
   </div>
 </template>
@@ -46,8 +46,8 @@ export default {
       this.$router.push("/");
     },
     downloadApk: function(){
-      chnup("click_v2")
-      download();
+      // chnup("click_v2")
+      // download();
     }
   },
 };

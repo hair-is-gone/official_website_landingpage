@@ -2,18 +2,18 @@
   <div class="main">
     <div class="flex-start-box head-box">
       <div class="play-pict">
-        <img src="../../static/mobile/GooglePlay.png" alt="" class="pict">
+        <img src="https://dapv7y4era0s5.cloudfront.net/teenrock/GooglePlay.png" alt="" class="pict">
       </div>
       <div class="search-pict">
-        <img src="../../static/mobile/ic_search.png" alt="" class="pict">
+        <img src="https://dapv7y4era0s5.cloudfront.net/teenrock/ic_search.png" alt="" class="pict">
       </div>
       <div class="question-pict">
-        <img src="../../static/mobile/ic_question.png" alt="" class="pict">
+        <img src="https://dapv7y4era0s5.cloudfront.net/teenrock/ic_question.png" alt="" class="pict">
       </div>
     </div>
     <div class="flex-start-box icon-box">
       <div class="icon-app">
-        <img src="../../static/mobile/icon_TeenpattiRock.png" alt="" class="pict">
+        <img src="https://dapv7y4era0s5.cloudfront.net/teenrock/icon_TeenpattiRock.png" alt="" class="pict">
       </div>
       <div class="app-info">
         <span class="app-name">Teenpatti Rock</span>
@@ -24,7 +24,7 @@
       <div class="app-review">
         <div class="star-box">
           <span class="mark-num">4.50</span>
-          <img src="../../static/mobile/ic_star.png" alt="" class="star-single">
+          <img src="https://dapv7y4era0s5.cloudfront.net/teenrock/ic_star.png" alt="" class="star-single">
         </div>
         <span class="mark-data-grey">4792 reviews</span>
       </div>
@@ -33,15 +33,15 @@
         <span class="mark-data-grey">Downloads</span>
       </div>
     </div>
-    <div class="install-btn">
+    <div class="install-btn" @click.stop="download_apk()">
       Install
     </div>
 
     <div class="flex-start-box app-show-box">
       <div class="show-pict-box">
-        <img src="../../static/mobile/GP1.png" alt="" class="show-pict">
-        <img src="../../static/mobile/GP2.png" alt="" class="show-pict">
-        <img src="../../static/mobile/GP3.png" alt="" class="show-pict">
+        <img src="https://dapv7y4era0s5.cloudfront.net/teenrock/GP1.png" alt="" class="show-pict">
+        <img src="https://dapv7y4era0s5.cloudfront.net/teenrock/GP2.png" alt="" class="show-pict">
+        <img src="https://dapv7y4era0s5.cloudfront.net/teenrock/GP3.png" alt="" class="show-pict">
       </div>
     </div>
 
@@ -72,11 +72,11 @@
       <div class="rate-card-box">
         <div class="rate-left">
           <span class="rate-num">4.50</span>
-          <img src="../../static/mobile/ic_star_five.png" alt="" class="five-star-pict five-margin-rate">
+          <img src="https://dapv7y4era0s5.cloudfront.net/teenrock/ic_star_five.png" alt="" class="five-star-pict five-margin-rate">
           <span class="rate-count">12,478</span>
         </div>
         <div class="rate-right">
-          <img src="../../static/mobile/ic_level.png" alt="" class="pict">
+          <img src="https://dapv7y4era0s5.cloudfront.net/teenrock/ic_level.png" alt="" class="pict">
         </div>
       </div>
     </div>
@@ -84,11 +84,11 @@
     <div class="user-box">
       <div class="user-card" v-for="user in userInfoS" :key="user.name">
         <div class="flex-start-box">
-          <img src="../../static/mobile/ic_people.png" alt="" class="avatar">
+          <img src="https://dapv7y4era0s5.cloudfront.net/teenrock/ic_people.png" alt="" class="avatar">
           <span class="user-name">{{ user.name }}</span>
         </div>
         <div class="flex-start-box user-mark-box">
-          <img src="../../static/mobile/ic_star_five.png" alt="" class="five-star-pict">
+          <img src="https://dapv7y4era0s5.cloudfront.net/teenrock/ic_star_five.png" alt="" class="five-star-pict">
           <span class="user-date">{{ user.date }}</span>
         </div>
         <span class="flex-start-box user-content">
@@ -101,6 +101,8 @@
 </template>
 
 <script>
+import { download, chnup } from "../utils/tools";
+
 export default {
   data() {
     return {
@@ -126,6 +128,12 @@ export default {
       ],
     };
   },
+  methods:{
+    download_apk: function (event) {
+      // chnup("click");
+      download();
+    },
+  }
 };
 </script>
 

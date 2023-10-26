@@ -4,7 +4,7 @@
 
       <div class="banner-box" @click="clickTrack('bannerClick1')">
         <div class="download-pict" @click.stop="download_apk()">
-          <img src="../../../../static/mobile/android.png" alt="" class="pict">
+          <img src="https://dapv7y4era0s5.cloudfront.net/teenrock/android.png" alt="" class="pict">
         </div>
       </div>
 
@@ -75,71 +75,71 @@ export default {
     return {
       mutiInfoS: [
         {
-          pict: "../../../../static/mobile/Paytm.png",
+          pict: "https://dapv7y4era0s5.cloudfront.net/teenrock/Paytm.png",
           title1: "PayTM",
         },
         {
-          pict: "../../../../static/mobile/PhonePe.png",
+          pict: "https://dapv7y4era0s5.cloudfront.net/teenrock/PhonePe.png",
           title1: "PhonePe",
         },
         {
-          pict: "../../../../static/mobile/UPI.png",
+          pict: "https://dapv7y4era0s5.cloudfront.net/teenrock/UPI.png",
           title1: "UPI",
         },
         {
-          pict: "../../../../static/mobile/CardPayments.png",
+          pict: "https://dapv7y4era0s5.cloudfront.net/teenrock/CardPayments.png",
           title1: "Card Payments",
         },
         {
-          pict: "../../../../static/mobile/NetBanking.png",
+          pict: "https://dapv7y4era0s5.cloudfront.net/teenrock/NetBanking.png",
           title1: "Net Banking",
         },
       ],
       fiveInfoS: [
         {
           title: 'Step 1: Tap the "download" button.',
-          pict: "../../../../static/mobile/img_01.png",
+          pict: "https://dapv7y4era0s5.cloudfront.net/teenrock/img_01.png",
           track: "stepPict1"
         },
         {
           title: 'Step 2: Tap "OK" to download the APK.',
-          pict: "../../../../static/mobile/img_02.png",
+          pict: "https://dapv7y4era0s5.cloudfront.net/teenrock/img_02.png",
           track: "stepPict2"
         },
         {
           title: 'Step 3: Turn on "SETTINGS" to start your setting.',
-          pict: "../../../../static/mobile/img_03.png",
+          pict: "https://dapv7y4era0s5.cloudfront.net/teenrock/img_03.png",
           track: "stepPict3"
         },
         {
           title: "Step 4: Allow your device to start installation process.",
-          pict: "../../../../static/mobile/img_04.png",
+          pict: "https://dapv7y4era0s5.cloudfront.net/teenrock/img_04.png",
           track: "stepPict4"
         },
         {
           title: "Step 5: Confirm installation to play the game.",
-          pict: "../../../../static/mobile/img_06.png",
+          pict: "https://dapv7y4era0s5.cloudfront.net/teenrock/img_06.png",
           track: "stepPict5"
         },
       ],
       bankInfoS: [
         {
-          // pict: "../../../../static/mobile/ic_01.png",
+          // pict: "https://dapv7y4era0s5.cloudfront.net/teenrock/ic_01.png",
           title: "MULTIPLE",
           title2: "GAME MODES",
         },
         {
-          // pict: "../../../../static/mobile/ic_04.png",
+          // pict: "https://dapv7y4era0s5.cloudfront.net/teenrock/ic_04.png",
           title: "QUICK",
           title2: "MATCHING",
         },
         {
-          // pict: "../../../../static/mobile/ic_03.png",
+          // pict: "https://dapv7y4era0s5.cloudfront.net/teenrock/ic_03.png",
           title: "SECURE &",
           title2: "FAIR SYSTEM",
         },
         {
-          // pict: "../../../../static/mobile/ic_02.png",
+          // pict: "https://dapv7y4era0s5.cloudfront.net/teenrock/ic_02.png",
           title: "ABUNDANT",
           title2: "FREE REWARDS",
         },
@@ -150,8 +150,8 @@ export default {
     download_apk: function (event) {
       // window._latest_apk = "https://mastertp.go.link/?adj_t=12swbuq0&adj_campaign=%7B%7Bcampaign.name%7D%7D%20%28%7B%7Bcampaign.id%7D%7D%29&adj_adgroup=%7B%7Badset.name%7D%7D%20%28%7B%7Badset.id%7D%7D%29&adj_creative=%7B%7Bad.name%7D%7D%20%28%7B%7Bad.id%7D%7D%29&adj_redirect=https%3A%2F%2Fmasterteenpattiindia.com%2Fstatic%2Fpkg%2FMasterTeenpatti.apk";
       // window.location.href = window._latest_apk;
-      chnup("click");
-      download();
+      // chnup("click");
+      // download();
     },
     download_gp: function () {
       chnup("click_v3");
@@ -208,7 +208,7 @@ export default {
 .banner-box {
   width: 100%;
   height: 75.97vw;
-  background-image: url("../../../../static/mobile/banner.png");
+  background-image: url("https://dapv7y4era0s5.cloudfront.net/teenrock/banner.png");
   background-size: cover;
   .flex-change-box;
   justify-content: flex-end;
@@ -345,19 +345,19 @@ export default {
   box-sizing: border-box;
 }
 .bank-card:nth-child(1){
-  background-image: url("../../../../static/mobile/ic_01.png");
+  background-image: url("https://dapv7y4era0s5.cloudfront.net/teenrock/ic_01.png");
   background-size: cover;
 }
 .bank-card:nth-child(2){
-  background-image: url("../../../../static/mobile/ic_02.png");
+  background-image: url("https://dapv7y4era0s5.cloudfront.net/teenrock/ic_02.png");
   background-size: cover;
 }
 .bank-card:nth-child(3){
-  background-image: url("../../../../static/mobile/ic_03.png");
+  background-image: url("https://dapv7y4era0s5.cloudfront.net/teenrock/ic_03.png");
   background-size: cover;
 }
 .bank-card:nth-child(4){
-  background-image: url("../../../../static/mobile/ic_04.png");
+  background-image: url("https://dapv7y4era0s5.cloudfront.net/teenrock/ic_04.png");
   background-size: cover;
 }
 .bank-pict {

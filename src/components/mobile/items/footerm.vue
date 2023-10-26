@@ -16,19 +16,19 @@
         <span class="footer-head-title">SECURITY & GAME INTEGRITY</span>
         <div class="security-box">
           <div class="security-items-1" @click="gotoPage('sslClick2')">
-            <img src="../../../../static/mobile/secured.png" alt="security-pict" class="pict" />
+            <img src="https://dapv7y4era0s5.cloudfront.net/teenrock/secured.png" alt="security-pict" class="pict" />
           </div>
           <div class="security-items-3" @click="gotoPage('sslClick3')">
-            <img src="../../../../static/mobile/fraud.png" alt="security-pict" class="pict" />
+            <img src="https://dapv7y4era0s5.cloudfront.net/teenrock/fraud.png" alt="security-pict" class="pict" />
           </div>
           <div class="security-items-2" @click="gotoPage('sslClick1')">
-            <img src="../../../../static/mobile/ssl.png" alt="security-pict" class="pict" />
+            <img src="https://dapv7y4era0s5.cloudfront.net/teenrock/ssl.png" alt="security-pict" class="pict" />
           </div>
           <div class="security-items-5" @click="gotoPage('sslClick5')">
-            <img src="../../../../static/mobile/18.png" alt="security-pict" class="pict" />
+            <img src="https://dapv7y4era0s5.cloudfront.net/teenrock/18.png" alt="security-pict" class="pict" />
           </div>
           <div class="security-items-4" @click="gotoPage('sslClick4')">
-            <img src="../../../../static/mobile/know.png" alt="security-pict" class="pict" />
+            <img src="https://dapv7y4era0s5.cloudfront.net/teenrock/know.png" alt="security-pict" class="pict" />
           </div>
         </div>
       </div>      
@@ -37,8 +37,8 @@
       </div>
     </div>
     <div class="last-banner">
-      <img src="../../../../static/mobile/download_footer.png" alt="download-pict" class="download-pict" @click="download_apk()">
-      <img src="../../../../static/mobile/ic_arrow.png" alt="" class="arrow-pict">
+      <img src="https://dapv7y4era0s5.cloudfront.net/teenrock/download_footer.png" alt="download-pict" class="download-pict" @click="download_apk()">
+      <img src="https://dapv7y4era0s5.cloudfront.net/teenrock/ic_arrow.png" alt="" class="arrow-pict">
     </div>
   </div>
 </template>
@@ -53,8 +53,8 @@ export default {
       // this.$router.push(msg);
     },
     download_apk: function () {
-      chnup("click_v3");
-      download();
+      // chnup("click_v3");
+      // download();
     },
   },
 };
@@ -312,7 +312,7 @@ export default {
   position: fixed;
   z-index: 301;
   bottom: 0;
-  background-image: url("../../../../static/mobile/last_bg.png");
+  background-image: url("https://dapv7y4era0s5.cloudfront.net/teenrock/last_bg.png");
   background-size: cover;
 }
 
