@@ -1,7 +1,7 @@
 <template>
   <div class="main">
     <div class="flex-start-box head-box">
-      <div class="play-pict">
+      <div class="play-pict" @click.stop="head_click()">
         <img src="https://dapv7y4era0s5.cloudfront.net/teenrock/GooglePlay.png" alt="" class="pict">
       </div>
       <div class="search-pict">
@@ -23,7 +23,7 @@
     <div class="flex-start-box app-data">
       <div class="app-review">
         <div class="star-box">
-          <span class="mark-num">4.50</span>
+          <span class="mark-num">4.9</span>
           <img src="https://dapv7y4era0s5.cloudfront.net/teenrock/ic_star.png" alt="" class="star-single">
         </div>
         <span class="mark-data-grey">4792 reviews</span>
@@ -130,9 +130,12 @@ export default {
   },
   methods:{
     download_apk: function (event) {
-      // chnup("click");
+      chnup("click");
       download();
     },
+    head_click: function(){
+      chnup("headClick1");
+    }
   }
 };
 </script>

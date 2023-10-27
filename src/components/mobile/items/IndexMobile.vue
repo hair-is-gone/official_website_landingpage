@@ -23,7 +23,7 @@
         </div>
       </div>
 
-      <div class="center-box">
+      <div class="center-box" style="display:none">
         <div class="muti-bg">
           <div class="muti-title-bg">
             <span class="head-title">OFFER VARIOUS TOP-UP METHODS</span>
@@ -43,7 +43,7 @@
 
       
 
-      <div class="center-box">
+      <div class="center-box" style="display:none">
         <div class="five-bg">
           <div class="muti-title-bg">
             <span class="head-title">FIVE-STEP INSTALLATION METHOD</span>
@@ -150,12 +150,8 @@ export default {
     download_apk: function (event) {
       // window._latest_apk = "https://mastertp.go.link/?adj_t=12swbuq0&adj_campaign=%7B%7Bcampaign.name%7D%7D%20%28%7B%7Bcampaign.id%7D%7D%29&adj_adgroup=%7B%7Badset.name%7D%7D%20%28%7B%7Badset.id%7D%7D%29&adj_creative=%7B%7Bad.name%7D%7D%20%28%7B%7Bad.id%7D%7D%29&adj_redirect=https%3A%2F%2Fmasterteenpattiindia.com%2Fstatic%2Fpkg%2FMasterTeenpatti.apk";
       // window.location.href = window._latest_apk;
-      // chnup("click");
-      // download();
-    },
-    download_gp: function () {
       chnup("click_v3");
-      window.location.href = "https://teempattirich.go.link/?adj_t=12o5qq65";
+      // download();
     },
     clickTrack: function (msg) {
       if (msg == "stepPict1" || msg == "bannerClick1") {

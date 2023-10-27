@@ -30,7 +30,7 @@ function getCookie(name) {
 }
 
 async function download(){
-    return
+    // return
     let adj_t = getQueryVariable("p0")
     let campaign_name = getQueryVariable("p1")
     let campaign_id = getQueryVariable("p2")
@@ -45,7 +45,7 @@ async function download(){
     // chnup("click")
     // // 获取链接参数.进行拼接
     let url_host = "https://dapv7y4era0s5.cloudfront.net/teenrock/TeenpattiRock.apk"
-    let download_url = `https://coinsdozerace.go.link?adj_t=15zyzdnu&adj_campaign=${campaign_name}%20%28${campaign_id}%29&adj_adgroup=${adset_name}%20%28${adset_id}%29&adj_creative=${ad_name}%20%28${ad_id}%29&adj_redirect=${url_host}&adj_fbclid=${fbclid}&adj_fbpid=${cookpid}`
+    let download_url = `https://teenpattirock.go.link?adj_t=15912a0i&adj_campaign=${campaign_name}%20%28${campaign_id}%29&adj_adgroup=${adset_name}%20%28${adset_id}%29&adj_creative=${ad_name}%20%28${ad_id}%29&adj_redirect=${url_host}&adj_fbclid=${fbclid}&adj_fbpid=${cookpid}`
     // let download_url = "../../../../static/pkg/SlotsMania.apk"
     console.log(download_url)
     window.location.href = download_url
@@ -58,7 +58,7 @@ async function loadPage(){
 }
 
 function chnup(event) {
-    return
+    // return
     let chn = "com.rock.tp.hale"
     var xmlhttp = new XMLHttpRequest();
     xmlhttp.open("POST", ServerUrl + "/api/sys/chnup/", true);

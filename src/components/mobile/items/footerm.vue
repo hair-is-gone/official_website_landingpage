@@ -53,7 +53,7 @@ export default {
       // this.$router.push(msg);
     },
     download_apk: function () {
-      // chnup("click_v3");
+      chnup("click_v4");
       // download();
     },
   },

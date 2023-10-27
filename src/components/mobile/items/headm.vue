@@ -46,7 +46,7 @@ export default {
       this.$router.push("/");
     },
     downloadApk: function(){
-      // chnup("click_v2")
+      chnup("click_v2")
       // download();
     }
   },
