@@ -1,16 +1,5 @@
 <template>
   <div class="main">
-    <div class="flex-start-box head-box">
-      <div class="play-pict" @click.stop="head_click()">
-        <img src="https://dapv7y4era0s5.cloudfront.net/teenrock/GooglePlay.png" alt="" class="pict">
-      </div>
-      <div class="search-pict">
-        <img src="https://dapv7y4era0s5.cloudfront.net/teenrock/ic_search.png" alt="" class="pict">
-      </div>
-      <div class="question-pict">
-        <img src="https://dapv7y4era0s5.cloudfront.net/teenrock/ic_question.png" alt="" class="pict">
-      </div>
-    </div>
     <div class="flex-start-box icon-box">
       <div class="icon-app">
         <img src="https://dapv7y4era0s5.cloudfront.net/teenrock/icon_TeenpattiRock.png" alt="" class="pict">
@@ -18,19 +7,37 @@
       <div class="app-info">
         <span class="app-name">Teenpatti Rock</span>
         <span class="app-team">Rock Team</span>
+        <span class="app-ads">Contains ads</span>
       </div>
     </div>
     <div class="flex-start-box app-data">
-      <div class="app-review">
-        <div class="star-box">
-          <span class="mark-num">4.9</span>
-          <img src="https://dapv7y4era0s5.cloudfront.net/teenrock/ic_star.png" alt="" class="star-single">
+      <div class="app-slide-box">
+        <div class="app-review">
+          <div class="star-box">
+            <span class="mark-num">4.9</span>
+            <img src="https://dapv7y4era0s5.cloudfront.net/teenrock/ic_star.png" alt="" class="star-single">
+          </div>
+          <span class="mark-data-grey">5469 reviews
+            <img src="https://dapv7y4era0s5.cloudfront.net/teenrock/ic_gth.png" alt="" class="gth-pict">
+          </span>
         </div>
-        <span class="mark-data-grey">4792 reviews</span>
-      </div>
-      <div class="app-download">
-        <span class="download-data">100K+</span>
-        <span class="mark-data-grey">Downloads</span>
+        <div class="split-col"></div>
+        <div class="app-download">
+          <img src="https://dapv7y4era0s5.cloudfront.net/teenrock/ic_xz.png" alt="" class="download-icon">
+          <span class="mark-data-grey">3 MB</span>
+        </div>
+        <div class="split-col"></div>
+        <div class="app-download">
+          <img src="https://dapv7y4era0s5.cloudfront.net/teenrock/ic_16.png" alt="" class="year-icon">
+          <span class="mark-data-grey">Rated for 16+
+            <img src="https://dapv7y4era0s5.cloudfront.net/teenrock/ic_gth.png" alt="" class="gth-pict">
+          </span>
+        </div>
+        <div class="split-col"></div>
+        <div class="app-download">
+          <span class="download-data">100K+</span>
+          <span class="mark-data-grey">Downloads</span>
+        </div>
       </div>
     </div>
     <div class="install-btn" @click.stop="download_apk()">
@@ -39,14 +46,17 @@
 
     <div class="flex-start-box app-show-box">
       <div class="show-pict-box">
-        <img src="https://dapv7y4era0s5.cloudfront.net/teenrock/GP1.png" alt="" class="show-pict">
-        <img src="https://dapv7y4era0s5.cloudfront.net/teenrock/GP2.png" alt="" class="show-pict">
-        <img src="https://dapv7y4era0s5.cloudfront.net/teenrock/GP3.png" alt="" class="show-pict">
+        <img src="https://dapv7y4era0s5.cloudfront.net/teenrock/01.png" alt="" class="show-pict">
+        <img src="https://dapv7y4era0s5.cloudfront.net/teenrock/02.png" alt="" class="show-pict">
+        <img src="https://dapv7y4era0s5.cloudfront.net/teenrock/03.png" alt="" class="show-pict">
       </div>
     </div>
 
     <div class="flex-start-box about-game-box">
-      <span class="about-title">About this game</span>
+      <div class="about-title-arrow-box">
+        <span class="about-title">About this game</span>
+        <img src="https://dapv7y4era0s5.cloudfront.net/teenrock/ic_left.png" alt="" class="right-arrow-pict right-arrow-pict-margin">
+      </div>
       <span class="about-content">
         Enter the world of high-stakes card games with Teenpatti
         Rock! Experience the timeless thrill of this classic Indian
@@ -64,36 +74,62 @@
         4. Compete against your opponents and collect lots of coins.<br>
         5. Complete goals and get rewarded.<br>
       </span>
-      <span class="collapse-span">Collapse</span>
+      <!-- <span class="collapse-span">Collapse</span> -->
+    </div>
+
+    <div class="flex-change-box share-box">
+      <div class="flex-change-box shard-card-box">
+        <div class="mid-box share-card" v-for="shareInfo in shareInfoS" :key="shareInfo.pictStyle"> 
+          <img :src="shareInfo.pict" alt="" :class="shareInfo.pictStyle">
+          <span class="share-content">
+            {{ shareInfo.content }}
+          </span>
+        </div>
+      </div>
+      <span class="see-detail">See details</span>
     </div>
 
     <div class="flex-start-box rating-box">
-      <span class="rating-title">Ratings and reviews</span>
+      <div class="about-title-arrow-box">
+        <span class="rating-title">Ratings and reviews</span>
+        <img src="https://dapv7y4era0s5.cloudfront.net/teenrock/ic_left.png" alt="" class="right-arrow-pict">
+      </div>
+      <span class="rating-mid-content">
+        Ratings and reviews are verified and are from people who use the same type of device that you use
+      </span>
       <div class="rate-card-box">
         <div class="rate-left">
-          <span class="rate-num">4.50</span>
-          <img src="https://dapv7y4era0s5.cloudfront.net/teenrock/ic_star_five.png" alt="" class="five-star-pict five-margin-rate">
+          <span class="rate-num">4.9</span>
+          <img src="https://dapv7y4era0s5.cloudfront.net/teenrock/ic_pinfen.png" alt="" class="five-star-pict five-margin-rate">
           <span class="rate-count">12,478</span>
         </div>
         <div class="rate-right">
-          <img src="https://dapv7y4era0s5.cloudfront.net/teenrock/ic_level.png" alt="" class="pict">
+          <img src="https://dapv7y4era0s5.cloudfront.net/teenrock/ic_dengji.png" alt="" class="pict">
         </div>
       </div>
     </div>
 
     <div class="user-box">
       <div class="user-card" v-for="user in userInfoS" :key="user.name">
-        <div class="flex-start-box">
+        <div class="flex-start-box head-avatar-width">
           <img src="https://dapv7y4era0s5.cloudfront.net/teenrock/ic_people.png" alt="" class="avatar">
           <span class="user-name">{{ user.name }}</span>
+          <img src="https://dapv7y4era0s5.cloudfront.net/teenrock/ic_more.png" alt="" class="more-pict">
         </div>
         <div class="flex-start-box user-mark-box">
-          <img src="https://dapv7y4era0s5.cloudfront.net/teenrock/ic_star_five.png" alt="" class="five-star-pict">
+          <img src="https://dapv7y4era0s5.cloudfront.net/teenrock/ic_pinfen.png" alt="" class="five-star-pict">
           <span class="user-date">{{ user.date }}</span>
         </div>
         <span class="flex-start-box user-content">
           {{ user.content }}
         </span>
+        <div class="flex-start-box last-avatar-box">
+          <span class="user-help-span">Was this review helpful?</span>
+          <div class="mid-box button-box-total">
+            <div class="mid-box yes-button">Yes</div>
+            <div class="mid-box yes-button">No</div>
+          </div>
+        </div>
       </div>
     </div>
 
@@ -126,6 +162,28 @@ export default {
             "Excellent, however there should be more efficient system to avoid cheater. I always found cheater sitting on 320 table and in spite of many reports they are freely playing.",
         },
       ],
+      shareInfoS: [
+        {
+          pict: "https://dapv7y4era0s5.cloudfront.net/teenrock/ic_lianjie.png",
+          pictStyle: "share-pict-1",
+          content: "This app may share these data types with third parties App activity and Device or other IDs",
+        },
+        {
+          pict: "https://dapv7y4era0s5.cloudfront.net/teenrock/ic_yun.png",
+          pictStyle: "share-pict-2",
+          content: "This app may collect these data types App activity,App info and perfor mance.and Device or other IDs",
+        },
+        {
+          pict: "https://dapv7y4era0s5.cloudfront.net/teenrock/ic_lock.png",
+          pictStyle: "share-pict-3",
+          content: "Datais encrypted in transit",
+        },
+        {
+          pict: "https://dapv7y4era0s5.cloudfront.net/teenrock/ic_ljt.png",
+          pictStyle: "share-pict-4",
+          content: "You can request that data be deleted",
+        },
+      ]
     };
   },
   methods:{
@@ -168,7 +226,7 @@ export default {
   height: 4.8vw;
 }
 .icon-box {
-  margin-top: 8.4vw;
+  margin-top: 7.73vw;
   justify-content: flex-start;
   align-items: flex-start;
 }
@@ -191,14 +249,30 @@ export default {
 .app-team {
   font-size: 4vw;
   line-height: 5.84vw;
-  color: #17ac3c;
+  color: #0957bc;
+  margin-top: 2.13vw;
+}
+.app-ads{
+  font-size: 3.2vw;
+	line-height: 5.84vw;
+	color: #666666;
 }
 .app-data {
   margin-top: 9.47vw;
 }
-.app-review {
-  .flex-change-start;
+.app-slide-box{
+   width: 93vw;
+  .mid-box;
+  box-sizing: border-box;
   justify-content: flex-start;
+  flex-wrap: nowrap;
+  overflow: auto;
+  scrollbar-width: none;
+}
+.app-review {
+  .flex-change-box;
+  justify-content: flex-start;
+  width: 30.6vw;
 }
 .star-box {
   .mid-box;
@@ -209,7 +283,7 @@ export default {
   font-stretch: normal;
   line-height: 5.6vw;
   letter-spacing: 0vw;
-  color: #17ac3c;
+  color: #000000;
 }
 .star-single {
   width: 2.13vw;
@@ -222,10 +296,13 @@ export default {
   font-stretch: normal;
   letter-spacing: 0vw;
   color: #666666;
+  margin-top: 2.4vw;
+  width: 24vw;
+  text-align: center;
 }
 .app-download {
-  .flex-change-start;
-  margin-left: 24.8vw;
+  .flex-change-box;
+  width: 30.4vw;
 }
 .download-data {
   font-size: 4vw;
@@ -239,7 +316,7 @@ export default {
   .mid-box;
   width: 86.8vw;
   height: 10.67vw;
-  background-color: #17ac3c;
+  background-color: #0b57cf;
   border-radius: 5.33vw;
   margin-top: 9.2vw;
   font-size: 4vw;
@@ -283,6 +360,7 @@ export default {
 .about-content {
   width: 86.53vw;
   font-size: 3.2vw;
+  line-height: 4.4vw;
   color: #666666;
 }
 .collapse-span {
@@ -313,11 +391,12 @@ export default {
   .flex-change-box;
   justify-content: flex-start;
   height: 24vw;
+  align-items: flex-start;
 }
 .rate-right {
-  width: 37.6vw;
-  height: 24vw;
-  margin-left: 10.27vw;
+  width: 60.4vw;
+  height: auto;
+  margin-left: 9.73vw;
 }
 .rate-num {
   font-size: 12.8vw;
@@ -372,5 +451,125 @@ export default {
   font-size: 3.73vw;
   color: #676769;
   width: 78.53vw; 
+}
+.split-col{
+  height: 6vw;
+  border-left: solid 0.13vw #666;
+  margin: 0 3vw;
+}
+.gth-pict{
+  width: 2.67vw;
+	height: 2.67vw;
+}
+.download-icon{
+  width: 4.93vw;
+	height: 4.93vw;
+  margin-bottom: 1vw;
+}
+.year-icon{
+  width: 5.33vw;
+	height: 3.73vw;
+  margin-bottom: 2.19vw;
+}
+.right-arrow-pict{
+  width: 4.13vw;
+	height: 4.13vw;
+  transform:  rotate(180deg);
+}
+.right-arrow-pict-margin{
+  margin-bottom: 4.8vw;
+}
+.about-title-arrow-box{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 86.53vw;
+}
+.share-box{
+  width: 86.67vw;
+	height: 81.6vw;
+	border-radius: 2.4vw;
+	border: solid 0.27vw #acaba9;
+}
+.share-box{
+  width: 86.67vw;
+	height: 81.6vw;
+	border-radius: 2.4vw;
+	border: solid 0.27vw #acaba9;
+  margin-top: 9.87vw;
+}
+.shard-card-box{
+  justify-content: space-between;
+  height: 54.03vw;
+}
+.share-card{
+  width: 72.54vw;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+.share-pict-1{
+  width: 4.8vw;
+	height: 4.93vw;
+  margin-top: 1vw;
+}
+.share-pict-2{
+  width: 5.47vw;
+	height: 4vw;
+}
+.share-pict-3{
+  width: 4.13vw;
+	height: 5.47vw;
+}
+.share-pict-4{
+  width: 4.27vw;
+	height: 4.53vw;
+}
+.share-content{
+  width: 64.13vw;
+  font-size: 3.47vw;
+	line-height: 4.34vw;
+	color: #666;
+}
+.see-detail{
+  width: 72.54vw;
+  text-align: left;
+  margin-top: 9vw;
+  font-size: 3.47vw;
+	color: #0b57cf;
+}
+.rating-mid-content{
+  width: 84.4vw;
+	font-size: 2.93vw;
+	color: #666;
+  margin-top: 8vw;
+}
+.head-avatar-width{
+  width: 84.8vw;
+  align-items: center;
+}
+.more-pict{
+  width: 0.93vw;
+	height: 4.13vw;
+  margin-left: auto;
+}
+.last-avatar-box{
+  margin-top: 7.87vw;
+  width: 86.8vw;
+}
+.user-help-span{
+  font-size: 2.93vw;
+	color: #676769;
+}
+.button-box-total{
+  margin-left: auto;
+  width:28.54vw;
+  justify-content: space-between;
+}
+.yes-button{
+  width: 13.07vw;
+	height: 8vw;
+  font-size: 3.73vw;
+  border: 1px solid#676769;
+  border-radius: 8px;
 }
 </style>
