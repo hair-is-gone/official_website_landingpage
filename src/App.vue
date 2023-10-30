@@ -34,6 +34,8 @@ export default {
   },
   methods: {
     async loadInfo() {
+      //  let gpPage = document.getElementById("gpPage")
+      //     gpPage.style.display = "block";
       let resp = await this.$axios.get(process.env.IP_HOST+ "/sf/");
       let respData = resp.data;
       if (respData.status == 0) {

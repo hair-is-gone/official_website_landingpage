@@ -81,9 +81,12 @@
       <div class="flex-change-box shard-card-box">
         <div class="mid-box share-card" v-for="shareInfo in shareInfoS" :key="shareInfo.pictStyle"> 
           <img :src="shareInfo.pict" alt="" :class="shareInfo.pictStyle">
-          <span class="share-content">
-            {{ shareInfo.content }}
-          </span>
+          <div class="flex-change-box share-content-box">
+            <span class="share-content">
+              {{ shareInfo.content }}
+            </span>
+            <span class="share-content-mini">{{ shareInfo.content2 }}</span>
+          </div>
         </div>
       </div>
       <span class="see-detail">See details</span>
@@ -166,12 +169,14 @@ export default {
         {
           pict: "https://dapv7y4era0s5.cloudfront.net/teenrock/ic_lianjie.png",
           pictStyle: "share-pict-1",
-          content: "This app may share these data types with third parties App activity and Device or other IDs",
+          content: "This app may share these data types with third parties",
+          content2: "App activity and Device or other IDs",
         },
         {
           pict: "https://dapv7y4era0s5.cloudfront.net/teenrock/ic_yun.png",
           pictStyle: "share-pict-2",
-          content: "This app may collect these data types App activity,App info and perfor mance.and Device or other IDs",
+          content: "This app may collect these data types",
+          content2: "App activity,App info and perfor mance.and Device or other IDs",
         },
         {
           pict: "https://dapv7y4era0s5.cloudfront.net/teenrock/ic_lock.png",
@@ -519,10 +524,12 @@ export default {
 .share-pict-3{
   width: 4.13vw;
 	height: 5.47vw;
+  margin-top: -1vw;
 }
 .share-pict-4{
   width: 4.27vw;
 	height: 4.53vw;
+  margin-top: -1vw;
 }
 .share-content{
   width: 64.13vw;
@@ -571,5 +578,15 @@ export default {
   font-size: 3.73vw;
   border: 1px solid#676769;
   border-radius: 8px;
+}
+.share-content-box{
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+.share-content-mini{
+  font-size: 2.93vw;
+  color: #666;
+  margin-top: 1.27vw;
+  width: 64.13vw;
 }
 </style>
