@@ -104,19 +104,19 @@ export default {
       fiveInfoS: [
         {
           title: 'Step 1: Tap the "download" button.',
-          pict: "../../../../static/mobile/Image_1.png",
+          pict: "../../../../static/mobile/p1.png",
           track: "stepPict1"
         },
         {
           title: 'Step 2: Tap "OK" to download the APK.',
-          pict: "../../../../static/mobile/Image_2.png",
+          pict: "../../../../static/mobile/p2.png",
           track: "stepPict2"
         },
-        {
-          title: 'Step 3: Turn on "SETTINGS" to start your setting.',
-          pict: "../../../../static/mobile/Image_3.png",
-          track: "stepPict3"
-        },
+        // {
+        //   title: 'Step 3: Turn on "SETTINGS" to start your setting.',
+        //   pict: "../../../../static/mobile/Image_3.png",
+        //   track: "stepPict3"
+        // },
         // {
         //   title: "Step 4: Allow your device to start installation process.",
         //   pict: "../../../../static/mobile/img_04.png",
@@ -289,19 +289,17 @@ export default {
   font-weight: bold;
 }
 .five-card-box {
-  width: 86.53vw;
-  .flex-change-box;
-  justify-content: flex-start;
+  width: 89.3vw;
+  .mid-box;
+  justify-content: space-between;
   box-sizing: border-box;
+  margin-top: 6vw;
+  margin-bottom: -5vw;
 }
 .five-card {
   .flex-change-box;
   justify-content: space-between;
   background-size: cover;
-  margin-bottom: 7.08vw;
-}
-.five-card:nth-child(1){
-  margin-top: 4.86vw;
 }
 .five-card-title {
   font-size: 2.96vw;
@@ -319,8 +317,8 @@ export default {
   top: -7.33vw;
 }
 .five-card-pict {
- width: 82.5vw;
-	height: 46.53vw;
+  width: 42.22vw;
+	height: 75.14vw;
 }
 .channel-bg {
   width: 100vw;
@@ -359,9 +357,10 @@ export default {
   margin-bottom: 2.08vw;
 }
 .bank-title {
-  font-size: 2.7vw;
+  font-size: 3.33vw;
   line-height: 4vw;
   color: #fff;
+  font-family: "hh";
 }
 .muti-title-pict{
   width: 85.97vw;

@@ -10,10 +10,6 @@ body {
   }
 }
 @font-face {
-  font-family: "rb";
-  src: url("./rb.ttf");
-}
-@font-face {
-  font-family: "dm";
-  src: url("./dm.otf");
+  font-family: "hh";
+  src: url("./hh.ttf");
 }

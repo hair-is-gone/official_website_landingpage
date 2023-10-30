@@ -32,7 +32,7 @@
       </div>
 
       <div class="copy-right">
-        <span style="color: #fff; opacity: 0.55; font-size: 2.78vw">@ 2023 LudoClubCash</span>
+        <span style="color: #fff; opacity: 0.55; font-size: 2.78vw">@ 2023 Ludo Club</span>
       </div>
     </div>
     <div class="last-banner">
@@ -69,7 +69,7 @@ export default {
   align-items: center;
   background-size: cover;
   box-sizing: border-box;
-  padding-bottom: 31vw;
+  padding-bottom: 30.97vw;
   background-color: #b70a04;
   margin-top: -0.5vw;
 }
@@ -159,6 +159,8 @@ export default {
   letter-spacing: 0vw;
   background-color: #930c07;
   height: 6.53vw;
+  position: relative;
+  top: -0.5vw;
 }
 
 .mid-box {
@@ -194,7 +196,7 @@ export default {
 
 .link-style:hover {
   cursor: pointer;
-  color: #7eaefd;
+  color: #FFFF00;
 }
 
 .security-box {
@@ -306,7 +308,7 @@ export default {
 .last-banner {
   .mid-box;
   width: 100%;
-  height: 31.94vw;
+  height: 30.97vw;
   background-size: cover;
   box-sizing: border-box;
   position: fixed;
@@ -317,17 +319,18 @@ export default {
 }
 
 .download-pict {
-  width: 66.11vw;
+  width: 54.86vw;
   height: auto;
   position: relative;
-  left: 20vw;
-  top: 2vw;
+  left: 8vw;
+  top: 0vw;
 }
 .arrow-pict {
-  width: 20.56vw;
-  height: 18.61vw;
+  width: 14.58vw;
+	height: 11.67vw;
   position: relative;
-  top: -7vw;
+  top: 10.5vw;
+  right: 5vw;
   animation: flash 1s ease-in-out 0s infinite;
 }
 @keyframes flash {
