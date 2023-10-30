@@ -62,6 +62,7 @@ export default {
 	background-color: #601e97;
   .mid-box;
   box-sizing: border-box;
+  display: none;
 }
 .h5-logo-box {
   width: 12.78vw;

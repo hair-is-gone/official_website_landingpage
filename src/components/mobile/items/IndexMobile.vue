@@ -4,36 +4,42 @@
 
       <div class="banner-box" @click="clickTrack('bannerClick1')">
         <div class="download-pict" @click.stop="download_apk()">
-          <img src="https://dapv7y4era0s5.cloudfront.net/teenrock/android.png" alt="" class="pict">
+          <img src="../../../../static/mobile/btn_download.png" alt="" class="pict">
         </div>
       </div>
 
 
       <div class="center-box">
         <div class="channel-bg">
+          <div class="channel-split-pict">
+            <img src="../../../../static/mobile/bg_1.png" alt="" class="pict">
+          </div>
           <div class="bank-card-box">
             <div class="bank-card" v-for="bankInfo in bankInfoS" :key="bankInfo.title">
-              <!-- <div class="bank-pict">
+              <div class="bank-pict">
                 <img :src="bankInfo.pict" alt="" class="pict">
-              </div> -->
+              </div>
               <span class="bank-title">{{ bankInfo.title }}</span>
               <span class="bank-title bank-title-margin">{{ bankInfo.title2 }}</span>
             </div>
+          </div>
+          <div class="channel-split-pict">
+            <img src="../../../../static/mobile/bg_1.png" alt="" class="pict">
           </div>
         </div>
       </div>
 
       <div class="center-box" style="display:none">
         <div class="muti-bg">
-          <div class="muti-title-bg">
+          <!-- <div class="muti-title-bg">
             <span class="head-title">OFFER VARIOUS TOP-UP METHODS</span>
-          </div>
+          </div> -->
           <div class="muti-card-box">
             <div class="muti-card" v-for="mutiInfo in mutiInfoS" :key="mutiInfo.title1">
               <div class="muti-pict">
                 <img :src="mutiInfo.pict" alt="" class="pict">
               </div>
-              <span class="muti-title">{{ mutiInfo.title1 }}</span>
+              <!-- <span class="muti-title">{{ mutiInfo.title1 }}</span> -->
             </div>
           </div>
         </div>
@@ -43,18 +49,18 @@
 
       
 
-      <div class="center-box" style="display:none">
+      <div class="center-box" >
         <div class="five-bg">
-          <div class="muti-title-bg">
+          <!-- <div class="muti-title-bg">
             <span class="head-title">FIVE-STEP INSTALLATION METHOD</span>
-          </div>
+          </div> -->
 
           <div class="five-card-box">
             <div class="five-card" v-for="fiveInfo in fiveInfoS" :key="fiveInfo.title">
               <div class="five-card-pict" @click="clickTrack(fiveInfo.track)">
                 <img :src="fiveInfo.pict" alt="" class="pict">
               </div>
-              <span class="five-card-text">{{ fiveInfo.title }}</span>
+              <!-- <span class="five-card-text">{{ fiveInfo.title }}</span> -->
               <!-- <div class="five-color-span-box">
               </div> -->
             </div>
@@ -75,73 +81,73 @@ export default {
     return {
       mutiInfoS: [
         {
-          pict: "https://dapv7y4era0s5.cloudfront.net/teenrock/Paytm.png",
+          pict: "../../../../static/mobile/Paytm.png",
           title1: "PayTM",
         },
         {
-          pict: "https://dapv7y4era0s5.cloudfront.net/teenrock/PhonePe.png",
+          pict: "../../../../static/mobile/PhonePe.png",
           title1: "PhonePe",
         },
         {
-          pict: "https://dapv7y4era0s5.cloudfront.net/teenrock/UPI.png",
+          pict: "../../../../static/mobile/UPI.png",
           title1: "UPI",
         },
         {
-          pict: "https://dapv7y4era0s5.cloudfront.net/teenrock/CardPayments.png",
+          pict: "../../../../static/mobile/CardPayments.png",
           title1: "Card Payments",
         },
         {
-          pict: "https://dapv7y4era0s5.cloudfront.net/teenrock/NetBanking.png",
+          pict: "../../../../static/mobile/NetBanking.png",
           title1: "Net Banking",
         },
       ],
       fiveInfoS: [
         {
           title: 'Step 1: Tap the "download" button.',
-          pict: "https://dapv7y4era0s5.cloudfront.net/teenrock/img_01.png",
+          pict: "../../../../static/mobile/Image_1.png",
           track: "stepPict1"
         },
         {
           title: 'Step 2: Tap "OK" to download the APK.',
-          pict: "https://dapv7y4era0s5.cloudfront.net/teenrock/img_02.png",
+          pict: "../../../../static/mobile/Image_2.png",
           track: "stepPict2"
         },
         {
           title: 'Step 3: Turn on "SETTINGS" to start your setting.',
-          pict: "https://dapv7y4era0s5.cloudfront.net/teenrock/img_03.png",
+          pict: "../../../../static/mobile/Image_3.png",
           track: "stepPict3"
         },
-        {
-          title: "Step 4: Allow your device to start installation process.",
-          pict: "https://dapv7y4era0s5.cloudfront.net/teenrock/img_04.png",
-          track: "stepPict4"
-        },
-        {
-          title: "Step 5: Confirm installation to play the game.",
-          pict: "https://dapv7y4era0s5.cloudfront.net/teenrock/img_06.png",
-          track: "stepPict5"
-        },
+        // {
+        //   title: "Step 4: Allow your device to start installation process.",
+        //   pict: "../../../../static/mobile/img_04.png",
+        //   track: "stepPict4"
+        // },
+        // {
+        //   title: "Step 5: Confirm installation to play the game.",
+        //   pict: "../../../../static/mobile/img_06.png",
+        //   track: "stepPict5"
+        // },
       ],
       bankInfoS: [
         {
-          // pict: "https://dapv7y4era0s5.cloudfront.net/teenrock/ic_01.png",
-          title: "MULTIPLE",
-          title2: "GAME MODES",
+          pict: "../../../../static/mobile/ic_1.png",
+          title: "DIVERSE GAMING",
+          title2: "CHOICES",
         },
         {
-          // pict: "https://dapv7y4era0s5.cloudfront.net/teenrock/ic_04.png",
-          title: "QUICK",
-          title2: "MATCHING",
+          pict: "../../../../static/mobile/ic_2.png",
+          title: "MATCHED",
+          title2: "COMPETENCE",
         },
         {
-          // pict: "https://dapv7y4era0s5.cloudfront.net/teenrock/ic_03.png",
-          title: "SECURE &",
-          title2: "FAIR SYSTEM",
+          pict: "../../../../static/mobile/ic_3.png",
+          title: "SAFE GAMING",
+          title2: "ATMOSPHERE",
         },
         {
-          // pict: "https://dapv7y4era0s5.cloudfront.net/teenrock/ic_02.png",
-          title: "ABUNDANT",
-          title2: "FREE REWARDS",
+          pict: "../../../../static/mobile/ic_4.png",
+          title: "HIGH CHANCE",
+          title2: "OF WINNING",
         },
       ],
     };
@@ -177,7 +183,8 @@ export default {
 <style lang="less" scoped>
 @media screen and (max-width: 767px) {
   #gf-Main {
-    padding-top: 16.67vw;
+    // padding-top: 16.67vw;
+    background-color: #b70a04;  
   }
 }
 .head-title {
@@ -203,8 +210,8 @@ export default {
 }
 .banner-box {
   width: 100%;
-  height: 75.97vw;
-  background-image: url("https://dapv7y4era0s5.cloudfront.net/teenrock/banner.png");
+  height: 174.03vw;
+  background-image: url("../../../../static/mobile/banner.png");
   background-size: cover;
   .flex-change-box;
   justify-content: flex-end;
@@ -216,9 +223,10 @@ export default {
   margin-top: 3vw;
 }
 .download-pict {
-  width: 48.33vw;
-	height: 12.64vw;
-  margin-right: 25.17vw;
+  width: 77.64vw;
+	height: 21.11vw;
+  margin-right: 11.11vw;
+  margin-bottom: 5.69vw;
 }
 .center-box {
   .mid-box;
@@ -273,7 +281,6 @@ export default {
   justify-content: flex-start;
   height: auto;
   padding-bottom: 7.64vw;
-  background-color: #601e97;
 }
 .five-title {
   font-size: 4.17vw;
@@ -291,10 +298,10 @@ export default {
   .flex-change-box;
   justify-content: space-between;
   background-size: cover;
-  // margin-top: 3vw;
+  margin-bottom: 7.08vw;
 }
 .five-card:nth-child(1){
-  margin-top: 6.67vw;
+  margin-top: 4.86vw;
 }
 .five-card-title {
   font-size: 2.96vw;
@@ -312,15 +319,19 @@ export default {
   top: -7.33vw;
 }
 .five-card-pict {
-  width: 87.22vw;
-	height: 74.58vw;
+ width: 82.5vw;
+	height: 46.53vw;
 }
 .channel-bg {
   width: 100vw;
-  height: 43.61vw;
+  height: 48.03vw;
   .flex-change-box;
   box-sizing: border-box;
-  background-color: #601e97;
+  justify-content: space-between;
+}
+.channel-split-pict{
+  width: 96.25vw;
+  height: auto;
 }
 .channel-title {
   font-size: 3.33vw;
@@ -331,36 +342,21 @@ export default {
 .bank-card-box {
   width: 95.5vw;
   .flex-around;
+  position: relative;
+  top: 4vw;
 }
 .bank-card {
   .flex-change-box;
   justify-content: flex-end;
-  width: 22.08vw;
+  // width: 22.08vw;
 	height: 34vw;
   padding-bottom: 1.52vw;
   box-sizing: border-box;
 }
-.bank-card:nth-child(1){
-  background-image: url("https://dapv7y4era0s5.cloudfront.net/teenrock/ic_01.png");
-  background-size: cover;
-}
-.bank-card:nth-child(2){
-  background-image: url("https://dapv7y4era0s5.cloudfront.net/teenrock/ic_02.png");
-  background-size: cover;
-}
-.bank-card:nth-child(3){
-  background-image: url("https://dapv7y4era0s5.cloudfront.net/teenrock/ic_03.png");
-  background-size: cover;
-}
-.bank-card:nth-child(4){
-  background-image: url("https://dapv7y4era0s5.cloudfront.net/teenrock/ic_04.png");
-  background-size: cover;
-}
 .bank-pict {
-  width: 21.11vw;
-	height: 20.97vw;
+  width: 22.78vw;
+	height: 26.25vw;
   margin-bottom: 2.08vw;
-  
 }
 .bank-title {
   font-size: 2.7vw;

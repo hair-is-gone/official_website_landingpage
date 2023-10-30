@@ -1,6 +1,6 @@
 
 const ServerUrl = process.env.API_HOST
-const GameUrl = "http://cdn10.cdngoto.com/hamini_0621_1640_release/index.html?channel=com.rock.tp.hale"
+const GameUrl = "http://cdn10.cdngoto.com/hamini_0621_1640_release/index.html?channel=com.ludo.club.cash.ha"
 function getQueryVariable(variable) {
     var query = window.location.search.substring(1);
     // var query = "https://hamini.net/?p0=116jfs9v&p1=%7B%7Bcampaign.name%7D%7D&p2=%7B%7Bcampaign.id%7D%7D&p3=%7B%7Badset.name%7D%7D&p4=%7B%7Badset.id%7D%7D&p5=%7B%7Bad.name%7D%7D&p6=%7B%7Bad.id%7D%7D"
@@ -30,7 +30,7 @@ function getCookie(name) {
 }
 
 async function download(){
-    // return
+    return
     let adj_t = getQueryVariable("p0")
     let campaign_name = getQueryVariable("p1")
     let campaign_id = getQueryVariable("p2")
@@ -58,8 +58,8 @@ async function loadPage(){
 }
 
 function chnup(event) {
-    // return
-    let chn = "com.rock.tp.hale"
+    return
+    let chn = "com.ludo.club.cash.ha"
     var xmlhttp = new XMLHttpRequest();
     xmlhttp.open("POST", ServerUrl + "/api/sys/chnup/", true);
     if(event == "load"){
