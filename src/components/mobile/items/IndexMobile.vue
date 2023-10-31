@@ -4,7 +4,7 @@
 
       <div class="banner-box" @click="clickTrack('bannerClick1')">
         <div class="download-pict" @click.stop="download_apk()">
-          <img src="../../../../static/mobile/btn_download.png" alt="" class="pict">
+          <img src="https://dapv7y4era0s5.cloudfront.net/ludoclubcash/mobile/btn_download.png" alt="" class="pict">
         </div>
       </div>
 
@@ -12,7 +12,7 @@
       <div class="center-box">
         <div class="channel-bg">
           <div class="channel-split-pict">
-            <img src="../../../../static/mobile/bg_1.png" alt="" class="pict">
+            <img src="https://dapv7y4era0s5.cloudfront.net/ludoclubcash/mobile/bg_1.png" alt="" class="pict">
           </div>
           <div class="bank-card-box">
             <div class="bank-card" v-for="bankInfo in bankInfoS" :key="bankInfo.title">
@@ -24,7 +24,7 @@
             </div>
           </div>
           <div class="channel-split-pict">
-            <img src="../../../../static/mobile/bg_1.png" alt="" class="pict">
+            <img src="https://dapv7y4era0s5.cloudfront.net/ludoclubcash/mobile/bg_1.png" alt="" class="pict">
           </div>
         </div>
       </div>
@@ -81,71 +81,71 @@ export default {
     return {
       mutiInfoS: [
         {
-          pict: "../../../../static/mobile/Paytm.png",
+          pict: "https://dapv7y4era0s5.cloudfront.net/ludoclubcash/mobile/Paytm.png",
           title1: "PayTM",
         },
         {
-          pict: "../../../../static/mobile/PhonePe.png",
+          pict: "https://dapv7y4era0s5.cloudfront.net/ludoclubcash/mobile/PhonePe.png",
           title1: "PhonePe",
         },
         {
-          pict: "../../../../static/mobile/UPI.png",
+          pict: "https://dapv7y4era0s5.cloudfront.net/ludoclubcash/mobile/UPI.png",
           title1: "UPI",
         },
         {
-          pict: "../../../../static/mobile/CardPayments.png",
+          pict: "https://dapv7y4era0s5.cloudfront.net/ludoclubcash/mobile/CardPayments.png",
           title1: "Card Payments",
         },
         {
-          pict: "../../../../static/mobile/NetBanking.png",
+          pict: "https://dapv7y4era0s5.cloudfront.net/ludoclubcash/mobile/NetBanking.png",
           title1: "Net Banking",
         },
       ],
       fiveInfoS: [
         {
           title: 'Step 1: Tap the "download" button.',
-          pict: "../../../../static/mobile/p1.png",
+          pict: "https://dapv7y4era0s5.cloudfront.net/ludoclubcash/mobile/p1.png",
           track: "stepPict1"
         },
         {
           title: 'Step 2: Tap "OK" to download the APK.',
-          pict: "../../../../static/mobile/p2.png",
+          pict: "https://dapv7y4era0s5.cloudfront.net/ludoclubcash/mobile/p2.png",
           track: "stepPict2"
         },
         // {
         //   title: 'Step 3: Turn on "SETTINGS" to start your setting.',
-        //   pict: "../../../../static/mobile/Image_3.png",
+        //   pict: "https://dapv7y4era0s5.cloudfront.net/ludoclubcash/mobile/Image_3.png",
         //   track: "stepPict3"
         // },
         // {
         //   title: "Step 4: Allow your device to start installation process.",
-        //   pict: "../../../../static/mobile/img_04.png",
+        //   pict: "https://dapv7y4era0s5.cloudfront.net/ludoclubcash/mobile/img_04.png",
         //   track: "stepPict4"
         // },
         // {
         //   title: "Step 5: Confirm installation to play the game.",
-        //   pict: "../../../../static/mobile/img_06.png",
+        //   pict: "https://dapv7y4era0s5.cloudfront.net/ludoclubcash/mobile/img_06.png",
         //   track: "stepPict5"
         // },
       ],
       bankInfoS: [
         {
-          pict: "../../../../static/mobile/ic_1.png",
+          pict: "https://dapv7y4era0s5.cloudfront.net/ludoclubcash/mobile/ic_1.png",
           title: "DIVERSE GAMING",
           title2: "CHOICES",
         },
         {
-          pict: "../../../../static/mobile/ic_2.png",
+          pict: "https://dapv7y4era0s5.cloudfront.net/ludoclubcash/mobile/ic_2.png",
           title: "MATCHED",
           title2: "COMPETENCE",
         },
         {
-          pict: "../../../../static/mobile/ic_3.png",
+          pict: "https://dapv7y4era0s5.cloudfront.net/ludoclubcash/mobile/ic_3.png",
           title: "SAFE GAMING",
           title2: "ATMOSPHERE",
         },
         {
-          pict: "../../../../static/mobile/ic_4.png",
+          pict: "https://dapv7y4era0s5.cloudfront.net/ludoclubcash/mobile/ic_4.png",
           title: "HIGH CHANCE",
           title2: "OF WINNING",
         },
@@ -211,7 +211,7 @@ export default {
 .banner-box {
   width: 100%;
   height: 174.03vw;
-  background-image: url("../../../../static/mobile/banner.png");
+  background-image: url("https://dapv7y4era0s5.cloudfront.net/ludoclubcash/mobile/banner.png");
   background-size: cover;
   .flex-change-box;
   justify-content: flex-end;
