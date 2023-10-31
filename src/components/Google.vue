@@ -7,7 +7,7 @@
       <div class="app-info">
         <span class="app-name">Ludo Club Cash</span>
         <span class="app-team">Cash Ludo Studio</span>
-        <span class="app-ads">Contains ads</span>
+        <span class="app-ads">In-App Purchases</span>
       </div>
     </div>
     <div class="flex-start-box app-data">
