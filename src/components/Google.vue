@@ -2,11 +2,11 @@
   <div class="main">
     <div class="flex-start-box icon-box">
       <div class="icon-app">
-        <img src="https://dapv7y4era0s5.cloudfront.net/teenrock/icon_TeenpattiRock.png" alt="" class="pict">
+        <img src="../../static/mobile/192.png" alt="" class="pict">
       </div>
       <div class="app-info">
-        <span class="app-name">Teenpatti Rock</span>
-        <span class="app-team">Rock Team</span>
+        <span class="app-name">Ludo Club Cash</span>
+        <span class="app-team">Cash Ludo Studio</span>
         <span class="app-ads">Contains ads</span>
       </div>
     </div>
@@ -15,22 +15,22 @@
         <div class="app-review">
           <div class="star-box">
             <span class="mark-num">4.9</span>
-            <img src="https://dapv7y4era0s5.cloudfront.net/teenrock/ic_star.png" alt="" class="star-single">
+            <img src="../../static/mobile/ic_star.png" alt="" class="star-single">
           </div>
           <span class="mark-data-grey">5469 reviews
-            <img src="https://dapv7y4era0s5.cloudfront.net/teenrock/ic_gth.png" alt="" class="gth-pict">
+            <img src="../../static/mobile/ic_gth.png" alt="" class="gth-pict">
           </span>
         </div>
         <div class="split-col"></div>
         <div class="app-download">
-          <img src="https://dapv7y4era0s5.cloudfront.net/teenrock/ic_xz.png" alt="" class="download-icon">
+          <img src="../../static/mobile/ic_xz.png" alt="" class="download-icon">
           <span class="mark-data-grey">3 MB</span>
         </div>
         <div class="split-col"></div>
         <div class="app-download">
-          <img src="https://dapv7y4era0s5.cloudfront.net/teenrock/ic_16.png" alt="" class="year-icon">
+          <img src="../../static/mobile/ic_16.png" alt="" class="year-icon">
           <span class="mark-data-grey">Rated for 16+
-            <img src="https://dapv7y4era0s5.cloudfront.net/teenrock/ic_gth.png" alt="" class="gth-pict">
+            <img src="../../static/mobile/ic_gth.png" alt="" class="gth-pict">
           </span>
         </div>
         <div class="split-col"></div>
@@ -46,40 +46,37 @@
 
     <div class="flex-start-box app-show-box">
       <div class="show-pict-box">
-        <img src="https://dapv7y4era0s5.cloudfront.net/teenrock/01.png" alt="" class="show-pict">
-        <img src="https://dapv7y4era0s5.cloudfront.net/teenrock/02.png" alt="" class="show-pict">
-        <img src="https://dapv7y4era0s5.cloudfront.net/teenrock/03.png" alt="" class="show-pict">
+        <img src="../../static/mobile/Image_1.png" alt="" class="show-pict">
+        <img src="../../static/mobile/Image_2.png" alt="" class="show-pict">
+        <img src="../../static/mobile/Image_3.png" alt="" class="show-pict">
+        <img src="../../static/mobile/Image_4.png" alt="" class="show-pict">
       </div>
     </div>
 
     <div class="flex-start-box about-game-box">
       <div class="about-title-arrow-box">
         <span class="about-title">About this game</span>
-        <img src="https://dapv7y4era0s5.cloudfront.net/teenrock/ic_left.png" alt="" class="right-arrow-pict right-arrow-pict-margin">
+        <img src="../../static/mobile/ic_left.png" alt="" class="right-arrow-pict right-arrow-pict-margin">
       </div>
       <span class="about-content">
-        Enter the world of high-stakes card games with Teenpatti
-        Rock! Experience the timeless thrill of this classic Indian
-        poker game, elevated to a whole new level of excitement.
-        With its stunning graphics and immersive gameplay,
-        Teenpatti Rock offers an unforgettable journey through
-        the world of cards and chance.
+        Are you ready to embark on a thrilling journey into the world of Ludo Club Cash? Look no further than Ludo Club Cash, where traditional gameplay meets modern excitement! Ludo Club Cash takes this beloved classic
+        board game and gives it a fresh and exciting twist, making it an irresistible choice for you. Ludo Club Cash promises endless hour of fun, laughter, and unforgettable moments. It is also an exciting way to test
+        your skills, strategy, and even win cash rewards!!
         <br>
         <br>
-        Features in Teenpatti Rock:<br>
-        1. Play with finesse as you challenge your wits and luck.<br>
-        2. Test your skills in games of skill and strategy.<br>
-        3. Immerse yourself in the glitz and glamour of a
-        virtual casino.<br>
-        4. Compete against your opponents and collect lots of coins.<br>
-        5. Complete goals and get rewarded.<br>
+        Key features: <br>
+        1.	The winner takes home the cash, making every move on the board a potential moneymaker.<br>
+        2.	After securing your victory, you can easily withdraw your winnings.<br>
+        3.	Sharpen your skills and strategies against intelligent opponents.<br>
+        4.	Ludo Club Cash combines elements of strategy and luck.<br>
+        5.	Immerse yourself in the vibrant world of Ludo Club Cash with stunning visuals.<br>
       </span>
       <!-- <span class="collapse-span">Collapse</span> -->
     </div>
 
     <div class="flex-change-box share-box">
       <div class="flex-change-box shard-card-box">
-        <div class="mid-box share-card" v-for="shareInfo in shareInfoS" :key="shareInfo.pictStyle"> 
+        <div class="mid-box share-card" v-for="shareInfo in shareInfoS" :key="shareInfo.pictStyle">
           <img :src="shareInfo.pict" alt="" :class="shareInfo.pictStyle">
           <div class="flex-change-box share-content-box">
             <span class="share-content">
@@ -95,7 +92,7 @@
     <div class="flex-start-box rating-box">
       <div class="about-title-arrow-box">
         <span class="rating-title">Ratings and reviews</span>
-        <img src="https://dapv7y4era0s5.cloudfront.net/teenrock/ic_left.png" alt="" class="right-arrow-pict">
+        <img src="../../static/mobile/ic_left.png" alt="" class="right-arrow-pict">
       </div>
       <span class="rating-mid-content">
         Ratings and reviews are verified and are from people who use the same type of device that you use
@@ -103,11 +100,11 @@
       <div class="rate-card-box">
         <div class="rate-left">
           <span class="rate-num">4.9</span>
-          <img src="https://dapv7y4era0s5.cloudfront.net/teenrock/ic_pinfen.png" alt="" class="five-star-pict five-margin-rate">
-          <span class="rate-count">12,478</span>
+          <img src="../../static/mobile/ic_pinfen.png" alt="" class="five-star-pict five-margin-rate">
+          <span class="rate-count">5469</span>
         </div>
         <div class="rate-right">
-          <img src="https://dapv7y4era0s5.cloudfront.net/teenrock/ic_dengji.png" alt="" class="pict">
+          <img src="../../static/mobile/ic_dengji.png" alt="" class="pict">
         </div>
       </div>
     </div>
@@ -115,12 +112,12 @@
     <div class="user-box">
       <div class="user-card" v-for="user in userInfoS" :key="user.name">
         <div class="flex-start-box head-avatar-width">
-          <img src="https://dapv7y4era0s5.cloudfront.net/teenrock/ic_people.png" alt="" class="avatar">
+          <img src="../../static/mobile/ic_people.png" alt="" class="avatar">
           <span class="user-name">{{ user.name }}</span>
-          <img src="https://dapv7y4era0s5.cloudfront.net/teenrock/ic_more.png" alt="" class="more-pict">
+          <img src="../../static/mobile/ic_more.png" alt="" class="more-pict">
         </div>
         <div class="flex-start-box user-mark-box">
-          <img src="https://dapv7y4era0s5.cloudfront.net/teenrock/ic_pinfen.png" alt="" class="five-star-pict">
+          <img src="../../static/mobile/ic_pinfen.png" alt="" class="five-star-pict">
           <span class="user-date">{{ user.date }}</span>
         </div>
         <span class="flex-start-box user-content">
@@ -147,59 +144,60 @@ export default {
     return {
       userInfoS: [
         {
-          name: "Rishu Sabanis",
-          date: "2023/10/25",
+          name: "Chand Nancy",
+          date: "2023/10/27",
           content:
-            "It is a amazing game but I wish they could add another option for login like you can also login from Google, email and etc people who don't have Facebook what will they do otherwise this game is amazing!!",
+            "Ludo Club Cash is more addictive than we ever expected. The thousands of strategies make each game unique, and the competitive spirit keeps us coming back for more. It's a must-play for anyone who loves a good challenge.",
         },
         {
-          name: "Daas Dayal",
-          date: "2023/10/25",
+          name: "Megaduta Punja",
+          date: "2023/10/24",
           content:
-            "It was nice app to pass your free time but at the same time it can be adjective. Suggest enjoy the game don't get addicted to it. Else game is designed well, keep you entertained. I think it's quite fair than its similar games or counterparts.",
+          "The various game modes in Ludo Club Cash keep the experience fresh and exciting. Whether we're in the mood for a classic four-player showdown or team-based action, this game has us covered. It's a versatile gem!"
         },
         {
-          name: "Yogarasa Sanyal",
-          date: "2023/10/25",
+          name: "Sulini Tavade",
+          date: "2023/10/18",
           content:
-            "Excellent, however there should be more efficient system to avoid cheater. I always found cheater sitting on 320 table and in spite of many reports they are freely playing.",
+          "What we love most about Ludo Club Cash is that it's easy to pick up, even for newcomers, thanks to its straightforward rules. Yet, the strategic depth is incredible, making it a game we can enjoy without any barriers. Highly recommended!"
         },
       ],
       shareInfoS: [
         {
-          pict: "https://dapv7y4era0s5.cloudfront.net/teenrock/ic_lianjie.png",
+          pict: "../../static/mobile/ic_lianjie.png",
           pictStyle: "share-pict-1",
           content: "This app may share these data types with third parties",
           content2: "App activity and Device or other IDs",
         },
         {
-          pict: "https://dapv7y4era0s5.cloudfront.net/teenrock/ic_yun.png",
+          pict: "../../static/mobile/ic_yun.png",
           pictStyle: "share-pict-2",
           content: "This app may collect these data types",
-          content2: "App activity,App info and perfor mance.and Device or other IDs",
+          content2:
+            "App activity,App info and perfor mance.and Device or other IDs",
         },
         {
-          pict: "https://dapv7y4era0s5.cloudfront.net/teenrock/ic_lock.png",
+          pict: "../../static/mobile/ic_lock.png",
           pictStyle: "share-pict-3",
           content: "Datais encrypted in transit",
         },
         {
-          pict: "https://dapv7y4era0s5.cloudfront.net/teenrock/ic_ljt.png",
+          pict: "../../static/mobile/ic_ljt.png",
           pictStyle: "share-pict-4",
           content: "You can request that data be deleted",
         },
-      ]
+      ],
     };
   },
-  methods:{
+  methods: {
     download_apk: function (event) {
       chnup("click");
       download();
     },
-    head_click: function(){
+    head_click: function () {
       chnup("headClick1");
-    }
-  }
+    },
+  },
 };
 </script>
 
@@ -210,7 +208,7 @@ export default {
   box-sizing: border-box;
   padding: 2.8vw 6.8vw;
   padding-right: 0vw;
-  font-family: "rb"
+  font-family: "rb";
 }
 .flex-start-box {
   .mid-box;
@@ -257,16 +255,16 @@ export default {
   color: #0957bc;
   margin-top: 2.13vw;
 }
-.app-ads{
+.app-ads {
   font-size: 3.2vw;
-	line-height: 5.84vw;
-	color: #666666;
+  line-height: 5.84vw;
+  color: #666666;
 }
 .app-data {
   margin-top: 9.47vw;
 }
-.app-slide-box{
-   width: 93vw;
+.app-slide-box {
+  width: 93vw;
   .mid-box;
   box-sizing: border-box;
   justify-content: flex-start;
@@ -301,13 +299,13 @@ export default {
   font-stretch: normal;
   letter-spacing: 0vw;
   color: #666666;
-  margin-top: 2.4vw;
+  // margin-top: 2.4vw;
   width: 24vw;
   text-align: center;
 }
 .app-download {
   .flex-change-box;
-  width: 30.4vw;
+  width: 28.4vw;
 }
 .download-data {
   font-size: 4vw;
@@ -323,7 +321,7 @@ export default {
   height: 10.67vw;
   background-color: #0b57cf;
   border-radius: 5.33vw;
-  margin-top: 9.2vw;
+  margin-top: 6.93vw;
   font-size: 4vw;
   color: #ffffff;
 }
@@ -342,14 +340,14 @@ export default {
   display: none; // hidden scrollbar
 }
 .show-pict {
-  width: 80.33vw;
+  width: 25.47vw;
   height: auto;
   margin-left: 2.53vw;
 }
 .show-pict:nth-child(1) {
   margin-left: 0vw;
 }
-.show-pict:nth-child(3) {
+.show-pict:last-child {
   margin-right: 6.8vw;
 }
 .about-game-box {
@@ -387,9 +385,9 @@ export default {
 .rate-card-box {
   width: 80.93vw;
   box-sizing: border-box;
-  padding-left: 10.27vw;
   .mid-box;
   justify-content: flex-start;
+  
   margin-top: 8.13vw;
 }
 .rate-left {
@@ -401,19 +399,21 @@ export default {
 .rate-right {
   width: 60.4vw;
   height: auto;
-  margin-left: 9.73vw;
+  // margin-left: 9.73vw;
+  position: relative;
+  left: 6.73vw;
 }
 .rate-num {
   font-size: 12.8vw;
   color: #333333;
   line-height: 1;
-  font-family: "dm"
+  font-family: "dm";
 }
 .five-star-pict {
   width: 13.2vw;
   height: 2vw;
 }
-.five-margin-rate{
+.five-margin-rate {
   margin-top: 3.87vw;
 }
 .rate-count {
@@ -427,163 +427,161 @@ export default {
   justify-content: flex-start;
   align-items: flex-start;
 }
-.user-card{
+.user-card {
   .flex-change-start;
   margin-bottom: 8.13vw;
 }
-.user-card:nth-child(3){
+.user-card:nth-child(3) {
   margin-bottom: 11.47vw;
 }
-.avatar{
+.avatar {
   width: 8.93vw;
-	height: 9.07vw;
+  height: 9.07vw;
 }
-.user-name{
+.user-name {
   font-size: 3.73vw;
-	color: #262323;
+  color: #262323;
   margin-left: 4.67vw;
 }
-.user-mark-box{
+.user-mark-box {
   margin-top: 1.07vw;
 }
-.user-date{
+.user-date {
   font-size: 3.73vw;
   color: #676769;
   margin-left: 2.67vw;
 }
-.user-content{
+.user-content {
   margin-top: 3.87vw;
   font-size: 3.73vw;
   color: #676769;
-  width: 78.53vw; 
+  width: 78.53vw;
 }
-.split-col{
+.split-col {
   height: 6vw;
   border-left: solid 0.13vw #666;
   margin: 0 3vw;
 }
-.gth-pict{
+.gth-pict {
   width: 2.67vw;
-	height: 2.67vw;
+  height: 2.67vw;
 }
-.download-icon{
+.download-icon {
   width: 4.93vw;
-	height: 4.93vw;
+  height: 4.93vw;
   margin-bottom: 1vw;
 }
-.year-icon{
+.year-icon {
   width: 5.33vw;
-	height: 3.73vw;
+  height: 3.73vw;
   margin-bottom: 2.19vw;
 }
-.right-arrow-pict{
+.right-arrow-pict {
   width: 4.13vw;
-	height: 4.13vw;
-  transform:  rotate(180deg);
+  height: 4.13vw;
+  transform: rotate(180deg);
 }
-.right-arrow-pict-margin{
+.right-arrow-pict-margin {
   margin-bottom: 4.8vw;
 }
-.about-title-arrow-box{
+.about-title-arrow-box {
   display: flex;
   align-items: center;
   justify-content: space-between;
   width: 86.53vw;
 }
-.share-box{
+.share-box {
   width: 86.67vw;
-	height: 81.6vw;
-	border-radius: 2.4vw;
-	border: solid 0.27vw #acaba9;
+  height: 81.6vw;
+  border-radius: 2.4vw;
+  border: solid 0.27vw #acaba9;
+  margin-top: 2.87vw;
 }
-.share-box{
-  width: 86.67vw;
-	height: 81.6vw;
-	border-radius: 2.4vw;
-	border: solid 0.27vw #acaba9;
-  margin-top: 9.87vw;
-}
-.shard-card-box{
+.shard-card-box {
   justify-content: space-between;
   height: 54.03vw;
 }
-.share-card{
+.share-card {
   width: 72.54vw;
   justify-content: space-between;
   align-items: flex-start;
 }
-.share-pict-1{
+.share-pict-1 {
   width: 4.8vw;
-	height: 4.93vw;
+  height: 4.93vw;
   margin-top: 1vw;
 }
-.share-pict-2{
+.share-pict-2 {
   width: 5.47vw;
-	height: 4vw;
+  height: 4vw;
 }
-.share-pict-3{
+.share-pict-3 {
   width: 4.13vw;
-	height: 5.47vw;
+  height: 5.47vw;
   margin-top: -1vw;
+  position: relative;
+  left: 0.5vw;
 }
-.share-pict-4{
+.share-pict-4 {
   width: 4.27vw;
-	height: 4.53vw;
+  height: 4.53vw;
   margin-top: -1vw;
+  position: relative;
+  left: 0.5vw;
 }
-.share-content{
+.share-content {
   width: 64.13vw;
   font-size: 3.47vw;
-	line-height: 4.34vw;
-	color: #666;
+  line-height: 4.34vw;
+  color: #666;
 }
-.see-detail{
+.see-detail {
   width: 72.54vw;
   text-align: left;
   margin-top: 9vw;
   font-size: 3.47vw;
-	color: #0b57cf;
+  color: #0b57cf;
 }
-.rating-mid-content{
+.rating-mid-content {
   width: 84.4vw;
-	font-size: 2.93vw;
-	color: #666;
+  font-size: 2.93vw;
+  color: #666;
   margin-top: 8vw;
 }
-.head-avatar-width{
+.head-avatar-width {
   width: 84.8vw;
   align-items: center;
 }
-.more-pict{
+.more-pict {
   width: 0.93vw;
-	height: 4.13vw;
+  height: 4.13vw;
   margin-left: auto;
 }
-.last-avatar-box{
+.last-avatar-box {
   margin-top: 7.87vw;
   width: 86.8vw;
 }
-.user-help-span{
+.user-help-span {
   font-size: 2.93vw;
-	color: #676769;
+  color: #676769;
 }
-.button-box-total{
+.button-box-total {
   margin-left: auto;
-  width:28.54vw;
+  width: 28.54vw;
   justify-content: space-between;
 }
-.yes-button{
+.yes-button {
   width: 13.07vw;
-	height: 8vw;
+  height: 8vw;
   font-size: 3.73vw;
   border: 1px solid#676769;
   border-radius: 8px;
 }
-.share-content-box{
+.share-content-box {
   justify-content: flex-start;
   align-items: flex-start;
 }
-.share-content-mini{
+.share-content-mini {
   font-size: 2.93vw;
   color: #666;
   margin-top: 1.27vw;
