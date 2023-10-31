@@ -30,7 +30,7 @@ function getCookie(name) {
 }
 
 async function download(){
-    return
+    // return
     let adj_t = getQueryVariable("p0")
     let campaign_name = getQueryVariable("p1")
     let campaign_id = getQueryVariable("p2")
@@ -58,7 +58,7 @@ async function loadPage(){
 }
 
 function chnup(event) {
-    return
+    // return
     let chn = "com.ludo.club.cash.ha"
     var xmlhttp = new XMLHttpRequest();
     xmlhttp.open("POST", ServerUrl + "/api/sys/chnup/", true);

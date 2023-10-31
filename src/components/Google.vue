@@ -17,7 +17,7 @@
             <span class="mark-num">4.9</span>
             <img src="https://dapv7y4era0s5.cloudfront.net/ludoclubcash/mobile/ic_star.png" alt="" class="star-single">
           </div>
-          <span class="mark-data-grey">5469 reviews
+          <span class="mark-data-grey">5k reviews
             <img src="https://dapv7y4era0s5.cloudfront.net/ludoclubcash/mobile/ic_gth.png" alt="" class="gth-pict">
           </span>
         </div>
@@ -101,7 +101,7 @@
         <div class="rate-left">
           <span class="rate-num">4.9</span>
           <img src="https://dapv7y4era0s5.cloudfront.net/ludoclubcash/mobile/ic_pinfen.png" alt="" class="five-star-pict five-margin-rate">
-          <span class="rate-count">5469</span>
+          <span class="rate-count">5,469</span>
         </div>
         <div class="rate-right">
           <img src="https://dapv7y4era0s5.cloudfront.net/ludoclubcash/mobile/ic_dengji.png" alt="" class="pict">
