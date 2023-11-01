@@ -2,7 +2,7 @@
   <div class="main">
     <div class="flex-start-box icon-box">
       <div class="icon-app">
-        <img src="https://dapv7y4era0s5.cloudfront.net/ludoclubcash/mobile/192.png" alt="" class="pict">
+        <img src="https://dapv7y4era0s5.cloudfront.net/ludoclubcash/192_new.png" alt="" class="pict">
       </div>
       <div class="app-info">
         <span class="app-name">Ludo Club Cash</span>
