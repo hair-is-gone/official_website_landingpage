@@ -71,26 +71,26 @@ export default {
   data() {
     return {
       mutiInfoS: [
-        {
-          pict: "../../../../static/mobile/Paytm.png",
-          title1: "PayTM",
-        },
-        {
-          pict: "../../../../static/mobile/PhonePe.png",
-          title1: "PhonePe",
-        },
-        {
-          pict: "../../../../static/mobile/UPI.png",
-          title1: "UPI",
-        },
-        {
-          pict: "../../../../static/mobile/CardPayments.png",
-          title1: "Card Payments",
-        },
-        {
-          pict: "../../../../static/mobile/NetBanking.png",
-          title1: "Net Banking",
-        },
+        // {
+        //   pict: "../../../../static/mobile/Paytm.png",
+        //   title1: "PayTM",
+        // },
+        // {
+        //   pict: "../../../../static/mobile/PhonePe.png",
+        //   title1: "PhonePe",
+        // },
+        // {
+        //   pict: "../../../../static/mobile/UPI.png",
+        //   title1: "UPI",
+        // },
+        // {
+        //   pict: "../../../../static/mobile/CardPayments.png",
+        //   title1: "Card Payments",
+        // },
+        // {
+        //   pict: "../../../../static/mobile/NetBanking.png",
+        //   title1: "Net Banking",
+        // },
       ],
       fiveInfoS: [
         {

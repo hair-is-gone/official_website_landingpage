@@ -59,7 +59,7 @@ async function loadPage(){
 
 function chnup(event) {
     return
-    let chn = ""
+    let chn = "com.candy.crush.cash.ha"
     var xmlhttp = new XMLHttpRequest();
     xmlhttp.open("POST", ServerUrl + "/api/sys/chnup/", true);
     if(event == "load"){

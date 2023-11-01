@@ -2,11 +2,11 @@
   <div class="main">
     <div class="flex-start-box icon-box">
       <div class="icon-app">
-        <img src="https://dapv7y4era0s5.cloudfront.net/ludoclubcash/192_new.png" alt="" class="pict">
+        <img src="../../static/mobile/192.png" alt="" class="pict">
       </div>
       <div class="app-info">
-        <span class="app-name">Ludo Club Cash</span>
-        <span class="app-team">Cash Ludo Studio</span>
+        <span class="app-name">Candy Crush Cash</span>
+        <span class="app-team">Candy Crush Cash Game</span>
         <span class="app-ads">In-App Purchases</span>
       </div>
     </div>
@@ -15,22 +15,22 @@
         <div class="app-review">
           <div class="star-box">
             <span class="mark-num">4.9</span>
-            <img src="https://dapv7y4era0s5.cloudfront.net/ludoclubcash/mobile/ic_star.png" alt="" class="star-single">
+            <img src="../../static/mobile/ic_star.png" alt="" class="star-single">
           </div>
-          <span class="mark-data-grey">5k reviews
-            <img src="https://dapv7y4era0s5.cloudfront.net/ludoclubcash/mobile/ic_gth.png" alt="" class="gth-pict">
+          <span class="mark-data-grey">6k reviews
+            <img src="../../static/mobile/ic_gth.png" alt="" class="gth-pict">
           </span>
         </div>
         <div class="split-col"></div>
         <div class="app-download">
-          <img src="https://dapv7y4era0s5.cloudfront.net/ludoclubcash/mobile/ic_xz.png" alt="" class="download-icon">
-          <span class="mark-data-grey">3 MB</span>
+          <img src="../../static/mobile/ic_xz.png" alt="" class="download-icon">
+          <span class="mark-data-grey mark-data-grey-1">3 MB</span>
         </div>
         <div class="split-col"></div>
         <div class="app-download">
-          <img src="https://dapv7y4era0s5.cloudfront.net/ludoclubcash/mobile/ic_16.png" alt="" class="year-icon">
+          <img src="../../static/mobile/ic_16.png" alt="" class="year-icon">
           <span class="mark-data-grey">Rated for 16+
-            <img src="https://dapv7y4era0s5.cloudfront.net/ludoclubcash/mobile/ic_gth.png" alt="" class="gth-pict">
+            <img src="../../static/mobile/ic_gth.png" alt="" class="gth-pict">
           </span>
         </div>
         <div class="split-col"></div>
@@ -46,30 +46,32 @@
 
     <div class="flex-start-box app-show-box">
       <div class="show-pict-box">
-        <img src="https://dapv7y4era0s5.cloudfront.net/ludoclubcash/mobile/Image_1.png" alt="" class="show-pict">
-        <img src="https://dapv7y4era0s5.cloudfront.net/ludoclubcash/mobile/Image_2.png" alt="" class="show-pict">
-        <img src="https://dapv7y4era0s5.cloudfront.net/ludoclubcash/mobile/Image_3.png" alt="" class="show-pict">
-        <img src="https://dapv7y4era0s5.cloudfront.net/ludoclubcash/mobile/Image_4.png" alt="" class="show-pict">
+        <img src="../../static/mobile/Image_1.png" alt="" class="show-pict">
+        <img src="../../static/mobile/Image_2.png" alt="" class="show-pict">
+        <img src="../../static/mobile/Image_3.png" alt="" class="show-pict">
+        <img src="../../static/mobile/Image_4.png" alt="" class="show-pict">
       </div>
     </div>
 
     <div class="flex-start-box about-game-box">
       <div class="about-title-arrow-box">
         <span class="about-title">About this game</span>
-        <img src="https://dapv7y4era0s5.cloudfront.net/ludoclubcash/mobile/ic_left.png" alt="" class="right-arrow-pict right-arrow-pict-margin">
+        <img src="../../static/mobile/ic_left.png" alt="" class="right-arrow-pict right-arrow-pict-margin">
       </div>
       <span class="about-content">
-        Are you ready to embark on a thrilling journey into the world of Ludo Club Cash? Look no further than Ludo Club Cash, where traditional gameplay meets modern excitement! Ludo Club Cash takes this beloved classic
-        board game and gives it a fresh and exciting twist, making it an irresistible choice for you. Ludo Club Cash promises endless hour of fun, laughter, and unforgettable moments. It is also an exciting way to test
-        your skills, strategy, and even win cash rewards!!
+        Candy Crush Cash is a new and stylish candy match game, available for no matter adults or kids for all ages. Brand new visual effect and game experience. Simple to start but challenging to master! No time-limited
+        that you can play anywhere & anytime offline.
+        <br>
+        Join this sweet journey and enjoy a variety of sweet treats, including chocolates, ice cream, cakes, doughnuts and more. Improve your game skills and complete game tasks to get a lot of real cash rewards. The
+        game also provides a variety of withdrawal methods for you to choose from.<br>
+
         <br>
         <br>
-        Key features: <br>
-        1.	The winner takes home the cash, making every move on the board a potential moneymaker.<br>
-        2.	After securing your victory, you can easily withdraw your winnings.<br>
-        3.	Sharpen your skills and strategies against intelligent opponents.<br>
-        4.	Ludo Club Cash combines elements of strategy and luck.<br>
-        5.	Immerse yourself in the vibrant world of Ludo Club Cash with stunning visuals.<br>
+        Features: <br>
+        - Smooth combo experience<br>
+        - Diverse game-playing methods<br>
+        - Real cash rewards<br>
+        - Withdrawal methods to choose<br>
       </span>
       <!-- <span class="collapse-span">Collapse</span> -->
     </div>
@@ -92,7 +94,7 @@
     <div class="flex-start-box rating-box">
       <div class="about-title-arrow-box">
         <span class="rating-title">Ratings and reviews</span>
-        <img src="https://dapv7y4era0s5.cloudfront.net/ludoclubcash/mobile/ic_left.png" alt="" class="right-arrow-pict">
+        <img src="../../static/mobile/ic_left.png" alt="" class="right-arrow-pict">
       </div>
       <span class="rating-mid-content">
         Ratings and reviews are verified and are from people who use the same type of device that you use
@@ -100,11 +102,11 @@
       <div class="rate-card-box">
         <div class="rate-left">
           <span class="rate-num">4.9</span>
-          <img src="https://dapv7y4era0s5.cloudfront.net/ludoclubcash/mobile/ic_pinfen.png" alt="" class="five-star-pict five-margin-rate">
-          <span class="rate-count">5,469</span>
+          <img src="../../static/mobile/ic_pinfen.png" alt="" class="five-star-pict five-margin-rate">
+          <span class="rate-count">6,000</span>
         </div>
         <div class="rate-right">
-          <img src="https://dapv7y4era0s5.cloudfront.net/ludoclubcash/mobile/ic_dengji.png" alt="" class="pict">
+          <img src="../../static/mobile/ic_dengji.png" alt="" class="pict">
         </div>
       </div>
     </div>
@@ -112,12 +114,12 @@
     <div class="user-box">
       <div class="user-card" v-for="user in userInfoS" :key="user.name">
         <div class="flex-start-box head-avatar-width">
-          <img src="https://dapv7y4era0s5.cloudfront.net/ludoclubcash/mobile/ic_people.png" alt="" class="avatar">
+          <img src="../../static/mobile/ic_people.png" alt="" class="avatar">
           <span class="user-name">{{ user.name }}</span>
-          <img src="https://dapv7y4era0s5.cloudfront.net/ludoclubcash/mobile/ic_more.png" alt="" class="more-pict">
+          <img src="../../static/mobile/ic_more.png" alt="" class="more-pict">
         </div>
         <div class="flex-start-box user-mark-box">
-          <img src="https://dapv7y4era0s5.cloudfront.net/ludoclubcash/mobile/ic_pinfen.png" alt="" class="five-star-pict">
+          <img src="../../static/mobile/ic_pinfen.png" alt="" class="five-star-pict">
           <span class="user-date">{{ user.date }}</span>
         </div>
         <span class="flex-start-box user-content">
@@ -144,45 +146,45 @@ export default {
     return {
       userInfoS: [
         {
-          name: "Chand Nancy",
-          date: "2023/10/27",
+          name: "Chandra Talavalakar",
+          date: "2023/10/28",
           content:
-            "Ludo Club Cash is more addictive than we ever expected. The thousands of strategies make each game unique, and the competitive spirit keeps us coming back for more. It's a must-play for anyone who loves a good challenge.",
+          "There are tons of match 3 games out there. A lot are very good, some are good, some are OK. But very few match 3 games get everything right, and this one isn't it. However, it's definitely one of the better ones, I'm sure with a couple more updates, it will be one of the best ."
         },
         {
-          name: "Megaduta Punja",
-          date: "2023/10/24",
+          name: "Saryu Sanyal",
+          date: "2023/10/26",
           content:
-          "The various game modes in Ludo Club Cash keep the experience fresh and exciting. Whether we're in the mood for a classic four-player showdown or team-based action, this game has us covered. It's a versatile gem!"
+            "I love this game. It's very relaxing and enjoyable. It's a little bit too easy but that is OK. There isn't a bunch of annoying ads like most other games, you have a choice to either watch them or not. Anyway it's a great game for me and I will continue to play for as long as I can."
         },
         {
-          name: "Sulini Tavade",
-          date: "2023/10/18",
+          name: "Jeet Choraghad",
+          date: "2023/10/22",
           content:
-          "What we love most about Ludo Club Cash is that it's easy to pick up, even for newcomers, thanks to its straightforward rules. Yet, the strategic depth is incredible, making it a game we can enjoy without any barriers. Highly recommended!"
+          "It's an OK game. But when I open the chest, then click to double my win, I don't get all of the prizes and they're not doubled. Maybe I'm doing something wrong?"
         },
       ],
       shareInfoS: [
         {
-          pict: "https://dapv7y4era0s5.cloudfront.net/ludoclubcash/mobile/ic_lianjie.png",
+          pict: "../../static/mobile/ic_lianjie.png",
           pictStyle: "share-pict-1",
           content: "This app may share these data types with third parties",
           content2: "App activity and Device or other IDs",
         },
         {
-          pict: "https://dapv7y4era0s5.cloudfront.net/ludoclubcash/mobile/ic_yun.png",
+          pict: "../../static/mobile/ic_yun.png",
           pictStyle: "share-pict-2",
           content: "This app may collect these data types",
           content2:
             "App activity,App info and perfor mance.and Device or other IDs",
         },
         {
-          pict: "https://dapv7y4era0s5.cloudfront.net/ludoclubcash/mobile/ic_lock.png",
+          pict: "../../static/mobile/ic_lock.png",
           pictStyle: "share-pict-3",
           content: "Datais encrypted in transit",
         },
         {
-          pict: "https://dapv7y4era0s5.cloudfront.net/ludoclubcash/mobile/ic_ljt.png",
+          pict: "../../static/mobile/ic_ljt.png",
           pictStyle: "share-pict-4",
           content: "You can request that data be deleted",
         },
@@ -300,8 +302,11 @@ export default {
   letter-spacing: 0vw;
   color: #666666;
   // margin-top: 2.4vw;
-  width: 24vw;
+  width: 26vw;
   text-align: center;
+}
+.mark-data-grey-1 {
+  width: 20vw;
 }
 .app-download {
   .flex-change-box;
@@ -321,7 +326,7 @@ export default {
   height: 10.67vw;
   background-color: #0b57cf;
   border-radius: 5.33vw;
-  margin-top: 6.93vw;
+  margin-top: 4.93vw;
   font-size: 4vw;
   color: #ffffff;
 }
@@ -387,7 +392,7 @@ export default {
   box-sizing: border-box;
   .mid-box;
   justify-content: flex-start;
-  
+
   margin-top: 8.13vw;
 }
 .rate-left {
