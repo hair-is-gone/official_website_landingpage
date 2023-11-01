@@ -1,43 +1,45 @@
 <template>
   <div id="h5-footer">
     <div class="mid-box footer-info">
-      <div class="link-box-bg">
-        <div class="footer-link-box">
+      <div class="link-total-box">
+        <div class="link-box-bg">
+          <span class="footer-head-title">QUICK LINKS</span>
           <div class="link-box">
             <div @click="gotoPage('linkClick3')" class="link-style">Refunds/Cancellations</div>
             <div @click="gotoPage('linkClick2')" class="link-style">Terms & Conditions</div>
-          </div>
-          <div class="link-box">
             <div @click="gotoPage('linkClick4')" class="link-style">Privacy Policy</div>
             <div @click="gotoPage('linkClick1')" class="link-style">Contact Us</div>
           </div>
         </div>
-      </div>
-      <div class="security-box">
-        <div class="security-items-1" @click="gotoPage('sslClick2')">
-          <img src="../../../../static/mobile/secured.png" alt="security-pict" class="pict" />
-        </div>
-        <div class="security-items-1" @click="gotoPage('sslClick3')">
-          <img src="../../../../static/mobile/know.png" alt="security-pict" class="pict" />
-        </div>
-        <div class="security-items-1" @click="gotoPage('sslClick1')">
-          <img src="../../../../static/mobile/ssl.png" alt="security-pict" class="pict" />
-        </div>
-        <div class="security-items-1" @click="gotoPage('sslClick5')">
-          <img src="../../../../static/mobile/fraud.png" alt="security-pict" class="pict" />
-        </div>
-        <div class="security-items-1" @click="gotoPage('sslClick4')">
-          <img src="../../../../static/mobile/18.png" alt="security-pict" class="pict" />
+        <div class="security-items">
+          <span class="footer-head-title">SECURITY & GAME INTEGRITY</span>
+          <div class="security-box">
+            <div class="security-items-1" @click="gotoPage('sslClick2')">
+              <img src="../../../../static/mobile/secured.png" alt="security-pict" class="pict" />
+            </div>
+            <div class="security-items-1" @click="gotoPage('sslClick1')">
+              <img src="../../../../static/mobile/ssl.png" alt="security-pict" class="pict" />
+            </div>
+            <div class="security-items-1" @click="gotoPage('sslClick5')">
+              <img src="../../../../static/mobile/fraud.png" alt="security-pict" class="pict" />
+            </div>
+            <div class="security-items-1" @click="gotoPage('sslClick4')">
+              <img src="../../../../static/mobile/18.png" alt="security-pict" class="pict" />
+            </div>
+            <div class="security-items-1" @click="gotoPage('sslClick3')">
+              <img src="../../../../static/mobile/know.png" alt="security-pict" class="pict" />
+            </div>
+          </div>
         </div>
       </div>
 
       <div class="copy-right">
-        <span style="color: #fff; opacity: 0.55; font-size: 2.78vw">@ 2023 Ludo Club</span>
+        <span style="color: #fff; font-size: 2.78vw">@2023 Candy Crush</span>
       </div>
     </div>
     <div class="last-banner">
-      <img src="../../../../static/mobile/download_footer.png" alt="download-pict" class="download-pict" @click="download_apk()">
-      <img src="../../../../static/mobile/ic_arrow.png" alt="" class="arrow-pict">
+      <img src="../../../../static/mobile/bottom_androidapp.png" alt="download-pict" class="download-pict" @click="download_apk()">
+      <img src="../../../../static/mobile/bottom_arrow.png" alt="" class="arrow-pict">
     </div>
   </div>
 </template>
@@ -69,9 +71,8 @@ export default {
   align-items: center;
   background-size: cover;
   box-sizing: border-box;
-  padding-bottom: 30.97vw;
-  background-color: #b70a04;
-  margin-top: -0.5vw;
+  padding-bottom: 31.94vw;
+  background-color: #6622ab;
 }
 
 .h5-footer-url-box {
@@ -109,21 +110,28 @@ export default {
 }
 
 .security-box-items {
-  width: 80vw;
-  height: 17vw;
+  width: 51.94vw;
+  // height: 17vw;
   .flex-between;
   box-sizing: border-box;
-  justify-content: center;
+  flex-wrap: wrap;
 }
 
 .security-items {
-  width: 12.08vw;
-  height: 12.08vw;
+  width: 58.28vw;
+  .flex-change-box;
+  justify-content: flex-start;
+  box-sizing: border-box;
+  padding-top: 2vw;
+  position: relative;
+  left: 1.5vw;
 }
 
 .security-items-1 {
-  width: 10.97vw;
-  height: 10.97vw;
+  width: 13.19vw;
+	height: 12.64vw;
+  margin-right: 1.67vw;
+  margin-bottom: 1.39vw;
 }
 .security-items-2 {
   width: 21.94vw;
@@ -157,7 +165,7 @@ export default {
   justify-content: center;
   font-size: 3.04vw;
   letter-spacing: 0vw;
-  background-color: #930c07;
+  background-color: #4a098d;
   height: 6.53vw;
   position: relative;
   top: -0.5vw;
@@ -189,8 +197,8 @@ export default {
 
 .link-style {
   color: #fff;
-  font-size: 2.75vw;
-  line-height: 6.7vw;
+  font-size: 3.06vw;
+  line-height: 5.7vw;
   .mid-box;
 }
 
@@ -200,11 +208,11 @@ export default {
 }
 
 .security-box {
-  width: 66.94vw;
-  .flex-between;
+  width: 45.94vw;
+  .mid-box;
   box-sizing: border-box;
-  margin-top: 3vw;
-  margin-bottom: 4.44vw;
+  flex-wrap: wrap;
+  margin-top: 1.36vw;
 }
 
 .footer-title-quick {
@@ -251,7 +259,7 @@ export default {
 }
 
 .footer-head-title {
-  font-size: 4.17vw;
+  font-size: 3.59vw;
   color: #ffffff;
   font-weight: bold;
 }
@@ -308,29 +316,29 @@ export default {
 .last-banner {
   .mid-box;
   width: 100%;
-  height: 30.97vw;
+  height: 31.94vw;
   background-size: cover;
   box-sizing: border-box;
   position: fixed;
   z-index: 301;
   bottom: 0;
-  background-image: url("../../../../static/mobile/last_bg.png");
+  background-image: url("../../../../static/mobile/bottom_bg.png");
   background-size: cover;
 }
 
 .download-pict {
-  width: 54.86vw;
+  width: 54.17vw;
   height: auto;
   position: relative;
-  left: 8vw;
+  left: 20vw;
   top: 0vw;
 }
 .arrow-pict {
-  width: 14.58vw;
-	height: 11.67vw;
+  width: 17.22vw;
+	height: 12.78vw;
   position: relative;
-  top: 10.5vw;
-  right: 5vw;
+  top: -8.5vw;
+  left: 10vw;
   animation: flash 1s ease-in-out 0s infinite;
 }
 @keyframes flash {
@@ -374,15 +382,27 @@ export default {
   right: 3vw;
 }
 .link-box-bg {
-  width: 100vw;
-  // height: 22.92vw;
-  .mid-box;
+  width: 38.42vw;
+	height: 36.81vw;
+	background-color: #8639d5;
+	border-radius: 1.39vw;
+  .flex-change-box;
   box-sizing: border-box;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 3vw 2vw;
+  margin-top: 3.36vw;
+  margin-bottom: 3.36vw;
 }
 .security-box-bg {
   .flex-change-box;
   justify-content: flex-start;
   box-sizing: border-box;
   padding-top: 5.25vw;
+}
+.link-total-box{
+  .mid-box;
+  justify-content: space-between;
+  width: 95vw;
 }
 </style>
