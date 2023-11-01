@@ -1,16 +1,14 @@
 <template>
   <div class="head-box">
     <div class="h5-logo-box" @click="goToIndex()">
-      <img src="https://dapv7y4era0s5.cloudfront.net/teenrock/icon.png" alt="logo" class="pict">
+      <img src="../../../../static/mobile/top_icon.png" alt="logo" class="pict">
     </div>
     <div class="title-box">
-      <div class="title-pict">
-        <img src="https://dapv7y4era0s5.cloudfront.net/teenrock/TeenpattiRock.png" alt="" class="pict">
-      </div>
-      <span class="title-span">Play for Free and Win Big Now!</span>
+      <!-- <span class="title-span">CANDY CRUSH</span> -->
+      <img src="../../../../static/mobile/CandyCrush.png" alt="logo" class="pict">
     </div>
     <div class="download-pict" @click="downloadApk()">
-      <img src="https://dapv7y4era0s5.cloudfront.net/teenrock/download.png" alt="logo" class="pict">
+      <img src="../../../../static/mobile/top_download.png" alt="logo" class="pict">
     </div>
   </div>
 </template>
@@ -55,19 +53,19 @@ export default {
 
 <style lang="less" scoped>
 .head-box {
-  height: 16.67vw;
+  height: 15.56vw;
   width: 100%;
   position: fixed;
   z-index: 300;
-	background-color: #601e97;
+	background-color: #6622ab;
   .mid-box;
   box-sizing: border-box;
-  display: none;
+  justify-content: flex-start;
 }
 .h5-logo-box {
-  width: 12.78vw;
-	height: 12.78vw;
-  margin-left: 0.64vw;
+  width: 11.39vw;
+	height: 11.39vw;
+  margin-left: 2.64vw;
 }
 .h5-logo-box-pict {
   width: 100%;
@@ -111,21 +109,26 @@ export default {
   height: 6.67vw;
 }
 .download-pict{
-  width: 34.03vw;
-	height: 9.44vw;
+  width: 32.92vw;
+	height: 9.17vw;
+  margin-left: auto;
+  margin-right: 3vw;
 }
 .title-box{
-  .flex-change-start;
-  margin: 0 2.08vw;
+  width: 31.25vw;
+	height: 3.75vw;
+  position: relative;
+  left: 2.36vw;
 }
 .title-pict{
   width: 36.94vw;
 	height: 5vw;
 }
 .title-span{
-  font-size: 3.06vw;    
-	color: #ffffff;
+  font-size: 5vw;
+	color: #ffe746;
   position: relative;
-  top: 0vw;
+  top: 0.5vw;
+  font-family: "bd";
 }
 </style>

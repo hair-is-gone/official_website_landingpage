@@ -4,28 +4,23 @@
 
       <div class="banner-box" @click="clickTrack('bannerClick1')">
         <div class="download-pict" @click.stop="download_apk()">
-          <img src="https://dapv7y4era0s5.cloudfront.net/ludoclubcash/mobile/btn_download.png" alt="" class="pict">
+          <img src="../../../../static/mobile/banner_androidapp.png" alt="" class="pict">
         </div>
       </div>
 
 
       <div class="center-box">
         <div class="channel-bg">
-          <div class="channel-split-pict">
-            <img src="https://dapv7y4era0s5.cloudfront.net/ludoclubcash/mobile/bg_1.png" alt="" class="pict">
-          </div>
           <div class="bank-card-box">
             <div class="bank-card" v-for="bankInfo in bankInfoS" :key="bankInfo.title">
-              <div class="bank-pict">
+              <!-- <div class="bank-pict">
                 <img :src="bankInfo.pict" alt="" class="pict">
-              </div>
-              <span class="bank-title">{{ bankInfo.title }}</span>
-              <span class="bank-title bank-title-margin">{{ bankInfo.title2 }}</span>
+              </div> -->
+              <span class="bank-title  bank-title-margin">{{ bankInfo.title }}</span>
+              <span class="bank-title">{{ bankInfo.title2 }}</span>
             </div>
           </div>
-          <div class="channel-split-pict">
-            <img src="https://dapv7y4era0s5.cloudfront.net/ludoclubcash/mobile/bg_1.png" alt="" class="pict">
-          </div>
+
         </div>
       </div>
 
@@ -51,9 +46,9 @@
 
       <div class="center-box" >
         <div class="five-bg">
-          <!-- <div class="muti-title-bg">
-            <span class="head-title">FIVE-STEP INSTALLATION METHOD</span>
-          </div> -->
+          <div class="muti-title-bg">
+            <img src="../../../../static/mobile/banner.png" alt="" class="pict">
+          </div>
 
           <div class="five-card-box">
             <div class="five-card" v-for="fiveInfo in fiveInfoS" :key="fiveInfo.title">
@@ -81,73 +76,73 @@ export default {
     return {
       mutiInfoS: [
         {
-          pict: "https://dapv7y4era0s5.cloudfront.net/ludoclubcash/mobile/Paytm.png",
+          pict: "../../../../static/mobile/Paytm.png",
           title1: "PayTM",
         },
         {
-          pict: "https://dapv7y4era0s5.cloudfront.net/ludoclubcash/mobile/PhonePe.png",
+          pict: "../../../../static/mobile/PhonePe.png",
           title1: "PhonePe",
         },
         {
-          pict: "https://dapv7y4era0s5.cloudfront.net/ludoclubcash/mobile/UPI.png",
+          pict: "../../../../static/mobile/UPI.png",
           title1: "UPI",
         },
         {
-          pict: "https://dapv7y4era0s5.cloudfront.net/ludoclubcash/mobile/CardPayments.png",
+          pict: "../../../../static/mobile/CardPayments.png",
           title1: "Card Payments",
         },
         {
-          pict: "https://dapv7y4era0s5.cloudfront.net/ludoclubcash/mobile/NetBanking.png",
+          pict: "../../../../static/mobile/NetBanking.png",
           title1: "Net Banking",
         },
       ],
       fiveInfoS: [
         {
           title: 'Step 1: Tap the "download" button.',
-          pict: "https://dapv7y4era0s5.cloudfront.net/ludoclubcash/mobile/p1.png",
+          pict: "../../../../static/mobile/img_01.png",
           track: "stepPict1"
         },
         {
           title: 'Step 2: Tap "OK" to download the APK.',
-          pict: "https://dapv7y4era0s5.cloudfront.net/ludoclubcash/mobile/p2.png",
+          pict: "../../../../static/mobile/img_01.png",
           track: "stepPict2"
         },
-        // {
-        //   title: 'Step 3: Turn on "SETTINGS" to start your setting.',
-        //   pict: "https://dapv7y4era0s5.cloudfront.net/ludoclubcash/mobile/Image_3.png",
-        //   track: "stepPict3"
-        // },
+        {
+          title: 'Step 3: Turn on "SETTINGS" to start your setting.',
+          pict: "../../../../static/mobile/img_03.png",
+          track: "stepPict3"
+        },
         // {
         //   title: "Step 4: Allow your device to start installation process.",
-        //   pict: "https://dapv7y4era0s5.cloudfront.net/ludoclubcash/mobile/img_04.png",
+        //   pict: "../../../../static/mobile/img_04.png",
         //   track: "stepPict4"
         // },
         // {
         //   title: "Step 5: Confirm installation to play the game.",
-        //   pict: "https://dapv7y4era0s5.cloudfront.net/ludoclubcash/mobile/img_06.png",
+        //   pict: "../../../../static/mobile/img_06.png",
         //   track: "stepPict5"
         // },
       ],
       bankInfoS: [
         {
-          pict: "https://dapv7y4era0s5.cloudfront.net/ludoclubcash/mobile/ic_1.png",
-          title: "DIVERSE GAMING",
-          title2: "CHOICES",
+          pict: "../../../../static/mobile/ic_1.png",
+          title: "VARIOUS",
+          title2: "GAME OPTIONS",
         },
         {
-          pict: "https://dapv7y4era0s5.cloudfront.net/ludoclubcash/mobile/ic_2.png",
-          title: "MATCHED",
-          title2: "COMPETENCE",
+          pict: "../../../../static/mobile/ic_2.png",
+          title: "NEW MATCHING",
+          title2: "METHOD",
         },
         {
-          pict: "https://dapv7y4era0s5.cloudfront.net/ludoclubcash/mobile/ic_3.png",
-          title: "SAFE GAMING",
-          title2: "ATMOSPHERE",
+          pict: "../../../../static/mobile/ic_3.png",
+          title: "METHOD",
+          title2: "GAME SYSTEM",
         },
         {
-          pict: "https://dapv7y4era0s5.cloudfront.net/ludoclubcash/mobile/ic_4.png",
-          title: "HIGH CHANCE",
-          title2: "OF WINNING",
+          pict: "../../../../static/mobile/ic_4.png",
+          title: "BOUNTIFUL",
+          title2: "REWARDS TO GET",
         },
       ],
     };
@@ -183,8 +178,8 @@ export default {
 <style lang="less" scoped>
 @media screen and (max-width: 767px) {
   #gf-Main {
-    // padding-top: 16.67vw;
-    background-color: #b70a04;  
+    padding-top: 15.56vw;
+    background-color: #881de1;
   }
 }
 .head-title {
@@ -210,8 +205,8 @@ export default {
 }
 .banner-box {
   width: 100%;
-  height: 174.03vw;
-  background-image: url("https://dapv7y4era0s5.cloudfront.net/ludoclubcash/mobile/banner.png");
+  height: 111.11vw;
+  background-image: url("../../../../static/mobile/banner.png");
   background-size: cover;
   .flex-change-box;
   justify-content: flex-end;
@@ -223,10 +218,10 @@ export default {
   margin-top: 3vw;
 }
 .download-pict {
-  width: 77.64vw;
-	height: 21.11vw;
-  margin-right: 11.11vw;
-  margin-bottom: 5.69vw;
+  width: 44.58vw;
+	height: 14.72vw;
+  margin-right: 25.11vw;
+  margin-bottom: 3.69vw;
 }
 .center-box {
   .mid-box;
@@ -279,8 +274,9 @@ export default {
   width: 100vw;
   .flex-change-box;
   justify-content: flex-start;
-  height: auto;
-  padding-bottom: 7.64vw;
+  height: 197.92vw;
+  background-size: cover;
+  background-image: url("../../../../static/mobile/bg.png");
 }
 .five-title {
   font-size: 4.17vw;
@@ -322,10 +318,11 @@ export default {
 }
 .channel-bg {
   width: 100vw;
-  height: 48.03vw;
+  height: 26.86vw;
   .flex-change-box;
   box-sizing: border-box;
   justify-content: space-between;
+  border-bottom: 2.08vw solid #d4aaff;
 }
 .channel-split-pict{
   width: 96.25vw;
@@ -338,18 +335,34 @@ export default {
   color: #a238c1;
 }
 .bank-card-box {
-  width: 95.5vw;
+  width: 98.5vw;
   .flex-around;
   position: relative;
-  top: 4vw;
+  top: 2vw;
 }
 .bank-card {
   .flex-change-box;
   justify-content: flex-end;
-  // width: 22.08vw;
-	height: 34vw;
-  padding-bottom: 1.52vw;
+  width: 22.86vw;
+	height: 20.58vw;
+  padding-bottom: 0.52vw;
   box-sizing: border-box;
+}
+.bank-card:nth-child(1){
+  background-image: url("../../../../static/mobile/ic_01.png");
+  background-size: cover;
+}
+.bank-card:nth-child(2){
+  background-image: url("../../../../static/mobile/ic_02.png");
+  background-size: cover;
+}
+.bank-card:nth-child(3){
+  background-image: url("../../../../static/mobile/ic_03.png");
+  background-size: cover;
+}
+.bank-card:nth-child(4){
+  background-image: url("../../../../static/mobile/ic_04.png");
+  background-size: cover;
 }
 .bank-pict {
   width: 22.78vw;
@@ -357,10 +370,9 @@ export default {
   margin-bottom: 2.08vw;
 }
 .bank-title {
-  font-size: 3.33vw;
-  line-height: 4vw;
+  font-size: 2.3vw;
+  line-height: 3vw;
   color: #fff;
-  font-family: "hh";
 }
 .muti-title-pict{
   width: 85.97vw;
