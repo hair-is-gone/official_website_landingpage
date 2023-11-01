@@ -46,13 +46,9 @@
 
       <div class="center-box" >
         <div class="five-bg">
-          <div class="muti-title-bg">
-            <img src="../../../../static/mobile/banner.png" alt="" class="pict">
-          </div>
-
           <div class="five-card-box">
             <div class="five-card" v-for="fiveInfo in fiveInfoS" :key="fiveInfo.title">
-              <div class="five-card-pict" @click="clickTrack(fiveInfo.track)">
+              <div :class="fiveInfo.pictStyle" @click="clickTrack(fiveInfo.track)">
                 <img :src="fiveInfo.pict" alt="" class="pict">
               </div>
               <!-- <span class="five-card-text">{{ fiveInfo.title }}</span> -->
@@ -98,16 +94,19 @@ export default {
       ],
       fiveInfoS: [
         {
+          pictStyle: "five-pict-1",
           title: 'Step 1: Tap the "download" button.',
           pict: "../../../../static/mobile/img_01.png",
           track: "stepPict1"
         },
         {
+          pictStyle: "five-pict-2",
           title: 'Step 2: Tap "OK" to download the APK.',
-          pict: "../../../../static/mobile/img_01.png",
+          pict: "../../../../static/mobile/img_02.png",
           track: "stepPict2"
         },
         {
+          pictStyle: "five-pict-2",
           title: 'Step 3: Turn on "SETTINGS" to start your setting.',
           pict: "../../../../static/mobile/img_03.png",
           track: "stepPict3"
@@ -286,11 +285,11 @@ export default {
 }
 .five-card-box {
   width: 89.3vw;
-  .mid-box;
-  justify-content: space-between;
+  .flex-change-box;
+  justify-content: flex-start;
   box-sizing: border-box;
-  margin-top: 6vw;
-  margin-bottom: -5vw;
+  margin-top: 3vw;
+  // margin-bottom: -5vw;
 }
 .five-card {
   .flex-change-box;
@@ -312,9 +311,14 @@ export default {
   position: relative;
   top: -7.33vw;
 }
-.five-card-pict {
-  width: 42.22vw;
-	height: 75.14vw;
+.five-pict-1{
+  width: 94.78vw;
+	height: 62.42vw;
+}
+.five-pict-2{
+  width: 94.78vw;
+	height: 54.58vw;
+  margin-top: 5.97vw;
 }
 .channel-bg {
   width: 100vw;
