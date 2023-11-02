@@ -15,19 +15,19 @@
           <span class="footer-head-title">SECURITY & GAME INTEGRITY</span>
           <div class="security-box">
             <div class="security-items-1" @click="gotoPage('sslClick2')">
-              <img src="../../../../static/mobile/secured.png" alt="security-pict" class="pict" />
+              <img src="https://dapv7y4era0s5.cloudfront.net/candycrush/secured.png" alt="security-pict" class="pict" />
             </div>
             <div class="security-items-1" @click="gotoPage('sslClick1')">
-              <img src="../../../../static/mobile/ssl.png" alt="security-pict" class="pict" />
+              <img src="https://dapv7y4era0s5.cloudfront.net/candycrush/ssl.png" alt="security-pict" class="pict" />
             </div>
             <div class="security-items-1" @click="gotoPage('sslClick5')">
-              <img src="../../../../static/mobile/fraud.png" alt="security-pict" class="pict" />
+              <img src="https://dapv7y4era0s5.cloudfront.net/candycrush/fraud.png" alt="security-pict" class="pict" />
             </div>
             <div class="security-items-1" @click="gotoPage('sslClick4')">
-              <img src="../../../../static/mobile/18.png" alt="security-pict" class="pict" />
+              <img src="https://dapv7y4era0s5.cloudfront.net/candycrush/18.png" alt="security-pict" class="pict" />
             </div>
             <div class="security-items-1" @click="gotoPage('sslClick3')">
-              <img src="../../../../static/mobile/know.png" alt="security-pict" class="pict" />
+              <img src="https://dapv7y4era0s5.cloudfront.net/candycrush/know.png" alt="security-pict" class="pict" />
             </div>
           </div>
         </div>
@@ -38,8 +38,8 @@
       </div>
     </div>
     <div class="last-banner">
-      <img src="../../../../static/mobile/bottom_androidapp.png" alt="download-pict" class="download-pict" @click="download_apk()">
-      <img src="../../../../static/mobile/bottom_arrow.png" alt="" class="arrow-pict">
+      <img src="https://dapv7y4era0s5.cloudfront.net/candycrush/bottom_androidapp.png" alt="download-pict" class="download-pict" @click="download_apk()">
+      <img src="https://dapv7y4era0s5.cloudfront.net/candycrush/bottom_arrow.png" alt="" class="arrow-pict">
     </div>
   </div>
 </template>
@@ -321,7 +321,7 @@ export default {
   position: fixed;
   z-index: 301;
   bottom: 0;
-  background-image: url("../../../../static/mobile/bottom_bg.png");
+  background-image: url("https://dapv7y4era0s5.cloudfront.net/candycrush/bottom_bg.png");
   background-size: cover;
 }
 

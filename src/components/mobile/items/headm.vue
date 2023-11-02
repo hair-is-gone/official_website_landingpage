@@ -1,14 +1,14 @@
 <template>
   <div class="head-box">
     <div class="h5-logo-box" @click="goToIndex()">
-      <img src="../../../../static/mobile/top_icon.png" alt="logo" class="pict">
+      <img src="https://dapv7y4era0s5.cloudfront.net/candycrush/top_icon.png" alt="logo" class="pict">
     </div>
     <div class="title-box">
       <!-- <span class="title-span">CANDY CRUSH</span> -->
-      <img src="../../../../static/mobile/CandyCrush.png" alt="logo" class="pict">
+      <img src="https://dapv7y4era0s5.cloudfront.net/candycrush/CandyCrush.png" alt="logo" class="pict">
     </div>
     <div class="download-pict" @click="downloadApk()">
-      <img src="../../../../static/mobile/top_download.png" alt="logo" class="pict">
+      <img src="https://dapv7y4era0s5.cloudfront.net/candycrush/top_download.png" alt="logo" class="pict">
     </div>
   </div>
 </template>

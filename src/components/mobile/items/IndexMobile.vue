@@ -4,7 +4,7 @@
 
       <div class="banner-box" @click="clickTrack('bannerClick1')">
         <div class="download-pict" @click.stop="download_apk()">
-          <img src="../../../../static/mobile/banner_androidapp.png" alt="" class="pict">
+          <img src="https://dapv7y4era0s5.cloudfront.net/candycrush/banner_androidapp.png" alt="" class="pict">
         </div>
       </div>
 
@@ -71,75 +71,56 @@ export default {
   data() {
     return {
       mutiInfoS: [
-        // {
-        //   pict: "../../../../static/mobile/Paytm.png",
-        //   title1: "PayTM",
-        // },
-        // {
-        //   pict: "../../../../static/mobile/PhonePe.png",
-        //   title1: "PhonePe",
-        // },
-        // {
-        //   pict: "../../../../static/mobile/UPI.png",
-        //   title1: "UPI",
-        // },
-        // {
-        //   pict: "../../../../static/mobile/CardPayments.png",
-        //   title1: "Card Payments",
-        // },
-        // {
-        //   pict: "../../../../static/mobile/NetBanking.png",
-        //   title1: "Net Banking",
-        // },
+        
       ],
       fiveInfoS: [
         {
           pictStyle: "five-pict-1",
           title: 'Step 1: Tap the "download" button.',
-          pict: "../../../../static/mobile/img_01.png",
+          pict: "https://dapv7y4era0s5.cloudfront.net/candycrush/img_01.png",
           track: "stepPict1"
         },
         {
           pictStyle: "five-pict-2",
           title: 'Step 2: Tap "OK" to download the APK.',
-          pict: "../../../../static/mobile/img_02.png",
+          pict: "https://dapv7y4era0s5.cloudfront.net/candycrush/img_02.png",
           track: "stepPict2"
         },
         {
           pictStyle: "five-pict-2",
           title: 'Step 3: Turn on "SETTINGS" to start your setting.',
-          pict: "../../../../static/mobile/img_03.png",
+          pict: "https://dapv7y4era0s5.cloudfront.net/candycrush/img_03.png",
           track: "stepPict3"
         },
         // {
         //   title: "Step 4: Allow your device to start installation process.",
-        //   pict: "../../../../static/mobile/img_04.png",
+        //   pict: "https://dapv7y4era0s5.cloudfront.net/candycrush/img_04.png",
         //   track: "stepPict4"
         // },
         // {
         //   title: "Step 5: Confirm installation to play the game.",
-        //   pict: "../../../../static/mobile/img_06.png",
+        //   pict: "https://dapv7y4era0s5.cloudfront.net/candycrush/img_06.png",
         //   track: "stepPict5"
         // },
       ],
       bankInfoS: [
         {
-          pict: "../../../../static/mobile/ic_1.png",
+          pict: "https://dapv7y4era0s5.cloudfront.net/candycrush/ic_1.png",
           title: "VARIOUS",
           title2: "GAME OPTIONS",
         },
         {
-          pict: "../../../../static/mobile/ic_2.png",
+          pict: "https://dapv7y4era0s5.cloudfront.net/candycrush/ic_2.png",
           title: "NEW MATCHING",
           title2: "METHOD",
         },
         {
-          pict: "../../../../static/mobile/ic_3.png",
+          pict: "https://dapv7y4era0s5.cloudfront.net/candycrush/ic_3.png",
           title: "METHOD",
           title2: "GAME SYSTEM",
         },
         {
-          pict: "../../../../static/mobile/ic_4.png",
+          pict: "https://dapv7y4era0s5.cloudfront.net/candycrush/ic_4.png",
           title: "BOUNTIFUL",
           title2: "REWARDS TO GET",
         },
@@ -205,7 +186,7 @@ export default {
 .banner-box {
   width: 100%;
   height: 111.11vw;
-  background-image: url("../../../../static/mobile/banner.png");
+  background-image: url("https://dapv7y4era0s5.cloudfront.net/candycrush/banner.png");
   background-size: cover;
   .flex-change-box;
   justify-content: flex-end;
@@ -275,7 +256,7 @@ export default {
   justify-content: flex-start;
   height: 193.92vw;
   background-size: cover;
-  background-image: url("../../../../static/mobile/bg.png");
+  background-image: url("https://dapv7y4era0s5.cloudfront.net/candycrush/bg.png");
 }
 .five-title {
   font-size: 4.17vw;
@@ -353,19 +334,19 @@ export default {
   box-sizing: border-box;
 }
 .bank-card:nth-child(1){
-  background-image: url("../../../../static/mobile/ic_01.png");
+  background-image: url("https://dapv7y4era0s5.cloudfront.net/candycrush/ic_01.png");
   background-size: cover;
 }
 .bank-card:nth-child(2){
-  background-image: url("../../../../static/mobile/ic_02.png");
+  background-image: url("https://dapv7y4era0s5.cloudfront.net/candycrush/ic_02.png");
   background-size: cover;
 }
 .bank-card:nth-child(3){
-  background-image: url("../../../../static/mobile/ic_03.png");
+  background-image: url("https://dapv7y4era0s5.cloudfront.net/candycrush/ic_03.png");
   background-size: cover;
 }
 .bank-card:nth-child(4){
-  background-image: url("../../../../static/mobile/ic_04.png");
+  background-image: url("https://dapv7y4era0s5.cloudfront.net/candycrush/ic_04.png");
   background-size: cover;
 }
 .bank-pict {
