@@ -2,7 +2,7 @@
 - hosts: mm4
   vars:
     local_code_dir: ../../
-    remote_code_dir: /home/ubuntu/project/office_ludoclub
+    remote_code_dir: /home/ubuntu/project/office_candycrush
     ansible_python_interpreter: /usr/bin/python3
   gather_facts: no
   become: yes
