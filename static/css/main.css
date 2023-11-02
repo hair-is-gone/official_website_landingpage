@@ -13,3 +13,12 @@ body {
   font-family: "bd";
   src: url("./bd.ttf");
 }
+@font-face {
+  font-family: "rb";
+  src: url("./rb.ttf");
+}
+@font-face {
+  font-family: "dm";
+  src: url("./dm.otf");
+}
+

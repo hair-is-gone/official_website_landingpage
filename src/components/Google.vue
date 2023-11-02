@@ -46,10 +46,10 @@
 
     <div class="flex-start-box app-show-box">
       <div class="show-pict-box">
-        <img src="../../static/mobile/Image_1.png" alt="" class="show-pict">
-        <img src="../../static/mobile/Image_2.png" alt="" class="show-pict">
-        <img src="../../static/mobile/Image_3.png" alt="" class="show-pict">
-        <img src="../../static/mobile/Image_4.png" alt="" class="show-pict">
+        <img src="../../static/mobile/img_1.png" alt="" class="show-pict">
+        <img src="../../static/mobile/img_2.png" alt="" class="show-pict">
+        <img src="../../static/mobile/img_3.png" alt="" class="show-pict">
+        <img src="../../static/mobile/img_3.png" alt="" class="show-pict">
       </div>
     </div>
 
@@ -62,9 +62,9 @@
         Candy Crush Cash is a new and stylish candy match game, available for no matter adults or kids for all ages. Brand new visual effect and game experience. Simple to start but challenging to master! No time-limited
         that you can play anywhere & anytime offline.
         <br>
+        <br>
         Join this sweet journey and enjoy a variety of sweet treats, including chocolates, ice cream, cakes, doughnuts and more. Improve your game skills and complete game tasks to get a lot of real cash rewards. The
-        game also provides a variety of withdrawal methods for you to choose from.<br>
-
+        game also provides a variety of withdrawal methods for you to choose from.
         <br>
         <br>
         Features: <br>
@@ -546,6 +546,7 @@ export default {
   margin-top: 9vw;
   font-size: 3.47vw;
   color: #0b57cf;
+  font-weight: bold;
 }
 .rating-mid-content {
   width: 84.4vw;
