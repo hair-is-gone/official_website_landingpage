@@ -168,7 +168,6 @@ export default {
   background-color: #4a098d;
   height: 6.53vw;
   position: relative;
-  top: -0.5vw;
 }
 
 .mid-box {

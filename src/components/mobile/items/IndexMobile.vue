@@ -273,7 +273,7 @@ export default {
   width: 100vw;
   .flex-change-box;
   justify-content: flex-start;
-  height: 197.92vw;
+  height: 193.92vw;
   background-size: cover;
   background-image: url("../../../../static/mobile/bg.png");
 }
@@ -348,7 +348,7 @@ export default {
   .flex-change-box;
   justify-content: flex-end;
   width: 22.86vw;
-	height: 20.58vw;
+	height: 20.8vw;
   padding-bottom: 0.52vw;
   box-sizing: border-box;
 }
