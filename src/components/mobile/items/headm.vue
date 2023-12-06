@@ -1,15 +1,14 @@
 <template>
   <div class="head-box">
-    <div class="h5-logo-box" @click="goToIndex()">
+    <!-- <div class="h5-logo-box" @click="goToIndex()">
       <img src="https://dapv7y4era0s5.cloudfront.net/candycrush/top_icon.png" alt="logo" class="pict">
     </div>
     <div class="title-box">
-      <!-- <span class="title-span">CANDY CRUSH</span> -->
       <img src="https://dapv7y4era0s5.cloudfront.net/candycrush/CandyCrush.png" alt="logo" class="pict">
     </div>
     <div class="download-pict" @click="downloadApk()">
       <img src="https://dapv7y4era0s5.cloudfront.net/candycrush/top_download.png" alt="logo" class="pict">
-    </div>
+    </div> -->
   </div>
 </template>
 
@@ -61,6 +60,7 @@ export default {
   .mid-box;
   box-sizing: border-box;
   justify-content: flex-start;
+  display: none;
 }
 .h5-logo-box {
   width: 11.39vw;

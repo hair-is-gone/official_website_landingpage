@@ -1,6 +1,6 @@
 <template>
   <div id="h5-footer">
-    <div class="mid-box footer-info">
+    <!-- <div class="mid-box footer-info">
       <div class="link-total-box">
         <div class="link-box-bg">
           <span class="footer-head-title">QUICK LINKS</span>
@@ -40,7 +40,7 @@
     <div class="last-banner">
       <img src="https://dapv7y4era0s5.cloudfront.net/candycrush/bottom_androidapp.png" alt="download-pict" class="download-pict" @click="download_apk()">
       <img src="https://dapv7y4era0s5.cloudfront.net/candycrush/bottom_arrow.png" alt="" class="arrow-pict">
-    </div>
+    </div> -->
   </div>
 </template>
 
@@ -73,6 +73,7 @@ export default {
   box-sizing: border-box;
   padding-bottom: 31.94vw;
   background-color: #6622ab;
+  display: none;
 }
 
 .h5-footer-url-box {

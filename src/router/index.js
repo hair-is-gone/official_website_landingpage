@@ -22,6 +22,11 @@ var router = new Router({
       component: resolve => (require(["@/components/mobile/GfIndex"], resolve))
     },
     {
+      path: '/details',
+      name: 'details',
+      component: resolve => (require(["@/components/mobile/GfIndex"], resolve))
+    },
+    {
       path: '/contact',
       name: 'contact',
       component: resolve => (require(["@/components/mobile/Contact"], resolve))

@@ -21,4 +21,8 @@ body {
   font-family: "dm";
   src: url("./dm.otf");
 }
+@font-face {
+  font-family: "rr";
+  src: url("./rr.ttf");
+}
 

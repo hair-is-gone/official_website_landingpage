@@ -1,391 +1,861 @@
 <template>
-  <div id="gf-Main">
+  <div>
     <div class="main">
+      <div class="google-head">
+        <div class="google-play-pict">
+          <img src="../../../../static/mobile/googleplay.png" alt="" class="pict">
+        </div>
+        <div class="search-box">
+          <img src="../../../../static/mobile/ic_search.png" alt="" class="pict">
+        </div>
+        <div class="question-box">
+          <img src="../../../../static/mobile/ic_question.png" alt="" class="pict">
+        </div>
+      </div>
+      <div class="flex-start-box icon-box">
+        <div class="icon-app">
+          <img src="../../../../static/mobile/192.png" alt="" class="pict">
+        </div>
+        <div class="app-info">
+          <span class="app-name">Ludo Up</span>
+          <span class="app-team">Up Studio</span>
+          <span class="app-ads">In-App Purchases</span>
+        </div>
+      </div>
+      <div class="flex-start-box app-data">
+        <div class="app-slide-box">
+          <div class="app-review">
+            <div class="star-box">
+              <span class="mark-num">4.9</span>
+              <img src="../../../../static/mobile/ic_star.png" alt="" class="star-single">
+            </div>
+            <span class="mark-data-grey">5k reviews
+              <img src="../../../../static/mobile/ic_gth.png" alt="" class="gth-pict gth-pict-1">
+            </span>
+          </div>
+          <div class="split-col"></div>
+          <div class="app-download">
+            <img src="../../../../static/mobile/ic_xz.png" alt="" class="download-icon">
+            <span class="mark-data-grey mark-data-grey-1">3 MB</span>
+          </div>
+          <div class="split-col"></div>
+          <div class="app-download">
+            <img src="../../../../static/mobile/ic_16.png" alt="" class="year-icon">
+            <span class="mark-data-grey">Rated for 16+
+              <img src="../../../../static/mobile/ic_gth.png" alt="" class="gth-pict gth-pict-2">
+            </span>
+          </div>
+          <div class="split-col"></div>
+          <div class="app-download">
+            <span class="download-data">100K+</span>
+            <span class="mark-data-grey">Downloads</span>
+          </div>
+        </div>
+      </div>
+      <div class="install-btn" @click.stop="download_apk()">
+        Install
+      </div>
 
-      <div class="banner-box" @click="clickTrack('bannerClick1')">
-        <div class="download-pict" @click.stop="download_apk()">
-          <img src="https://dapv7y4era0s5.cloudfront.net/candycrush/banner_androidapp.png" alt="" class="pict">
+      <div class="wish-share-box">
+        <div class="wish-share-1">
+          <img src="../../../../static/mobile/ic_fx.png" alt="" class="share-link-pict">
+          <span class="wish-share-text">Share</span>
+          <img src="../../../../static/mobile/ic_qd.png" alt="" class="share-add-pict">
+          <span class="wish-share-text">Add to wishlist</span>
+        </div>
+        <div class="wish-share-1 wish-share-2">
+          <img src="../../../../static/mobile/ic_equipment.png" alt="" class="share-eq-pict">
+          <span class="wish-share-text-grey">This app works on all your devices</span>
         </div>
       </div>
 
-
-      <div class="center-box">
-        <div class="channel-bg">
-          <div class="bank-card-box">
-            <div class="bank-card" v-for="bankInfo in bankInfoS" :key="bankInfo.title">
-              <!-- <div class="bank-pict">
-                <img :src="bankInfo.pict" alt="" class="pict">
-              </div> -->
-              <span class="bank-title  bank-title-margin">{{ bankInfo.title }}</span>
-              <span class="bank-title">{{ bankInfo.title2 }}</span>
-            </div>
-          </div>
-
+      <div class="flex-start-box app-show-box">
+        <div class="show-pict-box">
+          <img src="../../../../static/mobile/img_1.png" alt="" class="show-pict">
+          <img src="../../../../static/mobile/img_2.png" alt="" class="show-pict">
+          <img src="../../../../static/mobile/img_3.png" alt="" class="show-pict">
+          <img src="../../../../static/mobile/img_3.png" alt="" class="show-pict">
         </div>
       </div>
 
-      <div class="center-box" style="display:none">
-        <div class="muti-bg">
-          <!-- <div class="muti-title-bg">
-            <span class="head-title">OFFER VARIOUS TOP-UP METHODS</span>
-          </div> -->
-          <div class="muti-card-box">
-            <div class="muti-card" v-for="mutiInfo in mutiInfoS" :key="mutiInfo.title1">
-              <div class="muti-pict">
-                <img :src="mutiInfo.pict" alt="" class="pict">
-              </div>
-              <!-- <span class="muti-title">{{ mutiInfo.title1 }}</span> -->
+      <div class="flex-start-box about-game-box">
+        <div class="about-title-arrow-box">
+          <span class="about-title">About this game</span>
+          <img src="../../../../static/mobile/ic_left.png" alt="" class="right-arrow-pict right-arrow-pict-margin">
+        </div>
+        <span class="about-content">
+          Embark on a thrilling journey into the world of Ludo with Ludo Up! Elevate your gaming experience to new heights as you immerse yourself in the perfect blend of classic charm and modern excitement. Ludo Up
+          redefines the traditional board game, offering a dynamic and visually stunning adventure.
+          <br>
+          <br>
+          Features in Ludo Up: <br>
+          1. Intelligent opponents <br>
+          2. Interactive gameplay <br>
+          3. Exciting rewards and power-ups <br>
+          4. Play anytime, anywhere <br>
+        </span>
+        <!-- <span class="collapse-span">Collapse</span> -->
+      </div>
+
+      <div class="flex-change-box share-box">
+        <div class="flex-change-box shard-card-box">
+          <div class="mid-box share-card" v-for="shareInfo in shareInfoS" :key="shareInfo.pictStyle">
+            <img :src="shareInfo.pict" alt="" :class="shareInfo.pictStyle">
+            <div class="flex-change-box share-content-box">
+              <span class="share-content">
+                {{ shareInfo.content }}
+              </span>
+              <span class="share-content-mini">{{ shareInfo.content2 }}</span>
             </div>
+          </div>
+        </div>
+        <span class="see-detail">See details</span>
+      </div>
+
+      <div class="flex-start-box rating-box">
+        <div class="about-title-arrow-box">
+          <span class="rating-title">Ratings and reviews</span>
+          <img src="../../../../static/mobile/ic_left.png" alt="" class="right-arrow-pict">
+        </div>
+        <span class="rating-mid-content">
+          Ratings and reviews are verified and are from people who use the same type of device that you use
+        </span>
+        <div class="rate-card-box">
+          <div class="rate-left">
+            <span class="rate-num">4.9</span>
+            <img src="../../../../static/mobile/ic_pinfen.png" alt="" class="five-star-pict five-margin-rate">
+            <span class="rate-count">5,278</span>
+          </div>
+          <div class="rate-right">
+            <img src="../../../../static/mobile/ic_dengji.png" alt="" class="pict">
           </div>
         </div>
       </div>
 
-      
-
-      
-
-      <div class="center-box" >
-        <div class="five-bg">
-          <div class="five-card-box">
-            <div class="five-card" v-for="fiveInfo in fiveInfoS" :key="fiveInfo.title">
-              <div :class="fiveInfo.pictStyle" @click="clickTrack(fiveInfo.track)">
-                <img :src="fiveInfo.pict" alt="" class="pict">
-              </div>
-              <!-- <span class="five-card-text">{{ fiveInfo.title }}</span> -->
-              <!-- <div class="five-color-span-box">
-              </div> -->
+      <div class="user-box">
+        <div class="user-card" v-for="user in userInfoS" :key="user.name">
+          <div class="flex-start-box head-avatar-width">
+            <img src="../../../../static/mobile/ic_people.png" alt="" class="avatar">
+            <span class="user-name">{{ user.name }}</span>
+            <img src="../../../../static/mobile/ic_more.png" alt="" class="more-pict">
+          </div>
+          <div class="flex-start-box user-mark-box">
+            <img src="../../../../static/mobile/ic_pinfen.png" alt="" class="five-star-pict">
+            <span class="user-date">{{ user.date }}</span>
+          </div>
+          <span class="flex-start-box user-content">
+            {{ user.content }}
+          </span>
+          <div class="flex-start-box last-avatar-box">
+            <span class="user-help-span">Was this review helpful?</span>
+            <div class="mid-box button-box-total">
+              <div class="mid-box yes-button">Yes</div>
+              <div class="mid-box yes-button">No</div>
             </div>
           </div>
-          
         </div>
+        <span class="see-reviews">See all reviews</span>
+        <div class="line-reviews"></div>
+      </div>
+
+      <div class="google-policy-box google-policy-box-1">
+        <span class="policy-title">Google Play</span>
+        <span class="policy-span">Play Pass</span>
+        <span class="policy-span">Play Points</span>
+        <span class="policy-span">Gift cards</span>
+        <span class="policy-span">Redeem</span>
+        <span class="policy-span">Refund policy</span>
+      </div>
+      <div class="google-policy-box google-policy-box-2">
+        <span class="policy-title">Children and family</span>
+        <span class="policy-span">Parent guide</span>
+        <span class="policy-span">Family sharing</span>
+      </div>
+
+      <div class="terms-box">
+        <span>Terms of service</span>
+        <span>Privacy</span>
+        <span>About Google Play</span>
+        <span>Developers</span>
+        <span>Google Store</span>
+        <span>All prices include VAT</span>
+      </div>
+
+      <div class="flag-box">
+        <img src="../../../../static/mobile/ic_lndia.png" alt="" class="india-pict">
+        <span class="flag-text">India(Hindi)</span>
       </div>
 
     </div>
+    <div class="app-bottom">
+      <div class="app-bottom-card-box">
+        <div class="bottom-card" v-for="bottomInfo in bottomInfoS" :key="bottomInfo.index">
+          <img :src="bottomInfo.pict" alt="" :class="bottomInfo.pictStyle">
+          <span class="bottom-card-title">{{ bottomInfo.title }}</span>
+        </div>
+      </div>
+    </div>
   </div>
+
 </template>
 
 <script>
-import { download, loadPage, chnup } from "../../../utils/tools";
+import { download, chnup, loadPage } from "../../../utils/tools";
 
 export default {
   data() {
     return {
-      mutiInfoS: [
-        
+      userInfoS: [
+        {
+          name: "Harsh Choraghad ",
+          date: "2023/11/28",
+          content:
+            "Ludo Up has never been this much fun! The game's vibrant colors, smooth animations, and interactive features make every move exciting. I appreciate the attention to detail and the seamless experience. Ludo Up has become my go-to game for lively entertainment! ",
+        },
+        {
+          name: "Aryabhata Shevade",
+          date: "2023/11/24",
+          content:
+            "The interactive gameplay and customization options make it engaging, and the tournaments keep me hooked. Ludo Up strikes the perfect balance between classic charm and contemporary enjoyment. ",
+        },
+        {
+          name: "Arun Hegadi",
+          date: "2023/11/17",
+          content:
+            "The rewards and power-ups add an extra thrill. Ludo Up has become my favorite pastime, and I highly recommend it to anyone who loves a good game night! ",
+        },
       ],
-      fiveInfoS: [
+      shareInfoS: [
         {
-          pictStyle: "five-pict-1",
-          title: 'Step 1: Tap the "download" button.',
-          pict: "https://dapv7y4era0s5.cloudfront.net/candycrush/img_01.png",
-          track: "stepPict1"
+          pict: "../../../../static/mobile/ic_lianjie.png",
+          pictStyle: "share-pict-1",
+          content: "This app may share these data types with third parties",
+          content2: "App activity and Device or other IDs",
         },
         {
-          pictStyle: "five-pict-2",
-          title: 'Step 2: Tap "OK" to download the APK.',
-          pict: "https://dapv7y4era0s5.cloudfront.net/candycrush/img_02.png",
-          track: "stepPict2"
+          pict: "../../../../static/mobile/ic_yun.png",
+          pictStyle: "share-pict-2",
+          content: "This app may collect these data types",
+          content2:
+            "App activity,App info and perfor mance.and Device or other IDs",
         },
         {
-          pictStyle: "five-pict-2",
-          title: 'Step 3: Turn on "SETTINGS" to start your setting.',
-          pict: "https://dapv7y4era0s5.cloudfront.net/candycrush/img_03.png",
-          track: "stepPict3"
+          pict: "../../../../static/mobile/ic_lock.png",
+          pictStyle: "share-pict-3",
+          content: "Data is encrypted in transit",
         },
-        // {
-        //   title: "Step 4: Allow your device to start installation process.",
-        //   pict: "https://dapv7y4era0s5.cloudfront.net/candycrush/img_04.png",
-        //   track: "stepPict4"
-        // },
-        // {
-        //   title: "Step 5: Confirm installation to play the game.",
-        //   pict: "https://dapv7y4era0s5.cloudfront.net/candycrush/img_06.png",
-        //   track: "stepPict5"
-        // },
+        {
+          pict: "../../../../static/mobile/ic_ljt.png",
+          pictStyle: "share-pict-4",
+          content: "You can request that data be deleted",
+        },
       ],
-      bankInfoS: [
+      bottomInfoS: [
         {
-          pict: "https://dapv7y4era0s5.cloudfront.net/candycrush/ic_1.png",
-          title: "VARIOUS",
-          title2: "GAME OPTIONS",
+          index: 1,
+          pict: "../../../../static/mobile/ic_Games.png",
+          pictStyle: "bottom-pict-1",
+          title: "Games",
         },
         {
-          pict: "https://dapv7y4era0s5.cloudfront.net/candycrush/ic_2.png",
-          title: "NEW MATCHING",
-          title2: "METHOD",
+          index: 2,
+          pict: "../../../../static/mobile/ic_Apps.png",
+          pictStyle: "bottom-pict-2",
+          title: "Apps",
         },
         {
-          pict: "https://dapv7y4era0s5.cloudfront.net/candycrush/ic_3.png",
-          title: "METHOD",
-          title2: "GAME SYSTEM",
+          index: 3,
+          pict: "../../../../static/mobile/ic_Movies.png",
+          pictStyle: "bottom-pict-3",
+          title: "Movies & TV",
         },
         {
-          pict: "https://dapv7y4era0s5.cloudfront.net/candycrush/ic_4.png",
-          title: "BOUNTIFUL",
-          title2: "REWARDS TO GET",
+          index: 4,
+          pict: "../../../../static/mobile/ic_Books.png",
+          pictStyle: "bottom-pict-4",
+          title: "Books",
+        },
+        {
+          index: 5,
+          pict: "../../../../static/mobile/ic_Children.png",
+          pictStyle: "bottom-pict-5",
+          title: "Children",
         },
       ],
     };
   },
   methods: {
     download_apk: function (event) {
-      // window._latest_apk = "https://mastertp.go.link/?adj_t=12swbuq0&adj_campaign=%7B%7Bcampaign.name%7D%7D%20%28%7B%7Bcampaign.id%7D%7D%29&adj_adgroup=%7B%7Badset.name%7D%7D%20%28%7B%7Badset.id%7D%7D%29&adj_creative=%7B%7Bad.name%7D%7D%20%28%7B%7Bad.id%7D%7D%29&adj_redirect=https%3A%2F%2Fmasterteenpattiindia.com%2Fstatic%2Fpkg%2FMasterTeenpatti.apk";
-      // window.location.href = window._latest_apk;
-      chnup("click_v2");
+      // chnup("click");
       // download();
     },
-    clickTrack: function (msg) {
-      if (msg == "stepPict1" || msg == "bannerClick1") {
-        chnup(msg);
-        return;
-      }
+    head_click: function () {
+      chnup("headClick1");
     },
   },
   created() {
     loadPage();
   },
-  mounted() {
-    // this.$refs.five.horizontalScrollPolicy="off";
-  },
 };
 </script>
-<style scoped>
-#gf-Main {
+
+<style lang="less" scoped>
+.main {
   background: #ffffff;
   height: auto;
-}
-</style>
-<style lang="less" scoped>
-@media screen and (max-width: 767px) {
-  #gf-Main {
-    padding-top: 15.56vw;
-    background-color: #881de1;
-  }
-}
-.head-title {
-  .bold-font;
-  font-size: 3.61vw;
-  .text-center;
-  color: #fff;
-}
-.italic-style {
-  font-style: italic;
-}
-.green-color {
-  color: #2a5c29;
-}
-.black-color {
-  color: #000;
-}
-.red-color {
-  color: #e10101;
-}
-.grey-color {
-  color: #6b6a80;
-}
-.banner-box {
-  width: 100%;
-  height: 111.11vw;
-  background-image: url("https://dapv7y4era0s5.cloudfront.net/candycrush/banner.png");
-  background-size: cover;
-  .flex-change-box;
-  justify-content: flex-end;
-  align-items: flex-end;
-}
-.logo-pict {
-  width: 27.92vw;
-  height: 15.42vw;
-  margin-top: 3vw;
-}
-.download-pict {
-  width: 44.58vw;
-	height: 14.72vw;
-  margin-right: 25.11vw;
-  margin-bottom: 3.69vw;
-}
-.center-box {
-  .mid-box;
-  width: 100%;
   box-sizing: border-box;
+  padding: 2.8vw 6.8vw;
+  padding-right: 0vw;
+  font-family: "rb";
 }
-.muti-bg {
-  width: 100%;
-  height: 37.5vw;
-  .flex-change-box;
-  background-color: #380068;
+.flex-start-box {
+  .mid-box;
   justify-content: flex-start;
 }
-.muti-title-head {
-  font-size: 4.17vw;
-  font-weight: bold;
-  color: #fff;
+.play-pict {
+  width: 36.27vw;
+  height: 8.27vw;
+}
+.search-pict {
+  width: 4.13vw;
+  height: 4.27vw;
+  margin-left: 17.07vw;
+  margin-right: 6.8vw;
+}
+.question-pict {
+  width: 4.67vw;
+  height: 4.8vw;
+}
+.icon-box {
+  margin-top: 7.73vw;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+.icon-app {
+  width: 20.13vw;
+  height: 19.2vw;
+}
+.app-info {
+  .flex-change-start;
+  margin-left: 6.13vw;
+  justify-content: flex-start;
+  align-items: flex-start;
+  height: 19.2vw;
+}
+.app-name {
+  font-size: 6.4vw;
+  line-height: 6.4vw;
+  color: #333333;
+}
+.app-team {
+  font-size: 4vw;
+  line-height: 5.84vw;
+  color: #0957bc;
+  margin-top: 2.13vw;
+}
+.app-ads {
+  font-size: 3.2vw;
+  line-height: 5.84vw;
+  color: #666666;
+}
+.app-data {
+  margin-top: 9.47vw;
+}
+.app-slide-box {
+  width: 93vw;
+  .mid-box;
+  box-sizing: border-box;
+  justify-content: flex-start;
+  flex-wrap: nowrap;
+  overflow: auto;
+  scrollbar-width: none;
+}
+.app-review {
+  .flex-change-box;
+  justify-content: flex-start;
+  width: 30.6vw;
+}
+.star-box {
+  .mid-box;
+}
+.mark-num {
+  font-size: 4vw;
+  font-weight: normal;
+  font-stretch: normal;
+  line-height: 5.6vw;
+  letter-spacing: 0vw;
+  color: #000000;
+}
+.star-single {
+  width: 2.13vw;
+  height: 2vw;
+  margin-left: 1.33vw;
+}
+.mark-data-grey {
+  font-size: 3.2vw;
+  font-weight: normal;
+  font-stretch: normal;
+  letter-spacing: 0vw;
+  color: #666666;
+  // margin-top: 2.4vw;
+  width: 26vw;
+  text-align: center;
+  .mid-box;
+}
+.mark-data-grey-1 {
+  width: 20vw;
+}
+.app-download {
+  .flex-change-box;
+  width: 28.4vw;
+}
+.download-data {
+  font-size: 4vw;
+  font-weight: normal;
+  font-stretch: normal;
+  line-height: 5.6vw;
+  letter-spacing: 0vw;
+  color: #333333;
+}
+.install-btn {
+  .mid-box;
+  width: 86.8vw;
+  height: 10.67vw;
+  background-color: #0b57cf;
+  border-radius: 5.33vw;
+  margin-top: 4.93vw;
+  font-size: 4vw;
+  color: #ffffff;
+}
+.app-show-box {
+  margin-top: 6.67vw;
+}
+.show-pict-box {
+  width: 93vw;
+  .mid-box;
+  justify-content: flex-start;
+  flex-wrap: nowrap;
+  overflow: auto;
+  scrollbar-width: none;
+}
+::-webkit-scrollbar {
+  display: none; // hidden scrollbar
+}
+.show-pict {
+  width: 25.47vw;
+  height: auto;
+  margin-left: 2.53vw;
+}
+.show-pict:nth-child(1) {
+  margin-left: 0vw;
+}
+.show-pict:last-child {
+  margin-right: 6.8vw;
+}
+.about-game-box {
+  margin-top: 7.73vw;
+  .flex-change-start;
+}
+.about-title {
+  font-size: 4.8vw;
+  line-height: 5.84vw;
+  color: #333333;
+  margin-bottom: 4.8vw;
+}
+.about-content {
+  width: 86.53vw;
+  font-size: 3.2vw;
+  line-height: 4.4vw;
+  color: #666666;
+}
+.collapse-span {
+  font-size: 3.2vw;
+  color: #17ac3c;
+  margin-top: 11.33vw;
+  width: 86.53vw;
   text-align: center;
 }
-.muti-card-box {
-  width: 95vw;
-  .flex-between;
-  margin-top: 3.86vw;
+.rating-box {
+  .flex-change-start;
+  justify-content: flex-start;
+  margin-top: 10.13vw;
 }
-.muti-card {
+.rating-title {
+  font-size: 4.8vw;
+  color: #333333;
+}
+.rate-card-box {
+  width: 80.93vw;
+  box-sizing: border-box;
+  .mid-box;
+  justify-content: flex-start;
+
+  margin-top: 8.13vw;
+}
+.rate-left {
   .flex-change-box;
   justify-content: flex-start;
-  width: 18.06vw;
-  height: 14.39vw;
+  height: 24vw;
+  align-items: flex-start;
 }
-.muti-pict{
-  width: 16.03vw;
-	height: auto;
+.rate-right {
+  width: 60.4vw;
+  height: auto;
+  // margin-left: 9.73vw;
+  position: relative;
+  left: 6.73vw;
+}
+.rate-num {
+  font-size: 12.8vw;
+  color: #333333;
+  line-height: 1;
+  font-family: "dm";
+}
+.five-star-pict {
+  width: 13.2vw;
+  height: 2vw;
+}
+.five-margin-rate {
+  margin-top: 3.87vw;
+}
+.rate-count {
+  font-size: 3.2vw;
+  color: #666;
+  margin-top: 1.33vw;
+}
+.user-box {
+  margin-top: 11.07vw;
+  .flex-change-box;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+.user-card {
+  .flex-change-start;
+  margin-bottom: 8.13vw;
+}
+.user-card:nth-child(3) {
+  margin-bottom: 11.47vw;
+}
+.avatar {
+  width: 8.93vw;
+  height: 9.07vw;
+}
+.user-name {
+  font-size: 3.73vw;
+  color: #262323;
+  margin-left: 4.67vw;
+}
+.user-mark-box {
+  margin-top: 1.07vw;
+}
+.user-date {
+  font-size: 3.73vw;
+  color: #676769;
+  margin-left: 2.67vw;
+}
+.user-content {
+  margin-top: 3.87vw;
+  font-size: 3.73vw;
+  color: #676769;
+  width: 78.53vw;
+}
+.split-col {
+  height: 6vw;
+  border-left: solid 0.13vw #666;
+  margin: 0 3vw;
+}
+.gth-pict {
+  width: 2.67vw;
+  height: 2.67vw;
+}
+.gth-pict-1 {
+  margin-left: 4vw;
+}
+.gth-pict-2 {
+  margin-left: 1.2vw;
+}
+.download-icon {
+  width: 4.93vw;
+  height: 4.93vw;
   margin-bottom: 1vw;
 }
-.game-show-bg {
-  width: 100vw;
-  height: 117.78vw;
-  background-image: linear-gradient(0deg, #035d01 0%, #20a21d 100%);
-  .flex-change-box;
-  justify-content: space-around;
-  padding: 4vw 0;
-  box-sizing: border-box;
+.year-icon {
+  width: 5.33vw;
+  height: 3.73vw;
+  margin-bottom: 2.19vw;
 }
-.game-show-pict {
-  width: 91.39vw;
-  height: 47.5vw;
+.right-arrow-pict {
+  width: 4.13vw;
+  height: 4.13vw;
+  transform: rotate(180deg);
 }
-.five-bg {
-  width: 100vw;
-  .flex-change-box;
-  justify-content: flex-start;
-  height: 193.92vw;
-  background-size: cover;
-  background-image: url("https://dapv7y4era0s5.cloudfront.net/candycrush/bg.png");
+.right-arrow-pict-margin {
+  margin-bottom: 4.8vw;
 }
-.five-title {
-  font-size: 4.17vw;
-  margin-top: 6.39vw;
-  color: #fff;
+.about-title-arrow-box {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 86.53vw;
+}
+.share-box {
+  width: 86.67vw;
+  height: 81.6vw;
+  border-radius: 2.4vw;
+  border: solid 0.27vw #acaba9;
+  margin-top: 2.87vw;
+}
+.shard-card-box {
+  justify-content: space-between;
+  height: 54.03vw;
+}
+.share-card {
+  width: 72.54vw;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+.share-pict-1 {
+  width: 4.8vw;
+  height: 4.93vw;
+  margin-top: 1vw;
+}
+.share-pict-2 {
+  width: 5.47vw;
+  height: 4vw;
+}
+.share-pict-3 {
+  width: 4.13vw;
+  height: 5.47vw;
+  margin-top: -1vw;
+  position: relative;
+  left: 0.5vw;
+}
+.share-pict-4 {
+  width: 4.27vw;
+  height: 4.53vw;
+  margin-top: -1vw;
+  position: relative;
+  left: 0.5vw;
+}
+.share-content {
+  width: 64.13vw;
+  font-size: 3.47vw;
+  line-height: 4.34vw;
+  color: #666;
+}
+.see-detail {
+  width: 72.54vw;
+  text-align: left;
+  margin-top: 9vw;
+  font-size: 3.47vw;
+  color: #0b57cf;
   font-weight: bold;
 }
-.five-card-box {
-  width: 89.3vw;
-  .flex-change-box;
+.rating-mid-content {
+  width: 84.4vw;
+  font-size: 2.93vw;
+  color: #666;
+  margin-top: 8vw;
+}
+.head-avatar-width {
+  width: 84.8vw;
+  align-items: center;
+}
+.more-pict {
+  width: 0.93vw;
+  height: 4.13vw;
+  margin-left: auto;
+}
+.last-avatar-box {
+  margin-top: 7.87vw;
+  width: 86.8vw;
+}
+.user-help-span {
+  font-size: 2.93vw;
+  color: #676769;
+}
+.button-box-total {
+  margin-left: auto;
+  width: 28.54vw;
+  justify-content: space-between;
+}
+.yes-button {
+  width: 13.07vw;
+  height: 8vw;
+  font-size: 3.73vw;
+  border: 1px solid#676769;
+  border-radius: 8px;
+}
+.share-content-box {
   justify-content: flex-start;
-  box-sizing: border-box;
-  margin-top: 3vw;
-  // margin-bottom: -5vw;
+  align-items: flex-start;
 }
-.five-card {
-  .flex-change-box;
-  justify-content: space-between;
-  background-size: cover;
+.share-content-mini {
+  font-size: 2.93vw;
+  color: #666;
+  margin-top: 1.27vw;
+  width: 64.13vw;
 }
-.five-card-title {
-  font-size: 2.96vw;
-  color: #a238c1;
-  font-weight: bold;
-  margin-top: 1.31vw;
-  justify-content: space-between;
+.google-head {
   .mid-box;
+  justify-content: flex-start;
+  height: 14.67vw;
 }
-.five-card-text {
-  font-size: 3.19vw;
-  color: #ffffff;
+.google-play-pict {
+  width: 32vw;
+  height: 7.47vw;
+}
+.search-box {
+  width: 4.27vw;
+  height: 4.13vw;
+  margin-left: 40.73vw;
+}
+.question-box {
+  width: 4.27vw;
+  height: 4.27vw;
+  margin-left: 4.93vw;
+}
+.wish-share-box {
+  height: 9.56vw;
+  width: 86.8vw;
+  .flex-change-box;
+  justify-content: space-between;
+  margin-top: 3.47vw;
+}
+.wish-share-1 {
+  width: 38.53vw;
+  .mid-box;
+  justify-content: flex-start;
+}
+.wish-share-2 {
+  width: 53.2vw;
+}
+.share-link-pict {
+  width: 2.53vw;
+  height: 2.53vw;
+}
+.wish-share-text {
+  font-family: "rb";
+  font-size: 3.2vw;
+  color: #0b57cf;
+  margin-left: 0.8vw;
+}
+.wish-share-text-grey {
+  font-family: "rb";
+  font-size: 3.2vw;
+  color: #5f6368;
+  margin-left: 0.8vw;
+}
+.share-add-pict {
+  width: 2vw;
+  height: 2.67vw;
+  margin-left: 2.4vw;
+}
+.share-eq-pict {
+  width: 2.93vw;
+  height: 2.27vw;
+}
+.see-reviews {
+  width: 72.54vw;
+  text-align: left;
+  font-size: 3.47vw;
+  color: #0b57cf;
   font-weight: bold;
   position: relative;
-  top: -7.33vw;
+  top: -7.2vw;
 }
-.five-pict-1{
-  width: 94.78vw;
-	height: 62.42vw;
+.line-reviews {
+  width: 86.93vw;
+  border-bottom: solid 0.13vw #eeeeee;
 }
-.five-pict-2{
-  width: 94.78vw;
-	height: 54.58vw;
-  margin-top: 5.97vw;
+.google-policy-box {
+  .flex-change-start;
+  justify-content: flex-start;
 }
-.channel-bg {
-  width: 100vw;
-  height: 26.86vw;
-  .flex-change-box;
-  box-sizing: border-box;
-  justify-content: space-between;
-  border-bottom: 2.08vw solid #d4aaff;
+.google-policy-box-1 {
+  margin-top: 10.27vw;
 }
-.channel-split-pict{
-  width: 96.25vw;
-  height: auto;
+.google-policy-box-2 {
+  margin-top: 5.27vw;
 }
-.channel-title {
-  font-size: 3.33vw;
+.policy-title {
+  font-size: 2.67vw;
+  line-height: 6.4vw;
   font-weight: bold;
-  margin-top: 3.09vw;
-  color: #a238c1;
+  color: #000;
 }
-.bank-card-box {
-  width: 98.5vw;
-  .flex-around;
+.policy-span {
+  font-size: 2.67vw;
+  color: #5f6368;
+  margin-top: 3.87vw;
+}
+.terms-box {
+  .mid-box;
+  justify-content: space-between;
+  width: 56.53vw;
+  height: 8.8vw;
+  font-size: 2.4vw;
+  color: #5f6368;
+  flex-wrap: wrap;
+  margin-top: 8vw;
+}
+.flag-box {
+  .mid-box;
+  justify-content: flex-start;
+  margin-top: 4.67vw;
+}
+.india-pict {
+  width: 2.93vw;
+  height: 2vw;
+}
+.flag-text {
+  font-size: 2.4vw;
+  color: #5f6368;
+}
+.app-bottom {
+  width: 100vw;
+  height: 13.46vw;
+  border-top: solid 0.27vw #dcdcdc;
+  margin-top: 6.67vw;
+  .mid-box;
+}
+.app-bottom-card-box{
+  width: 90vw;
+  .mid-box;
+  justify-content: space-between;
   position: relative;
-  top: 2vw;
+  top: 0.5vw;
 }
-.bank-card {
+.bottom-card{
   .flex-change-box;
-  justify-content: flex-end;
-  width: 22.86vw;
-	height: 20.8vw;
-  padding-bottom: 0.52vw;
-  box-sizing: border-box;
+  justify-content: space-between;
+  height: 8vw;
 }
-.bank-card:nth-child(1){
-  background-image: url("https://dapv7y4era0s5.cloudfront.net/candycrush/ic_01.png");
-  background-size: cover;
+.bottom-pict-1{
+  width: 4.13vw;
+	height: 3.2vw;
 }
-.bank-card:nth-child(2){
-  background-image: url("https://dapv7y4era0s5.cloudfront.net/candycrush/ic_02.png");
-  background-size: cover;
+.bottom-pict-2{
+  	width: 3.33vw;
+	height: 3.47vw;
 }
-.bank-card:nth-child(3){
-  background-image: url("https://dapv7y4era0s5.cloudfront.net/candycrush/ic_03.png");
-  background-size: cover;
+.bottom-pict-3{
+  width: 3.6vw;
+	height: 4vw;
 }
-.bank-card:nth-child(4){
-  background-image: url("https://dapv7y4era0s5.cloudfront.net/candycrush/ic_04.png");
-  background-size: cover;
+.bottom-pict-4{
+  width: 3.2vw;
+	height: 4.13vw;
 }
-.bank-pict {
-  width: 22.78vw;
-	height: 26.25vw;
-  margin-bottom: 2.08vw;
+.bottom-pict-5{
+  width: 4.53vw;
+	height: 4.4vw;
 }
-.bank-title {
-  font-size: 2.3vw;
-  line-height: 3vw;
-  color: #fff;
+.bottom-card-title{
+  font-size: 2.93vw;
+	color: #5f6368;
 }
-.muti-title-pict{
-  width: 85.97vw;
-	height: 3.33vw;
-  margin-top: 4.44vw;
-}
-.muti-title{
-  font-size: 3.06vw;
-  line-height: 3.16vw;
-	color: #ffffff;
-  text-align: center;
-}
-.five-title-pict{
-  width: 70.28vw;
-	height: 4.58vw;
-  margin-top: 4.17vw;
-}
-.five-color-span-box{
-  width: 78.19vw;
-	height: 6.25vw;
-	background-color: #6e0000;
-	border-radius: 1.11vw;
-  .mid-box;
-}
-.muti-title-bg{
-  background-color: #b064ff;
-  width: 100%;
-  .mid-box;
-  height: 7.36vw;
+.bottom-card:nth-child(2) span{
+  color: #0b57cf;
 }
 </style>
