@@ -1,141 +1,202 @@
 <template>
-  <div class="main">
-    <div class="flex-start-box icon-box">
-      <div class="icon-app">
-        <img src="https://dapv7y4era0s5.cloudfront.net/candycrush/192.png" alt="" class="pict">
-      </div>
-      <div class="app-info">
-        <span class="app-name">Candy Crush Cash</span>
-        <span class="app-team">Candy Crush Cash Game</span>
-        <span class="app-ads">In-App Purchases</span>
-      </div>
-    </div>
-    <div class="flex-start-box app-data">
-      <div class="app-slide-box">
-        <div class="app-review">
-          <div class="star-box">
-            <span class="mark-num">4.9</span>
-            <img src="https://dapv7y4era0s5.cloudfront.net/candycrush/ic_star.png" alt="" class="star-single">
-          </div>
-          <span class="mark-data-grey">6k reviews
-            <img src="https://dapv7y4era0s5.cloudfront.net/candycrush/ic_gth.png" alt="" class="gth-pict">
-          </span>
+  <div>
+    <div class="main">
+      <div class="google-head">
+        <div class="google-play-pict">
+          <img src="../../static/mobile/googleplay.png" alt="" class="pict">
         </div>
-        <div class="split-col"></div>
-        <div class="app-download">
-          <img src="https://dapv7y4era0s5.cloudfront.net/candycrush/ic_xz.png" alt="" class="download-icon">
-          <span class="mark-data-grey mark-data-grey-1">3 MB</span>
+        <div class="search-box">
+          <img src="../../static/mobile/ic_search.png" alt="" class="pict">
         </div>
-        <div class="split-col"></div>
-        <div class="app-download">
-          <img src="https://dapv7y4era0s5.cloudfront.net/candycrush/ic_16.png" alt="" class="year-icon">
-          <span class="mark-data-grey">Rated for 16+
-            <img src="https://dapv7y4era0s5.cloudfront.net/candycrush/ic_gth.png" alt="" class="gth-pict">
-          </span>
-        </div>
-        <div class="split-col"></div>
-        <div class="app-download">
-          <span class="download-data">100K+</span>
-          <span class="mark-data-grey">Downloads</span>
+        <div class="question-box">
+          <img src="../../static/mobile/ic_question.png" alt="" class="pict">
         </div>
       </div>
-    </div>
-    <div class="install-btn" @click.stop="download_apk()">
-      Install
-    </div>
-
-    <div class="flex-start-box app-show-box">
-      <div class="show-pict-box">
-        <img src="https://dapv7y4era0s5.cloudfront.net/candycrush/img_1.png" alt="" class="show-pict">
-        <img src="https://dapv7y4era0s5.cloudfront.net/candycrush/img_2.png" alt="" class="show-pict">
-        <img src="https://dapv7y4era0s5.cloudfront.net/candycrush/img_3.png" alt="" class="show-pict">
-        <img src="https://dapv7y4era0s5.cloudfront.net/candycrush/img_3.png" alt="" class="show-pict">
+      <div class="flex-start-box icon-box">
+        <div class="icon-app">
+          <img src="../../static/mobileb/icon.png" alt="" class="pict">
+        </div>
+        <div class="app-info">
+          <span class="app-name">Ludo Up</span>
+          <span class="app-team">Up Studio</span>
+          <span class="app-ads">In-App Purchases</span>
+        </div>
       </div>
-    </div>
-
-    <div class="flex-start-box about-game-box">
-      <div class="about-title-arrow-box">
-        <span class="about-title">About this game</span>
-        <img src="https://dapv7y4era0s5.cloudfront.net/candycrush/ic_left.png" alt="" class="right-arrow-pict right-arrow-pict-margin">
-      </div>
-      <span class="about-content">
-        Candy Crush Cash is a new and stylish candy match game, available for no matter adults or kids for all ages. Brand new visual effect and game experience. Simple to start but challenging to master! No time-limited
-        that you can play anywhere & anytime offline.
-        <br>
-        <br>
-        Join this sweet journey and enjoy a variety of sweet treats, including chocolates, ice cream, cakes, doughnuts and more. Improve your game skills and complete game tasks to get a lot of real cash rewards. The
-        game also provides a variety of withdrawal methods for you to choose from.
-        <br>
-        <br>
-        Features: <br>
-        - Smooth combo experience<br>
-        - Diverse game-playing methods<br>
-        - Real cash rewards<br>
-        - Withdrawal methods to choose<br>
-      </span>
-      <!-- <span class="collapse-span">Collapse</span> -->
-    </div>
-
-    <div class="flex-change-box share-box">
-      <div class="flex-change-box shard-card-box">
-        <div class="mid-box share-card" v-for="shareInfo in shareInfoS" :key="shareInfo.pictStyle">
-          <img :src="shareInfo.pict" alt="" :class="shareInfo.pictStyle">
-          <div class="flex-change-box share-content-box">
-            <span class="share-content">
-              {{ shareInfo.content }}
+      <div class="flex-start-box app-data">
+        <div class="app-slide-box">
+          <div class="app-review">
+            <div class="star-box">
+              <span class="mark-num">4.9</span>
+              <img src="../../static/mobile/ic_star.png" alt="" class="star-single">
+            </div>
+            <span class="mark-data-grey">4k reviews
+              <img src="../../static/mobile/ic_gth.png" alt="" class="gth-pict gth-pict-1">
             </span>
-            <span class="share-content-mini">{{ shareInfo.content2 }}</span>
+          </div>
+          <div class="split-col"></div>
+          <div class="app-download">
+            <img src="../../static/mobile/ic_xz.png" alt="" class="download-icon">
+            <span class="mark-data-grey mark-data-grey-1">3 MB</span>
+          </div>
+          <div class="split-col"></div>
+          <div class="app-download">
+            <img src="../../static/mobile/ic_16.png" alt="" class="year-icon">
+            <span class="mark-data-grey">Rated for 16+
+              <img src="../../static/mobile/ic_gth.png" alt="" class="gth-pict gth-pict-2">
+            </span>
+          </div>
+          <div class="split-col"></div>
+          <div class="app-download">
+            <span class="download-data">100K+</span>
+            <span class="mark-data-grey">Downloads</span>
           </div>
         </div>
       </div>
-      <span class="see-detail">See details</span>
-    </div>
-
-    <div class="flex-start-box rating-box">
-      <div class="about-title-arrow-box">
-        <span class="rating-title">Ratings and reviews</span>
-        <img src="https://dapv7y4era0s5.cloudfront.net/candycrush/ic_left.png" alt="" class="right-arrow-pict">
+      <div class="install-btn" @click.stop="download_apk()">
+        Install
       </div>
-      <span class="rating-mid-content">
-        Ratings and reviews are verified and are from people who use the same type of device that you use
-      </span>
-      <div class="rate-card-box">
-        <div class="rate-left">
-          <span class="rate-num">4.9</span>
-          <img src="https://dapv7y4era0s5.cloudfront.net/candycrush/ic_pinfen.png" alt="" class="five-star-pict five-margin-rate">
-          <span class="rate-count">6,000</span>
+
+      <div class="wish-share-box">
+        <div class="wish-share-1">
+          <img src="../../static/mobile/ic_fx.png" alt="" class="share-link-pict">
+          <span class="wish-share-text">Share</span>
+          <img src="../../static/mobile/ic_qd.png" alt="" class="share-add-pict">
+          <span class="wish-share-text">Add to wishlist</span>
         </div>
-        <div class="rate-right">
-          <img src="https://dapv7y4era0s5.cloudfront.net/candycrush/ic_dengji.png" alt="" class="pict">
+        <div class="wish-share-1 wish-share-2">
+          <img src="../../static/mobile/ic_equipment.png" alt="" class="share-eq-pict">
+          <span class="wish-share-text-grey">This app works on all your devices</span>
         </div>
       </div>
-    </div>
 
-    <div class="user-box">
-      <div class="user-card" v-for="user in userInfoS" :key="user.name">
-        <div class="flex-start-box head-avatar-width">
-          <img src="https://dapv7y4era0s5.cloudfront.net/candycrush/ic_people.png" alt="" class="avatar">
-          <span class="user-name">{{ user.name }}</span>
-          <img src="https://dapv7y4era0s5.cloudfront.net/candycrush/ic_more.png" alt="" class="more-pict">
+      <div class="flex-start-box app-show-box">
+        <div class="show-pict-box">
+          <img src="../../static/mobileb/img_1.png" alt="" class="show-pict">
+          <img src="../../static/mobileb/img_2.png" alt="" class="show-pict">
+          <img src="../../static/mobileb/img_3.png" alt="" class="show-pict">
+          <img src="../../static/mobileb/img_4.png" alt="" class="show-pict">
         </div>
-        <div class="flex-start-box user-mark-box">
-          <img src="https://dapv7y4era0s5.cloudfront.net/candycrush/ic_pinfen.png" alt="" class="five-star-pict">
-          <span class="user-date">{{ user.date }}</span>
+      </div>
+
+      <div class="flex-start-box about-game-box">
+        <div class="about-title-arrow-box">
+          <span class="about-title">About this game</span>
+          <img src="../../static/mobile/ic_left.png" alt="" class="right-arrow-pict right-arrow-pict-margin">
         </div>
-        <span class="flex-start-box user-content">
-          {{ user.content }}
+        <span class="about-content">
+          Ludo Up combines the classic charm of Ludo with the exhilaration of real gold rewards. Roll the dice, strategize your moves, and engage in a gaming experience where triumphs translate into tangible riches. Turn
+          every move into a step towards real cash. In Ludo Up, victory is not just a title; it's a gateway to a world of cash-fueled triumphs. Play strategically, claim your wins, and unlock the path to prosperity.
+          <br>
+          <br>
+          Features in Ludo Up: <br>
+          1. Abundant real cash rewards <br>
+          2. Strategic moves & golden triumphs <br>
+          3. Transform your victories into tangible treasures <br>
+          4. Secure and fair play  <br>
         </span>
-        <div class="flex-start-box last-avatar-box">
-          <span class="user-help-span">Was this review helpful?</span>
-          <div class="mid-box button-box-total">
-            <div class="mid-box yes-button">Yes</div>
-            <div class="mid-box yes-button">No</div>
+        <!-- <span class="collapse-span">Collapse</span> -->
+      </div>
+
+      <div class="flex-change-box share-box">
+        <div class="flex-change-box shard-card-box">
+          <div class="mid-box share-card" v-for="shareInfo in shareInfoS" :key="shareInfo.pictStyle">
+            <img :src="shareInfo.pict" alt="" :class="shareInfo.pictStyle">
+            <div class="flex-change-box share-content-box">
+              <span class="share-content">
+                {{ shareInfo.content }}
+              </span>
+              <span class="share-content-mini">{{ shareInfo.content2 }}</span>
+            </div>
+          </div>
+        </div>
+        <span class="see-detail">See details</span>
+      </div>
+
+      <div class="flex-start-box rating-box">
+        <div class="about-title-arrow-box">
+          <span class="rating-title">Ratings and reviews</span>
+          <img src="../../static/mobile/ic_left.png" alt="" class="right-arrow-pict">
+        </div>
+        <span class="rating-mid-content">
+          Ratings and reviews are verified and are from people who use the same type of device that you use
+        </span>
+        <div class="rate-card-box">
+          <div class="rate-left">
+            <span class="rate-num">4.9</span>
+            <img src="../../static/mobile/ic_pinfen.png" alt="" class="five-star-pict five-margin-rate">
+            <span class="rate-count">4,376</span>
+          </div>
+          <div class="rate-right">
+            <img src="../../static/mobile/ic_dengji.png" alt="" class="pict">
           </div>
         </div>
       </div>
-    </div>
 
+      <div class="user-box">
+        <div class="user-card" v-for="user in userInfoS" :key="user.name">
+          <div class="flex-start-box head-avatar-width">
+            <img src="../../static/mobile/ic_people.png" alt="" class="avatar">
+            <span class="user-name">{{ user.name }}</span>
+            <img src="../../static/mobile/ic_more.png" alt="" class="more-pict">
+          </div>
+          <div class="flex-start-box user-mark-box">
+            <img src="../../static/mobile/ic_pinfen.png" alt="" class="five-star-pict">
+            <span class="user-date">{{ user.date }}</span>
+          </div>
+          <span class="flex-start-box user-content">
+            {{ user.content }}
+          </span>
+          <div class="flex-start-box last-avatar-box">
+            <span class="user-help-span">Was this review helpful?</span>
+            <div class="mid-box button-box-total">
+              <div class="mid-box yes-button">Yes</div>
+              <div class="mid-box yes-button">No</div>
+            </div>
+          </div>
+        </div>
+        <span class="see-reviews">See all reviews</span>
+        <div class="line-reviews"></div>
+      </div>
+
+      <div class="google-policy-box google-policy-box-1">
+        <span class="policy-title">Google Play</span>
+        <span class="policy-span">Play Pass</span>
+        <span class="policy-span">Play Points</span>
+        <span class="policy-span">Gift cards</span>
+        <span class="policy-span">Redeem</span>
+        <span class="policy-span">Refund policy</span>
+      </div>
+      <div class="google-policy-box google-policy-box-2">
+        <span class="policy-title">Children and family</span>
+        <span class="policy-span">Parent guide</span>
+        <span class="policy-span">Family sharing</span>
+      </div>
+
+      <div class="terms-box">
+        <span>Terms of service</span>
+        <span>Privacy</span>
+        <span>About Google Play</span>
+        <span>Developers</span>
+        <span>Google Store</span>
+        <span>All prices include VAT</span>
+      </div>
+
+      <div class="flag-box">
+        <img src="../../static/mobile/ic_lndia.png" alt="" class="india-pict">
+        <span class="flag-text">India(Hindi)</span>
+      </div>
+
+    </div>
+    <div class="app-bottom">
+      <div class="app-bottom-card-box">
+        <div class="bottom-card" v-for="bottomInfo in bottomInfoS" :key="bottomInfo.index">
+          <img :src="bottomInfo.pict" alt="" :class="bottomInfo.pictStyle">
+          <span class="bottom-card-title">{{ bottomInfo.title }}</span>
+        </div>
+      </div>
+    </div>
   </div>
+
 </template>
 
 <script>
@@ -146,47 +207,79 @@ export default {
     return {
       userInfoS: [
         {
-          name: "Chandra Talavalakar",
-          date: "2023/10/28",
+          name: "Sharya Thakur",
+          date: "2023/11/27",
           content:
-          "There are tons of match 3 games out there. A lot are very good, some are good, some are OK. But very few match 3 games get everything right, and this one isn't it. However, it's definitely one of the better ones, I'm sure with a couple more updates, it will be one of the best ."
+          "Ludo Up has transformed my gaming experience completely. The integration of real cash rewards adds a thrilling dimension to every move. The strategic gameplay keeps me engaged, and the fact that my victories are translated into tangible cash is absolutely fantastic. Highly recommend to those who seek the excitement of winning real cash! ",
         },
         {
-          name: "Saryu Sanyal",
-          date: "2023/10/26",
+          name: "Megh Seth",
+          date: "2023/11/22",
           content:
-            "I love this game. It's very relaxing and enjoyable. It's a little bit too easy but that is OK. There isn't a bunch of annoying ads like most other games, you have a choice to either watch them or not. Anyway it's a great game for me and I will continue to play for as long as I can."
+          "The arena, where I can compete with opponents who are extremely intelligent for real gold rewards, is truly exhilarating. "
         },
         {
-          name: "Jeet Choraghad",
-          date: "2023/10/22",
+          name: "Prakash Vaikar",
+          date: "2023/11/15",
           content:
-          "It's an OK game. But when I open the chest, then click to double my win, I don't get all of the prizes and they're not doubled. Maybe I'm doing something wrong?"
+          "Ludo Up provides an immersive gaming experience. Knowing that my victories are rightfully rewarded with real gold adds an extra layer of excitement. It's the perfect blend of secure gameplay and the allure of golden triumphs! "
         },
       ],
       shareInfoS: [
         {
-          pict: "https://dapv7y4era0s5.cloudfront.net/candycrush/ic_lianjie.png",
+          pict: "../../static/mobile/ic_lianjie.png",
           pictStyle: "share-pict-1",
           content: "This app may share these data types with third parties",
           content2: "App activity and Device or other IDs",
         },
         {
-          pict: "https://dapv7y4era0s5.cloudfront.net/candycrush/ic_yun.png",
+          pict: "../../static/mobile/ic_yun.png",
           pictStyle: "share-pict-2",
           content: "This app may collect these data types",
           content2:
             "App activity,App info and perfor mance.and Device or other IDs",
         },
         {
-          pict: "https://dapv7y4era0s5.cloudfront.net/candycrush/ic_lock.png",
+          pict: "../../static/mobile/ic_lock.png",
           pictStyle: "share-pict-3",
-          content: "Datais encrypted in transit",
+          content: "Data is encrypted in transit",
         },
         {
-          pict: "https://dapv7y4era0s5.cloudfront.net/candycrush/ic_ljt.png",
+          pict: "../../static/mobile/ic_ljt.png",
           pictStyle: "share-pict-4",
           content: "You can request that data be deleted",
+        },
+      ],
+      bottomInfoS: [
+        {
+          index: 1,
+          pict: "../../static/mobile/ic_Games.png",
+          pictStyle: "bottom-pict-1",
+          title: "Games",
+        },
+        {
+          index: 2,
+          pict: "../../static/mobile/ic_Apps.png",
+          pictStyle: "bottom-pict-2",
+          title: "Apps",
+        },
+        {
+          index: 3,
+          pict: "../../static/mobile/ic_Movies.png",
+          pictStyle: "bottom-pict-3",
+          title: "Movies & TV",
+        },
+        {
+          index: 4,
+          pict: "../../static/mobile/ic_Books.png",
+          pictStyle: "bottom-pict-4",
+          title: "Books",
+        },
+        {
+          index: 5,
+          pict: "../../static/mobile/ic_Children.png",
+          pictStyle: "bottom-pict-5",
+          title: "Children",
         },
       ],
     };
@@ -200,6 +293,7 @@ export default {
       chnup("headClick1");
     },
   },
+  created() {},
 };
 </script>
 
@@ -304,6 +398,7 @@ export default {
   // margin-top: 2.4vw;
   width: 26vw;
   text-align: center;
+  .mid-box;
 }
 .mark-data-grey-1 {
   width: 20vw;
@@ -471,6 +566,12 @@ export default {
   width: 2.67vw;
   height: 2.67vw;
 }
+.gth-pict-1 {
+  margin-left: 4vw;
+}
+.gth-pict-2 {
+  margin-left: 1.2vw;
+}
 .download-icon {
   width: 4.93vw;
   height: 4.93vw;
@@ -592,5 +693,168 @@ export default {
   color: #666;
   margin-top: 1.27vw;
   width: 64.13vw;
+}
+.google-head {
+  .mid-box;
+  justify-content: flex-start;
+  height: 14.67vw;
+}
+.google-play-pict {
+  width: 32vw;
+  height: 7.47vw;
+}
+.search-box {
+  width: 4.27vw;
+  height: 4.13vw;
+  margin-left: 40.73vw;
+}
+.question-box {
+  width: 4.27vw;
+  height: 4.27vw;
+  margin-left: 4.93vw;
+}
+.wish-share-box {
+  height: 9.56vw;
+  width: 86.8vw;
+  .flex-change-box;
+  justify-content: space-between;
+  margin-top: 3.47vw;
+}
+.wish-share-1 {
+  width: 38.53vw;
+  .mid-box;
+  justify-content: flex-start;
+}
+.wish-share-2 {
+  width: 53.2vw;
+}
+.share-link-pict {
+  width: 2.53vw;
+  height: 2.53vw;
+}
+.wish-share-text {
+  font-family: "rb";
+  font-size: 3.2vw;
+  color: #0b57cf;
+  margin-left: 0.8vw;
+}
+.wish-share-text-grey {
+  font-family: "rb";
+  font-size: 3.2vw;
+  color: #5f6368;
+  margin-left: 0.8vw;
+}
+.share-add-pict {
+  width: 2vw;
+  height: 2.67vw;
+  margin-left: 2.4vw;
+}
+.share-eq-pict {
+  width: 2.93vw;
+  height: 2.27vw;
+}
+.see-reviews {
+  width: 72.54vw;
+  text-align: left;
+  font-size: 3.47vw;
+  color: #0b57cf;
+  font-weight: bold;
+  position: relative;
+  top: -7.2vw;
+}
+.line-reviews {
+  width: 86.93vw;
+  border-bottom: solid 0.13vw #eeeeee;
+}
+.google-policy-box {
+  .flex-change-start;
+  justify-content: flex-start;
+}
+.google-policy-box-1 {
+  margin-top: 10.27vw;
+}
+.google-policy-box-2 {
+  margin-top: 5.27vw;
+}
+.policy-title {
+  font-size: 2.67vw;
+  line-height: 6.4vw;
+  font-weight: bold;
+  color: #000;
+}
+.policy-span {
+  font-size: 2.67vw;
+  color: #5f6368;
+  margin-top: 3.87vw;
+}
+.terms-box {
+  .mid-box;
+  justify-content: space-between;
+  width: 56.53vw;
+  height: 8.8vw;
+  font-size: 2.4vw;
+  color: #5f6368;
+  flex-wrap: wrap;
+  margin-top: 8vw;
+}
+.flag-box {
+  .mid-box;
+  justify-content: flex-start;
+  margin-top: 4.67vw;
+}
+.india-pict {
+  width: 2.93vw;
+  height: 2vw;
+}
+.flag-text {
+  font-size: 2.4vw;
+  color: #5f6368;
+  margin-left: 1.47vw;
+}
+.app-bottom {
+  width: 100vw;
+  height: 13.46vw;
+  border-top: solid 0.27vw #dcdcdc;
+  margin-top: 6.67vw;
+  .mid-box;
+}
+.app-bottom-card-box {
+  width: 90vw;
+  .mid-box;
+  justify-content: space-between;
+  position: relative;
+  top: 0.5vw;
+}
+.bottom-card {
+  .flex-change-box;
+  justify-content: space-between;
+  height: 8vw;
+}
+.bottom-pict-1 {
+  width: 4.13vw;
+  height: 3.2vw;
+}
+.bottom-pict-2 {
+  width: 3.33vw;
+  height: 3.47vw;
+}
+.bottom-pict-3 {
+  width: 3.6vw;
+  height: 4vw;
+}
+.bottom-pict-4 {
+  width: 3.2vw;
+  height: 4.13vw;
+}
+.bottom-pict-5 {
+  width: 4.53vw;
+  height: 4.4vw;
+}
+.bottom-card-title {
+  font-size: 2.93vw;
+  color: #5f6368;
+}
+.bottom-card:nth-child(2) span {
+  color: #0b57cf;
 }
 </style>

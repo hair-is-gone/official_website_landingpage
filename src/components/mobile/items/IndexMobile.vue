@@ -74,7 +74,7 @@
           <img src="../../../../static/mobile/img_1.png" alt="" class="show-pict">
           <img src="../../../../static/mobile/img_2.png" alt="" class="show-pict">
           <img src="../../../../static/mobile/img_3.png" alt="" class="show-pict">
-          <img src="../../../../static/mobile/img_3.png" alt="" class="show-pict">
+          <img src="../../../../static/mobile/img_4.png" alt="" class="show-pict">
         </div>
       </div>
 
@@ -811,6 +811,7 @@ export default {
 .flag-text {
   font-size: 2.4vw;
   color: #5f6368;
+  margin-left: 1.47vw;
 }
 .app-bottom {
   width: 100vw;
