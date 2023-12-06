@@ -286,7 +286,7 @@ export default {
   },
   methods: {
     download_apk: function (event) {
-      // chnup("click");
+      chnup("click_v2");
       // download();
     },
     head_click: function () {
