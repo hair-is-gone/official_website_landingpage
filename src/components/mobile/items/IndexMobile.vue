@@ -178,7 +178,7 @@
         <span>About Google Play</span>
         <span>Developers</span>
         <span>Google Store</span>
-        <span>All prices include VAT</span>
+        <span>All prices include VAT.</span>
       </div>
 
       <div class="flag-box">
@@ -307,6 +307,7 @@ export default {
   padding: 2.8vw 6.8vw;
   padding-right: 0vw;
   font-family: "rb";
+  padding-bottom: 20vw;
 }
 .flex-start-box {
   .mid-box;
@@ -428,7 +429,7 @@ export default {
   color: #ffffff;
 }
 .app-show-box {
-  margin-top: 6.67vw;
+  margin-top: 11.73vw;
 }
 .show-pict-box {
   width: 93vw;
@@ -603,7 +604,7 @@ export default {
   height: 81.6vw;
   border-radius: 2.4vw;
   border: solid 0.27vw #acaba9;
-  margin-top: 2.87vw;
+  margin-top: 4.93vw;
 }
 .shard-card-box {
   justify-content: space-between;
@@ -780,7 +781,7 @@ export default {
 }
 .policy-title {
   font-size: 2.67vw;
-  line-height: 6.4vw;
+  // line-height: 6.4vw;
   font-weight: bold;
   color: #000;
 }
@@ -819,6 +820,11 @@ export default {
   border-top: solid 0.27vw #dcdcdc;
   margin-top: 6.67vw;
   .mid-box;
+  box-sizing: border-box;
+  position: fixed;
+  z-index: 200;
+  bottom: 0;
+  background-color: #fff;
 }
 .app-bottom-card-box{
   width: 90vw;
