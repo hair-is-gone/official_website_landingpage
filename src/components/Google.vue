@@ -826,7 +826,7 @@ export default {
   margin-top: 10.27vw;
 }
 .google-policy-box-2 {
-  margin-top: 5.27vw;
+  margin-top: 8.27vw;
 }
 .policy-title {
   font-size: 2.67vw;
@@ -843,7 +843,7 @@ export default {
   .mid-box;
   justify-content: space-between;
   width: 56.53vw;
-  height: 8.8vw;
+  height: 12.8vw;
   font-size: 2.4vw;
   color: #5f6368;
   flex-wrap: wrap;
