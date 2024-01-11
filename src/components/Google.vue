@@ -315,6 +315,14 @@ export default {
         leftDiv.style.visibility = "visible";
         let rightDiv = document.getElementById("gpright-pict");
         rightDiv.style.visibility = "visible";
+        if(changeIndex == 4){
+          let rightDiv = document.getElementById("gpright-pict");
+          rightDiv.style.visibility = "hidden";
+        } 
+        if(changeIndex == 1){
+          let leftDiv = document.getElementById("gpleft-pict");
+          leftDiv.style.visibility = "hidden";
+        } 
         let imgDiv = document.getElementById("gpshow-pict-big");
         imgDiv.src = `https://dapv7y4era0s5.cloudfront.net/ludofight/mobileb/image_${changeIndex}.png`;
       }
@@ -926,7 +934,7 @@ export default {
   margin-top: 40vw;
 }
 .show-pict-big {
-  width: 50.94vw;
+  width: 70.94vw;
   height: auto;
   margin-left: 2.53vw;
   margin-right: 2.53vw;

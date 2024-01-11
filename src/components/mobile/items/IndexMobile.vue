@@ -300,7 +300,7 @@ export default {
     changePict: function(msg){
       let changeIndex = this.nowPict + msg
       console.log(msg, changeIndex)
-      if(changeIndex < 0){
+      if(changeIndex <= 0){
         let leftDiv = document.getElementById("left-pict")
         leftDiv.style.visibility = "hidden"
         return
@@ -309,6 +309,10 @@ export default {
         rightDiv.style.visibility = "hidden"
         return
       } else {
+        let leftDiv = document.getElementById("left-pict")
+        leftDiv.style.visibility = "visible"
+        let rightDiv = document.getElementById("right-pict")
+        rightDiv.style.visibility = "visible"
         if(changeIndex == 4){
           let rightDiv = document.getElementById("right-pict")
           rightDiv.style.visibility = "hidden"
@@ -318,10 +322,6 @@ export default {
           leftDiv.style.visibility = "hidden"
         } 
         this.nowPict = changeIndex;
-        let leftDiv = document.getElementById("left-pict")
-        leftDiv.style.visibility = "visible"
-        let rightDiv = document.getElementById("right-pict")
-        rightDiv.style.visibility = "visible"
         let imgDiv = document.getElementById("show-pict-big")
         imgDiv.src = `https://dapv7y4era0s5.cloudfront.net/ludofight/mobile/image_${changeIndex}.png`
       }
