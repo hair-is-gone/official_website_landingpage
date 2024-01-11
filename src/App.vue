@@ -45,16 +45,16 @@ export default {
         if(ipInfo.country_iso_code == "IN"){
           let gpPage = document.getElementById("gpPage")
           gpPage.style.display = "block";
-          document.title = "Fruit League"
+          document.title = "Ludo Flight"
           return
         }
         let india = document.getElementById("indiaPage")
         india.style.display = "block";
-        document.title = "Fruit League"
+        document.title = "Ludo Flight"
       } else {
         let india = document.getElementById("indiaPage")
         india.style.display = "block";
-        document.title = "Fruit League"
+        document.title = "Ludo Flight"
       }
     },
   },
