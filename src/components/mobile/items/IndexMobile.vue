@@ -2,26 +2,26 @@
   <div>
     <div class="dialog-box" id="dialog-box" @click.stop="closeDialog()">
       <div class="mid-box click-show-box">
-        <img src="../../../../static/mobile/left.png" @click.stop="changePict(-1)" id="left-pict" alt="" class="left-pict">
-        <img src="../../../../static/mobile/image_1.png" alt="" class="show-pict-big" id="show-pict-big">
-        <img src="../../../../static/mobile/right.png" class="right-pict" @click.stop="changePict(1)" id="right-pict" alt="">
+        <img src="https://dapv7y4era0s5.cloudfront.net/ludofight/mobile/left.png" @click.stop="changePict(-1)" id="left-pict" alt="" class="left-pict">
+        <img src="https://dapv7y4era0s5.cloudfront.net/ludofight/mobile/image_1.png" alt="" class="show-pict-big" id="show-pict-big">
+        <img src="https://dapv7y4era0s5.cloudfront.net/ludofight/mobile/right.png" class="right-pict" @click.stop="changePict(1)" id="right-pict" alt="">
       </div>
     </div>
     <div class="main">
       <div class="google-head">
         <div class="google-play-pict">
-          <img src="../../../../static/mobile/googleplay.png" alt="" class="pict">
+          <img src="https://dapv7y4era0s5.cloudfront.net/ludofight/mobile/googleplay.png" alt="" class="pict">
         </div>
         <div class="search-box">
-          <img src="../../../../static/mobile/ic_search.png" alt="" class="pict">
+          <img src="https://dapv7y4era0s5.cloudfront.net/ludofight/mobile/ic_search.png" alt="" class="pict">
         </div>
         <div class="question-box">
-          <img src="../../../../static/mobile/ic_question.png" alt="" class="pict">
+          <img src="https://dapv7y4era0s5.cloudfront.net/ludofight/mobile/ic_question.png" alt="" class="pict">
         </div>
       </div>
       <div class="flex-start-box icon-box">
         <div class="icon-app">
-          <img src="../../../../static/mobile/192.png" alt="" class="pict">
+          <img src="https://dapv7y4era0s5.cloudfront.net/ludofight/mobile/192.png" alt="" class="pict">
         </div>
         <div class="app-info">
           <span class="app-name">Ludo Flight</span>
@@ -34,22 +34,22 @@
           <div class="app-review">
             <div class="star-box">
               <span class="mark-num">4.9</span>
-              <img src="../../../../static/mobile/ic_star.png" alt="" class="star-single">
+              <img src="https://dapv7y4era0s5.cloudfront.net/ludofight/mobile/ic_star.png" alt="" class="star-single">
             </div>
             <span class="mark-data-grey">6k reviews
-              <img src="../../../../static/mobile/ic_gth.png" alt="" class="gth-pict gth-pict-1">
+              <img src="https://dapv7y4era0s5.cloudfront.net/ludofight/mobile/ic_gth.png" alt="" class="gth-pict gth-pict-1">
             </span>
           </div>
           <div class="split-col"></div>
           <div class="app-download">
-            <img src="../../../../static/mobile/ic_xz.png" alt="" class="download-icon">
+            <img src="https://dapv7y4era0s5.cloudfront.net/ludofight/mobile/ic_xz.png" alt="" class="download-icon">
             <span class="mark-data-grey mark-data-grey-1">3 MB</span>
           </div>
           <div class="split-col"></div>
           <div class="app-download">
-            <img src="../../../../static/mobile/ic_16.png" alt="" class="year-icon">
+            <img src="https://dapv7y4era0s5.cloudfront.net/ludofight/mobile/ic_16.png" alt="" class="year-icon">
             <span class="mark-data-grey">Rated for 16+
-              <img src="../../../../static/mobile/ic_gth.png" alt="" class="gth-pict gth-pict-2">
+              <img src="https://dapv7y4era0s5.cloudfront.net/ludofight/mobile/ic_gth.png" alt="" class="gth-pict gth-pict-2">
             </span>
           </div>
           <div class="split-col"></div>
@@ -65,30 +65,30 @@
 
       <div class="wish-share-box">
         <div class="wish-share-1">
-          <img src="../../../../static/mobile/ic_fx.png" alt="" class="share-link-pict">
+          <img src="https://dapv7y4era0s5.cloudfront.net/ludofight/mobile/ic_fx.png" alt="" class="share-link-pict">
           <span class="wish-share-text">Share</span>
-          <img src="../../../../static/mobile/ic_qd.png" alt="" class="share-add-pict">
+          <img src="https://dapv7y4era0s5.cloudfront.net/ludofight/mobile/ic_qd.png" alt="" class="share-add-pict">
           <span class="wish-share-text">Add to wishlist</span>
         </div>
         <div class="wish-share-1 wish-share-2">
-          <img src="../../../../static/mobile/ic_equipment.png" alt="" class="share-eq-pict">
+          <img src="https://dapv7y4era0s5.cloudfront.net/ludofight/mobile/ic_equipment.png" alt="" class="share-eq-pict">
           <span class="wish-share-text-grey">This app works on all your devices</span>
         </div>
       </div>
 
       <div class="flex-start-box app-show-box">
         <div class="show-pict-box">
-          <img src="../../../../static/mobile/img_1.png" alt="" class="show-pict" @click="showDialog(1)">
-          <img src="../../../../static/mobile/img_2.png" alt="" class="show-pict" @click="showDialog(2)">
-          <img src="../../../../static/mobile/img_3.png" alt="" class="show-pict" @click="showDialog(3)">
-          <img src="../../../../static/mobile/img_4.png" alt="" class="show-pict" @click="showDialog(4)">
+          <img src="https://dapv7y4era0s5.cloudfront.net/ludofight/mobile/img_1.png" alt="" class="show-pict" @click="showDialog(1)">
+          <img src="https://dapv7y4era0s5.cloudfront.net/ludofight/mobile/img_2.png" alt="" class="show-pict" @click="showDialog(2)">
+          <img src="https://dapv7y4era0s5.cloudfront.net/ludofight/mobile/img_3.png" alt="" class="show-pict" @click="showDialog(3)">
+          <img src="https://dapv7y4era0s5.cloudfront.net/ludofight/mobile/img_4.png" alt="" class="show-pict" @click="showDialog(4)">
         </div>
       </div>
 
       <div class="flex-start-box about-game-box">
         <div class="about-title-arrow-box">
           <span class="about-title">About this game</span>
-          <img src="../../../../static/mobile/ic_left.png" alt="" class="right-arrow-pict right-arrow-pict-margin">
+          <img src="https://dapv7y4era0s5.cloudfront.net/ludofight/mobile/ic_left.png" alt="" class="right-arrow-pict right-arrow-pict-margin">
         </div>
         <span class="about-content">
           Introducing Ludo Flight – an exhilarating board game adventure that takes the classic Ludo experience to new heights! Immerse yourself in the captivating world of Ludo Flight, where traditional gameplay meets modern innovation. Customize your gaming experience with a variety of settings, from selecting different board themes to adjusting game rules that suit your style. 
@@ -120,7 +120,7 @@
       <div class="flex-start-box rating-box">
         <div class="about-title-arrow-box">
           <span class="rating-title">Ratings and reviews</span>
-          <img src="../../../../static/mobile/ic_left.png" alt="" class="right-arrow-pict">
+          <img src="https://dapv7y4era0s5.cloudfront.net/ludofight/mobile/ic_left.png" alt="" class="right-arrow-pict">
         </div>
         <span class="rating-mid-content">
           Ratings and reviews are verified and are from people who use the same type of device that you use
@@ -128,11 +128,11 @@
         <div class="rate-card-box">
           <div class="rate-left">
             <span class="rate-num">4.9</span>
-            <img src="../../../../static/mobile/ic_pinfen.png" alt="" class="five-star-pict five-margin-rate">
+            <img src="https://dapv7y4era0s5.cloudfront.net/ludofight/mobile/ic_pinfen.png" alt="" class="five-star-pict five-margin-rate">
             <span class="rate-count">6,743</span>
           </div>
           <div class="rate-right">
-            <img src="../../../../static/mobile/ic_dengji.png" alt="" class="pict">
+            <img src="https://dapv7y4era0s5.cloudfront.net/ludofight/mobile/ic_dengji.png" alt="" class="pict">
           </div>
         </div>
       </div>
@@ -140,12 +140,12 @@
       <div class="user-box">
         <div class="user-card" v-for="user in userInfoS" :key="user.name">
           <div class="flex-start-box head-avatar-width">
-            <img src="../../../../static/mobile/ic_people.png" alt="" class="avatar">
+            <img src="https://dapv7y4era0s5.cloudfront.net/ludofight/mobile/ic_people.png" alt="" class="avatar">
             <span class="user-name">{{ user.name }}</span>
-            <img src="../../../../static/mobile/ic_more.png" alt="" class="more-pict">
+            <img src="https://dapv7y4era0s5.cloudfront.net/ludofight/mobile/ic_more.png" alt="" class="more-pict">
           </div>
           <div class="flex-start-box user-mark-box">
-            <img src="../../../../static/mobile/ic_pinfen.png" alt="" class="five-star-pict">
+            <img src="https://dapv7y4era0s5.cloudfront.net/ludofight/mobile/ic_pinfen.png" alt="" class="five-star-pict">
             <span class="user-date">{{ user.date }}</span>
           </div>
           <span class="flex-start-box user-content">
@@ -187,7 +187,7 @@
       </div>
 
       <div class="flag-box">
-        <img src="../../../../static/mobile/ic_lndia.png" alt="" class="india-pict">
+        <img src="https://dapv7y4era0s5.cloudfront.net/ludofight/mobile/ic_lndia.png" alt="" class="india-pict">
         <span class="flag-text">India(Hindi)</span>
       </div>
 
@@ -232,25 +232,25 @@ export default {
       ],
       shareInfoS: [
         {
-          pict: "../../../../static/mobile/ic_lianjie.png",
+          pict: "https://dapv7y4era0s5.cloudfront.net/ludofight/mobile/ic_lianjie.png",
           pictStyle: "share-pict-1",
           content: "This app may share these data types with third parties",
           content2: "App activity and Device or other IDs",
         },
         {
-          pict: "../../../../static/mobile/ic_yun.png",
+          pict: "https://dapv7y4era0s5.cloudfront.net/ludofight/mobile/ic_yun.png",
           pictStyle: "share-pict-2",
           content: "This app may collect these data types",
           content2:
             "App activity,App info and perfor mance.and Device or other IDs",
         },
         {
-          pict: "../../../../static/mobile/ic_lock.png",
+          pict: "https://dapv7y4era0s5.cloudfront.net/ludofight/mobile/ic_lock.png",
           pictStyle: "share-pict-3",
           content: "Data is encrypted in transit",
         },
         {
-          pict: "../../../../static/mobile/ic_ljt.png",
+          pict: "https://dapv7y4era0s5.cloudfront.net/ludofight/mobile/ic_ljt.png",
           pictStyle: "share-pict-4",
           content: "You can request that data be deleted",
         },
@@ -258,31 +258,31 @@ export default {
       bottomInfoS: [
         {
           index: 1,
-          pict: "../../../../static/mobile/ic_Games.png",
+          pict: "https://dapv7y4era0s5.cloudfront.net/ludofight/mobile/ic_Games.png",
           pictStyle: "bottom-pict-1",
           title: "Games",
         },
         {
           index: 2,
-          pict: "../../../../static/mobile/ic_Apps.png",
+          pict: "https://dapv7y4era0s5.cloudfront.net/ludofight/mobile/ic_Apps.png",
           pictStyle: "bottom-pict-2",
           title: "Apps",
         },
         {
           index: 3,
-          pict: "../../../../static/mobile/ic_Movies.png",
+          pict: "https://dapv7y4era0s5.cloudfront.net/ludofight/mobile/ic_Movies.png",
           pictStyle: "bottom-pict-3",
           title: "Movies & TV",
         },
         {
           index: 4,
-          pict: "../../../../static/mobile/ic_Books.png",
+          pict: "https://dapv7y4era0s5.cloudfront.net/ludofight/mobile/ic_Books.png",
           pictStyle: "bottom-pict-4",
           title: "Books",
         },
         {
           index: 5,
-          pict: "../../../../static/mobile/ic_Children.png",
+          pict: "https://dapv7y4era0s5.cloudfront.net/ludofight/mobile/ic_Children.png",
           pictStyle: "bottom-pict-5",
           title: "Children",
         },
@@ -323,7 +323,7 @@ export default {
         let rightDiv = document.getElementById("right-pict")
         rightDiv.style.visibility = "visible"
         let imgDiv = document.getElementById("show-pict-big")
-        imgDiv.src = `../../../../static/mobile/image_${changeIndex}.png`
+        imgDiv.src = `https://dapv7y4era0s5.cloudfront.net/ludofight/mobile/image_${changeIndex}.png`
       }
     },
     showDialog: function(id){
@@ -343,7 +343,7 @@ export default {
         rightDiv.style.visibility = "hidden"
       }
       let imgDiv = document.getElementById("show-pict-big")
-      imgDiv.src = `../../../../static/mobile/image_${id}.png`
+      imgDiv.src = `https://dapv7y4era0s5.cloudfront.net/ludofight/mobile/image_${id}.png`
     },
     closeDialog: function(){
       let dialogDiv = document.getElementById("dialog-box")
