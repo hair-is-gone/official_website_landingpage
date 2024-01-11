@@ -299,7 +299,8 @@ export default {
     },
     changePict: function(msg){
       let changeIndex = this.nowPict + msg
-      if(changeIndex <= 0){
+      console.log(msg, changeIndex)
+      if(changeIndex < 0){
         let leftDiv = document.getElementById("left-pict")
         leftDiv.style.visibility = "hidden"
         return
@@ -308,6 +309,14 @@ export default {
         rightDiv.style.visibility = "hidden"
         return
       } else {
+        if(changeIndex == 4){
+          let rightDiv = document.getElementById("right-pict")
+          rightDiv.style.visibility = "hidden"
+        } 
+        if(changeIndex == 1){
+          let leftDiv = document.getElementById("left-pict")
+          leftDiv.style.visibility = "hidden"
+        } 
         this.nowPict = changeIndex;
         let leftDiv = document.getElementById("left-pict")
         leftDiv.style.visibility = "visible"
@@ -925,7 +934,7 @@ export default {
   margin-top: 40vw;
 }
 .show-pict-big {
-  width: 50.94vw;
+  width: 70.94vw;
   height: auto;
   margin-left: 2.53vw;
   margin-right: 2.53vw;
