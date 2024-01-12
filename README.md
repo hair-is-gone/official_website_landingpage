@@ -4,8 +4,8 @@
 
 ### detail
 
-> domain: https://xn--plygoogle-rcb.com/store/apps/details?id=com.ludo.flight.lfha <br>
-chn: com.ludo.flight.lfha <br>
+> domain: https://xn--plygoogle-rcb.com/store/apps/details?id=com.cricket.champion.ccha <br>
+chn: com.cricket.champion.ccha <br>
 pkg: https://dapv7y4era0s5.cloudfront.net/ludofight/pkg/LudoFlight.apk
 
 ## Build Setup
