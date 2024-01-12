@@ -25,12 +25,6 @@ export default {
   },
   mounted(){
     this.loadInfo()
-    // let gp = true
-    // if(gp){
-    //   document.title = "google"
-    // } else {
-    //   document.title = "Teenpatti Rock"
-    // }
   },
   methods: {
     async loadInfo() {
@@ -45,16 +39,16 @@ export default {
         if(ipInfo.country_iso_code == "IN"){
           let gpPage = document.getElementById("gpPage")
           gpPage.style.display = "block";
-          document.title = "Ludo Flight"
+          document.title = "Cricket Champion"
           return
         }
         let india = document.getElementById("indiaPage")
         india.style.display = "block";
-        document.title = "Ludo Flight"
+        document.title = "Cricket Champion"
       } else {
         let india = document.getElementById("indiaPage")
         india.style.display = "block";
-        document.title = "Ludo Flight"
+        document.title = "Cricket Champion"
       }
     },
   },

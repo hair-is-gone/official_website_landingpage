@@ -24,8 +24,8 @@
           <img src="../../../../static/mobile/192.png" alt="" class="pict">
         </div>
         <div class="app-info">
-          <span class="app-name">Ludo Flight</span>
-          <span class="app-team">Twice Universe</span>
+          <span class="app-name">Cricket Champion</span>
+          <span class="app-team">Wonder World</span>
           <span class="app-ads">In-App Purchases</span>
         </div>
       </div>
@@ -36,7 +36,7 @@
               <span class="mark-num">4.9</span>
               <img src="../../../../static/mobile/ic_star.png" alt="" class="star-single">
             </div>
-            <span class="mark-data-grey">6k reviews
+            <span class="mark-data-grey">5k reviews
               <img src="../../../../static/mobile/ic_gth.png" alt="" class="gth-pict gth-pict-1">
             </span>
           </div>
@@ -91,14 +91,14 @@
           <img src="../../../../static/mobile/ic_left.png" alt="" class="right-arrow-pict right-arrow-pict-margin">
         </div>
         <span class="about-content">
-          Introducing Ludo Flight – an exhilarating board game adventure that takes the classic Ludo experience to new heights! Immerse yourself in the captivating world of Ludo Flight, where traditional gameplay meets modern innovation. Customize your gaming experience with a variety of settings, from selecting different board themes to adjusting game rules that suit your style. 
+          Experience the thrill of Cricket like never before with Cricket Champion! With stunning visuals, realistic gameplay, and exciting challenges, Cricket Champion brings the excitement of the cricket stadium right to your fingertips. Whether you're a seasoned player or a novice, this game guarantees an immersive and engaging cricketing experience.
           <br>
           <br>
           Features: <br>
-          1.Diverse gameplay to enjoy<br>
-          2.Easy to play & hard to master. <br>
-          3.Explore,conquer, triumph <br>
-          4.Thrilling gaming experience <br>
+          1. Crystal clear graphics<br>
+          2. Realistic gameplay setting<br>
+          3. Free rewards galore<br>
+          4. Dynamic & exciting challenges<br>
         </span>
       </div>
 
@@ -129,7 +129,7 @@
           <div class="rate-left">
             <span class="rate-num">4.9</span>
             <img src="../../../../static/mobile/ic_pinfen.png" alt="" class="five-star-pict five-margin-rate">
-            <span class="rate-count">6,743</span>
+            <span class="rate-count">5,176</span>
           </div>
           <div class="rate-right">
             <img src="../../../../static/mobile/ic_dengji.png" alt="" class="pict">
@@ -212,22 +212,22 @@ export default {
     return {
       userInfoS: [
         {
-          name: "Panini Haldar",
-          date: "1/8/24",
+          name: "Chand Padhi",
+          date: "1/10/24",
           content:
-          "Absolutely love this Ludo Flight! The diverse gameplay options keep it interesting, and the vibrant themes add a delightful touch. It's my go-to for a fun and engaging time with friends."
+          "Cricket Champion is a total game-changer! The graphics are so on point, it feels like I'm actually on the pitch. The adrenaline rush from those last-minute wickets? Unmatched. Definitely my go-to for some heart-pounding cricket action!"
         },
         {
-          name: "Ganesh Kayal",
-          date: "1/3/24",
+          name: "Kusika Nijasure",
+          date: "1/5/24",
           content:
-          "Incredibly entertaining! The variety in gameplay ensures that every round feels unique. I appreciate the attention to detail and the seamless online experience – definitely a must-play for Ludo enthusiasts!"
+          "Absolutely loving! Cricket Champion has got me hooked with its thrilling gameplay. The controls are smooth, the shots feel real, and the challenges keep me coming back for more. It's like having a cricket stadium in my pocket!"
         },
         {
-          name: "Madhava Jadhav",
-          date: "12/28/23",
+          name: "Harsh Holkar",
+          date: "12/22/23",
           content:
-          "This Ludo game stands out with its user-friendly interface and diverse playstyles. The rewards system keeps me motivated, and the strategic elements add depth to the fun. Highly recommended for anyone who loves a good board game challenge!"
+          "Clear graphics, exciting matches, and those free rewards? Cricket Champion has it all. I love how the game caters to both pros and newbies. It's not just a game; it's a cricket extravaganza that fits right into my gaming routine. "
         },
       ],
       shareInfoS: [
@@ -931,7 +931,7 @@ export default {
 }
 .click-show-box{
   width: 100vw;
-  margin-top: 40vw;
+  margin-top: 20vw;
 }
 .show-pict-big {
   width: 79.2vw;

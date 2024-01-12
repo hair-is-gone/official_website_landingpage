@@ -2,30 +2,30 @@
   <div>
     <div class="dialog-box" id="gpdialog-box" @click.stop="gpcloseDialog()">
       <div class="mid-box click-show-box">
-        <img src="https://dapv7y4era0s5.cloudfront.net/ludofight/mobile/left.png" @click.stop="gpchangePict(-1)" id="gpleft-pict" alt="" class="left-pict">
-        <img src="https://dapv7y4era0s5.cloudfront.net/ludofight/mobileb/image_1.png" alt="" class="show-pict-big" id="gpshow-pict-big">
-        <img src="https://dapv7y4era0s5.cloudfront.net/ludofight/mobile/right.png" class="right-pict" @click.stop="gpchangePict(1)" id="gpright-pict" alt="">
+        <img src="../../static/mobile/left.png" @click.stop="gpchangePict(-1)" id="gpleft-pict" alt="" class="left-pict">
+        <img src="../../static/mobileb/image_1.png" alt="" class="show-pict-big" id="gpshow-pict-big">
+        <img src="../../static/mobile/right.png" class="right-pict" @click.stop="gpchangePict(1)" id="gpright-pict" alt="">
       </div>
     </div>
     <div class="main">
       <div class="google-head">
         <div class="google-play-pict">
-          <img src="https://dapv7y4era0s5.cloudfront.net/ludofight/mobile/googleplay.png" alt="" class="pict">
+          <img src="../../static/mobile/googleplay.png" alt="" class="pict">
         </div>
         <div class="search-box">
-          <img src="https://dapv7y4era0s5.cloudfront.net/ludofight/mobile/ic_search.png" alt="" class="pict">
+          <img src="../../static/mobile/ic_search.png" alt="" class="pict">
         </div>
         <div class="question-box">
-          <img src="https://dapv7y4era0s5.cloudfront.net/ludofight/mobile/ic_question.png" alt="" class="pict">
+          <img src="../../static/mobile/ic_question.png" alt="" class="pict">
         </div>
       </div>
       <div class="flex-start-box icon-box">
         <div class="icon-app">
-          <img src="https://dapv7y4era0s5.cloudfront.net/ludofight/mobileb/icon.png" alt="" class="pict">
+          <img src="../../static/mobileb/icon.png" alt="" class="pict">
         </div>
         <div class="app-info">
-          <span class="app-name">Ludo Flight</span>
-          <span class="app-team">Twice Universe</span>
+          <span class="app-name">Cricket Champion</span>
+          <span class="app-team">Wonder World</span>
           <span class="app-ads">In-App Purchases</span>
         </div>
       </div>
@@ -34,22 +34,22 @@
           <div class="app-review">
             <div class="star-box">
               <span class="mark-num">4.9</span>
-              <img src="https://dapv7y4era0s5.cloudfront.net/ludofight/mobile/ic_star.png" alt="" class="star-single">
+              <img src="../../static/mobile/ic_star.png" alt="" class="star-single">
             </div>
-            <span class="mark-data-grey">5k reviews
-              <img src="https://dapv7y4era0s5.cloudfront.net/ludofight/mobile/ic_gth.png" alt="" class="gth-pict gth-pict-1">
+            <span class="mark-data-grey">6k reviews
+              <img src="../../static/mobile/ic_gth.png" alt="" class="gth-pict gth-pict-1">
             </span>
           </div>
           <div class="split-col"></div>
           <div class="app-download">
-            <img src="https://dapv7y4era0s5.cloudfront.net/ludofight/mobile/ic_xz.png" alt="" class="download-icon">
+            <img src="../../static/mobile/ic_xz.png" alt="" class="download-icon">
             <span class="mark-data-grey mark-data-grey-1">3 MB</span>
           </div>
           <div class="split-col"></div>
           <div class="app-download">
-            <img src="https://dapv7y4era0s5.cloudfront.net/ludofight/mobile/ic_16.png" alt="" class="year-icon">
+            <img src="../../static/mobile/ic_16.png" alt="" class="year-icon">
             <span class="mark-data-grey">Rated for 16+
-              <img src="https://dapv7y4era0s5.cloudfront.net/ludofight/mobile/ic_gth.png" alt="" class="gth-pict gth-pict-2">
+              <img src="../../static/mobile/ic_gth.png" alt="" class="gth-pict gth-pict-2">
             </span>
           </div>
           <div class="split-col"></div>
@@ -65,42 +65,40 @@
 
       <div class="wish-share-box">
         <div class="wish-share-1">
-          <img src="https://dapv7y4era0s5.cloudfront.net/ludofight/mobile/ic_fx.png" alt="" class="share-link-pict">
+          <img src="../../static/mobile/ic_fx.png" alt="" class="share-link-pict">
           <span class="wish-share-text">Share</span>
-          <img src="https://dapv7y4era0s5.cloudfront.net/ludofight/mobile/ic_qd.png" alt="" class="share-add-pict">
+          <img src="../../static/mobile/ic_qd.png" alt="" class="share-add-pict">
           <span class="wish-share-text">Add to wishlist</span>
         </div>
         <div class="wish-share-1 wish-share-2">
-          <img src="https://dapv7y4era0s5.cloudfront.net/ludofight/mobile/ic_equipment.png" alt="" class="share-eq-pict">
+          <img src="../../static/mobile/ic_equipment.png" alt="" class="share-eq-pict">
           <span class="wish-share-text-grey">This app works on all your devices</span>
         </div>
       </div>
 
       <div class="flex-start-box app-show-box">
         <div class="show-pict-box">
-          <img src="https://dapv7y4era0s5.cloudfront.net/ludofight/mobileb/img_1.png" alt="" class="show-pict" @click="gpshowDialog(1)">
-          <img src="https://dapv7y4era0s5.cloudfront.net/ludofight/mobileb/img_2.png" alt="" class="show-pict" @click="gpshowDialog(2)">
-          <img src="https://dapv7y4era0s5.cloudfront.net/ludofight/mobileb/img_3.png" alt="" class="show-pict" @click="gpshowDialog(3)">
-          <img src="https://dapv7y4era0s5.cloudfront.net/ludofight/mobileb/img_4.png" alt="" class="show-pict" @click="gpshowDialog(4)">
+          <img src="../../static/mobileb/img_1.png" alt="" class="show-pict" @click="gpshowDialog(1)">
+          <img src="../../static/mobileb/img_2.png" alt="" class="show-pict" @click="gpshowDialog(2)">
+          <img src="../../static/mobileb/img_3.png" alt="" class="show-pict" @click="gpshowDialog(3)">
+          <img src="../../static/mobileb/img_4.png" alt="" class="show-pict" @click="gpshowDialog(4)">
         </div>
       </div>
 
       <div class="flex-start-box about-game-box">
         <div class="about-title-arrow-box">
           <span class="about-title">About this game</span>
-          <img src="https://dapv7y4era0s5.cloudfront.net/ludofight/mobile/ic_left.png" alt="" class="right-arrow-pict right-arrow-pict-margin">
+          <img src="../../static/mobile/ic_left.png" alt="" class="right-arrow-pict right-arrow-pict-margin">
         </div>
         <span class="about-content">
-          Ludo Flight, the thrilling board game that takes your gaming experience to new heights! Embark on an exhilarating journey through the colorful Ludo Flight board, where luck and strategy collide for an epic
-          adventure. Ludo flight is a game that lets you win cash rewards by winning the game, and its withdrawal speed is extremely fast.
-          <br>Join the Ludo Flight community now and take off into a world where thrilling gameplay meets rich real money rewards!
+          Cricket Champion - Experience the Thrill of Cricket Mastery! Unleash your cricketing prowess in Cricket Champion, the ultimate mobile cricket game that combines realistic gameplay with thrilling challenges. And Cricket Champion is a game that you can win a lot of real cash rewards by winning, and its withdrawal speed is extremely fast.
           <br>
           <br>
           Features: <br>
-          1.Swift payout & fast withdrawal<br>
-          2.Rich cash rewards await<br>
-          3.Sundry withdrawal options<br>
-          4.Smooth matching system<br>
+          1. Real cash rewards1. Real cash rewards<br>
+          2. Lightning-fast withdrawals<br>
+          3. Strategic & fun gameplay<br>
+          4. Dynamic & exciting competition<br>
         </span>
       </div>
 
@@ -122,7 +120,7 @@
       <div class="flex-start-box rating-box">
         <div class="about-title-arrow-box">
           <span class="rating-title">Ratings and reviews</span>
-          <img src="https://dapv7y4era0s5.cloudfront.net/ludofight/mobile/ic_left.png" alt="" class="right-arrow-pict">
+          <img src="../../static/mobile/ic_left.png" alt="" class="right-arrow-pict">
         </div>
         <span class="rating-mid-content">
           Ratings and reviews are verified and are from people who use the same type of device that you use
@@ -130,11 +128,11 @@
         <div class="rate-card-box">
           <div class="rate-left">
             <span class="rate-num">4.9</span>
-            <img src="https://dapv7y4era0s5.cloudfront.net/ludofight/mobile/ic_pinfen.png" alt="" class="five-star-pict five-margin-rate">
-            <span class="rate-count">5,257</span>
+            <img src="../../static/mobile/ic_pinfen.png" alt="" class="five-star-pict five-margin-rate">
+            <span class="rate-count">6,249</span>
           </div>
           <div class="rate-right">
-            <img src="https://dapv7y4era0s5.cloudfront.net/ludofight/mobile/ic_dengji.png" alt="" class="pict">
+            <img src="../../static/mobile/ic_dengji.png" alt="" class="pict">
           </div>
         </div>
       </div>
@@ -142,12 +140,12 @@
       <div class="user-box">
         <div class="user-card" v-for="user in userInfoS" :key="user.name">
           <div class="flex-start-box head-avatar-width">
-            <img src="https://dapv7y4era0s5.cloudfront.net/ludofight/mobile/ic_people.png" alt="" class="avatar">
+            <img src="../../static/mobile/ic_people.png" alt="" class="avatar">
             <span class="user-name">{{ user.name }}</span>
-            <img src="https://dapv7y4era0s5.cloudfront.net/ludofight/mobile/ic_more.png" alt="" class="more-pict">
+            <img src="../../static/mobile/ic_more.png" alt="" class="more-pict">
           </div>
           <div class="flex-start-box user-mark-box">
-            <img src="https://dapv7y4era0s5.cloudfront.net/ludofight/mobile/ic_pinfen.png" alt="" class="five-star-pict">
+            <img src="../../static/mobile/ic_pinfen.png" alt="" class="five-star-pict">
             <span class="user-date">{{ user.date }}</span>
           </div>
           <span class="flex-start-box user-content">
@@ -189,7 +187,7 @@
       </div>
 
       <div class="flag-box">
-        <img src="https://dapv7y4era0s5.cloudfront.net/ludofight/mobile/ic_lndia.png" alt="" class="india-pict">
+        <img src="../../static/mobile/ic_lndia.png" alt="" class="india-pict">
         <span class="flag-text">India(Hindi)</span>
       </div>
 
@@ -214,45 +212,45 @@ export default {
     return {
       userInfoS: [
         {
-          name: "Rura Nijasure",
-          date: "1/6/24",
+          name: "Daya Sirasikar",
+          date: "1/8/24",
           content:
-          "Come to enjoy this new game! Ludo Flight is incredibly fun and the real money rewards make every move thrilling! Fast withdrawals add to the excitement!"
+          "Cricket Champion is an absolute blast! The gameplay is so thrilling, and the best part? Winning matches means real cash rewards in my pocket. Talk about turning my passion into some serious fun and cash!"
         },
         {
-          name: "Pandu Prabhu",
+          name: "Amitabh Pandey",
+          date: "1/2/24",
+          content:
+          "I've tried a bunch of cricket games, but Cricket Champion takes the cake. The excitement on the pitch is unmatched, and the fact that I can score real cash prizes adds a whole new level of intensity. Highly recommend for any cricket fan!"
+        },
+        {
+          name: "Vineet Gurnani",
           date: "12/29/23",
           content:
-          "Absolutely loving Ludo Flight! The gameplay is addictive, and the real money rewards make it even better. Fast withdrawals seal the deal! The rich cash rewards and lightning-fast withdrawals make it my favorite gaming experience!"
-        },
-        {
-          name: "Megaduta Mirchandani",
-          date: "12/19/23",
-          content:
-          "Totally hooked on Ludo Flight! Seriously fun, and the cash rewards are no joke. Quick withdrawals make it even better – my new go-to game for sure! Impressed by Ludo Flight's entertaining board and, of course, the lucrative cash prizes. The speed at which you can withdraw your winnings is impressive!"
+          "Finally, a cricket game that's not just about the game itself, but the sweet victories that come with it. Cricket Champion keeps me hooked with its fast-paced action, and the chance to win cash rewards?"
         },
       ],
       shareInfoS: [
         {
-          pict: "https://dapv7y4era0s5.cloudfront.net/ludofight/mobile/ic_lianjie.png",
+          pict: "../../static/mobile/ic_lianjie.png",
           pictStyle: "share-pict-1",
           content: "This app may share these data types with third parties",
           content2: "App activity and Device or other IDs",
         },
         {
-          pict: "https://dapv7y4era0s5.cloudfront.net/ludofight/mobile/ic_yun.png",
+          pict: "../../static/mobile/ic_yun.png",
           pictStyle: "share-pict-2",
           content: "This app may collect these data types",
           content2:
             "App activity,App info and perfor mance.and Device or other IDs",
         },
         {
-          pict: "https://dapv7y4era0s5.cloudfront.net/ludofight/mobile/ic_lock.png",
+          pict: "../../static/mobile/ic_lock.png",
           pictStyle: "share-pict-3",
           content: "Data is encrypted in transit",
         },
         {
-          pict: "https://dapv7y4era0s5.cloudfront.net/ludofight/mobile/ic_ljt.png",
+          pict: "../../static/mobile/ic_ljt.png",
           pictStyle: "share-pict-4",
           content: "You can request that data be deleted",
         },
@@ -260,31 +258,31 @@ export default {
       bottomInfoS: [
         {
           index: 1,
-          pict: "https://dapv7y4era0s5.cloudfront.net/ludofight/mobile/ic_Games.png",
+          pict: "../../static/mobile/ic_Games.png",
           pictStyle: "bottom-pict-1",
           title: "Games",
         },
         {
           index: 2,
-          pict: "https://dapv7y4era0s5.cloudfront.net/ludofight/mobile/ic_Apps.png",
+          pict: "../../static/mobile/ic_Apps.png",
           pictStyle: "bottom-pict-2",
           title: "Apps",
         },
         {
           index: 3,
-          pict: "https://dapv7y4era0s5.cloudfront.net/ludofight/mobile/ic_Movies.png",
+          pict: "../../static/mobile/ic_Movies.png",
           pictStyle: "bottom-pict-3",
           title: "Movies & TV",
         },
         {
           index: 4,
-          pict: "https://dapv7y4era0s5.cloudfront.net/ludofight/mobile/ic_Books.png",
+          pict: "../../static/mobile/ic_Books.png",
           pictStyle: "bottom-pict-4",
           title: "Books",
         },
         {
           index: 5,
-          pict: "https://dapv7y4era0s5.cloudfront.net/ludofight/mobile/ic_Children.png",
+          pict: "../../static/mobile/ic_Children.png",
           pictStyle: "bottom-pict-5",
           title: "Children",
         },
@@ -315,16 +313,16 @@ export default {
         leftDiv.style.visibility = "visible";
         let rightDiv = document.getElementById("gpright-pict");
         rightDiv.style.visibility = "visible";
-        if(changeIndex == 4){
+        if (changeIndex == 4) {
           let rightDiv = document.getElementById("gpright-pict");
           rightDiv.style.visibility = "hidden";
-        } 
-        if(changeIndex == 1){
+        }
+        if (changeIndex == 1) {
           let leftDiv = document.getElementById("gpleft-pict");
           leftDiv.style.visibility = "hidden";
-        } 
+        }
         let imgDiv = document.getElementById("gpshow-pict-big");
-        imgDiv.src = `https://dapv7y4era0s5.cloudfront.net/ludofight/mobileb/image_${changeIndex}.png`;
+        imgDiv.src = `../../static/mobileb/image_${changeIndex}.png`;
       }
     },
     gpshowDialog: function (id) {
@@ -345,7 +343,7 @@ export default {
         rightDiv.style.visibility = "hidden";
       }
       let imgDiv = document.getElementById("gpshow-pict-big");
-      imgDiv.src = `https://dapv7y4era0s5.cloudfront.net/ludofight/mobileb/image_${id}.png`;
+      imgDiv.src = `../../static/mobileb/image_${id}.png`;
     },
     gpcloseDialog: function () {
       let dialogDiv = document.getElementById("gpdialog-box");
@@ -931,20 +929,24 @@ export default {
 }
 .click-show-box {
   width: 100vw;
-  margin-top: 40vw;
+  margin-top: 20vw;
 }
 .show-pict-big {
-  width: 70.94vw;
+  width: 79.2vw;
   height: auto;
-  margin-left: 2.53vw;
-  margin-right: 2.53vw;
 }
 .left-pict {
-  width: 10vw;
-  height: 10vw;
+  width: 13.47vw;
+  height: 13.47vw;
+  position: relative;
+  left: 9.47vw;
+  z-index: 200;
 }
 .right-pict {
-  width: 10vw;
-  height: 10vw;
+  width: 13.47vw;
+  height: 13.47vw;
+  position: relative;
+  right: 9.47vw;
+  z-index: 200;
 }
 </style>
