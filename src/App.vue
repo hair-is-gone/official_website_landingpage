@@ -39,16 +39,16 @@ export default {
         if(ipInfo.country_iso_code == "IN"){
           let gpPage = document.getElementById("gpPage")
           gpPage.style.display = "block";
-          document.title = "Cricket Champion"
+          document.title = "Ludo Air"
           return
         }
         let india = document.getElementById("indiaPage")
         india.style.display = "block";
-        document.title = "Cricket Champion"
+        document.title = "Ludo Air"
       } else {
         let india = document.getElementById("indiaPage")
         india.style.display = "block";
-        document.title = "Cricket Champion"
+        document.title = "Ludo Air"
       }
     },
   },

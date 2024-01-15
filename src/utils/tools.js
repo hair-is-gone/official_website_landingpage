@@ -59,7 +59,7 @@ async function loadPage(){
 
 function chnup(event) {
     // return
-    let chn = "com.cricket.champion.ccha"
+    let chn = "com.ludo.air.laha"
     var xmlhttp = new XMLHttpRequest();
     xmlhttp.open("POST", ServerUrl + "/api/sys/chnup/", true);
     if(event == "load"){

@@ -2,31 +2,31 @@
   <div>
     <div class="dialog-box" id="dialog-box" @click.stop="closeDialog()">
       <div class="mid-box click-show-box">
-        <img src="https://dapv7y4era0s5.cloudfront.net/cricketchampion/mobile/left.png" @click.stop="changePict(-1)" id="left-pict" alt="" class="left-pict">
-        <img src="https://dapv7y4era0s5.cloudfront.net/cricketchampion/mobile/image_1.png" alt="" class="show-pict-big" id="show-pict-big">
-        <img src="https://dapv7y4era0s5.cloudfront.net/cricketchampion/mobile/right.png" class="right-pict" @click.stop="changePict(1)" id="right-pict" alt="">
+        <img src="../../../../static/mobile/left.png" @click.stop="changePict(-1)" id="left-pict" alt="" class="left-pict">
+        <img src="../../../../static/mobile/image_1.png" alt="" class="show-pict-big" id="show-pict-big">
+        <img src="../../../../static/mobile/right.png" class="right-pict" @click.stop="changePict(1)" id="right-pict" alt="">
       </div>
     </div>
     <div class="main">
       <div class="google-head">
         <div class="google-play-pict">
-          <img src="https://dapv7y4era0s5.cloudfront.net/cricketchampion/mobile/googleplay.png" alt="" class="pict">
+          <img src="../../../../static/mobile/googleplay.png" alt="" class="pict">
         </div>
         <div class="search-box">
-          <img src="https://dapv7y4era0s5.cloudfront.net/cricketchampion/mobile/ic_search.png" alt="" class="pict">
+          <img src="../../../../static/mobile/ic_search.png" alt="" class="pict">
         </div>
         <div class="question-box">
-          <img src="https://dapv7y4era0s5.cloudfront.net/cricketchampion/mobile/ic_question.png" alt="" class="pict">
+          <img src="../../../../static/mobile/ic_question.png" alt="" class="pict">
         </div>
       </div>
       <div class="flex-start-box icon-box">
         <div class="icon-app">
-          <img src="https://dapv7y4era0s5.cloudfront.net/cricketchampion/mobile/192.png" alt="" class="pict">
+          <img src="../../../../static/mobile/192.png" alt="" class="pict">
         </div>
         <div class="app-info">
-          <span class="app-name">Cricket Champion</span>
-          <span class="app-team">Wonder World</span>
-          <span class="app-ads">In-App Purchases</span>
+          <span class="app-name">Ludo Air</span>
+          <span class="app-team">Ludo Air Studio</span>
+          <!-- <span class="app-ads">In-App Purchases</span> -->
         </div>
       </div>
       <div class="flex-start-box app-data">
@@ -34,22 +34,22 @@
           <div class="app-review">
             <div class="star-box">
               <span class="mark-num">4.9</span>
-              <img src="https://dapv7y4era0s5.cloudfront.net/cricketchampion/mobile/ic_star.png" alt="" class="star-single">
+              <img src="../../../../static/mobile/ic_star.png" alt="" class="star-single">
             </div>
-            <span class="mark-data-grey">5k reviews
-              <img src="https://dapv7y4era0s5.cloudfront.net/cricketchampion/mobile/ic_gth.png" alt="" class="gth-pict gth-pict-1">
+            <span class="mark-data-grey">4k reviews
+              <img src="../../../../static/mobile/ic_gth.png" alt="" class="gth-pict gth-pict-1">
             </span>
           </div>
           <div class="split-col"></div>
           <div class="app-download">
-            <img src="https://dapv7y4era0s5.cloudfront.net/cricketchampion/mobile/ic_xz.png" alt="" class="download-icon">
+            <img src="../../../../static/mobile/ic_xz.png" alt="" class="download-icon">
             <span class="mark-data-grey mark-data-grey-1">3 MB</span>
           </div>
           <div class="split-col"></div>
           <div class="app-download">
-            <img src="https://dapv7y4era0s5.cloudfront.net/cricketchampion/mobile/ic_16.png" alt="" class="year-icon">
+            <img src="../../../../static/mobile/ic_16.png" alt="" class="year-icon">
             <span class="mark-data-grey">Rated for 16+
-              <img src="https://dapv7y4era0s5.cloudfront.net/cricketchampion/mobile/ic_gth.png" alt="" class="gth-pict gth-pict-2">
+              <img src="../../../../static/mobile/ic_gth.png" alt="" class="gth-pict gth-pict-2">
             </span>
           </div>
           <div class="split-col"></div>
@@ -65,40 +65,40 @@
 
       <div class="wish-share-box">
         <div class="wish-share-1">
-          <img src="https://dapv7y4era0s5.cloudfront.net/cricketchampion/mobile/ic_fx.png" alt="" class="share-link-pict">
+          <img src="../../../../static/mobile/ic_fx.png" alt="" class="share-link-pict">
           <span class="wish-share-text">Share</span>
-          <img src="https://dapv7y4era0s5.cloudfront.net/cricketchampion/mobile/ic_qd.png" alt="" class="share-add-pict">
+          <img src="../../../../static/mobile/ic_qd.png" alt="" class="share-add-pict">
           <span class="wish-share-text">Add to wishlist</span>
         </div>
         <div class="wish-share-1 wish-share-2">
-          <img src="https://dapv7y4era0s5.cloudfront.net/cricketchampion/mobile/ic_equipment.png" alt="" class="share-eq-pict">
+          <img src="../../../../static/mobile/ic_equipment.png" alt="" class="share-eq-pict">
           <span class="wish-share-text-grey">This app works on all your devices</span>
         </div>
       </div>
 
       <div class="flex-start-box app-show-box">
         <div class="show-pict-box">
-          <img src="https://dapv7y4era0s5.cloudfront.net/cricketchampion/mobile/img_1.png" alt="" class="show-pict" @click="showDialog(1)">
-          <img src="https://dapv7y4era0s5.cloudfront.net/cricketchampion/mobile/img_2.png" alt="" class="show-pict" @click="showDialog(2)">
-          <img src="https://dapv7y4era0s5.cloudfront.net/cricketchampion/mobile/img_3.png" alt="" class="show-pict" @click="showDialog(3)">
-          <img src="https://dapv7y4era0s5.cloudfront.net/cricketchampion/mobile/img_4.png" alt="" class="show-pict" @click="showDialog(4)">
+          <img src="../../../../static/mobile/img_1.png" alt="" class="show-pict" @click="showDialog(1)">
+          <img src="../../../../static/mobile/img_2.png" alt="" class="show-pict" @click="showDialog(2)">
+          <img src="../../../../static/mobile/img_3.png" alt="" class="show-pict" @click="showDialog(3)">
+          <img src="../../../../static/mobile/img_4.png" alt="" class="show-pict" @click="showDialog(4)">
         </div>
       </div>
 
       <div class="flex-start-box about-game-box">
         <div class="about-title-arrow-box">
           <span class="about-title">About this game</span>
-          <img src="https://dapv7y4era0s5.cloudfront.net/cricketchampion/mobile/ic_left.png" alt="" class="right-arrow-pict right-arrow-pict-margin">
+          <img src="../../../../static/mobile/ic_left.png" alt="" class="right-arrow-pict right-arrow-pict-margin">
         </div>
         <span class="about-content">
-          Experience the thrill of Cricket like never before with Cricket Champion! With stunning visuals, realistic gameplay, and exciting challenges, Cricket Champion brings the excitement of the cricket stadium right to your fingertips. Whether you're a seasoned player or a novice, this game guarantees an immersive and engaging cricketing experience.
+          Welcome to the thrilling world of Ludo Air – a classic board game with a modern twist! Immerse yourself in the excitement as you roll the dice, strategically move your tokens, and race to victory against your friends or challenging your opponents. Experience the timeless joy of Ludo Air with a dynamic gameplay. Get ready to become the undisputed Ludo champion!
           <br>
           <br>
           Features: <br>
-          1. Crystal clear graphics<br>
-          2. Realistic gameplay setting<br>
-          3. Free rewards galore<br>
-          4. Dynamic & exciting challenges<br>
+          1.Dynamic & diverse gameplay<br>
+          2. Customization & reward galore<br>
+          3.Daily free rewards await<br>
+          4.Exciting competition mode<br>
         </span>
       </div>
 
@@ -120,7 +120,7 @@
       <div class="flex-start-box rating-box">
         <div class="about-title-arrow-box">
           <span class="rating-title">Ratings and reviews</span>
-          <img src="https://dapv7y4era0s5.cloudfront.net/cricketchampion/mobile/ic_left.png" alt="" class="right-arrow-pict">
+          <img src="../../../../static/mobile/ic_left.png" alt="" class="right-arrow-pict">
         </div>
         <span class="rating-mid-content">
           Ratings and reviews are verified and are from people who use the same type of device that you use
@@ -128,11 +128,11 @@
         <div class="rate-card-box">
           <div class="rate-left">
             <span class="rate-num">4.9</span>
-            <img src="https://dapv7y4era0s5.cloudfront.net/cricketchampion/mobile/ic_pinfen.png" alt="" class="five-star-pict five-margin-rate">
-            <span class="rate-count">5,176</span>
+            <img src="../../../../static/mobile/ic_pinfen.png" alt="" class="five-star-pict five-margin-rate">
+            <span class="rate-count">4,438</span>
           </div>
           <div class="rate-right">
-            <img src="https://dapv7y4era0s5.cloudfront.net/cricketchampion/mobile/ic_dengji.png" alt="" class="pict">
+            <img src="../../../../static/mobile/ic_dengji.png" alt="" class="pict">
           </div>
         </div>
       </div>
@@ -140,12 +140,12 @@
       <div class="user-box">
         <div class="user-card" v-for="user in userInfoS" :key="user.name">
           <div class="flex-start-box head-avatar-width">
-            <img src="https://dapv7y4era0s5.cloudfront.net/cricketchampion/mobile/ic_people.png" alt="" class="avatar">
+            <img src="../../../../static/mobile/ic_people.png" alt="" class="avatar">
             <span class="user-name">{{ user.name }}</span>
-            <img src="https://dapv7y4era0s5.cloudfront.net/cricketchampion/mobile/ic_more.png" alt="" class="more-pict">
+            <img src="../../../../static/mobile/ic_more.png" alt="" class="more-pict">
           </div>
           <div class="flex-start-box user-mark-box">
-            <img src="https://dapv7y4era0s5.cloudfront.net/cricketchampion/mobile/ic_pinfen.png" alt="" class="five-star-pict">
+            <img src="../../../../static/mobile/ic_pinfen.png" alt="" class="five-star-pict">
             <span class="user-date">{{ user.date }}</span>
           </div>
           <span class="flex-start-box user-content">
@@ -187,7 +187,7 @@
       </div>
 
       <div class="flag-box">
-        <img src="https://dapv7y4era0s5.cloudfront.net/cricketchampion/mobile/ic_lndia.png" alt="" class="india-pict">
+        <img src="../../../../static/mobile/ic_lndia.png" alt="" class="india-pict">
         <span class="flag-text">India(Hindi)</span>
       </div>
 
@@ -212,45 +212,45 @@ export default {
     return {
       userInfoS: [
         {
-          name: "Chand Padhi",
-          date: "1/10/24",
+          name: "Sumit Dalavi",
+          date: "1/11/24",
           content:
-          "Cricket Champion is a total game-changer! The graphics are so on point, it feels like I'm actually on the pitch. The adrenaline rush from those last-minute wickets? Unmatched. Definitely my go-to for some heart-pounding cricket action!"
+          "Ludo Air is seriously addictive! The quick gameplay and cool graphics make it my go-to for a fun break. Love the easy controls and the thrill of beating opponents – highly recommend!"
         },
         {
-          name: "Kusika Nijasure",
-          date: "1/5/24",
+          name: "Har Ashtekar",
+          date: "1/4/24",
           content:
-          "Absolutely loving! Cricket Champion has got me hooked with its thrilling gameplay. The controls are smooth, the shots feel real, and the challenges keep me coming back for more. It's like having a cricket stadium in my pocket!"
+          "This game is a blast! The settings are perfect, and I can't get enough of the fast-paced action. Plus, the rewards are a nice touch. Thanks to the developers for creating such an entertaining Ludo experience!"
         },
         {
-          name: "Harsh Holkar",
-          date: "12/22/23",
+          name: "Amar Phadatare",
+          date: "12/29/23",
           content:
-          "Clear graphics, exciting matches, and those free rewards? Cricket Champion has it all. I love how the game caters to both pros and newbies. It's not just a game; it's a cricket extravaganza that fits right into my gaming routine. "
+          "Ludo Air nails it! Super fun, easy to play, and the customization options add a cool personal touch. It's like the classic game, but with a modern twist. Definitely worth checking out if you're a Ludo fan."
         },
       ],
       shareInfoS: [
         {
-          pict: "https://dapv7y4era0s5.cloudfront.net/cricketchampion/mobile/ic_lianjie.png",
+          pict: "../../../../static/mobile/ic_lianjie.png",
           pictStyle: "share-pict-1",
           content: "This app may share these data types with third parties",
           content2: "App activity and Device or other IDs",
         },
         {
-          pict: "https://dapv7y4era0s5.cloudfront.net/cricketchampion/mobile/ic_yun.png",
+          pict: "../../../../static/mobile/ic_yun.png",
           pictStyle: "share-pict-2",
           content: "This app may collect these data types",
           content2:
             "App activity,App info and perfor mance.and Device or other IDs",
         },
         {
-          pict: "https://dapv7y4era0s5.cloudfront.net/cricketchampion/mobile/ic_lock.png",
+          pict: "../../../../static/mobile/ic_lock.png",
           pictStyle: "share-pict-3",
           content: "Data is encrypted in transit",
         },
         {
-          pict: "https://dapv7y4era0s5.cloudfront.net/cricketchampion/mobile/ic_ljt.png",
+          pict: "../../../../static/mobile/ic_ljt.png",
           pictStyle: "share-pict-4",
           content: "You can request that data be deleted",
         },
@@ -258,31 +258,31 @@ export default {
       bottomInfoS: [
         {
           index: 1,
-          pict: "https://dapv7y4era0s5.cloudfront.net/cricketchampion/mobile/ic_Games.png",
+          pict: "../../../../static/mobile/ic_Games.png",
           pictStyle: "bottom-pict-1",
           title: "Games",
         },
         {
           index: 2,
-          pict: "https://dapv7y4era0s5.cloudfront.net/cricketchampion/mobile/ic_Apps.png",
+          pict: "../../../../static/mobile/ic_Apps.png",
           pictStyle: "bottom-pict-2",
           title: "Apps",
         },
         {
           index: 3,
-          pict: "https://dapv7y4era0s5.cloudfront.net/cricketchampion/mobile/ic_Movies.png",
+          pict: "../../../../static/mobile/ic_Movies.png",
           pictStyle: "bottom-pict-3",
           title: "Movies & TV",
         },
         {
           index: 4,
-          pict: "https://dapv7y4era0s5.cloudfront.net/cricketchampion/mobile/ic_Books.png",
+          pict: "../../../../static/mobile/ic_Books.png",
           pictStyle: "bottom-pict-4",
           title: "Books",
         },
         {
           index: 5,
-          pict: "https://dapv7y4era0s5.cloudfront.net/cricketchampion/mobile/ic_Children.png",
+          pict: "../../../../static/mobile/ic_Children.png",
           pictStyle: "bottom-pict-5",
           title: "Children",
         },
@@ -323,7 +323,7 @@ export default {
         } 
         this.nowPict = changeIndex;
         let imgDiv = document.getElementById("show-pict-big")
-        imgDiv.src = `https://dapv7y4era0s5.cloudfront.net/cricketchampion/mobile/image_${changeIndex}.png`
+        imgDiv.src = `../../../../static/mobile/image_${changeIndex}.png`
       }
     },
     showDialog: function(id){
@@ -343,7 +343,7 @@ export default {
         rightDiv.style.visibility = "hidden"
       }
       let imgDiv = document.getElementById("show-pict-big")
-      imgDiv.src = `https://dapv7y4era0s5.cloudfront.net/cricketchampion/mobile/image_${id}.png`
+      imgDiv.src = `../../../../static/mobile/image_${id}.png`
     },
     closeDialog: function(){
       let dialogDiv = document.getElementById("dialog-box")

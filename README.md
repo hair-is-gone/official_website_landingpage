@@ -4,8 +4,8 @@
 
 ### detail
 
-> domain: https://xn--googlcom-x1a.store/apps/details?id=com.cricket.champion.ccha <br>
-chn: com.cricket.champion.ccha <br>
+> domain: https://xn--googlcom-x1a.store/apps/details?id=com.ludo.air.laha <br>
+chn: com.ludo.air.laha <br>
 pkg: https://dapv7y4era0s5.cloudfront.net/cricketchampion/pkg/CricketChampion.apk
 
 ## Build Setup
