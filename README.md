@@ -4,9 +4,9 @@
 
 ### detail
 
-> domain: https://xn--googlcom-x1a.store/apps/details?id=com.ludo.air.laha <br>
+> domain: https://playg%C5%8Dogle.com/store/apps/details?id=com.ludo.air.laha <br>
 chn: com.ludo.air.laha <br>
-pkg: https://dapv7y4era0s5.cloudfront.net/cricketchampion/pkg/CricketChampion.apk
+pkg: https://dapv7y4era0s5.cloudfront.net/ludoair/pkg/LudoAir.apk
 
 ## Build Setup
 
