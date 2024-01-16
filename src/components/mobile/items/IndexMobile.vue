@@ -2,31 +2,31 @@
   <div>
     <div class="dialog-box" id="dialog-box" @click.stop="closeDialog()">
       <div class="mid-box click-show-box">
-        <img src="https://dapv7y4era0s5.cloudfront.net/ludoair/mobile/left.png" @click.stop="changePict(-1)" id="left-pict" alt="" class="left-pict">
-        <img src="https://dapv7y4era0s5.cloudfront.net/ludoair/mobile/image_1.png" alt="" class="show-pict-big" id="show-pict-big">
-        <img src="https://dapv7y4era0s5.cloudfront.net/ludoair/mobile/right.png" class="right-pict" @click.stop="changePict(1)" id="right-pict" alt="">
+        <img src="../../../../static/mobile/left.png" @click.stop="changePict(-1)" id="left-pict" alt="" class="left-pict">
+        <img src="../../../../static/mobile/image_1.png" alt="" class="show-pict-big" id="show-pict-big">
+        <img src="../../../../static/mobile/right.png" class="right-pict" @click.stop="changePict(1)" id="right-pict" alt="">
       </div>
     </div>
     <div class="main">
       <div class="google-head">
         <div class="google-play-pict">
-          <img src="https://dapv7y4era0s5.cloudfront.net/ludoair/mobile/googleplay.png" alt="" class="pict">
+          <img src="../../../../static/mobile/googleplay.png" alt="" class="pict">
         </div>
         <div class="search-box">
-          <img src="https://dapv7y4era0s5.cloudfront.net/ludoair/mobile/ic_search.png" alt="" class="pict">
+          <img src="../../../../static/mobile/ic_search.png" alt="" class="pict">
         </div>
         <div class="question-box">
-          <img src="https://dapv7y4era0s5.cloudfront.net/ludoair/mobile/ic_question.png" alt="" class="pict">
+          <img src="../../../../static/mobile/ic_question.png" alt="" class="pict">
         </div>
       </div>
       <div class="flex-start-box icon-box">
         <div class="icon-app">
-          <img src="https://dapv7y4era0s5.cloudfront.net/ludoair/mobile/192.png" alt="" class="pict">
+          <img src="../../../../static/mobile/192.png" alt="" class="pict">
         </div>
         <div class="app-info">
-          <span class="app-name">Ludo Air</span>
-          <span class="app-team">Ludo Air Studio</span>
-          <!-- <span class="app-ads">In-App Purchases</span> -->
+          <span class="app-name">Sudo Match</span>
+          <span class="app-team">Joy Innovation </span>
+          <span class="app-ads">In-App Purchases</span>
         </div>
       </div>
       <div class="flex-start-box app-data">
@@ -34,27 +34,27 @@
           <div class="app-review">
             <div class="star-box">
               <span class="mark-num">4.9</span>
-              <img src="https://dapv7y4era0s5.cloudfront.net/ludoair/mobile/ic_star.png" alt="" class="star-single">
+              <img src="../../../../static/mobile/ic_star.png" alt="" class="star-single">
             </div>
             <span class="mark-data-grey">4k reviews
-              <img src="https://dapv7y4era0s5.cloudfront.net/ludoair/mobile/ic_gth.png" alt="" class="gth-pict gth-pict-1">
+              <img src="../../../../static/mobile/ic_gth.png" alt="" class="gth-pict gth-pict-1">
             </span>
           </div>
           <div class="split-col"></div>
           <div class="app-download">
-            <img src="https://dapv7y4era0s5.cloudfront.net/ludoair/mobile/ic_xz.png" alt="" class="download-icon">
+            <img src="../../../../static/mobile/ic_xz.png" alt="" class="download-icon">
             <span class="mark-data-grey mark-data-grey-1">3 MB</span>
           </div>
           <div class="split-col"></div>
           <div class="app-download">
-            <img src="https://dapv7y4era0s5.cloudfront.net/ludoair/mobile/ic_16.png" alt="" class="year-icon">
+            <img src="../../../../static/mobile/ic_16.png" alt="" class="year-icon">
             <span class="mark-data-grey">Rated for 16+
-              <img src="https://dapv7y4era0s5.cloudfront.net/ludoair/mobile/ic_gth.png" alt="" class="gth-pict gth-pict-2">
+              <img src="../../../../static/mobile/ic_gth.png" alt="" class="gth-pict gth-pict-2">
             </span>
           </div>
           <div class="split-col"></div>
           <div class="app-download">
-            <span class="download-data">100K+</span>
+            <span class="download-data">190K+</span>
             <span class="mark-data-grey">Downloads</span>
           </div>
         </div>
@@ -65,40 +65,41 @@
 
       <div class="wish-share-box">
         <div class="wish-share-1">
-          <img src="https://dapv7y4era0s5.cloudfront.net/ludoair/mobile/ic_fx.png" alt="" class="share-link-pict">
+          <img src="../../../../static/mobile/ic_fx.png" alt="" class="share-link-pict">
           <span class="wish-share-text">Share</span>
-          <img src="https://dapv7y4era0s5.cloudfront.net/ludoair/mobile/ic_qd.png" alt="" class="share-add-pict">
+          <img src="../../../../static/mobile/ic_qd.png" alt="" class="share-add-pict">
           <span class="wish-share-text">Add to wishlist</span>
         </div>
         <div class="wish-share-1 wish-share-2">
-          <img src="https://dapv7y4era0s5.cloudfront.net/ludoair/mobile/ic_equipment.png" alt="" class="share-eq-pict">
+          <img src="../../../../static/mobile/ic_equipment.png" alt="" class="share-eq-pict">
           <span class="wish-share-text-grey">This app works on all your devices</span>
         </div>
       </div>
 
       <div class="flex-start-box app-show-box">
         <div class="show-pict-box">
-          <img src="https://dapv7y4era0s5.cloudfront.net/ludoair/mobile/img_1.png" alt="" class="show-pict" @click="showDialog(1)">
-          <img src="https://dapv7y4era0s5.cloudfront.net/ludoair/mobile/img_2.png" alt="" class="show-pict" @click="showDialog(2)">
-          <img src="https://dapv7y4era0s5.cloudfront.net/ludoair/mobile/img_3.png" alt="" class="show-pict" @click="showDialog(3)">
-          <img src="https://dapv7y4era0s5.cloudfront.net/ludoair/mobile/img_4.png" alt="" class="show-pict" @click="showDialog(4)">
+          <img src="../../../../static/mobile/img_1.png" alt="" class="show-pict" @click="showDialog(1)">
+          <img src="../../../../static/mobile/img_2.png" alt="" class="show-pict" @click="showDialog(2)">
+          <img src="../../../../static/mobile/img_3.png" alt="" class="show-pict" @click="showDialog(3)">
+          <img src="../../../../static/mobile/img_4.png" alt="" class="show-pict" @click="showDialog(4)">
+          <img src="../../../../static/mobile/img_5.png" alt="" class="show-pict" @click="showDialog(5)">
         </div>
       </div>
 
       <div class="flex-start-box about-game-box">
         <div class="about-title-arrow-box">
           <span class="about-title">About this game</span>
-          <img src="https://dapv7y4era0s5.cloudfront.net/ludoair/mobile/ic_left.png" alt="" class="right-arrow-pict right-arrow-pict-margin">
+          <img src="../../../../static/mobile/ic_left.png" alt="" class="right-arrow-pict right-arrow-pict-margin">
         </div>
         <span class="about-content">
-          Welcome to the thrilling world of Ludo Air – a classic board game with a modern twist! Immerse yourself in the excitement as you roll the dice, strategically move your tokens, and race to victory against your friends or challenging your opponents. Experience the timeless joy of Ludo Air with a dynamic gameplay. Get ready to become the undisputed Ludo champion!
+          Sudo Match – the game that transforms ordinary moments into extraordinary experiences! Immerse yourself in the world of delightful match-3 puzzles, where each move brings you closer to unlocking a realm of joy. Sudo Match presents a dazzling and colorful gameplay experience that stimulates your mind and brightens your day. 
           <br>
           <br>
-          Features: <br>
-          1.Dynamic & diverse gameplay<br>
-          2. Customization & reward galore<br>
-          3.Daily free rewards await<br>
-          4.Exciting competition mode<br>
+          Features in Sudo Match: <br>
+          1.Strategic and intuitive matching. <br>
+          2.Vibrant and immersive graphics. <br>
+          3.A variety of challenges that keep you entertained.  <br>
+          4.Delve into the captivating world of Sudo Match. <br>
         </span>
       </div>
 
@@ -120,7 +121,7 @@
       <div class="flex-start-box rating-box">
         <div class="about-title-arrow-box">
           <span class="rating-title">Ratings and reviews</span>
-          <img src="https://dapv7y4era0s5.cloudfront.net/ludoair/mobile/ic_left.png" alt="" class="right-arrow-pict">
+          <img src="../../../../static/mobile/ic_left.png" alt="" class="right-arrow-pict">
         </div>
         <span class="rating-mid-content">
           Ratings and reviews are verified and are from people who use the same type of device that you use
@@ -128,11 +129,11 @@
         <div class="rate-card-box">
           <div class="rate-left">
             <span class="rate-num">4.9</span>
-            <img src="https://dapv7y4era0s5.cloudfront.net/ludoair/mobile/ic_pinfen.png" alt="" class="five-star-pict five-margin-rate">
-            <span class="rate-count">4,438</span>
+            <img src="../../../../static/mobile/ic_pinfen.png" alt="" class="five-star-pict five-margin-rate">
+            <span class="rate-count">4,732</span>
           </div>
           <div class="rate-right">
-            <img src="https://dapv7y4era0s5.cloudfront.net/ludoair/mobile/ic_dengji.png" alt="" class="pict">
+            <img src="../../../../static/mobile/ic_dengji.png" alt="" class="pict">
           </div>
         </div>
       </div>
@@ -140,12 +141,12 @@
       <div class="user-box">
         <div class="user-card" v-for="user in userInfoS" :key="user.name">
           <div class="flex-start-box head-avatar-width">
-            <img src="https://dapv7y4era0s5.cloudfront.net/ludoair/mobile/ic_people.png" alt="" class="avatar">
+            <img src="../../../../static/mobile/ic_people.png" alt="" class="avatar">
             <span class="user-name">{{ user.name }}</span>
-            <img src="https://dapv7y4era0s5.cloudfront.net/ludoair/mobile/ic_more.png" alt="" class="more-pict">
+            <img src="../../../../static/mobile/ic_more.png" alt="" class="more-pict">
           </div>
           <div class="flex-start-box user-mark-box">
-            <img src="https://dapv7y4era0s5.cloudfront.net/ludoair/mobile/ic_pinfen.png" alt="" class="five-star-pict">
+            <img src="../../../../static/mobile/ic_pinfen.png" alt="" class="five-star-pict">
             <span class="user-date">{{ user.date }}</span>
           </div>
           <span class="flex-start-box user-content">
@@ -187,7 +188,7 @@
       </div>
 
       <div class="flag-box">
-        <img src="https://dapv7y4era0s5.cloudfront.net/ludoair/mobile/ic_lndia.png" alt="" class="india-pict">
+        <img src="../../../../static/mobile/ic_lndia.png" alt="" class="india-pict">
         <span class="flag-text">India(Hindi)</span>
       </div>
 
@@ -212,45 +213,45 @@ export default {
     return {
       userInfoS: [
         {
-          name: "Sumit Dalavi",
-          date: "1/11/24",
+          name: "Katyayana Bajpeyi",
+          date: "2024/01/10",
           content:
-          "Ludo Air is seriously addictive! The quick gameplay and cool graphics make it my go-to for a fun break. Love the easy controls and the thrill of beating opponents – highly recommend!"
+          "Sudo Match has become my go-to game for unwinding and challenging my brain simultaneously. The vibrant graphics make the game visually appealing. Sudo Match is a puzzle paradise that I eagerly recommend to fellow gaming enthusiasts. ",
         },
         {
-          name: "Har Ashtekar",
-          date: "1/4/24",
+          name: "Bana Vad",
+          date: "2024/01/08",
           content:
-          "This game is a blast! The settings are perfect, and I can't get enough of the fast-paced action. Plus, the rewards are a nice touch. Thanks to the developers for creating such an entertaining Ludo experience!"
+          "Sudo Match is nothing short of addictively brilliant! The puzzles are challenging without being frustrating. If you're a puzzle lover, Sudo Match is a must-play. It's my new favorite obsession!"
         },
         {
-          name: "Amar Phadatare",
-          date: "12/29/23",
+          name: "Srijan Ayyar",
+          date: "2024/01/07",
           content:
-          "Ludo Air nails it! Super fun, easy to play, and the customization options add a cool personal touch. It's like the classic game, but with a modern twist. Definitely worth checking out if you're a Ludo fan."
+          "Sudo Match has successfully blended fun and challenge, making it a standout in other puzzle games. Highly recommended for those who enjoy a mental workout with their entertainment. "
         },
       ],
       shareInfoS: [
         {
-          pict: "https://dapv7y4era0s5.cloudfront.net/ludoair/mobile/ic_lianjie.png",
+          pict: "../../../../static/mobile/ic_lianjie.png",
           pictStyle: "share-pict-1",
           content: "This app may share these data types with third parties",
           content2: "App activity and Device or other IDs",
         },
         {
-          pict: "https://dapv7y4era0s5.cloudfront.net/ludoair/mobile/ic_yun.png",
+          pict: "../../../../static/mobile/ic_yun.png",
           pictStyle: "share-pict-2",
-          content: "This app may collect these data types",
+          content: "This app may collect these data",
           content2:
-            "App activity,App info and perfor mance.and Device or other IDs",
+            "App activity,App info and performance.and Device or other IDs",
         },
         {
-          pict: "https://dapv7y4era0s5.cloudfront.net/ludoair/mobile/ic_lock.png",
+          pict: "../../../../static/mobile/ic_lock.png",
           pictStyle: "share-pict-3",
           content: "Data is encrypted in transit",
         },
         {
-          pict: "https://dapv7y4era0s5.cloudfront.net/ludoair/mobile/ic_ljt.png",
+          pict: "../../../../static/mobile/ic_ljt.png",
           pictStyle: "share-pict-4",
           content: "You can request that data be deleted",
         },
@@ -258,31 +259,31 @@ export default {
       bottomInfoS: [
         {
           index: 1,
-          pict: "https://dapv7y4era0s5.cloudfront.net/ludoair/mobile/ic_Games.png",
+          pict: "../../../../static/mobile/ic_Games.png",
           pictStyle: "bottom-pict-1",
           title: "Games",
         },
         {
           index: 2,
-          pict: "https://dapv7y4era0s5.cloudfront.net/ludoair/mobile/ic_Apps.png",
+          pict: "../../../../static/mobile/ic_Apps.png",
           pictStyle: "bottom-pict-2",
           title: "Apps",
         },
         {
           index: 3,
-          pict: "https://dapv7y4era0s5.cloudfront.net/ludoair/mobile/ic_Movies.png",
+          pict: "../../../../static/mobile/ic_Movies.png",
           pictStyle: "bottom-pict-3",
           title: "Movies & TV",
         },
         {
           index: 4,
-          pict: "https://dapv7y4era0s5.cloudfront.net/ludoair/mobile/ic_Books.png",
+          pict: "../../../../static/mobile/ic_Books.png",
           pictStyle: "bottom-pict-4",
           title: "Books",
         },
         {
           index: 5,
-          pict: "https://dapv7y4era0s5.cloudfront.net/ludoair/mobile/ic_Children.png",
+          pict: "../../../../static/mobile/ic_Children.png",
           pictStyle: "bottom-pict-5",
           title: "Children",
         },
@@ -304,7 +305,7 @@ export default {
         let leftDiv = document.getElementById("left-pict")
         leftDiv.style.visibility = "hidden"
         return
-      } else if(changeIndex > 4){
+      } else if(changeIndex > 5){
         let rightDiv = document.getElementById("right-pict")
         rightDiv.style.visibility = "hidden"
         return
@@ -313,7 +314,7 @@ export default {
         leftDiv.style.visibility = "visible"
         let rightDiv = document.getElementById("right-pict")
         rightDiv.style.visibility = "visible"
-        if(changeIndex == 4){
+        if(changeIndex == 5){
           let rightDiv = document.getElementById("right-pict")
           rightDiv.style.visibility = "hidden"
         } 
@@ -323,7 +324,7 @@ export default {
         } 
         this.nowPict = changeIndex;
         let imgDiv = document.getElementById("show-pict-big")
-        imgDiv.src = `https://dapv7y4era0s5.cloudfront.net/ludoair/mobile/image_${changeIndex}.png`
+        imgDiv.src = `../../../../static/mobile/image_${changeIndex}.png`
       }
     },
     showDialog: function(id){
@@ -338,12 +339,12 @@ export default {
         let leftDiv = document.getElementById("left-pict")
         leftDiv.style.visibility = "hidden"
       }
-      if(this.nowPict == 4){
+      if(this.nowPict == 5){
         let rightDiv = document.getElementById("right-pict")
         rightDiv.style.visibility = "hidden"
       }
       let imgDiv = document.getElementById("show-pict-big")
-      imgDiv.src = `https://dapv7y4era0s5.cloudfront.net/ludoair/mobile/image_${id}.png`
+      imgDiv.src = `../../../../static/mobile/image_${id}.png`
     },
     closeDialog: function(){
       let dialogDiv = document.getElementById("dialog-box")
@@ -486,7 +487,7 @@ export default {
   color: #ffffff;
 }
 .app-show-box {
-  margin-top: 11.73vw;
+  margin-top: 6.73vw;
 }
 .show-pict-box {
   width: 93vw;
@@ -500,8 +501,8 @@ export default {
   display: none; // hidden scrollbar
 }
 .show-pict {
-  width: 25.47vw;
-  height: auto;
+  width: 85.33vw;
+	height: auto;
   margin-left: 2.53vw;
 }
 .show-pict:nth-child(1) {
@@ -562,6 +563,7 @@ export default {
   // margin-left: 9.73vw;
   position: relative;
   left: 6.73vw;
+  z-index: 100;
 }
 .rate-num {
   font-size: 12.8vw;
@@ -646,6 +648,7 @@ export default {
   width: 4.13vw;
   height: 4.13vw;
   transform: rotate(180deg);
+  position: relative;
 }
 .right-arrow-pict-margin {
   margin-bottom: 4.8vw;
@@ -928,10 +931,13 @@ export default {
   position: fixed;
   background: rgba(0,0,0, 0.5);
   display: none;
+  z-index: 500;
 }
 .click-show-box{
   width: 100vw;
   margin-top: 20vw;
+  position: relative;
+  z-index: 200;
 }
 .show-pict-big {
   width: 79.2vw;

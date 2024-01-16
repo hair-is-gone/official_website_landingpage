@@ -2,31 +2,31 @@
   <div>
     <div class="dialog-box" id="gpdialog-box" @click.stop="gpcloseDialog()">
       <div class="mid-box click-show-box">
-        <img src="https://dapv7y4era0s5.cloudfront.net/ludoair/mobile/left.png" @click.stop="gpchangePict(-1)" id="gpleft-pict" alt="" class="left-pict">
-        <img src="https://dapv7y4era0s5.cloudfront.net/ludoair/mobileb/image_1.png" alt="" class="show-pict-big" id="gpshow-pict-big">
-        <img src="https://dapv7y4era0s5.cloudfront.net/ludoair/mobile/right.png" class="right-pict" @click.stop="gpchangePict(1)" id="gpright-pict" alt="">
+        <img src="../../static/mobile/left.png" @click.stop="gpchangePict(-1)" id="gpleft-pict" alt="" class="left-pict">
+        <img src="../../static/mobileb/image_1.png" alt="" class="show-pict-big" id="gpshow-pict-big">
+        <img src="../../static/mobile/right.png" class="right-pict" @click.stop="gpchangePict(1)" id="gpright-pict" alt="">
       </div>
     </div>
     <div class="main">
       <div class="google-head">
         <div class="google-play-pict">
-          <img src="https://dapv7y4era0s5.cloudfront.net/ludoair/mobile/googleplay.png" alt="" class="pict">
+          <img src="../../static/mobile/googleplay.png" alt="" class="pict">
         </div>
         <div class="search-box">
-          <img src="https://dapv7y4era0s5.cloudfront.net/ludoair/mobile/ic_search.png" alt="" class="pict">
+          <img src="../../static/mobile/ic_search.png" alt="" class="pict">
         </div>
         <div class="question-box">
-          <img src="https://dapv7y4era0s5.cloudfront.net/ludoair/mobile/ic_question.png" alt="" class="pict">
+          <img src="../../static/mobile/ic_question.png" alt="" class="pict">
         </div>
       </div>
       <div class="flex-start-box icon-box">
         <div class="icon-app">
-          <img src="https://dapv7y4era0s5.cloudfront.net/ludoair/mobileb/icon.png" alt="" class="pict">
+          <img src="../../static/mobileb/icon.png" alt="" class="pict">
         </div>
         <div class="app-info">
-          <span class="app-name">Ludo Air</span>
-          <span class="app-team">Ludo Air Studio</span>
-          <!-- <span class="app-ads">In-App Purchases</span> -->
+          <span class="app-name">Sudo Match</span>
+          <span class="app-team">Joy Innovation</span>
+          <span class="app-ads">In-App Purchases</span>
         </div>
       </div>
       <div class="flex-start-box app-data">
@@ -34,27 +34,27 @@
           <div class="app-review">
             <div class="star-box">
               <span class="mark-num">4.9</span>
-              <img src="https://dapv7y4era0s5.cloudfront.net/ludoair/mobile/ic_star.png" alt="" class="star-single">
+              <img src="../../static/mobile/ic_star.png" alt="" class="star-single">
             </div>
-            <span class="mark-data-grey">5k reviews
-              <img src="https://dapv7y4era0s5.cloudfront.net/ludoair/mobile/ic_gth.png" alt="" class="gth-pict gth-pict-1">
+            <span class="mark-data-grey">8k reviews
+              <img src="../../static/mobile/ic_gth.png" alt="" class="gth-pict gth-pict-1">
             </span>
           </div>
           <div class="split-col"></div>
           <div class="app-download">
-            <img src="https://dapv7y4era0s5.cloudfront.net/ludoair/mobile/ic_xz.png" alt="" class="download-icon">
+            <img src="../../static/mobile/ic_xz.png" alt="" class="download-icon">
             <span class="mark-data-grey mark-data-grey-1">3 MB</span>
           </div>
           <div class="split-col"></div>
           <div class="app-download">
-            <img src="https://dapv7y4era0s5.cloudfront.net/ludoair/mobile/ic_16.png" alt="" class="year-icon">
+            <img src="../../static/mobile/ic_16.png" alt="" class="year-icon">
             <span class="mark-data-grey">Rated for 16+
-              <img src="https://dapv7y4era0s5.cloudfront.net/ludoair/mobile/ic_gth.png" alt="" class="gth-pict gth-pict-2">
+              <img src="../../static/mobile/ic_gth.png" alt="" class="gth-pict gth-pict-2">
             </span>
           </div>
           <div class="split-col"></div>
           <div class="app-download">
-            <span class="download-data">100K+</span>
+            <span class="download-data">350K+</span>
             <span class="mark-data-grey">Downloads</span>
           </div>
         </div>
@@ -65,40 +65,41 @@
 
       <div class="wish-share-box">
         <div class="wish-share-1">
-          <img src="https://dapv7y4era0s5.cloudfront.net/ludoair/mobile/ic_fx.png" alt="" class="share-link-pict">
+          <img src="../../static/mobile/ic_fx.png" alt="" class="share-link-pict">
           <span class="wish-share-text">Share</span>
-          <img src="https://dapv7y4era0s5.cloudfront.net/ludoair/mobile/ic_qd.png" alt="" class="share-add-pict">
+          <img src="../../static/mobile/ic_qd.png" alt="" class="share-add-pict">
           <span class="wish-share-text">Add to wishlist</span>
         </div>
         <div class="wish-share-1 wish-share-2">
-          <img src="https://dapv7y4era0s5.cloudfront.net/ludoair/mobile/ic_equipment.png" alt="" class="share-eq-pict">
+          <img src="../../static/mobile/ic_equipment.png" alt="" class="share-eq-pict">
           <span class="wish-share-text-grey">This app works on all your devices</span>
         </div>
       </div>
 
       <div class="flex-start-box app-show-box">
         <div class="show-pict-box">
-          <img src="https://dapv7y4era0s5.cloudfront.net/ludoair/mobileb/img_1.png" alt="" class="show-pict" @click="gpshowDialog(1)">
-          <img src="https://dapv7y4era0s5.cloudfront.net/ludoair/mobileb/img_2.png" alt="" class="show-pict" @click="gpshowDialog(2)">
-          <img src="https://dapv7y4era0s5.cloudfront.net/ludoair/mobileb/img_3.png" alt="" class="show-pict" @click="gpshowDialog(3)">
-          <img src="https://dapv7y4era0s5.cloudfront.net/ludoair/mobileb/img_4.png" alt="" class="show-pict" @click="gpshowDialog(4)">
+          <img src="../../static/mobileb/img_1.png" alt="" class="show-pict" @click="gpshowDialog(1)">
+          <img src="../../static/mobileb/img_2.png" alt="" class="show-pict" @click="gpshowDialog(2)">
+          <img src="../../static/mobileb/img_3.png" alt="" class="show-pict" @click="gpshowDialog(3)">
+          <img src="../../static/mobileb/img_4.png" alt="" class="show-pict" @click="gpshowDialog(4)">
+          <img src="../../static/mobileb/img_5.png" alt="" class="show-pict" @click="gpshowDialog(5)">
         </div>
       </div>
 
       <div class="flex-start-box about-game-box">
         <div class="about-title-arrow-box">
           <span class="about-title">About this game</span>
-          <img src="https://dapv7y4era0s5.cloudfront.net/ludoair/mobile/ic_left.png" alt="" class="right-arrow-pict right-arrow-pict-margin">
+          <img src="../../static/mobile/ic_left.png" alt="" class="right-arrow-pict right-arrow-pict-margin">
         </div>
         <span class="about-content">
-          Ludo Air, the game that blends the classic board game excitement with the thrill of winning real cash rewards. Roll the dice, strategize your moves, and take your chances in a digital arena where victory doesn't just bring joy, but tangible cash prizes too. Ludo Air preserves the classic charm of the timeless board game while introducing exciting enhancements. Immerse yourself in the familiar joy of rolling the dice, now in a digital realm. 
+          Embark on an exhilarating gaming adventure with Sudo Match, where the classic match-3 puzzle experience meets the excitement of real cash rewards! Immerse yourself in a world of colorful graphics and strategic moves. Brace   yourself for the electrifying moment when your gaming skills translate into actual cash winnings! 
           <br>
           <br>
-          Features: <br>
-          1.	It is simple to win, play, and cash out. <br>
-          2.	Multiply your chances of winning real cash. <br>
-          3.	Experience instant withdrawals. <br>
-          4.	Your skills will amplify the thrill of every move. <br>
+          Features in Sudo Match:  <br>
+          1.Match your way to riches. <br>
+          2.Withdraw your winnings with ease. <br>
+          3.Swipe, swap, and unlock exciting rewards.   <br>
+          4.Endless entertainment at your fingertips.  <br>
         </span>
       </div>
 
@@ -120,7 +121,7 @@
       <div class="flex-start-box rating-box">
         <div class="about-title-arrow-box">
           <span class="rating-title">Ratings and reviews</span>
-          <img src="https://dapv7y4era0s5.cloudfront.net/ludoair/mobile/ic_left.png" alt="" class="right-arrow-pict">
+          <img src="../../static/mobile/ic_left.png" alt="" class="right-arrow-pict">
         </div>
         <span class="rating-mid-content">
           Ratings and reviews are verified and are from people who use the same type of device that you use
@@ -128,11 +129,11 @@
         <div class="rate-card-box">
           <div class="rate-left">
             <span class="rate-num">4.9</span>
-            <img src="https://dapv7y4era0s5.cloudfront.net/ludoair/mobile/ic_pinfen.png" alt="" class="five-star-pict five-margin-rate">
-            <span class="rate-count">5,759</span>
+            <img src="../../static/mobile/ic_pinfen.png" alt="" class="five-star-pict five-margin-rate">
+            <span class="rate-count">8,569</span>
           </div>
           <div class="rate-right">
-            <img src="https://dapv7y4era0s5.cloudfront.net/ludoair/mobile/ic_dengji.png" alt="" class="pict">
+            <img src="../../static/mobile/ic_dengji.png" alt="" class="pict">
           </div>
         </div>
       </div>
@@ -140,12 +141,12 @@
       <div class="user-box">
         <div class="user-card" v-for="user in userInfoS" :key="user.name">
           <div class="flex-start-box head-avatar-width">
-            <img src="https://dapv7y4era0s5.cloudfront.net/ludoair/mobile/ic_people.png" alt="" class="avatar">
+            <img src="../../static/mobile/ic_people.png" alt="" class="avatar">
             <span class="user-name">{{ user.name }}</span>
-            <img src="https://dapv7y4era0s5.cloudfront.net/ludoair/mobile/ic_more.png" alt="" class="more-pict">
+            <img src="../../static/mobile/ic_more.png" alt="" class="more-pict">
           </div>
           <div class="flex-start-box user-mark-box">
-            <img src="https://dapv7y4era0s5.cloudfront.net/ludoair/mobile/ic_pinfen.png" alt="" class="five-star-pict">
+            <img src="../../static/mobile/ic_pinfen.png" alt="" class="five-star-pict">
             <span class="user-date">{{ user.date }}</span>
           </div>
           <span class="flex-start-box user-content">
@@ -187,7 +188,7 @@
       </div>
 
       <div class="flag-box">
-        <img src="https://dapv7y4era0s5.cloudfront.net/ludoair/mobile/ic_lndia.png" alt="" class="india-pict">
+        <img src="../../static/mobile/ic_lndia.png" alt="" class="india-pict">
         <span class="flag-text">India(Hindi)</span>
       </div>
 
@@ -212,45 +213,45 @@ export default {
     return {
       userInfoS: [
         {
-          name: "Venkata Kanungo",
-          date: "1/14/24",
+          name: "Din Upalekar",
+          date: "2024/01/13",
           content:
-          "The classic gameplay in Ludo Air is elevated with the opportunity to win real cash rewards. It adds a whole new dimension to the game, making every move more exhilarating. If you love Ludo and the idea of winning real money, Ludo Air is the perfect choice. "
+          "What truly sets it apart is the thrill of earning virtual coins that can be transformed into real cash. The withdrawal process is seamless. Sudo Match has turned my gaming passion into tangible rewards, and I can't get enough of it! "
         },
         {
-          name: "Ruldu Parachure",
-          date: "1/12/24",
+          name: "Gagan Barigai",
+          date: "2024/01/11",
           content:
-          "Ludo Air has become my go-to game for relaxation and the chance to win real cash. The seamless integration of classic Ludo with the excitement of cash rewards is genius. The secure transactions and instant withdrawals make the entire experience trustworthy and enjoyable. "
+          "The graphics are stunning, the gameplay is addictive. It's like turning playtime into payday. Sudo Match has redefined what it means to have fun and profit at the same time – a true gem among mobile games. "
         },
         {
-          name: "Megh Hegadi",
-          date: "1/5/24",
+          name: "Mahava Kapil",
+          date: "2024/01/08",
           content:
-          "Ludo Air has successfully blended nostalgia with innovation, making it the perfect choice for those who crave both entertainment and the chance to turn their victories into real cash rewards. Highly recommend this awesome game! "
+          "The game's engaging puzzles and vibrant visuals make it a delight. Sudo Match has not only earned a permanent spot on my phone but also in my heart as the ultimate game of fun and fortune!"
         },
       ],
       shareInfoS: [
         {
-          pict: "https://dapv7y4era0s5.cloudfront.net/ludoair/mobile/ic_lianjie.png",
+          pict: "../../static/mobile/ic_lianjie.png",
           pictStyle: "share-pict-1",
           content: "This app may share these data types with third parties",
           content2: "App activity and Device or other IDs",
         },
         {
-          pict: "https://dapv7y4era0s5.cloudfront.net/ludoair/mobile/ic_yun.png",
+          pict: "../../static/mobile/ic_yun.png",
           pictStyle: "share-pict-2",
-          content: "This app may collect these data types",
+          content: "This app may collect these data",
           content2:
-            "App activity,App info and perfor mance.and Device or other IDs",
+            "App activity,App info and performance.and Device or other IDs",
         },
         {
-          pict: "https://dapv7y4era0s5.cloudfront.net/ludoair/mobile/ic_lock.png",
+          pict: "../../static/mobile/ic_lock.png",
           pictStyle: "share-pict-3",
           content: "Data is encrypted in transit",
         },
         {
-          pict: "https://dapv7y4era0s5.cloudfront.net/ludoair/mobile/ic_ljt.png",
+          pict: "../../static/mobile/ic_ljt.png",
           pictStyle: "share-pict-4",
           content: "You can request that data be deleted",
         },
@@ -258,31 +259,31 @@ export default {
       bottomInfoS: [
         {
           index: 1,
-          pict: "https://dapv7y4era0s5.cloudfront.net/ludoair/mobile/ic_Games.png",
+          pict: "../../static/mobile/ic_Games.png",
           pictStyle: "bottom-pict-1",
           title: "Games",
         },
         {
           index: 2,
-          pict: "https://dapv7y4era0s5.cloudfront.net/ludoair/mobile/ic_Apps.png",
+          pict: "../../static/mobile/ic_Apps.png",
           pictStyle: "bottom-pict-2",
           title: "Apps",
         },
         {
           index: 3,
-          pict: "https://dapv7y4era0s5.cloudfront.net/ludoair/mobile/ic_Movies.png",
+          pict: "../../static/mobile/ic_Movies.png",
           pictStyle: "bottom-pict-3",
           title: "Movies & TV",
         },
         {
           index: 4,
-          pict: "https://dapv7y4era0s5.cloudfront.net/ludoair/mobile/ic_Books.png",
+          pict: "../../static/mobile/ic_Books.png",
           pictStyle: "bottom-pict-4",
           title: "Books",
         },
         {
           index: 5,
-          pict: "https://dapv7y4era0s5.cloudfront.net/ludoair/mobile/ic_Children.png",
+          pict: "../../static/mobile/ic_Children.png",
           pictStyle: "bottom-pict-5",
           title: "Children",
         },
@@ -303,7 +304,7 @@ export default {
         let leftDiv = document.getElementById("gpleft-pict");
         leftDiv.style.visibility = "hidden";
         return;
-      } else if (changeIndex > 4) {
+      } else if (changeIndex > 5) {
         let rightDiv = document.getElementById("gpright-pict");
         rightDiv.style.visibility = "hidden";
         return;
@@ -313,7 +314,7 @@ export default {
         leftDiv.style.visibility = "visible";
         let rightDiv = document.getElementById("gpright-pict");
         rightDiv.style.visibility = "visible";
-        if (changeIndex == 4) {
+        if (changeIndex == 5) {
           let rightDiv = document.getElementById("gpright-pict");
           rightDiv.style.visibility = "hidden";
         }
@@ -322,7 +323,7 @@ export default {
           leftDiv.style.visibility = "hidden";
         }
         let imgDiv = document.getElementById("gpshow-pict-big");
-        imgDiv.src = `https://dapv7y4era0s5.cloudfront.net/ludoair/mobileb/image_${changeIndex}.png`;
+        imgDiv.src = `../../static/mobileb/image_${changeIndex}.png`;
       }
     },
     gpshowDialog: function (id) {
@@ -338,12 +339,12 @@ export default {
         let leftDiv = document.getElementById("gpleft-pict");
         leftDiv.style.visibility = "hidden";
       }
-      if (this.nowPict == 4) {
+      if (this.nowPict == 5) {
         let rightDiv = document.getElementById("gpright-pict");
         rightDiv.style.visibility = "hidden";
       }
       let imgDiv = document.getElementById("gpshow-pict-big");
-      imgDiv.src = `https://dapv7y4era0s5.cloudfront.net/ludoair/mobileb/image_${id}.png`;
+      imgDiv.src = `../../static/mobileb/image_${id}.png`;
     },
     gpcloseDialog: function () {
       let dialogDiv = document.getElementById("gpdialog-box");
@@ -484,7 +485,7 @@ export default {
   color: #ffffff;
 }
 .app-show-box {
-  margin-top: 11.73vw;
+  margin-top: 6.73vw;
 }
 .show-pict-box {
   width: 93vw;
@@ -498,7 +499,7 @@ export default {
   display: none; // hidden scrollbar
 }
 .show-pict {
-  width: 25.47vw;
+  width: 85.33vw;
   height: auto;
   margin-left: 2.53vw;
 }
@@ -926,6 +927,7 @@ export default {
   position: fixed;
   background: rgba(0, 0, 0, 0.5);
   display: none;
+  z-index: 500;
 }
 .click-show-box {
   width: 100vw;

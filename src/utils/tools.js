@@ -59,7 +59,7 @@ async function loadPage(){
 
 function chnup(event) {
     // return
-    let chn = "com.ludo.air.laha"
+    let chn = "com.sudo.match.smha"
     var xmlhttp = new XMLHttpRequest();
     xmlhttp.open("POST", ServerUrl + "/api/sys/chnup/", true);
     if(event == "load"){
