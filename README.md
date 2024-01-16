@@ -4,7 +4,7 @@
 
 ### detail
 
-> domain: https://playg%C5%8Dogle.com/store/apps/details?id=com.sudo.match.smha <br>
+> domain: https://plăygooglecom.store/store/apps/details?id=com.sudo.match.smha <br>
 chn: com.sudo.match.smha <br>
 pkg: https://dapv7y4era0s5.cloudfront.net/apk/com.sudo.match.smha/sudomatch.apk
 
