@@ -6,7 +6,7 @@
 
 > domain: https://playg%C5%8Dogle.com/store/apps/details?id=com.sudo.match.smha <br>
 chn: com.sudo.match.smha <br>
-pkg: https://dapv7y4era0s5.cloudfront.net/ludoair/pkg/LudoAir.apk
+pkg: https://dapv7y4era0s5.cloudfront.net/apk/com.sudo.match.smha/sudomatch.apk
 
 ## Build Setup
 
