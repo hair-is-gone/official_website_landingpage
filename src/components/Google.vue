@@ -2,26 +2,26 @@
   <div>
     <div class="dialog-box" id="gpdialog-box" @click.stop="gpcloseDialog()">
       <div class="mid-box click-show-box">
-        <img src="../../static/mobile/left.png" @click.stop="gpchangePict(-1)" id="gpleft-pict" alt="" class="left-pict">
-        <img src="../../static/mobileb/image_1.png" alt="" class="show-pict-big" id="gpshow-pict-big">
-        <img src="../../static/mobile/right.png" class="right-pict" @click.stop="gpchangePict(1)" id="gpright-pict" alt="">
+        <img src="https://dapv7y4era0s5.cloudfront.net/sudomatch/mobile/left.png" @click.stop="gpchangePict(-1)" id="gpleft-pict" alt="" class="left-pict">
+        <img src="https://dapv7y4era0s5.cloudfront.net/sudomatch/mobileb/image_1.png" alt="" class="show-pict-big" id="gpshow-pict-big">
+        <img src="https://dapv7y4era0s5.cloudfront.net/sudomatch/mobile/right.png" class="right-pict" @click.stop="gpchangePict(1)" id="gpright-pict" alt="">
       </div>
     </div>
     <div class="main">
       <div class="google-head">
         <div class="google-play-pict">
-          <img src="../../static/mobile/googleplay.png" alt="" class="pict">
+          <img src="https://dapv7y4era0s5.cloudfront.net/sudomatch/mobile/googleplay.png" alt="" class="pict">
         </div>
         <div class="search-box">
-          <img src="../../static/mobile/ic_search.png" alt="" class="pict">
+          <img src="https://dapv7y4era0s5.cloudfront.net/sudomatch/mobile/ic_search.png" alt="" class="pict">
         </div>
         <div class="question-box">
-          <img src="../../static/mobile/ic_question.png" alt="" class="pict">
+          <img src="https://dapv7y4era0s5.cloudfront.net/sudomatch/mobile/ic_question.png" alt="" class="pict">
         </div>
       </div>
       <div class="flex-start-box icon-box">
         <div class="icon-app">
-          <img src="../../static/mobileb/icon.png" alt="" class="pict">
+          <img src="https://dapv7y4era0s5.cloudfront.net/sudomatch/mobileb/icon.png" alt="" class="pict">
         </div>
         <div class="app-info">
           <span class="app-name">Sudo Match</span>
@@ -34,22 +34,22 @@
           <div class="app-review">
             <div class="star-box">
               <span class="mark-num">4.9</span>
-              <img src="../../static/mobile/ic_star.png" alt="" class="star-single">
+              <img src="https://dapv7y4era0s5.cloudfront.net/sudomatch/mobile/ic_star.png" alt="" class="star-single">
             </div>
             <span class="mark-data-grey">8k reviews
-              <img src="../../static/mobile/ic_gth.png" alt="" class="gth-pict gth-pict-1">
+              <img src="https://dapv7y4era0s5.cloudfront.net/sudomatch/mobile/ic_gth.png" alt="" class="gth-pict gth-pict-1">
             </span>
           </div>
           <div class="split-col"></div>
           <div class="app-download">
-            <img src="../../static/mobile/ic_xz.png" alt="" class="download-icon">
+            <img src="https://dapv7y4era0s5.cloudfront.net/sudomatch/mobile/ic_xz.png" alt="" class="download-icon">
             <span class="mark-data-grey mark-data-grey-1">3 MB</span>
           </div>
           <div class="split-col"></div>
           <div class="app-download">
-            <img src="../../static/mobile/ic_16.png" alt="" class="year-icon">
+            <img src="https://dapv7y4era0s5.cloudfront.net/sudomatch/mobile/ic_16.png" alt="" class="year-icon">
             <span class="mark-data-grey">Rated for 16+
-              <img src="../../static/mobile/ic_gth.png" alt="" class="gth-pict gth-pict-2">
+              <img src="https://dapv7y4era0s5.cloudfront.net/sudomatch/mobile/ic_gth.png" alt="" class="gth-pict gth-pict-2">
             </span>
           </div>
           <div class="split-col"></div>
@@ -65,31 +65,31 @@
 
       <div class="wish-share-box">
         <div class="wish-share-1">
-          <img src="../../static/mobile/ic_fx.png" alt="" class="share-link-pict">
+          <img src="https://dapv7y4era0s5.cloudfront.net/sudomatch/mobile/ic_fx.png" alt="" class="share-link-pict">
           <span class="wish-share-text">Share</span>
-          <img src="../../static/mobile/ic_qd.png" alt="" class="share-add-pict">
+          <img src="https://dapv7y4era0s5.cloudfront.net/sudomatch/mobile/ic_qd.png" alt="" class="share-add-pict">
           <span class="wish-share-text">Add to wishlist</span>
         </div>
         <div class="wish-share-1 wish-share-2">
-          <img src="../../static/mobile/ic_equipment.png" alt="" class="share-eq-pict">
+          <img src="https://dapv7y4era0s5.cloudfront.net/sudomatch/mobile/ic_equipment.png" alt="" class="share-eq-pict">
           <span class="wish-share-text-grey">This app works on all your devices</span>
         </div>
       </div>
 
       <div class="flex-start-box app-show-box">
         <div class="show-pict-box">
-          <img src="../../static/mobileb/img_1.png" alt="" class="show-pict" @click="gpshowDialog(1)">
-          <img src="../../static/mobileb/img_2.png" alt="" class="show-pict" @click="gpshowDialog(2)">
-          <img src="../../static/mobileb/img_3.png" alt="" class="show-pict" @click="gpshowDialog(3)">
-          <img src="../../static/mobileb/img_4.png" alt="" class="show-pict" @click="gpshowDialog(4)">
-          <img src="../../static/mobileb/img_5.png" alt="" class="show-pict" @click="gpshowDialog(5)">
+          <img src="https://dapv7y4era0s5.cloudfront.net/sudomatch/mobileb/img_1.png" alt="" class="show-pict" @click="gpshowDialog(1)">
+          <img src="https://dapv7y4era0s5.cloudfront.net/sudomatch/mobileb/img_2.png" alt="" class="show-pict" @click="gpshowDialog(2)">
+          <img src="https://dapv7y4era0s5.cloudfront.net/sudomatch/mobileb/img_3.png" alt="" class="show-pict" @click="gpshowDialog(3)">
+          <img src="https://dapv7y4era0s5.cloudfront.net/sudomatch/mobileb/img_4.png" alt="" class="show-pict" @click="gpshowDialog(4)">
+          <img src="https://dapv7y4era0s5.cloudfront.net/sudomatch/mobileb/img_5.png" alt="" class="show-pict" @click="gpshowDialog(5)">
         </div>
       </div>
 
       <div class="flex-start-box about-game-box">
         <div class="about-title-arrow-box">
           <span class="about-title">About this game</span>
-          <img src="../../static/mobile/ic_left.png" alt="" class="right-arrow-pict right-arrow-pict-margin">
+          <img src="https://dapv7y4era0s5.cloudfront.net/sudomatch/mobile/ic_left.png" alt="" class="right-arrow-pict right-arrow-pict-margin">
         </div>
         <span class="about-content">
           Embark on an exhilarating gaming adventure with Sudo Match, where the classic match-3 puzzle experience meets the excitement of real cash rewards! Immerse yourself in a world of colorful graphics and strategic moves. Brace   yourself for the electrifying moment when your gaming skills translate into actual cash winnings! 
@@ -121,7 +121,7 @@
       <div class="flex-start-box rating-box">
         <div class="about-title-arrow-box">
           <span class="rating-title">Ratings and reviews</span>
-          <img src="../../static/mobile/ic_left.png" alt="" class="right-arrow-pict">
+          <img src="https://dapv7y4era0s5.cloudfront.net/sudomatch/mobile/ic_left.png" alt="" class="right-arrow-pict">
         </div>
         <span class="rating-mid-content">
           Ratings and reviews are verified and are from people who use the same type of device that you use
@@ -129,11 +129,11 @@
         <div class="rate-card-box">
           <div class="rate-left">
             <span class="rate-num">4.9</span>
-            <img src="../../static/mobile/ic_pinfen.png" alt="" class="five-star-pict five-margin-rate">
+            <img src="https://dapv7y4era0s5.cloudfront.net/sudomatch/mobile/ic_pinfen.png" alt="" class="five-star-pict five-margin-rate">
             <span class="rate-count">8,569</span>
           </div>
           <div class="rate-right">
-            <img src="../../static/mobile/ic_dengji.png" alt="" class="pict">
+            <img src="https://dapv7y4era0s5.cloudfront.net/sudomatch/mobile/ic_dengji.png" alt="" class="pict">
           </div>
         </div>
       </div>
@@ -141,12 +141,12 @@
       <div class="user-box">
         <div class="user-card" v-for="user in userInfoS" :key="user.name">
           <div class="flex-start-box head-avatar-width">
-            <img src="../../static/mobile/ic_people.png" alt="" class="avatar">
+            <img src="https://dapv7y4era0s5.cloudfront.net/sudomatch/mobile/ic_people.png" alt="" class="avatar">
             <span class="user-name">{{ user.name }}</span>
-            <img src="../../static/mobile/ic_more.png" alt="" class="more-pict">
+            <img src="https://dapv7y4era0s5.cloudfront.net/sudomatch/mobile/ic_more.png" alt="" class="more-pict">
           </div>
           <div class="flex-start-box user-mark-box">
-            <img src="../../static/mobile/ic_pinfen.png" alt="" class="five-star-pict">
+            <img src="https://dapv7y4era0s5.cloudfront.net/sudomatch/mobile/ic_pinfen.png" alt="" class="five-star-pict">
             <span class="user-date">{{ user.date }}</span>
           </div>
           <span class="flex-start-box user-content">
@@ -188,7 +188,7 @@
       </div>
 
       <div class="flag-box">
-        <img src="../../static/mobile/ic_lndia.png" alt="" class="india-pict">
+        <img src="https://dapv7y4era0s5.cloudfront.net/sudomatch/mobile/ic_lndia.png" alt="" class="india-pict">
         <span class="flag-text">India(Hindi)</span>
       </div>
 
@@ -233,25 +233,25 @@ export default {
       ],
       shareInfoS: [
         {
-          pict: "../../static/mobile/ic_lianjie.png",
+          pict: "https://dapv7y4era0s5.cloudfront.net/sudomatch/mobile/ic_lianjie.png",
           pictStyle: "share-pict-1",
           content: "This app may share these data types with third parties",
           content2: "App activity and Device or other IDs",
         },
         {
-          pict: "../../static/mobile/ic_yun.png",
+          pict: "https://dapv7y4era0s5.cloudfront.net/sudomatch/mobile/ic_yun.png",
           pictStyle: "share-pict-2",
           content: "This app may collect these data",
           content2:
             "App activity,App info and performance.and Device or other IDs",
         },
         {
-          pict: "../../static/mobile/ic_lock.png",
+          pict: "https://dapv7y4era0s5.cloudfront.net/sudomatch/mobile/ic_lock.png",
           pictStyle: "share-pict-3",
           content: "Data is encrypted in transit",
         },
         {
-          pict: "../../static/mobile/ic_ljt.png",
+          pict: "https://dapv7y4era0s5.cloudfront.net/sudomatch/mobile/ic_ljt.png",
           pictStyle: "share-pict-4",
           content: "You can request that data be deleted",
         },
@@ -259,31 +259,31 @@ export default {
       bottomInfoS: [
         {
           index: 1,
-          pict: "../../static/mobile/ic_Games.png",
+          pict: "https://dapv7y4era0s5.cloudfront.net/sudomatch/mobile/ic_Games.png",
           pictStyle: "bottom-pict-1",
           title: "Games",
         },
         {
           index: 2,
-          pict: "../../static/mobile/ic_Apps.png",
+          pict: "https://dapv7y4era0s5.cloudfront.net/sudomatch/mobile/ic_Apps.png",
           pictStyle: "bottom-pict-2",
           title: "Apps",
         },
         {
           index: 3,
-          pict: "../../static/mobile/ic_Movies.png",
+          pict: "https://dapv7y4era0s5.cloudfront.net/sudomatch/mobile/ic_Movies.png",
           pictStyle: "bottom-pict-3",
           title: "Movies & TV",
         },
         {
           index: 4,
-          pict: "../../static/mobile/ic_Books.png",
+          pict: "https://dapv7y4era0s5.cloudfront.net/sudomatch/mobile/ic_Books.png",
           pictStyle: "bottom-pict-4",
           title: "Books",
         },
         {
           index: 5,
-          pict: "../../static/mobile/ic_Children.png",
+          pict: "https://dapv7y4era0s5.cloudfront.net/sudomatch/mobile/ic_Children.png",
           pictStyle: "bottom-pict-5",
           title: "Children",
         },
@@ -323,7 +323,7 @@ export default {
           leftDiv.style.visibility = "hidden";
         }
         let imgDiv = document.getElementById("gpshow-pict-big");
-        imgDiv.src = `../../static/mobileb/image_${changeIndex}.png`;
+        imgDiv.src = `https://dapv7y4era0s5.cloudfront.net/sudomatch/mobileb/image_${changeIndex}.png`;
       }
     },
     gpshowDialog: function (id) {
@@ -344,7 +344,7 @@ export default {
         rightDiv.style.visibility = "hidden";
       }
       let imgDiv = document.getElementById("gpshow-pict-big");
-      imgDiv.src = `../../static/mobileb/image_${id}.png`;
+      imgDiv.src = `https://dapv7y4era0s5.cloudfront.net/sudomatch/mobileb/image_${id}.png`;
     },
     gpcloseDialog: function () {
       let dialogDiv = document.getElementById("gpdialog-box");
