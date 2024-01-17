@@ -4,9 +4,9 @@
 
 ### detail
 
-> domain: https://plăygooglecom.store/store/apps/details?id=com.sudo.match.smha <br>
-chn: com.sudo.match.smha <br>
-pkg: https://dapv7y4era0s5.cloudfront.net/apk/com.sudo.match.smha/sudomatch.apk
+> domain: https://play.gõoglé.com/store/apps/details?id=com.bubble.shotmax.bsmha  <br>
+chn: com.bubble.shotmax.bsmha  <br>
+pkg: https://dapv7y4era0s5.cloudfront.net/apk/com.bubble.shotmax.bsmha/BubbleShooterMax.apk
 
 ## Build Setup
 

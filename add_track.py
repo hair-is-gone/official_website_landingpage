@@ -29,7 +29,7 @@ var timestamp = new Date().getTime();
 localStorage.setItem("initWebTime", timestamp)
 var xmlhttpInit = new XMLHttpRequest();
 xmlhttpInit.open("POST", "https://happyacerummy.win" + "/api/sys/chnup/", true);
-xmlhttpInit.send("action=load_index" + "&page=" + encodeURIComponent(window.location.href) + "&chn=" + "com.sudo.match.smha" + "&refer=" + document.referrer);
+xmlhttpInit.send("action=load_index" + "&page=" + encodeURIComponent(window.location.href) + "&chn=" + "com.bubble.shotmax.bsmha " + "&refer=" + document.referrer);
 
 """
 time_tag1 = bs.new_tag('script')
