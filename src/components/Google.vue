@@ -327,6 +327,7 @@ export default {
     },
     gpshowDialog: function (id) {
       console.log(id);
+      chnup(`click_v${id+1}`);
       let leftDiv = document.getElementById("gpleft-pict");
       leftDiv.style.visibility = "visible";
       let rightDiv = document.getElementById("gpright-pict");
