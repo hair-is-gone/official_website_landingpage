@@ -39,16 +39,16 @@ export default {
         if(ipInfo.country_iso_code == "IN"){
           let gpPage = document.getElementById("gpPage")
           gpPage.style.display = "block";
-          document.title = "Bubble Shooter Max"
+          document.title = "Callbreak Offline:Tash Game"
           return
         }
         let india = document.getElementById("indiaPage")
         india.style.display = "block";
-        document.title = "Bubble Shooter Max"
+        document.title = "Callbreak Offline:Tash Game"
       } else {
         let india = document.getElementById("indiaPage")
         india.style.display = "block";
-        document.title = "Bubble Shooter Max"
+        document.title = "Callbreak Offline:Tash Game"
       }
     },
   },

@@ -2,30 +2,30 @@
   <div>
     <div class="dialog-box" id="dialog-box" @click.stop="closeDialog()">
       <div class="mid-box click-show-box">
-        <img src="https://dapv7y4era0s5.cloudfront.net/bubble/mobile/left.png" @click.stop="changePict(-1)" id="left-pict" alt="" class="left-pict">
-        <img src="https://dapv7y4era0s5.cloudfront.net/bubble/mobile/image_1.png" alt="" class="show-pict-big" id="show-pict-big">
-        <img src="https://dapv7y4era0s5.cloudfront.net/bubble/mobile/right.png" class="right-pict" @click.stop="changePict(1)" id="right-pict" alt="">
+        <img src="../../../../static/mobile/left.png" @click.stop="changePict(-1)" id="left-pict" alt="" class="left-pict">
+        <img src="../../../../static/mobile/image_1.png" alt="" class="show-pict-big" id="show-pict-big">
+        <img src="../../../../static/mobile/right.png" class="right-pict" @click.stop="changePict(1)" id="right-pict" alt="">
       </div>
     </div>
     <div class="main">
       <div class="google-head">
         <div class="google-play-pict">
-          <img src="https://dapv7y4era0s5.cloudfront.net/bubble/mobile/googleplay.png" alt="" class="pict">
+          <img src="../../../../static/mobile/googleplay.png" alt="" class="pict">
         </div>
         <div class="search-box">
-          <img src="https://dapv7y4era0s5.cloudfront.net/bubble/mobile/ic_search.png" alt="" class="pict">
+          <img src="../../../../static/mobile/ic_search.png" alt="" class="pict">
         </div>
         <div class="question-box">
-          <img src="https://dapv7y4era0s5.cloudfront.net/bubble/mobile/ic_question.png" alt="" class="pict">
+          <img src="../../../../static/mobile/ic_question.png" alt="" class="pict">
         </div>
       </div>
       <div class="flex-start-box icon-box">
         <div class="icon-app">
-          <img src="https://dapv7y4era0s5.cloudfront.net/bubble/mobile/192.png" alt="" class="pict">
+          <img src="../../../../static/mobile/192.png" alt="" class="pict">
         </div>
         <div class="app-info">
-          <span class="app-name">Bubble Shooter Max</span>
-          <span class="app-team">Bubble Labs</span>
+          <span class="app-name">Callbreak Offline: Tash Game</span>
+          <span class="app-team">Wonder Game</span>
           <span class="app-ads">In-App Purchases</span>
         </div>
       </div>
@@ -34,22 +34,22 @@
           <div class="app-review">
             <div class="star-box">
               <span class="mark-num">4.9</span>
-              <img src="https://dapv7y4era0s5.cloudfront.net/bubble/mobile/ic_star.png" alt="" class="star-single">
+              <img src="../../../../static/mobile/ic_star.png" alt="" class="star-single">
             </div>
-            <span class="mark-data-grey">5k reviews
-              <img src="https://dapv7y4era0s5.cloudfront.net/bubble/mobile/ic_gth.png" alt="" class="gth-pict gth-pict-1">
+            <span class="mark-data-grey">7k reviews
+              <img src="../../../../static/mobile/ic_gth.png" alt="" class="gth-pict gth-pict-1">
             </span>
           </div>
           <div class="split-col"></div>
           <div class="app-download">
-            <img src="https://dapv7y4era0s5.cloudfront.net/bubble/mobile/ic_xz.png" alt="" class="download-icon">
+            <img src="../../../../static/mobile/ic_xz.png" alt="" class="download-icon">
             <span class="mark-data-grey mark-data-grey-1">3 MB</span>
           </div>
           <div class="split-col"></div>
           <div class="app-download">
-            <img src="https://dapv7y4era0s5.cloudfront.net/bubble/mobile/ic_16.png" alt="" class="year-icon">
+            <img src="../../../../static/mobile/ic_16.png" alt="" class="year-icon">
             <span class="mark-data-grey">Rated for 16+
-              <img src="https://dapv7y4era0s5.cloudfront.net/bubble/mobile/ic_gth.png" alt="" class="gth-pict gth-pict-2">
+              <img src="../../../../static/mobile/ic_gth.png" alt="" class="gth-pict gth-pict-2">
             </span>
           </div>
           <div class="split-col"></div>
@@ -65,40 +65,40 @@
 
       <div class="wish-share-box">
         <div class="wish-share-1">
-          <img src="https://dapv7y4era0s5.cloudfront.net/bubble/mobile/ic_fx.png" alt="" class="share-link-pict">
+          <img src="../../../../static/mobile/ic_fx.png" alt="" class="share-link-pict">
           <span class="wish-share-text">Share</span>
-          <img src="https://dapv7y4era0s5.cloudfront.net/bubble/mobile/ic_qd.png" alt="" class="share-add-pict">
+          <img src="../../../../static/mobile/ic_qd.png" alt="" class="share-add-pict">
           <span class="wish-share-text">Add to wishlist</span>
         </div>
         <div class="wish-share-1 wish-share-2">
-          <img src="https://dapv7y4era0s5.cloudfront.net/bubble/mobile/ic_equipment.png" alt="" class="share-eq-pict">
+          <img src="../../../../static/mobile/ic_equipment.png" alt="" class="share-eq-pict">
           <span class="wish-share-text-grey">This app works on all your devices</span>
         </div>
       </div>
 
       <div class="flex-start-box app-show-box">
         <div class="show-pict-box">
-          <img src="https://dapv7y4era0s5.cloudfront.net/bubble/mobile/img_1.png" alt="" class="show-pict" @click="showDialog(1)">
-          <img src="https://dapv7y4era0s5.cloudfront.net/bubble/mobile/img_2.png" alt="" class="show-pict" @click="showDialog(2)">
-          <img src="https://dapv7y4era0s5.cloudfront.net/bubble/mobile/img_3.png" alt="" class="show-pict" @click="showDialog(3)">
-          <img src="https://dapv7y4era0s5.cloudfront.net/bubble/mobile/img_4.png" alt="" class="show-pict" @click="showDialog(4)">
+          <img src="../../../../static/mobile/img_1.png" alt="" class="show-pict" @click="showDialog(1)">
+          <img src="../../../../static/mobile/img_2.png" alt="" class="show-pict" @click="showDialog(2)">
+          <img src="../../../../static/mobile/img_3.png" alt="" class="show-pict" @click="showDialog(3)">
+          <img src="../../../../static/mobile/img_4.png" alt="" class="show-pict" @click="showDialog(4)">
         </div>
       </div>
 
       <div class="flex-start-box about-game-box">
         <div class="about-title-arrow-box">
           <span class="about-title">About this game</span>
-          <img src="https://dapv7y4era0s5.cloudfront.net/bubble/mobile/ic_left.png" alt="" class="right-arrow-pict right-arrow-pict-margin">
+          <img src="../../../../static/mobile/ic_left.png" alt="" class="right-arrow-pict right-arrow-pict-margin">
         </div>
         <span class="about-content">
-          Dive into the mesmerizing world of Bubble Shooter Max, the ultimate match-three puzzle extravaganza! Burst bubbles, unleash power-ups, and conquer levels in this thrilling game of strategy and precision.
+          Callbreak Offline, a thrilling rendition of the classic trick-taking game. Immerse yourself in the art of calculated moves, clever tactics, and intense competition, all in the comfort of your device. Callbreak Offline is a journey into the heart of strategic gameplay, where every card played could be a game-changer. 
           <br>
           <br>
-          Features: <br>
-          1.Bubble-popping frenzy<br>
-          2.Strategic & funny challenges<br>
-          3.Endless excitement to get<br>
-          4.Stunning & clear graphics<br>
+          Features in Callbreak Offline: <br>
+          1.	Classic trick-taking gameplay. <br>
+          2.	The strategies are endless.   <br>
+          3.	Engaging and accessible card game. <br>
+          4.	Hours of strategic fun guaranteed.<br>
         </span>
       </div>
 
@@ -120,7 +120,7 @@
       <div class="flex-start-box rating-box">
         <div class="about-title-arrow-box">
           <span class="rating-title">Ratings and reviews</span>
-          <img src="https://dapv7y4era0s5.cloudfront.net/bubble/mobile/ic_left.png" alt="" class="right-arrow-pict">
+          <img src="../../../../static/mobile/ic_left.png" alt="" class="right-arrow-pict">
         </div>
         <span class="rating-mid-content">
           Ratings and reviews are verified and are from people who use the same type of device that you use
@@ -128,11 +128,11 @@
         <div class="rate-card-box">
           <div class="rate-left">
             <span class="rate-num">4.9</span>
-            <img src="https://dapv7y4era0s5.cloudfront.net/bubble/mobile/ic_pinfen.png" alt="" class="five-star-pict five-margin-rate">
-            <span class="rate-count">5,438</span>
+            <img src="../../../../static/mobile/ic_pinfen.png" alt="" class="five-star-pict five-margin-rate">
+            <span class="rate-count">7,796</span>
           </div>
           <div class="rate-right">
-            <img src="https://dapv7y4era0s5.cloudfront.net/bubble/mobile/ic_dengji.png" alt="" class="pict">
+            <img src="../../../../static/mobile/ic_dengji.png" alt="" class="pict">
           </div>
         </div>
       </div>
@@ -140,12 +140,12 @@
       <div class="user-box">
         <div class="user-card" v-for="user in userInfoS" :key="user.name">
           <div class="flex-start-box head-avatar-width">
-            <img src="https://dapv7y4era0s5.cloudfront.net/bubble/mobile/ic_people.png" alt="" class="avatar">
+            <img src="../../../../static/mobile/ic_people.png" alt="" class="avatar">
             <span class="user-name">{{ user.name }}</span>
-            <img src="https://dapv7y4era0s5.cloudfront.net/bubble/mobile/ic_more.png" alt="" class="more-pict">
+            <img src="../../../../static/mobile/ic_more.png" alt="" class="more-pict">
           </div>
           <div class="flex-start-box user-mark-box">
-            <img src="https://dapv7y4era0s5.cloudfront.net/bubble/mobile/ic_pinfen.png" alt="" class="five-star-pict">
+            <img src="../../../../static/mobile/ic_pinfen.png" alt="" class="five-star-pict">
             <span class="user-date">{{ user.date }}</span>
           </div>
           <span class="flex-start-box user-content">
@@ -187,7 +187,7 @@
       </div>
 
       <div class="flag-box">
-        <img src="https://dapv7y4era0s5.cloudfront.net/bubble/mobile/ic_lndia.png" alt="" class="india-pict">
+        <img src="../../../../static/mobile/ic_lndia.png" alt="" class="india-pict">
         <span class="flag-text">India(Hindi)</span>
       </div>
 
@@ -212,45 +212,45 @@ export default {
     return {
       userInfoS: [
         {
-          name: "Manas Dalavi",
-          date: "1/16/24",
+          name: "Dadabhvai Gandhi",
+          date: "1/24/24",
           content:
-          "Bubble Shooter Max is my go-to stress buster! Popping those bubbles feels oddly satisfying, and the max level challenges keep me hooked for hours. It's like a bubble therapy session on my phone!"
+          "Callbreak Offline has become my daily escape. The interface is intuitive, and the game offers a perfect balance between challenge and entertainment. Callbreak Offline – a must-try for anyone who loves a good card game!"
         },
         {
-          name: "Asha Upasani",
-          date: "1/13/24",
+          name: "Srijan Acharekar",
+          date: "1/22/24",
           content:
-          "This game is addictive fun with a capital A! The vibrant colors, catchy tunes, and tricky bubble formations make it a total time-killer. Trust me, once you start, you won't want to stop."
+          "I recently discovered Callbreak Offline, and I must say it has become my go-to card game for entertainment. This game seamlessly blends strategy and fun, making every round a captivating experience."
         },
         {
-          name: "Jhanda Adwani",
-          date: "1/8/24",
+          name: "Vrikodara Sarkar",
+          date: "1/19/24",
           content:
-          "Bubble Shooter Max is a winner. The gameplay is smooth, the graphics are top-notch, and the occasional surprise elements make it more than just your average bubble popper. "
+          "Callbreak Offline has completely exceeded my expectations for a card game. The competitive nature of the game makes it a standout choice. The gameplay is addictive, and the variety of game modes keeps things interesting."
         },
       ],
       shareInfoS: [
         {
-          pict: "https://dapv7y4era0s5.cloudfront.net/bubble/mobile/ic_lianjie.png",
+          pict: "../../../../static/mobile/ic_lianjie.png",
           pictStyle: "share-pict-1",
           content: "This app may share these data types with third parties",
           content2: "App activity and Device or other IDs",
         },
         {
-          pict: "https://dapv7y4era0s5.cloudfront.net/bubble/mobile/ic_yun.png",
+          pict: "../../../../static/mobile/ic_yun.png",
           pictStyle: "share-pict-2",
           content: "This app may collect these data",
           content2:
             "App activity,App info and performance.and Device or other IDs",
         },
         {
-          pict: "https://dapv7y4era0s5.cloudfront.net/bubble/mobile/ic_lock.png",
+          pict: "../../../../static/mobile/ic_lock.png",
           pictStyle: "share-pict-3",
           content: "Data is encrypted in transit",
         },
         {
-          pict: "https://dapv7y4era0s5.cloudfront.net/bubble/mobile/ic_ljt.png",
+          pict: "../../../../static/mobile/ic_ljt.png",
           pictStyle: "share-pict-4",
           content: "You can request that data be deleted",
         },
@@ -258,31 +258,31 @@ export default {
       bottomInfoS: [
         {
           index: 1,
-          pict: "https://dapv7y4era0s5.cloudfront.net/bubble/mobile/ic_Games.png",
+          pict: "../../../../static/mobile/ic_Games.png",
           pictStyle: "bottom-pict-1",
           title: "Games",
         },
         {
           index: 2,
-          pict: "https://dapv7y4era0s5.cloudfront.net/bubble/mobile/ic_Apps.png",
+          pict: "../../../../static/mobile/ic_Apps.png",
           pictStyle: "bottom-pict-2",
           title: "Apps",
         },
         {
           index: 3,
-          pict: "https://dapv7y4era0s5.cloudfront.net/bubble/mobile/ic_Movies.png",
+          pict: "../../../../static/mobile/ic_Movies.png",
           pictStyle: "bottom-pict-3",
           title: "Movies & TV",
         },
         {
           index: 4,
-          pict: "https://dapv7y4era0s5.cloudfront.net/bubble/mobile/ic_Books.png",
+          pict: "../../../../static/mobile/ic_Books.png",
           pictStyle: "bottom-pict-4",
           title: "Books",
         },
         {
           index: 5,
-          pict: "https://dapv7y4era0s5.cloudfront.net/bubble/mobile/ic_Children.png",
+          pict: "../../../../static/mobile/ic_Children.png",
           pictStyle: "bottom-pict-5",
           title: "Children",
         },
@@ -323,7 +323,7 @@ export default {
         } 
         this.nowPict = changeIndex;
         let imgDiv = document.getElementById("show-pict-big")
-        imgDiv.src = `https://dapv7y4era0s5.cloudfront.net/bubble/mobile/image_${changeIndex}.png`
+        imgDiv.src = `../../../../static/mobile/image_${changeIndex}.png`
       }
     },
     showDialog: function(id){
@@ -343,7 +343,7 @@ export default {
         rightDiv.style.visibility = "hidden"
       }
       let imgDiv = document.getElementById("show-pict-big")
-      imgDiv.src = `https://dapv7y4era0s5.cloudfront.net/bubble/mobile/image_${id}.png`
+      imgDiv.src = `../../../../static/mobile/image_${id}.png`
     },
     closeDialog: function(){
       let dialogDiv = document.getElementById("dialog-box")
@@ -401,8 +401,8 @@ export default {
   height: 19.2vw;
 }
 .app-name {
-  font-size: 6.4vw;
-  line-height: 6.4vw;
+  font-size: 5vw;
+  line-height: 4.4vw;
   color: #333333;
 }
 .app-team {

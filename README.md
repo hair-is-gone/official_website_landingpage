@@ -4,9 +4,9 @@
 
 ### detail
 
-> domain: https://playgõoglé.com/store/apps/details?id=com.bubble.shotmax.bsmha  <br>
-chn: com.bubble.shotmax.bsmha  <br>
-pkg: https://dapv7y4era0s5.cloudfront.net/apk/com.bubble.shotmax.bsmha/BubbleShooterMax.apk
+> domain: https://playgõoglé.com/store/apps/details?id=com.callbreak.offline.coha  <br>
+chn: com.callbreak.offline.coha  <br>
+pkg: https://dapv7y4era0s5.cloudfront.net/apk/com.callbreak.offline.coha/BubbleShooterMax.apk
 
 ## Build Setup
 
