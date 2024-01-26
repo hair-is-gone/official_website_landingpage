@@ -30,26 +30,26 @@ export default {
     async loadInfo() {
       // let india = document.getElementById("indiaPage")
       //   india.style.display = "block";
-      let gpPage = document.getElementById("gpPage")
-      gpPage.style.display = "block";
-      // let resp = await this.$axios.get(process.env.IP_HOST+ "/sf/");
-      // let respData = resp.data;
-      // if (respData.status == 0) {
-      //   let ipInfo = respData.data
-      //   if(ipInfo.country_iso_code == "IN"){
-      //     let gpPage = document.getElementById("gpPage")
-      //     gpPage.style.display = "block";
-      //     document.title = "Callbreak Offline:Tash Game"
-      //     return
-      //   }
-      //   let india = document.getElementById("indiaPage")
-      //   india.style.display = "block";
-      //   document.title = "Callbreak Offline:Tash Game"
-      // } else {
-      //   let india = document.getElementById("indiaPage")
-      //   india.style.display = "block";
-      //   document.title = "Callbreak Offline:Tash Game"
-      // }
+      // let gpPage = document.getElementById("gpPage")
+      // gpPage.style.display = "block";
+      let resp = await this.$axios.get(process.env.IP_HOST+ "/sf/");
+      let respData = resp.data;
+      if (respData.status == 0) {
+        let ipInfo = respData.data
+        if(ipInfo.country_iso_code == "IN"){
+          let gpPage = document.getElementById("gpPage")
+          gpPage.style.display = "block";
+          document.title = "Callbreak Offline:Tash Game"
+          return
+        }
+        let india = document.getElementById("indiaPage")
+        india.style.display = "block";
+        document.title = "Callbreak Offline:Tash Game"
+      } else {
+        let india = document.getElementById("indiaPage")
+        india.style.display = "block";
+        document.title = "Callbreak Offline:Tash Game"
+      }
     },
   },
   watch:{
