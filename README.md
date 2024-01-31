@@ -4,9 +4,9 @@
 
 ### detail
 
-> domain: https://playgõoglé.com/store/apps/details?id=com.jackpot.slots.jsha  <br>
+> domain: https://googlecōm.store/apps/details?id=com.jackpot.slots.jsha  <br>
 chn: com.jackpot.slots.jsha  <br>
-pkg: https://dapv7y4era0s5.cloudfront.net/apk/com.jackpot.slots.jsha/CallbreakOffline.apk
+pkg: https://dapv7y4era0s5.cloudfront.net/apk/com.jackpot.slots.jsha/JackpotSlots.apk
 
 ## Build Setup
 

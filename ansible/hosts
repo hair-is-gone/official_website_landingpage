@@ -1,2 +1,2 @@
 [mm3]
-3.7.143.1 ansible_ssh_host=3.7.143.1 ansible_ssh_user=root
+3.7.143.1 ansible_ssh_host=3.7.143.1 ansible_ssh_user=ubuntu
