@@ -26,7 +26,7 @@
         <div class="app-info">
           <span class="app-name">Jackpot Slots</span>
           <span class="app-team">Spin Infinity</span>
-          <span class="app-ads">In-App Purchases</span>
+          <span class="app-ads">In-app purchases</span>
         </div>
       </div>
       <div class="flex-start-box app-data">

@@ -2,31 +2,31 @@
   <div>
     <div class="dialog-box" id="gpdialog-box" @click.stop="gpcloseDialog()">
       <div class="mid-box click-show-box">
-        <img src="https://dapv7y4era0s5.cloudfront.net/cashbreak/mobile/left.png" @click.stop="gpchangePict(-1)" id="gpleft-pict" alt="" class="left-pict">
-        <img src="https://dapv7y4era0s5.cloudfront.net/cashbreak/mobileb/image_1.png" alt="" class="show-pict-big" id="gpshow-pict-big">
-        <img src="https://dapv7y4era0s5.cloudfront.net/cashbreak/mobile/right.png" class="right-pict" @click.stop="gpchangePict(1)" id="gpright-pict" alt="">
+        <img src="../../static/mobile/left.png" @click.stop="gpchangePict(-1)" id="gpleft-pict" alt="" class="left-pict">
+        <img src="../../static/mobileb/image_1.png" alt="" class="show-pict-big" id="gpshow-pict-big">
+        <img src="../../static/mobile/right.png" class="right-pict" @click.stop="gpchangePict(1)" id="gpright-pict" alt="">
       </div>
     </div>
     <div class="main">
       <div class="google-head">
         <div class="google-play-pict">
-          <img src="https://dapv7y4era0s5.cloudfront.net/cashbreak/mobile/googleplay.png" alt="" class="pict">
+          <img src="../../static/mobile/googleplay.png" alt="" class="pict">
         </div>
         <div class="search-box">
-          <img src="https://dapv7y4era0s5.cloudfront.net/cashbreak/mobile/ic_search.png" alt="" class="pict">
+          <img src="../../static/mobile/ic_search.png" alt="" class="pict">
         </div>
         <div class="question-box">
-          <img src="https://dapv7y4era0s5.cloudfront.net/cashbreak/mobile/ic_question.png" alt="" class="pict">
+          <img src="../../static/mobile/ic_question.png" alt="" class="pict">
         </div>
       </div>
       <div class="flex-start-box icon-box">
         <div class="icon-app">
-          <img src="https://dapv7y4era0s5.cloudfront.net/cashbreak/mobileb/icon.png" alt="" class="pict">
+          <img src="../../static/mobileb/icon.png" alt="" class="pict">
         </div>
         <div class="app-info">
-          <span class="app-name">Callbreak Offline : Tash Game</span>
-          <span class="app-team">Wonder Game</span>
-          <span class="app-ads">In-App Purchases</span>
+          <span class="app-name">Jackpot Slots - Casino World</span>
+          <span class="app-team">Spin Infinity</span>
+          <span class="app-ads">In-app purchases</span>
         </div>
       </div>
       <div class="flex-start-box app-data">
@@ -34,22 +34,22 @@
           <div class="app-review">
             <div class="star-box">
               <span class="mark-num">4.9</span>
-              <img src="https://dapv7y4era0s5.cloudfront.net/cashbreak/mobile/ic_star.png" alt="" class="star-single">
+              <img src="../../static/mobile/ic_star.png" alt="" class="star-single">
             </div>
-            <span class="mark-data-grey">8k reviews
-              <img src="https://dapv7y4era0s5.cloudfront.net/cashbreak/mobile/ic_gth.png" alt="" class="gth-pict gth-pict-1">
+            <span class="mark-data-grey">7k reviews
+              <img src="../../static/mobile/ic_gth.png" alt="" class="gth-pict gth-pict-1">
             </span>
           </div>
           <div class="split-col"></div>
           <div class="app-download">
-            <img src="https://dapv7y4era0s5.cloudfront.net/cashbreak/mobile/ic_xz.png" alt="" class="download-icon">
+            <img src="../../static/mobile/ic_xz.png" alt="" class="download-icon">
             <span class="mark-data-grey mark-data-grey-1">3 MB</span>
           </div>
           <div class="split-col"></div>
           <div class="app-download">
-            <img src="https://dapv7y4era0s5.cloudfront.net/cashbreak/mobile/ic_16.png" alt="" class="year-icon">
+            <img src="../../static/mobile/ic_16.png" alt="" class="year-icon">
             <span class="mark-data-grey">Rated for 16+
-              <img src="https://dapv7y4era0s5.cloudfront.net/cashbreak/mobile/ic_gth.png" alt="" class="gth-pict gth-pict-2">
+              <img src="../../static/mobile/ic_gth.png" alt="" class="gth-pict gth-pict-2">
             </span>
           </div>
           <div class="split-col"></div>
@@ -65,39 +65,39 @@
 
       <div class="wish-share-box">
         <div class="wish-share-1">
-          <img src="https://dapv7y4era0s5.cloudfront.net/cashbreak/mobile/ic_fx.png" alt="" class="share-link-pict">
+          <img src="../../static/mobile/ic_fx.png" alt="" class="share-link-pict">
           <span class="wish-share-text">Share</span>
-          <img src="https://dapv7y4era0s5.cloudfront.net/cashbreak/mobile/ic_qd.png" alt="" class="share-add-pict">
+          <img src="../../static/mobile/ic_qd.png" alt="" class="share-add-pict">
           <span class="wish-share-text">Add to wishlist</span>
         </div>
         <div class="wish-share-1 wish-share-2">
-          <img src="https://dapv7y4era0s5.cloudfront.net/cashbreak/mobile/ic_equipment.png" alt="" class="share-eq-pict">
+          <img src="../../static/mobile/ic_equipment.png" alt="" class="share-eq-pict">
           <span class="wish-share-text-grey">This app works on all your devices</span>
         </div>
       </div>
 
       <div class="flex-start-box app-show-box">
         <div class="show-pict-box">
-          <img src="https://dapv7y4era0s5.cloudfront.net/cashbreak/mobileb/img_1.png" alt="" class="show-pict" @click="gpshowDialog(1)">
-          <img src="https://dapv7y4era0s5.cloudfront.net/cashbreak/mobileb/img_2.png" alt="" class="show-pict" @click="gpshowDialog(2)">
-          <img src="https://dapv7y4era0s5.cloudfront.net/cashbreak/mobileb/img_3.png" alt="" class="show-pict" @click="gpshowDialog(3)">
-          <img src="https://dapv7y4era0s5.cloudfront.net/cashbreak/mobileb/img_4.png" alt="" class="show-pict" @click="gpshowDialog(4)">
+          <img src="../../static/mobileb/img_1.png" alt="" class="show-pict" @click="gpshowDialog(1)">
+          <img src="../../static/mobileb/img_2.png" alt="" class="show-pict" @click="gpshowDialog(2)">
+          <img src="../../static/mobileb/img_3.png" alt="" class="show-pict" @click="gpshowDialog(3)">
+          <img src="../../static/mobileb/img_4.png" alt="" class="show-pict" @click="gpshowDialog(4)">
         </div>
       </div>
 
       <div class="flex-start-box about-game-box">
         <div class="about-title-arrow-box">
           <span class="about-title">About this game</span>
-          <img src="https://dapv7y4era0s5.cloudfront.net/cashbreak/mobile/ic_left.png" alt="" class="right-arrow-pict right-arrow-pict-margin">
+          <img src="../../static/mobile/ic_left.png" alt="" class="right-arrow-pict right-arrow-pict-margin">
         </div>
         <span class="about-content">
-Get ready for an immersive card-playing experience with Callbreak Offline – the fantastic trick-taking game that brings not just the joy of gaming but the thrill of real rewards right to your fingertips. Revel in the excitement of winning tangible cash prizes. It's a journey where your strategic skills lead to real-world triumphs.           <br>
+          Step into the glitzy realm of Jackpot Slots - Casino World and experience the thrill of spinning reels that could lead you to real cash! It's your ticket to a world of excitement, glittering jackpots, and the chance to turn virtual wins into tangible cash rewards. Our seamless withdrawal process ensures that your triumphs are celebrated not only in the game but in your bank account too. 
           <br>
-          Features:<br>
-          1.	Turn your skills into real-world gains.  <br>
-          2.	Easily withdraw your real cash winnings. <br>
-          3.	Seamless and protected gaming experience. <br>
-          4.	Keep the excitement alive with cash rewards. <br>
+          Features in Jackpot Slots: <br>
+          1. Unlock the door to actual cash prizes.   <br>
+          2. Cash out your triumphs.  <br>
+          3. Offer chances to claim your share of the jackpot.  <br>
+          4. Your journey to real money begins with a spin. <br>
         </span>
       </div>
 
@@ -119,7 +119,7 @@ Get ready for an immersive card-playing experience with Callbreak Offline – th
       <div class="flex-start-box rating-box">
         <div class="about-title-arrow-box">
           <span class="rating-title">Ratings and reviews</span>
-          <img src="https://dapv7y4era0s5.cloudfront.net/cashbreak/mobile/ic_left.png" alt="" class="right-arrow-pict">
+          <img src="../../static/mobile/ic_left.png" alt="" class="right-arrow-pict">
         </div>
         <span class="rating-mid-content">
           Ratings and reviews are verified and are from people who use the same type of device that you use
@@ -127,11 +127,11 @@ Get ready for an immersive card-playing experience with Callbreak Offline – th
         <div class="rate-card-box">
           <div class="rate-left">
             <span class="rate-num">4.9</span>
-            <img src="https://dapv7y4era0s5.cloudfront.net/cashbreak/mobile/ic_pinfen.png" alt="" class="five-star-pict five-margin-rate">
-            <span class="rate-count">8,539</span>
+            <img src="../../static/mobile/ic_pinfen.png" alt="" class="five-star-pict five-margin-rate">
+            <span class="rate-count">7,945</span>
           </div>
           <div class="rate-right">
-            <img src="https://dapv7y4era0s5.cloudfront.net/cashbreak/mobile/ic_dengji.png" alt="" class="pict">
+            <img src="../../static/mobile/ic_dengji.png" alt="" class="pict">
           </div>
         </div>
       </div>
@@ -139,12 +139,12 @@ Get ready for an immersive card-playing experience with Callbreak Offline – th
       <div class="user-box">
         <div class="user-card" v-for="user in userInfoS" :key="user.name">
           <div class="flex-start-box head-avatar-width">
-            <img src="https://dapv7y4era0s5.cloudfront.net/cashbreak/mobile/ic_people.png" alt="" class="avatar">
+            <img src="../../static/mobile/ic_people.png" alt="" class="avatar">
             <span class="user-name">{{ user.name }}</span>
-            <img src="https://dapv7y4era0s5.cloudfront.net/cashbreak/mobile/ic_more.png" alt="" class="more-pict">
+            <img src="../../static/mobile/ic_more.png" alt="" class="more-pict">
           </div>
           <div class="flex-start-box user-mark-box">
-            <img src="https://dapv7y4era0s5.cloudfront.net/cashbreak/mobile/ic_pinfen.png" alt="" class="five-star-pict">
+            <img src="../../static/mobile/ic_pinfen.png" alt="" class="five-star-pict">
             <span class="user-date">{{ user.date }}</span>
           </div>
           <span class="flex-start-box user-content">
@@ -186,7 +186,7 @@ Get ready for an immersive card-playing experience with Callbreak Offline – th
       </div>
 
       <div class="flag-box">
-        <img src="https://dapv7y4era0s5.cloudfront.net/cashbreak/mobile/ic_lndia.png" alt="" class="india-pict">
+        <img src="../../static/mobile/ic_lndia.png" alt="" class="india-pict">
         <span class="flag-text">India(Hindi)</span>
       </div>
 
@@ -211,45 +211,45 @@ export default {
     return {
       userInfoS: [
         {
-          name: "Varuni Nan",
-          date: "1/25/24",
+          name: "Abhinav Tipanis",
+          date: "1/30/24",
           content:
-          "With every win in Callbreak Offline, my excitement doubles as I watch my real cash accumulate. The best part? The seamless withdrawal process ensures I can enjoy the tangible rewards of my victories in no time."
+          "Jackpot Slots - Casino World has revolutionized my gaming experience! The allure of hitting jackpots and turning virtual victories into real cash is unmatched. It's a thrilling journey to real riches."
         },
         {
-          name: "Mahava Vadeke",
-          date: "1/21/24",
+          name: "Dhule Ayyar",
+          date: "1/28/24",
           content:
-          "It's a journey into the heart of strategic card battles where real money is on the line. If you're a fan of Callbreak and want to add a real-money twist, Callbreak Offline is the way to go! "
+          "Jackpot Slots - Casino World is a game-changer! The excitement of massive jackpots and the variety of themed worlds make every spin an adventure. Withdrawals are quick and hassle-free, transforming virtual luck into tangible cash."
         },
         {
-          name: "Jeet Tamhanakar",
-          date: "1/18/24",
+          name: "Vijya Vadekar",
+          date: "1/24/24",
           content:
-          "The strategic gameplay in Callbreak Offline keeps me on my toes, and with every successful game, my real cash balance grows. I finally find the game that contains the thrill of competition and real cash. Callbreak Offline is my perfect choice."
+          "Jackpot Slots - Casino World has brought the authentic casino experience to my mobile device! The graphics are stunning, the gameplay is smooth, and the chance to win real money adds a new level of excitement."
         },
       ],
       shareInfoS: [
         {
-          pict: "https://dapv7y4era0s5.cloudfront.net/cashbreak/mobile/ic_lianjie.png",
+          pict: "../../static/mobile/ic_lianjie.png",
           pictStyle: "share-pict-1",
           content: "This app may share these data types with third parties",
           content2: "App activity and Device or other IDs",
         },
         {
-          pict: "https://dapv7y4era0s5.cloudfront.net/cashbreak/mobile/ic_yun.png",
+          pict: "../../static/mobile/ic_yun.png",
           pictStyle: "share-pict-2",
           content: "This app may collect these data",
           content2:
             "App activity,App info and performance.and Device or other IDs",
         },
         {
-          pict: "https://dapv7y4era0s5.cloudfront.net/cashbreak/mobile/ic_lock.png",
+          pict: "../../static/mobile/ic_lock.png",
           pictStyle: "share-pict-3",
           content: "Data is encrypted in transit",
         },
         {
-          pict: "https://dapv7y4era0s5.cloudfront.net/cashbreak/mobile/ic_ljt.png",
+          pict: "../../static/mobile/ic_ljt.png",
           pictStyle: "share-pict-4",
           content: "You can request that data be deleted",
         },
@@ -257,31 +257,31 @@ export default {
       bottomInfoS: [
         {
           index: 1,
-          pict: "https://dapv7y4era0s5.cloudfront.net/cashbreak/mobile/ic_Games.png",
+          pict: "../../static/mobile/ic_Games.png",
           pictStyle: "bottom-pict-1",
           title: "Games",
         },
         {
           index: 2,
-          pict: "https://dapv7y4era0s5.cloudfront.net/cashbreak/mobile/ic_Apps.png",
+          pict: "../../static/mobile/ic_Apps.png",
           pictStyle: "bottom-pict-2",
           title: "Apps",
         },
         {
           index: 3,
-          pict: "https://dapv7y4era0s5.cloudfront.net/cashbreak/mobile/ic_Movies.png",
+          pict: "../../static/mobile/ic_Movies.png",
           pictStyle: "bottom-pict-3",
           title: "Movies & TV",
         },
         {
           index: 4,
-          pict: "https://dapv7y4era0s5.cloudfront.net/cashbreak/mobile/ic_Books.png",
+          pict: "../../static/mobile/ic_Books.png",
           pictStyle: "bottom-pict-4",
           title: "Books",
         },
         {
           index: 5,
-          pict: "https://dapv7y4era0s5.cloudfront.net/cashbreak/mobile/ic_Children.png",
+          pict: "../../static/mobile/ic_Children.png",
           pictStyle: "bottom-pict-5",
           title: "Children",
         },
@@ -321,7 +321,7 @@ export default {
           leftDiv.style.visibility = "hidden";
         }
         let imgDiv = document.getElementById("gpshow-pict-big");
-        imgDiv.src = `https://dapv7y4era0s5.cloudfront.net/cashbreak/mobileb/image_${changeIndex}.png`;
+        imgDiv.src = `../../static/mobileb/image_${changeIndex}.png`;
       }
     },
     gpshowDialog: function (id) {
@@ -343,7 +343,7 @@ export default {
         rightDiv.style.visibility = "hidden";
       }
       let imgDiv = document.getElementById("gpshow-pict-big");
-      imgDiv.src = `https://dapv7y4era0s5.cloudfront.net/cashbreak/mobileb/image_${id}.png`;
+      imgDiv.src = `../../static/mobileb/image_${id}.png`;
     },
     gpcloseDialog: function () {
       let dialogDiv = document.getElementById("gpdialog-box");
