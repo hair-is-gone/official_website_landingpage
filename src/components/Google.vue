@@ -2,26 +2,59 @@
   <div>
     <div class="dialog-box" id="gpdialog-box" @click.stop="gpcloseDialog()">
       <div class="mid-box click-show-box">
-        <img src="https://dapv7y4era0s5.cloudfront.net/jackpot/mobile/left.png" @click.stop="gpchangePict(-1)" id="gpleft-pict" alt="" class="left-pict">
-        <img src="https://dapv7y4era0s5.cloudfront.net/jackpot/mobileb/image_1.png" alt="" class="show-pict-big" id="gpshow-pict-big">
-        <img src="https://dapv7y4era0s5.cloudfront.net/jackpot/mobile/right.png" class="right-pict" @click.stop="gpchangePict(1)" id="gpright-pict" alt="">
+        <img
+          src="https://dapv7y4era0s5.cloudfront.net/jackpot/mobile/left.png"
+          @click.stop="gpchangePict(-1)"
+          id="gpleft-pict"
+          alt=""
+          class="left-pict"
+        />
+        <img
+          src="https://dapv7y4era0s5.cloudfront.net/jackpot/mobileb/image_1.png"
+          alt=""
+          class="show-pict-big"
+          id="gpshow-pict-big"
+        />
+        <img
+          src="https://dapv7y4era0s5.cloudfront.net/jackpot/mobile/right.png"
+          class="right-pict"
+          @click.stop="gpchangePict(1)"
+          id="gpright-pict"
+          alt=""
+        />
       </div>
     </div>
     <div class="main">
       <div class="google-head">
         <div class="google-play-pict">
-          <img src="https://dapv7y4era0s5.cloudfront.net/jackpot/mobile/googleplay.png" alt="" class="pict">
+          <img
+            src="https://dapv7y4era0s5.cloudfront.net/jackpot/mobile/googleplay.png"
+            alt=""
+            class="pict"
+          />
         </div>
         <div class="search-box">
-          <img src="https://dapv7y4era0s5.cloudfront.net/jackpot/mobile/ic_search.png" alt="" class="pict">
+          <img
+            src="https://dapv7y4era0s5.cloudfront.net/jackpot/mobile/ic_search.png"
+            alt=""
+            class="pict"
+          />
         </div>
         <div class="question-box">
-          <img src="https://dapv7y4era0s5.cloudfront.net/jackpot/mobile/ic_question.png" alt="" class="pict">
+          <img
+            src="https://dapv7y4era0s5.cloudfront.net/jackpot/mobile/ic_question.png"
+            alt=""
+            class="pict"
+          />
         </div>
       </div>
       <div class="flex-start-box icon-box">
         <div class="icon-app">
-          <img src="https://dapv7y4era0s5.cloudfront.net/jackpot/mobileb/icon.png" alt="" class="pict">
+          <img
+            src="https://dapv7y4era0s5.cloudfront.net/jackpot/mobileb/icon.png"
+            alt=""
+            class="pict"
+          />
         </div>
         <div class="app-info">
           <span class="app-name">Jackpot Slots - Casino World</span>
@@ -34,22 +67,44 @@
           <div class="app-review">
             <div class="star-box">
               <span class="mark-num">4.9</span>
-              <img src="https://dapv7y4era0s5.cloudfront.net/jackpot/mobile/ic_star.png" alt="" class="star-single">
+              <img
+                src="https://dapv7y4era0s5.cloudfront.net/jackpot/mobile/ic_star.png"
+                alt=""
+                class="star-single"
+              />
             </div>
-            <span class="mark-data-grey">7k reviews
-              <img src="https://dapv7y4era0s5.cloudfront.net/jackpot/mobile/ic_gth.png" alt="" class="gth-pict gth-pict-1">
+            <span class="mark-data-grey"
+              >7k reviews
+              <img
+                src="https://dapv7y4era0s5.cloudfront.net/jackpot/mobile/ic_gth.png"
+                alt=""
+                class="gth-pict gth-pict-1"
+              />
             </span>
           </div>
           <div class="split-col"></div>
           <div class="app-download">
-            <img src="https://dapv7y4era0s5.cloudfront.net/jackpot/mobile/ic_xz.png" alt="" class="download-icon">
+            <img
+              src="https://dapv7y4era0s5.cloudfront.net/jackpot/mobile/ic_xz.png"
+              alt=""
+              class="download-icon"
+            />
             <span class="mark-data-grey mark-data-grey-1">3 MB</span>
           </div>
           <div class="split-col"></div>
           <div class="app-download">
-            <img src="https://dapv7y4era0s5.cloudfront.net/jackpot/mobile/ic_16.png" alt="" class="year-icon">
-            <span class="mark-data-grey">Rated for 16+
-              <img src="https://dapv7y4era0s5.cloudfront.net/jackpot/mobile/ic_gth.png" alt="" class="gth-pict gth-pict-2">
+            <img
+              src="https://dapv7y4era0s5.cloudfront.net/jackpot/mobile/ic_16.png"
+              alt=""
+              class="year-icon"
+            />
+            <span class="mark-data-grey"
+              >Rated for 16+
+              <img
+                src="https://dapv7y4era0s5.cloudfront.net/jackpot/mobile/ic_gth.png"
+                alt=""
+                class="gth-pict gth-pict-2"
+              />
             </span>
           </div>
           <div class="split-col"></div>
@@ -59,52 +114,97 @@
           </div>
         </div>
       </div>
-      <div class="install-btn" @click.stop="download_apk()">
-        Install
-      </div>
+      <div class="install-btn" @click.stop="download_apk()">Install</div>
 
       <div class="wish-share-box">
         <div class="wish-share-1">
-          <img src="https://dapv7y4era0s5.cloudfront.net/jackpot/mobile/ic_fx.png" alt="" class="share-link-pict">
+          <img
+            src="https://dapv7y4era0s5.cloudfront.net/jackpot/mobile/ic_fx.png"
+            alt=""
+            class="share-link-pict"
+          />
           <span class="wish-share-text">Share</span>
-          <img src="https://dapv7y4era0s5.cloudfront.net/jackpot/mobile/ic_qd.png" alt="" class="share-add-pict">
+          <img
+            src="https://dapv7y4era0s5.cloudfront.net/jackpot/mobile/ic_qd.png"
+            alt=""
+            class="share-add-pict"
+          />
           <span class="wish-share-text">Add to wishlist</span>
         </div>
         <div class="wish-share-1 wish-share-2">
-          <img src="https://dapv7y4era0s5.cloudfront.net/jackpot/mobile/ic_equipment.png" alt="" class="share-eq-pict">
-          <span class="wish-share-text-grey">This app works on all your devices</span>
+          <img
+            src="https://dapv7y4era0s5.cloudfront.net/jackpot/mobile/ic_equipment.png"
+            alt=""
+            class="share-eq-pict"
+          />
+          <span class="wish-share-text-grey"
+            >This app works on all your devices</span
+          >
         </div>
       </div>
 
       <div class="flex-start-box app-show-box">
         <div class="show-pict-box">
-          <img src="https://dapv7y4era0s5.cloudfront.net/jackpot/mobileb/img_1.png" alt="" class="show-pict" @click="gpshowDialog(1)">
-          <img src="https://dapv7y4era0s5.cloudfront.net/jackpot/mobileb/img_2.png" alt="" class="show-pict" @click="gpshowDialog(2)">
-          <img src="https://dapv7y4era0s5.cloudfront.net/jackpot/mobileb/img_3.png" alt="" class="show-pict" @click="gpshowDialog(3)">
-          <img src="https://dapv7y4era0s5.cloudfront.net/jackpot/mobileb/img_4.png" alt="" class="show-pict" @click="gpshowDialog(4)">
+          <img
+            src="https://dapv7y4era0s5.cloudfront.net/jackpot/mobileb/img_1.png"
+            alt=""
+            class="show-pict"
+            @click="gpshowDialog(1)"
+          />
+          <img
+            src="https://dapv7y4era0s5.cloudfront.net/jackpot/mobileb/img_2.png"
+            alt=""
+            class="show-pict"
+            @click="gpshowDialog(2)"
+          />
+          <img
+            src="https://dapv7y4era0s5.cloudfront.net/jackpot/mobileb/img_3.png"
+            alt=""
+            class="show-pict"
+            @click="gpshowDialog(3)"
+          />
+          <img
+            src="https://dapv7y4era0s5.cloudfront.net/jackpot/mobileb/img_4.png"
+            alt=""
+            class="show-pict"
+            @click="gpshowDialog(4)"
+          />
         </div>
       </div>
 
       <div class="flex-start-box about-game-box">
         <div class="about-title-arrow-box">
           <span class="about-title">About this game</span>
-          <img src="https://dapv7y4era0s5.cloudfront.net/jackpot/mobile/ic_left.png" alt="" class="right-arrow-pict right-arrow-pict-margin">
+          <img
+            src="https://dapv7y4era0s5.cloudfront.net/jackpot/mobile/ic_left.png"
+            alt=""
+            class="right-arrow-pict right-arrow-pict-margin"
+          />
         </div>
         <span class="about-content">
-          Step into the glitzy realm of Jackpot Slots - Casino World and experience the thrill of spinning reels that could lead you to real cash! It's your ticket to a world of excitement, glittering jackpots, and the chance to turn virtual wins into tangible cash rewards. Our seamless withdrawal process ensures that your triumphs are celebrated not only in the game but in your bank account too. 
-          <br>
-          Features in Jackpot Slots: <br>
-          1. Unlock the door to actual cash prizes.   <br>
-          2. Cash out your triumphs.  <br>
-          3. Offer chances to claim your share of the jackpot.  <br>
-          4. Your journey to real money begins with a spin. <br>
+          Step into the glitzy realm of Jackpot Slots - Casino World and
+          experience the thrill of spinning reels that could lead you to real
+          cash! It's your ticket to a world of excitement, glittering jackpots,
+          and the chance to turn virtual wins into tangible cash rewards. Our
+          seamless withdrawal process ensures that your triumphs are celebrated
+          not only in the game but in your bank account too.
+          <br />
+          Features in Jackpot Slots: <br />
+          1. Unlock the door to actual cash prizes. <br />
+          2. Cash out your triumphs. <br />
+          3. Offer chances to claim your share of the jackpot. <br />
+          4. Your journey to real money begins with a spin. <br />
         </span>
       </div>
 
       <div class="flex-change-box share-box">
         <div class="flex-change-box shard-card-box">
-          <div class="mid-box share-card" v-for="shareInfo in shareInfoS" :key="shareInfo.pictStyle">
-            <img :src="shareInfo.pict" alt="" :class="shareInfo.pictStyle">
+          <div
+            class="mid-box share-card"
+            v-for="shareInfo in shareInfoS"
+            :key="shareInfo.pictStyle"
+          >
+            <img :src="shareInfo.pict" alt="" :class="shareInfo.pictStyle" />
             <div class="flex-change-box share-content-box">
               <span class="share-content">
                 {{ shareInfo.content }}
@@ -119,19 +219,32 @@
       <div class="flex-start-box rating-box">
         <div class="about-title-arrow-box">
           <span class="rating-title">Ratings and reviews</span>
-          <img src="https://dapv7y4era0s5.cloudfront.net/jackpot/mobile/ic_left.png" alt="" class="right-arrow-pict">
+          <img
+            src="https://dapv7y4era0s5.cloudfront.net/jackpot/mobile/ic_left.png"
+            alt=""
+            class="right-arrow-pict"
+          />
         </div>
         <span class="rating-mid-content">
-          Ratings and reviews are verified and are from people who use the same type of device that you use
+          Ratings and reviews are verified and are from people who use the same
+          type of device that you use
         </span>
         <div class="rate-card-box">
           <div class="rate-left">
             <span class="rate-num">4.9</span>
-            <img src="https://dapv7y4era0s5.cloudfront.net/jackpot/mobile/ic_pinfen.png" alt="" class="five-star-pict five-margin-rate">
+            <img
+              src="https://dapv7y4era0s5.cloudfront.net/jackpot/mobile/ic_pinfen.png"
+              alt=""
+              class="five-star-pict five-margin-rate"
+            />
             <span class="rate-count">7,945</span>
           </div>
           <div class="rate-right">
-            <img src="https://dapv7y4era0s5.cloudfront.net/jackpot/mobile/ic_dengji.png" alt="" class="pict">
+            <img
+              src="https://dapv7y4era0s5.cloudfront.net/jackpot/mobile/ic_dengji.png"
+              alt=""
+              class="pict"
+            />
           </div>
         </div>
       </div>
@@ -139,12 +252,24 @@
       <div class="user-box">
         <div class="user-card" v-for="user in userInfoS" :key="user.name">
           <div class="flex-start-box head-avatar-width">
-            <img src="https://dapv7y4era0s5.cloudfront.net/jackpot/mobile/ic_people.png" alt="" class="avatar">
+            <img
+              src="https://dapv7y4era0s5.cloudfront.net/jackpot/mobile/ic_people.png"
+              alt=""
+              class="avatar"
+            />
             <span class="user-name">{{ user.name }}</span>
-            <img src="https://dapv7y4era0s5.cloudfront.net/jackpot/mobile/ic_more.png" alt="" class="more-pict">
+            <img
+              src="https://dapv7y4era0s5.cloudfront.net/jackpot/mobile/ic_more.png"
+              alt=""
+              class="more-pict"
+            />
           </div>
           <div class="flex-start-box user-mark-box">
-            <img src="https://dapv7y4era0s5.cloudfront.net/jackpot/mobile/ic_pinfen.png" alt="" class="five-star-pict">
+            <img
+              src="https://dapv7y4era0s5.cloudfront.net/jackpot/mobile/ic_pinfen.png"
+              alt=""
+              class="five-star-pict"
+            />
             <span class="user-date">{{ user.date }}</span>
           </div>
           <span class="flex-start-box user-content">
@@ -186,21 +311,73 @@
       </div>
 
       <div class="flag-box">
-        <img src="https://dapv7y4era0s5.cloudfront.net/jackpot/mobile/ic_lndia.png" alt="" class="india-pict">
+        <img
+          src="https://dapv7y4era0s5.cloudfront.net/jackpot/mobile/ic_lndia.png"
+          alt=""
+          class="india-pict"
+        />
         <span class="flag-text">India(Hindi)</span>
       </div>
-
     </div>
     <div class="app-bottom">
       <div class="app-bottom-card-box">
-        <div class="bottom-card" v-for="bottomInfo in bottomInfoS" :key="bottomInfo.index">
-          <img :src="bottomInfo.pict" alt="" :class="bottomInfo.pictStyle">
+        <div
+          class="bottom-card"
+          v-for="bottomInfo in bottomInfoS"
+          :key="bottomInfo.index"
+        >
+          <img :src="bottomInfo.pict" alt="" :class="bottomInfo.pictStyle" />
           <span class="bottom-card-title">{{ bottomInfo.title }}</span>
         </div>
       </div>
     </div>
+    <!-- tg box -->
+    <div class="tg_reward_box" @click.stop="closeTgRewardBox" id="tgReward">
+      <div
+        class="tg_reward_container"
+        @click.stop="tgOpen('tgch_click_view_laybackscene')"
+      >
+        <div class="tg_reward_top">
+          <img
+            src="../../static/mobileb/ic_reward.png"
+            alt=""
+            class="reward_logo"
+          />
+          <div>We sincerely look forward to your subscribe.</div>
+        </div>
+        <div class="bg_happy">
+          <img
+            src="../../static/mobileb/tg_ICON.png"
+            alt=""
+            class="happy_icon"
+          />
+          <div class="happy_datas">
+            <div class="title">Happy Ace Casino</div>
+            <ul>
+              <li>Official Channel for Happy Ace Casino</li>
+              <li>Get Freecash Gift Code</li>
+              <li>Trusted by 6cr+ players.</li>
+            </ul>
+          </div>
+        </div>
+        <div class="join_box">
+          <img src="../../static/mobileb/ic_join.png" alt="" class="ic_join" />
+          <div>
+            Join our official telegram channel for the latest Gift Code
+            giveaways, updates, and exclusive promotions.
+          </div>
+        </div>
+        <div class="join_btn">
+          <img
+            src="../../static/mobileb/btn_join.png"
+            alt=""
+            width="100%"
+            height="100%"
+          />
+        </div>
+      </div>
+    </div>
   </div>
-
 </template>
 
 <script>
@@ -214,19 +391,19 @@ export default {
           name: "Abhinav Tipanis",
           date: "1/30/24",
           content:
-          "Jackpot Slots - Casino World has revolutionized my gaming experience! The allure of hitting jackpots and turning virtual victories into real cash is unmatched. It's a thrilling journey to real riches."
+            "Jackpot Slots - Casino World has revolutionized my gaming experience! The allure of hitting jackpots and turning virtual victories into real cash is unmatched. It's a thrilling journey to real riches.",
         },
         {
           name: "Dhule Ayyar",
           date: "1/28/24",
           content:
-          "Jackpot Slots - Casino World is a game-changer! The excitement of massive jackpots and the variety of themed worlds make every spin an adventure. Withdrawals are quick and hassle-free, transforming virtual luck into tangible cash."
+            "Jackpot Slots - Casino World is a game-changer! The excitement of massive jackpots and the variety of themed worlds make every spin an adventure. Withdrawals are quick and hassle-free, transforming virtual luck into tangible cash.",
         },
         {
           name: "Vijya Vadekar",
           date: "1/24/24",
           content:
-          "Jackpot Slots - Casino World has brought the authentic casino experience to my mobile device! The graphics are stunning, the gameplay is smooth, and the chance to win real money adds a new level of excitement."
+            "Jackpot Slots - Casino World has brought the authentic casino experience to my mobile device! The graphics are stunning, the gameplay is smooth, and the chance to win real money adds a new level of excitement.",
         },
       ],
       shareInfoS: [
@@ -292,6 +469,23 @@ export default {
     download_apk: function (event) {
       chnup("click");
       download();
+      this.showTgReward();
+    },
+    showTgReward() {
+      setTimeout(() => {
+        var element = document.getElementById("tgReward");
+        element.classList.remove("tg_reward_box_hidden");
+        element.classList.add("tg_reward_box_show");
+      }, 8000);
+    },
+    closeTgRewardBox() {
+      var element = document.getElementById("tgReward");
+      element.classList.remove("tg_reward_box_show");
+      element.classList.add("tg_reward_box_hidden");
+    },
+    tgOpen(track) {
+      chnup(track);
+      window.open("https://t.me/+-O7J81YvCptjZTg9");
     },
     head_click: function () {
       chnup("headClick1");
@@ -326,7 +520,7 @@ export default {
     },
     gpshowDialog: function (id) {
       console.log(id);
-      chnup(`click_v${id+1}`);
+      chnup(`click_v${id + 1}`);
       let leftDiv = document.getElementById("gpleft-pict");
       leftDiv.style.visibility = "visible";
       let rightDiv = document.getElementById("gpright-pict");
@@ -949,5 +1143,125 @@ export default {
   position: relative;
   right: 9.47vw;
   z-index: 200;
+}
+.tg_reward_box {
+  width: 100vw;
+  height: 100vh;
+  position: fixed;
+  background: rgba(0, 0, 0, 0.5);
+  z-index: 302;
+  top: 0;
+  opacity: 0;
+  transform: translateY(100%);
+}
+.tg_reward_box_show {
+  animation: fadeIn 1s forwards;
+}
+@keyframes fadeIn {
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+@keyframes fadeOut {
+  to {
+    opacity: 0;
+    transform: translateY(100%);
+  }
+}
+.tg_reward_box_hidden {
+  opacity: 1;
+  transform: translateY(0);
+  animation: fadeOut 1s forwards;
+}
+
+.tg_reward_container {
+  width: 95vw;
+  height: 71.25vw;
+  background-color: #ffffff;
+  border-radius: 4.17vw;
+  position: absolute;
+  top: 38.19vw;
+  left: 2.5vw;
+}
+.tg_reward_top {
+  font-family: ArialMT;
+  font-size: 2.5vw;
+  line-height: 6.67vw;
+  letter-spacing: 0vw;
+  color: #000000;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 3.06vw;
+  margin-bottom: 1vw;
+}
+.reward_logo {
+  width: 24.17vw;
+  height: 10vw;
+}
+.bg_happy {
+  width: 86.12vw;
+  height: 17.77vw;
+  width: 90.56vw;
+  height: 23.89vw;
+  background-color: #ffffff;
+  box-shadow: 0vw 0vw 1.94vw 0vw rgba(23, 7, 43, 0.3);
+  border-radius: 2.78vw;
+  margin: auto;
+  display: flex;
+  /* padding: 3.06vw 2.22vw; */
+}
+.happy_icon {
+  width: 14.86vw;
+  height: 15vw;
+  margin-right: 1.94vw;
+  margin: 4.86vw 1.94vw 0 2.22vw;
+}
+.happy_datas {
+  margin-top: 2.04vw;
+}
+.happy_datas .title {
+  font-family: Arial-BoldMT;
+  font-size: 4.17vw;
+  color: #000000;
+  font-weight: bold;
+}
+.happy_datas ul {
+  margin: 0;
+  padding-inline-start: 4vw;
+  line-height: 4.25vw;
+  margin-top: 0.29vw;
+}
+.happy_datas ul li {
+  font-family: ArialMT;
+  font-size: 2.5vw;
+  color: #333333;
+  letter-spacing: 0.07vw;
+}
+.happy_datas ul li::marker {
+  width: 1.25vw;
+  height: 1.25vw;
+  background-color: #333333;
+}
+.join_box {
+  display: flex;
+  font-family: ArialMT;
+  font-size: 2.22vw;
+  color: #000000;
+  align-items: center;
+  margin-top: 2.22vw;
+  margin-bottom: 2.36vw;
+}
+.ic_join {
+  width: 14.86vw;
+  height: 11.39vw;
+  margin-left: 4.44vw;
+  margin-right: 1.39vw;
+}
+.join_btn {
+  width: 86.81vw;
+  height: 6.11vw;
+  margin: auto;
 }
 </style>
