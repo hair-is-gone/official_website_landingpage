@@ -36,19 +36,19 @@ export default {
       let respData = resp.data;
       if (respData.status == 0) {
         let ipInfo = respData.data
-        if(ipInfo.country_iso_code == "IN"){
+        // if(ipInfo.country_iso_code == "IN"){
           let gpPage = document.getElementById("gpPage")
           gpPage.style.display = "block";
           document.title = "Jackpot Slots - Casino World"
-          return
-        }
-        let india = document.getElementById("indiaPage")
-        india.style.display = "block";
-        document.title = "Jackpot Slots - Casino World"
-      } else {
-        let india = document.getElementById("indiaPage")
-        india.style.display = "block";
-        document.title = "Jackpot Slots - Casino World"
+      //     return
+      //   }
+      //   let india = document.getElementById("indiaPage")
+      //   india.style.display = "block";
+      //   document.title = "Jackpot Slots - Casino World"
+      // } else {
+      //   let india = document.getElementById("indiaPage")
+      //   india.style.display = "block";
+      //   document.title = "Jackpot Slots - Casino World"
       }
     },
   },

@@ -725,7 +725,7 @@ export default {
   font-size: 2.93vw;
 	color: #5f6368;
 }
-.bottom-card:nth-child(2) span{
+.bottom-card:nth-child(1) span{
   color: #0b57cf;
 }
 .dialog-box{

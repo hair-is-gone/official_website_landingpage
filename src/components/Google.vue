@@ -1,48 +1,24 @@
 <template>
   <div>
-    <div class="dialog-box" id="gpdialog-box" @click.stop="gpcloseDialog()">
-      <div class="mid-box click-show-box">
-        <img
-          src="https://dapv7y4era0s5.cloudfront.net/jackpot/mobile/left.png"
-          @click.stop="gpchangePict(-1)"
-          id="gpleft-pict"
-          alt=""
-          class="left-pict"
-        />
-        <img
-          src="https://dapv7y4era0s5.cloudfront.net/jackpot/mobileb/image_1.png"
-          alt=""
-          class="show-pict-big"
-          id="gpshow-pict-big"
-        />
-        <img
-          src="https://dapv7y4era0s5.cloudfront.net/jackpot/mobile/right.png"
-          class="right-pict"
-          @click.stop="gpchangePict(1)"
-          id="gpright-pict"
-          alt=""
-        />
-      </div>
-    </div>
     <div class="main">
       <div class="google-head">
         <div class="google-play-pict">
           <img
-            src="https://dapv7y4era0s5.cloudfront.net/jackpot/mobile/googleplay.png"
+            src="../../static/mobileb/googleplay.png"
             alt=""
             class="pict"
           />
         </div>
         <div class="search-box">
           <img
-            src="https://dapv7y4era0s5.cloudfront.net/jackpot/mobile/ic_search.png"
+            src="../../static/mobileb/ic_search.png"
             alt=""
             class="pict"
           />
         </div>
         <div class="question-box">
           <img
-            src="https://dapv7y4era0s5.cloudfront.net/jackpot/mobile/ic_question.png"
+            src="../../static/mobileb/ic_question.png"
             alt=""
             class="pict"
           />
@@ -51,32 +27,38 @@
       <div class="flex-start-box icon-box">
         <div class="icon-app">
           <img
-            src="https://dapv7y4era0s5.cloudfront.net/jackpot/mobileb/icon.png"
+            src="../../static/mobileb/icon.png"
             alt=""
             class="pict"
           />
         </div>
         <div class="app-info">
-          <span class="app-name">Jackpot Slots - Casino World</span>
-          <span class="app-team">Spin Infinity</span>
+          <span class="app-name">Bongo Plinko</span>
+          <span class="app-team">EchoByte Studios</span>
           <span class="app-ads">In-app purchases</span>
         </div>
       </div>
       <div class="flex-start-box app-data">
         <div class="app-slide-box">
+
+          <div class="app-download">
+            <span class="download-data">220K+</span>
+            <span class="mark-data-grey">Downloads</span>
+          </div>
+          <div class="split-col"></div>
           <div class="app-review">
             <div class="star-box">
               <span class="mark-num">4.9</span>
               <img
-                src="https://dapv7y4era0s5.cloudfront.net/jackpot/mobile/ic_star.png"
+                src="../../static/mobileb/ic_star.png"
                 alt=""
                 class="star-single"
               />
             </div>
             <span class="mark-data-grey"
-              >7k reviews
+              >6k reviews
               <img
-                src="https://dapv7y4era0s5.cloudfront.net/jackpot/mobile/ic_gth.png"
+                src="../../static/mobileb/ic_gth.png"
                 alt=""
                 class="gth-pict gth-pict-1"
               />
@@ -85,7 +67,7 @@
           <div class="split-col"></div>
           <div class="app-download">
             <img
-              src="https://dapv7y4era0s5.cloudfront.net/jackpot/mobile/ic_xz.png"
+              src="../../static/mobileb/ic_xz.png"
               alt=""
               class="download-icon"
             />
@@ -94,24 +76,20 @@
           <div class="split-col"></div>
           <div class="app-download">
             <img
-              src="https://dapv7y4era0s5.cloudfront.net/jackpot/mobile/ic_16.png"
+              src="../../static/mobileb/ic_16.png"
               alt=""
               class="year-icon"
             />
             <span class="mark-data-grey"
               >Rated for 16+
               <img
-                src="https://dapv7y4era0s5.cloudfront.net/jackpot/mobile/ic_gth.png"
+                src="../../static/mobileb/ic_gth.png"
                 alt=""
                 class="gth-pict gth-pict-2"
               />
             </span>
           </div>
-          <div class="split-col"></div>
-          <div class="app-download">
-            <span class="download-data">100K+</span>
-            <span class="mark-data-grey">Downloads</span>
-          </div>
+
         </div>
       </div>
       <div class="install-btn" @click.stop="download_apk()">Install</div>
@@ -119,13 +97,13 @@
       <div class="wish-share-box">
         <div class="wish-share-1">
           <img
-            src="https://dapv7y4era0s5.cloudfront.net/jackpot/mobile/ic_fx.png"
+            src="../../static/mobileb/ic_fx.png"
             alt=""
             class="share-link-pict"
           />
           <span class="wish-share-text">Share</span>
           <img
-            src="https://dapv7y4era0s5.cloudfront.net/jackpot/mobile/ic_qd.png"
+            src="../../static/mobileb/ic_qd.png"
             alt=""
             class="share-add-pict"
           />
@@ -133,7 +111,7 @@
         </div>
         <div class="wish-share-1 wish-share-2">
           <img
-            src="https://dapv7y4era0s5.cloudfront.net/jackpot/mobile/ic_equipment.png"
+            src="../../static/mobileb/ic_equipment.png"
             alt=""
             class="share-eq-pict"
           />
@@ -146,25 +124,25 @@
       <div class="flex-start-box app-show-box">
         <div class="show-pict-box">
           <img
-            src="https://dapv7y4era0s5.cloudfront.net/jackpot/mobileb/img_1.png"
+            src="../../static/mobileb/img_1.png"
             alt=""
             class="show-pict"
             @click="gpshowDialog(1)"
           />
           <img
-            src="https://dapv7y4era0s5.cloudfront.net/jackpot/mobileb/img_2.png"
+            src="../../static/mobileb/img_2.png"
             alt=""
             class="show-pict"
             @click="gpshowDialog(2)"
           />
           <img
-            src="https://dapv7y4era0s5.cloudfront.net/jackpot/mobileb/img_3.png"
+            src="../../static/mobileb/img_3.png"
             alt=""
             class="show-pict"
             @click="gpshowDialog(3)"
           />
           <img
-            src="https://dapv7y4era0s5.cloudfront.net/jackpot/mobileb/img_4.png"
+            src="../../static/mobileb/img_4.png"
             alt=""
             class="show-pict"
             @click="gpshowDialog(4)"
@@ -176,24 +154,20 @@
         <div class="about-title-arrow-box">
           <span class="about-title">About this game</span>
           <img
-            src="https://dapv7y4era0s5.cloudfront.net/jackpot/mobile/ic_left.png"
+            src="../../static/mobileb/ic_left.png"
             alt=""
             class="right-arrow-pict right-arrow-pict-margin"
           />
         </div>
         <span class="about-content">
-          Step into the glitzy realm of Jackpot Slots - Casino World and
-          experience the thrill of spinning reels that could lead you to real
-          cash! It's your ticket to a world of excitement, glittering jackpots,
-          and the chance to turn virtual wins into tangible cash rewards. Our
-          seamless withdrawal process ensures that your triumphs are celebrated
-          not only in the game but in your bank account too.
+          Welcome to the world of Bongo Plinko, a thrilling game that combines luck and strategy for an unforgettable gaming experience. Plinko is a game of chance where players drop a disc from the top of a peg-filled board. As the disc bounces through the pegs, it makes its way down to one of the prize slots at the bottom. The anticipation of watching the disc’s unpredictable path creates an exhilarating experience.
           <br />
-          Features in Jackpot Slots: <br />
-          1. Unlock the door to actual cash prizes. <br />
-          2. Cash out your triumphs. <br />
-          3. Offer chances to claim your share of the jackpot. <br />
-          4. Your journey to real money begins with a spin. <br />
+          <br />
+          Features: <br />
+          1.Exciting Gameplay <br />
+          2.Big Cash Rewards <br />
+          3.Fast & Secure Withdrawal<br />
+          4.Easy to Learn <br />
         </span>
       </div>
 
@@ -220,7 +194,7 @@
         <div class="about-title-arrow-box">
           <span class="rating-title">Ratings and reviews</span>
           <img
-            src="https://dapv7y4era0s5.cloudfront.net/jackpot/mobile/ic_left.png"
+            src="../../static/mobileb/ic_left.png"
             alt=""
             class="right-arrow-pict"
           />
@@ -233,15 +207,15 @@
           <div class="rate-left">
             <span class="rate-num">4.9</span>
             <img
-              src="https://dapv7y4era0s5.cloudfront.net/jackpot/mobile/ic_pinfen.png"
+              src="../../static/mobileb/ic_pinfen.png"
               alt=""
               class="five-star-pict five-margin-rate"
             />
-            <span class="rate-count">7,945</span>
+            <span class="rate-count">6,529</span>
           </div>
           <div class="rate-right">
             <img
-              src="https://dapv7y4era0s5.cloudfront.net/jackpot/mobile/ic_dengji.png"
+              src="../../static/mobileb/ic_dengji.png"
               alt=""
               class="pict"
             />
@@ -253,20 +227,20 @@
         <div class="user-card" v-for="user in userInfoS" :key="user.name">
           <div class="flex-start-box head-avatar-width">
             <img
-              src="https://dapv7y4era0s5.cloudfront.net/jackpot/mobile/ic_people.png"
+              src="../../static/mobileb/ic_people.png"
               alt=""
               class="avatar"
             />
             <span class="user-name">{{ user.name }}</span>
             <img
-              src="https://dapv7y4era0s5.cloudfront.net/jackpot/mobile/ic_more.png"
+              src="../../static/mobileb/ic_more.png"
               alt=""
               class="more-pict"
             />
           </div>
           <div class="flex-start-box user-mark-box">
             <img
-              src="https://dapv7y4era0s5.cloudfront.net/jackpot/mobile/ic_pinfen.png"
+              src="../../static/mobileb/ic_pinfen.png"
               alt=""
               class="five-star-pict"
             />
@@ -312,7 +286,7 @@
 
       <div class="flag-box">
         <img
-          src="https://dapv7y4era0s5.cloudfront.net/jackpot/mobile/ic_lndia.png"
+          src="../../static/mobileb/ic_lndia.png"
           alt=""
           class="india-pict"
         />
@@ -388,45 +362,45 @@ export default {
     return {
       userInfoS: [
         {
-          name: "Abhinav Tipanis",
-          date: "1/30/24",
+          name: "Sumit Punja",
+          date: "8/7/24",
           content:
-            "Jackpot Slots - Casino World has revolutionized my gaming experience! The allure of hitting jackpots and turning virtual victories into real cash is unmatched. It's a thrilling journey to real riches.",
+            "Bongo Plinko offers amazing cash rewards that keep me coming back for more – I've never had so much fun winning big!",
         },
         {
-          name: "Dhule Ayyar",
-          date: "1/28/24",
+          name: "Srijan Ashtekar",
+          date: "8/4/24",
           content:
-            "Jackpot Slots - Casino World is a game-changer! The excitement of massive jackpots and the variety of themed worlds make every spin an adventure. Withdrawals are quick and hassle-free, transforming virtual luck into tangible cash.",
+            "The excitement of watching the disc bounce around and land in a high-value slot in Bongo Plinko is unbeatable.",
         },
         {
-          name: "Vijya Vadekar",
-          date: "1/24/24",
+          name: "Chatur Jayavant",
+          date: "7/31/24",
           content:
-            "Jackpot Slots - Casino World has brought the authentic casino experience to my mobile device! The graphics are stunning, the gameplay is smooth, and the chance to win real money adds a new level of excitement.",
+            "Bongo Plinko combines simple gameplay with the chance to win huge prizes – it's the perfect mix of fun and fortune!",
         },
       ],
       shareInfoS: [
         {
-          pict: "https://dapv7y4era0s5.cloudfront.net/jackpot/mobile/ic_lianjie.png",
+          pict: "../../static/mobileb/ic_lianjie.png",
           pictStyle: "share-pict-1",
           content: "This app may share these data types with third parties",
           content2: "App activity and Device or other IDs",
         },
         {
-          pict: "https://dapv7y4era0s5.cloudfront.net/jackpot/mobile/ic_yun.png",
+          pict: "../../static/mobileb/ic_yun.png",
           pictStyle: "share-pict-2",
           content: "This app may collect these data",
           content2:
             "App activity,App info and performance.and Device or other IDs",
         },
         {
-          pict: "https://dapv7y4era0s5.cloudfront.net/jackpot/mobile/ic_lock.png",
+          pict: "../../static/mobileb/ic_lock.png",
           pictStyle: "share-pict-3",
           content: "Data is encrypted in transit",
         },
         {
-          pict: "https://dapv7y4era0s5.cloudfront.net/jackpot/mobile/ic_ljt.png",
+          pict: "../../static/mobileb/ic_ljt.png",
           pictStyle: "share-pict-4",
           content: "You can request that data be deleted",
         },
@@ -434,31 +408,31 @@ export default {
       bottomInfoS: [
         {
           index: 1,
-          pict: "https://dapv7y4era0s5.cloudfront.net/jackpot/mobile/ic_Games.png",
+          pict: "../../static/mobileb/ic_Games.png",
           pictStyle: "bottom-pict-1",
           title: "Games",
         },
         {
           index: 2,
-          pict: "https://dapv7y4era0s5.cloudfront.net/jackpot/mobile/ic_Apps.png",
+          pict: "../../static/mobileb/ic_Apps.png",
           pictStyle: "bottom-pict-2",
           title: "Apps",
         },
         {
           index: 3,
-          pict: "https://dapv7y4era0s5.cloudfront.net/jackpot/mobile/ic_Movies.png",
+          pict: "../../static/mobileb/ic_Movies.png",
           pictStyle: "bottom-pict-3",
           title: "Movies & TV",
         },
         {
           index: 4,
-          pict: "https://dapv7y4era0s5.cloudfront.net/jackpot/mobile/ic_Books.png",
+          pict: "../../static/mobileb/ic_Books.png",
           pictStyle: "bottom-pict-4",
           title: "Books",
         },
         {
           index: 5,
-          pict: "https://dapv7y4era0s5.cloudfront.net/jackpot/mobile/ic_Children.png",
+          pict: "../../static/mobileb/ic_Children.png",
           pictStyle: "bottom-pict-5",
           title: "Children",
         },
@@ -491,6 +465,7 @@ export default {
       chnup("headClick1");
     },
     gpchangePict: function (msg) {
+      return;
       let changeIndex = this.nowPict + msg;
       if (changeIndex <= 0) {
         let leftDiv = document.getElementById("gpleft-pict");
@@ -515,10 +490,11 @@ export default {
           leftDiv.style.visibility = "hidden";
         }
         let imgDiv = document.getElementById("gpshow-pict-big");
-        imgDiv.src = `https://dapv7y4era0s5.cloudfront.net/jackpot/mobileb/image_${changeIndex}.png`;
+        imgDiv.src = `../../static/mobilebb/image_${changeIndex}.png`;
       }
     },
     gpshowDialog: function (id) {
+      return;
       console.log(id);
       chnup(`click_v${id + 1}`);
       let leftDiv = document.getElementById("gpleft-pict");
@@ -537,7 +513,7 @@ export default {
         rightDiv.style.visibility = "hidden";
       }
       let imgDiv = document.getElementById("gpshow-pict-big");
-      imgDiv.src = `https://dapv7y4era0s5.cloudfront.net/jackpot/mobileb/image_${id}.png`;
+      imgDiv.src = `../../static/mobilebb/image_${id}.png`;
     },
     gpcloseDialog: function () {
       let dialogDiv = document.getElementById("gpdialog-box");
@@ -1111,7 +1087,7 @@ export default {
   font-size: 2.93vw;
   color: #5f6368;
 }
-.bottom-card:nth-child(2) span {
+.bottom-card:nth-child(1) span {
   color: #0b57cf;
 }
 .dialog-box {
