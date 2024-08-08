@@ -382,25 +382,25 @@ export default {
       ],
       shareInfoS: [
         {
-          pict: "../../static/mobileb/ic_lianjie.png",
+          pict: require("../../static/mobileb/ic_lianjie.png"),
           pictStyle: "share-pict-1",
           content: "This app may share these data types with third parties",
           content2: "App activity and Device or other IDs",
         },
         {
-          pict: "../../static/mobileb/ic_yun.png",
+          pict: require("../../static/mobileb/ic_yun.png"),
           pictStyle: "share-pict-2",
           content: "This app may collect these data",
           content2:
             "App activity,App info and performance.and Device or other IDs",
         },
         {
-          pict: "../../static/mobileb/ic_lock.png",
+          pict: require("../../static/mobileb/ic_lock.png"),
           pictStyle: "share-pict-3",
           content: "Data is encrypted in transit",
         },
         {
-          pict: "../../static/mobileb/ic_ljt.png",
+          pict: require("../../static/mobileb/ic_ljt.png"),
           pictStyle: "share-pict-4",
           content: "You can request that data be deleted",
         },
@@ -408,31 +408,31 @@ export default {
       bottomInfoS: [
         {
           index: 1,
-          pict: "../../static/mobileb/ic_Games.png",
+          pict: require("../../static/mobileb/ic_Games.png"),
           pictStyle: "bottom-pict-1",
           title: "Games",
         },
         {
           index: 2,
-          pict: "../../static/mobileb/ic_Apps.png",
+          pict: require("../../static/mobileb/ic_Apps.png"),
           pictStyle: "bottom-pict-2",
           title: "Apps",
         },
         {
           index: 3,
-          pict: "../../static/mobileb/ic_Movies.png",
+          pict: require("../../static/mobileb/ic_Movies.png"),
           pictStyle: "bottom-pict-3",
           title: "Movies & TV",
         },
         {
           index: 4,
-          pict: "../../static/mobileb/ic_Books.png",
+          pict: require("../../static/mobileb/ic_Books.png"),
           pictStyle: "bottom-pict-4",
           title: "Books",
         },
         {
           index: 5,
-          pict: "../../static/mobileb/ic_Children.png",
+          pict: require("../../static/mobileb/ic_Children.png"),
           pictStyle: "bottom-pict-5",
           title: "Children",
         },
