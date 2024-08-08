@@ -1,7 +1,7 @@
 <template>
   <div>
     <div class="bg-img-all">
-      <div class="download-button-sty">
+      <div class="download-button-sty" @click="download_apk">
       </div>
     </div>
   </div>

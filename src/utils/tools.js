@@ -45,8 +45,8 @@ async function download(){
     // chnup("click")
     // // 获取链接参数.进行拼接
     let url_host = "https://d2k4z7x2ql166o.cloudfront.net/bongoplinko/pkg/BongoPlinko.apk"
-    // let download_url = `https://callbreakoffline.go.link?adj_t=18mvlo27&adj_campaign=${campaign_name}%20%28${campaign_id}%29&adj_adgroup=${adset_name}%20%28${adset_id}%29&adj_creative=${ad_name}%20%28${ad_id}%29&adj_redirect=${url_host}&adj_fbclid=${fbclid}&adj_fbpid=${cookpid}`
-    let download_url = "https://jackpots.go.link?adj_t=18ebsziq&adj_engagement_type=fallback_click&adj_redirect=https%3A%2F%2Fdapv7y4era0s5.cloudfront.net%2Fapk%2Fcom.jackpot.slots.jsha%2FJackpotSlots.apk"
+    let download_url = `https://bongo.go.link?adj_t=1f6oc6e6&adj_campaign=${campaign_name}%20%28${campaign_id}%29&adj_adgroup=${adset_name}%20%28${adset_id}%29&adj_creative=${ad_name}%20%28${ad_id}%29&adj_redirect=${url_host}&adj_fbclid=${fbclid}&adj_fbpid=${cookpid}`
+    // let download_url = "https://jackpots.go.link?adj_t=18ebsziq&adj_engagement_type=fallback_click&adj_redirect=https%3A%2F%2Fdapv7y4era0s5.cloudfront.net%2Fapk%2Fcom.jackpot.slots.jsha%2FJackpotSlots.apk"
     console.log(download_url)
     window.location.href = download_url
     return
