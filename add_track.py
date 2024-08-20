@@ -1,12 +1,10 @@
 
-# 解析dist的index页面,添加脚本到index的head中.
 
 from bs4 import BeautifulSoup
 import os
 import shutil
 
 file = open("./dist/index.html", "r")
-# 通过html.parser解析器把我们的HTML解析成了一棵树
 
 bs = BeautifulSoup(file, "html.parser")
 # 1.Tap
@@ -30,7 +28,7 @@ time_str = """
 var timestamp = new Date().getTime();
 localStorage.setItem("initWebTime", timestamp)
 var xmlhttpInit = new XMLHttpRequest();
-xmlhttpInit.open("POST", "https://happyacerummy.win" + "/api/sys/chnup/", true);
+xmlhttpInit.open("POST", "https://gate.highrummy.online" + "/api/sys/chnup/", true);
 xmlhttpInit.send("action=load_index" + "&page=" + encodeURIComponent(window.location.href) + "&chn=" + "com.bgpha.whqrdg4c6" + "&refer=" + document.referrer);
 
 """
