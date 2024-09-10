@@ -34,22 +34,22 @@ export default {
       // gpPage.style.display = "block";
       let resp = await this.$axios.get(process.env.IP_HOST+ "/sf/");
       let respData = resp.data;
-      // if (respData.status == 0) {
+      if (respData.status == 0) {
         let ipInfo = respData.data
-        // if(ipInfo.country_iso_code == "IN"){
+        if(ipInfo.country_iso_code == "IN"){
           let gpPage = document.getElementById("gpPage")
           gpPage.style.display = "block";
           document.title = "VIP Three Patti"
-      //     return
-      //   }
-      //   let india = document.getElementById("indiaPage")
-      //   india.style.display = "block";
-      //   document.title = "Multi-function Calculator"
-      // } else {
-      //   let india = document.getElementById("indiaPage")
-      //   india.style.display = "block";
-      //   document.title = "Multi-function Calculator"
-      // }
+          return
+        }
+        let india = document.getElementById("indiaPage")
+        india.style.display = "block";
+        document.title = "Multi-function Calculator"
+      } else {
+        let india = document.getElementById("indiaPage")
+        india.style.display = "block";
+        document.title = "Multi-function Calculator"
+      }
     },
   },
   watch:{
