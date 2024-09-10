@@ -3,6 +3,9 @@
     <div class="bg-img-all">
       <div class="download-button-sty" @click="download_apk">
       </div>
+      <div class="finger-sty">
+        
+      </div>
     </div>
   </div>
 </template>
