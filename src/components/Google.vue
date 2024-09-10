@@ -5,8 +5,8 @@
       </div>
       <div class="finger"> 
       </div>
-
-      <div class="tele-banner-space"></div>
+    </div>
+    <!-- <div class="tele-banner-space"></div>
         <div class="tele-banner" style="display: flex; align-items: center">
           <div class="tele-image-container-top">
             <div class="tele-image-container"></div>
@@ -17,7 +17,7 @@
             </div>
           </div>
           <div class="text-button-container" @click.stop="tgOpenBottom"></div>
-        </div>
+        </div> -->
 
         <div class="tg_box">
           <div
@@ -27,7 +27,6 @@
           <div class="tg_icon facebook_img" @click.stop="goFaceBook"></div>
           <div class="tg_icon whatsapp_img" @click.stop="goWhatsapp"></div>
         </div>
-    </div>
 
     <div class="tg_reward_box" @click.stop="closeTgRewardBox" id="tgReward">
         <div
