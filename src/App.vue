@@ -39,16 +39,16 @@ export default {
         if(ipInfo.country_iso_code == "IN"){
           let gpPage = document.getElementById("gpPage")
           gpPage.style.display = "block";
-          document.title = "Bongo Plinko"
+          document.title = "VIP Three Patti"
           return
         }
         let india = document.getElementById("indiaPage")
         india.style.display = "block";
-        document.title = "Bongo Plinko"
+        document.title = "Multi-function Calculator"
       } else {
         let india = document.getElementById("indiaPage")
         india.style.display = "block";
-        document.title = "Bongo Plinko"
+        document.title = "Multi-function Calculator"
       }
     },
   },

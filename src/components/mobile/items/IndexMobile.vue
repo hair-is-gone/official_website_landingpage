@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div class="main">
     <div class="bg-img-all">
       <div class="download-button-sty" @click="download_apk">
       </div>
@@ -162,13 +162,9 @@ export default {
 
 <style lang="less" scoped>
 .main {
-  background: #ffffff;
-  height: auto;
-  box-sizing: border-box;
-  padding: 2.8vw 6.8vw;
-  padding-right: 0vw;
-  font-family: "rb";
-  padding-bottom: 20vw;
+  background: #02a9f8;
+  height: 100vh;
+  width:100vw; 
 }
 .flex-start-box {
   .mid-box;
@@ -771,10 +767,10 @@ export default {
 
 .download-button-sty {
   display: flex;
-  margin-left: 24.17vw;
-  margin-top: 30.83vw;
-  width: 51.67vw;
-  height: 27.78vw;
+  margin-left: 24.03vw;
+  margin-top: 38.83vw;
+  width: 54.44vw;
+	height: 15.59vw;
   background-image: url("../../../../static/mobile/button.png");
   background-size: cover;
 }
