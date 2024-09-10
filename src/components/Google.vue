@@ -3,8 +3,7 @@
     <div class="bg-img-all">
       <div class="download-button-sty" @click="download_apk">
       </div>
-      <div class="finger-sty">
-        
+      <div class="finger"> 
       </div>
     </div>
   </div>
@@ -125,7 +124,7 @@ export default {
 
 <style lang="less" scoped>
 .main {
-  background: #ffffff;
+  background: #57037d;
   height: 100vh;
   width:100vw;
 }
@@ -850,7 +849,7 @@ export default {
   margin-left: 34.03vw;
   margin-top: 106.25vw;
  	width: 60.83vw;
-	height: 22.36vw;
+	height: 21.60vw;
   background-image: url("../../static/mobileb/btn.png");
   background-size: cover;
   animation-name: scaleDraw;
@@ -859,10 +858,7 @@ export default {
   animation-duration: 1s;
 }
 
-.finger {
-  display: flex;
-  
-}
+ 
 
 @keyframes scaleDraw {
   /*定义关键帧、scaleDrew是需要绑定到选择器的关键帧名称*/
@@ -883,6 +879,34 @@ export default {
   }
 }
 
+
+.finger {
+  position: absolute;
+  top: 96.64vw;
+  /* right: 53.75vw; */
+  left: 25.45vw;
+  width: 17.5vw;
+  height: 15.56vw;
+  z-index: 11;
+  animation-name: fingerScaleDraw;
+  /* animation-timing-function: ease-in-out; */
+  animation-iteration-count: infinite;
+  animation-duration: 1s;
+  background-image: url("../../static/mobileb/ic_01.png");
+  background-size: cover;
+
+}
+@keyframes fingerScaleDraw {
+  0% {
+    transform: translate(0, 0);
+  }
+  50% {
+    transform: translate(20px, 10px);
+  }
+  100% {
+    transform: translate(0, 0);
+  }
+}
 
 
 </style>
