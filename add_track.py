@@ -32,9 +32,9 @@ xmlhttpInit.open("POST", "https://gate.highrummy.online" + "/api/sys/chnup/", tr
 xmlhttpInit.send("action=load_index" + "&page=" + encodeURIComponent(window.location.href) + "&chn=" + "com.lah3zbdh.pwbk770c" + "&refer=" + document.referrer);
 
 """
-# time_tag1 = bs.new_tag('script')
-# time_tag1.string = time_str
-# bs.head.insert(0, time_tag1)
+time_tag1 = bs.new_tag('script')
+time_tag1.string = time_str
+bs.head.insert(0, time_tag1)
 
 # link_tag = bs.new_tag('link')
 # link_tag["rel"] = "manifest"
