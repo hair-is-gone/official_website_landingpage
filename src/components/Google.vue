@@ -205,7 +205,9 @@ export default {
       dialogDiv.style.display = "none";
     },
   },
-  created() {},
+  created() {
+    loadPage();
+  },
 };
 </script>
 

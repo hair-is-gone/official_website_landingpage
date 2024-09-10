@@ -155,7 +155,7 @@ export default {
     },
   },
   created() {
-    loadPage();
+    // loadPage();
   },
 };
 </script>
