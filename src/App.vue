@@ -1,30 +1,35 @@
 <template>
-   <div id="app" v-cloak>
-    <div id="indiaPage" style="display: none">
-      <m-header ></m-header>
-      <router-view/>
+  <div id="app" v-cloak>
+    <div id="indiaPage" :style="{ display: !status_open ? 'none' : 'block' }">
+      <m-header></m-header>
+      <router-view />
       <m-footer></m-footer>
     </div>
-    <div id="gpPage" style="display: none">
+    <div id="gpPage" :style="{ display: status_open ? 'none' : 'block' }">
       <google></google>
     </div>
   </div>
 </template>
 
 <script>
-import mHeader from '@/components/Header.vue'
-import mFooter from '@/components/Footer.vue'
-import google from '@/components/Google.vue'
+import mHeader from "@/components/Header.vue";
+import mFooter from "@/components/Footer.vue";
+import google from "@/components/Google.vue";
 
 export default {
-  name: 'App',
+  name: "App",
   components: {
     mHeader,
     mFooter,
     google,
   },
-  mounted(){
-    this.loadInfo()
+  data() {
+    return {
+      status_open: 0,
+    };
+  },
+  mounted() {
+    this.loadInfo();
   },
   methods: {
     async loadInfo() {
@@ -32,33 +37,33 @@ export default {
       //   india.style.display = "block";
       // let gpPage = document.getElementById("gpPage")
       // gpPage.style.display = "block";
-      let resp = await this.$axios.get(process.env.IP_HOST+ "/sf/");
+      let resp = await this.$axios.get(process.env.IP_HOST + "/sf/");
       let respData = resp.data;
       if (respData.status == 0) {
-        let ipInfo = respData.data
-        if(ipInfo.country_iso_code == "IN"){
-          let gpPage = document.getElementById("gpPage")
-          gpPage.style.display = "block";
-          document.title = "VIP Three Patti" 
-          return
+        let ipInfo = respData.data;
+        if (ipInfo.country_iso_code == "IN") {
+          let gpPage = document.getElementById("gpPage");
+          // gpPage.style.display = "block";
+          this.status_open = 0;
+          document.title = "VIP Three Patti";
+          return;
         }
-        let india = document.getElementById("indiaPage")
-        india.style.display = "block";
-        document.title = "Multi-function Calculator"
+        let india = document.getElementById("indiaPage");
+        this.status_open = 1;
+        document.title = "Multi-function Calculator";
       } else {
-        let india = document.getElementById("indiaPage")
-        india.style.display = "block";
-        document.title = "Multi-function Calculator"
+        let india = document.getElementById("indiaPage");
+        this.status_open = 1;
+        document.title = "Multi-function Calculator";
       }
     },
   },
-  watch:{
-    $route() {   
+  watch: {
+    $route() {
       window.scrollTo(0, 0);
-    }
-  }
-}
+    },
+  },
+};
 </script>
 
-<style lang="less" scoped>
-</style>
+<style lang="less" scoped></style>
