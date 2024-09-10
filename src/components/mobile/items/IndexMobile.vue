@@ -721,9 +721,9 @@ export default {
   font-size: 2.93vw;
 	color: #5f6368;
 }
-.bottom-card:nth-child(1) span{
-  color: #0b57cf;
-}
+// .bottom-card:nth-child(1) span{
+//   color: #0b57cf;
+// }
 .dialog-box{
   width: 100vw;
   height: 100vh;
@@ -773,5 +773,29 @@ export default {
 	height: 15.59vw;
   background-image: url("../../../../static/mobile/button.png");
   background-size: cover;
+  animation-name: scaleDraw;
+  animation-timing-function: ease-in-out;
+  animation-iteration-count: infinite;
+  animation-duration: 1s;
 }
+
+@keyframes scaleDraw {
+  /*定义关键帧、scaleDrew是需要绑定到选择器的关键帧名称*/
+  0% {
+    transform: scale(1);
+    /*开始为原始大小*/
+  }
+  25% {
+    transform: scale(1.1);
+    /*放大1.1倍*/
+  }
+  50% {
+    transform: scale(1.1);
+    /*放大1.1倍*/
+  }
+  75% {
+    transform: scale(1);
+  }
+}
+
 </style>

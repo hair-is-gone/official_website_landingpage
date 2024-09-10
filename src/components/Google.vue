@@ -1,354 +1,7 @@
 <template>
-  <div>
     <div class="main">
-      <div class="google-head">
-        <div class="google-play-pict">
-          <img
-            src="../../static/mobileb/googleplay.png"
-            alt=""
-            class="pict"
-          />
-        </div>
-        <div class="search-box">
-          <img
-            src="../../static/mobileb/ic_search.png"
-            alt=""
-            class="pict"
-          />
-        </div>
-        <div class="question-box">
-          <img
-            src="../../static/mobileb/ic_question.png"
-            alt=""
-            class="pict"
-          />
-        </div>
-      </div>
-      <div class="flex-start-box icon-box">
-        <div class="icon-app">
-          <img
-            src="../../static/mobileb/icon.png"
-            alt=""
-            class="pict"
-          />
-        </div>
-        <div class="app-info">
-          <span class="app-name">Bongo Plinko</span>
-          <span class="app-team">EchoByte Studios</span>
-          <span class="app-ads">In-app purchases</span>
-        </div>
-      </div>
-      <div class="flex-start-box app-data">
-        <div class="app-slide-box">
-
-          <div class="app-download">
-            <span class="download-data">220K+</span>
-            <span class="mark-data-grey">Downloads</span>
-          </div>
-          <div class="split-col"></div>
-          <div class="app-review">
-            <div class="star-box">
-              <span class="mark-num">4.9</span>
-              <img
-                src="../../static/mobileb/ic_star.png"
-                alt=""
-                class="star-single"
-              />
-            </div>
-            <span class="mark-data-grey"
-              >6k reviews
-              <img
-                src="../../static/mobileb/ic_gth.png"
-                alt=""
-                class="gth-pict gth-pict-1"
-              />
-            </span>
-          </div>
-          <div class="split-col"></div>
-          <div class="app-download">
-            <img
-              src="../../static/mobileb/ic_xz.png"
-              alt=""
-              class="download-icon"
-            />
-            <span class="mark-data-grey mark-data-grey-1">3 MB</span>
-          </div>
-          <div class="split-col"></div>
-          <div class="app-download">
-            <img
-              src="../../static/mobileb/ic_16.png"
-              alt=""
-              class="year-icon"
-            />
-            <span class="mark-data-grey"
-              >Rated for 16+
-              <img
-                src="../../static/mobileb/ic_gth.png"
-                alt=""
-                class="gth-pict gth-pict-2"
-              />
-            </span>
-          </div>
-
-        </div>
-      </div>
-      <div class="install-btn" @click.stop="download_apk()">Install</div>
-
-      <div class="wish-share-box">
-        <div class="wish-share-1">
-          <img
-            src="../../static/mobileb/ic_fx.png"
-            alt=""
-            class="share-link-pict"
-          />
-          <span class="wish-share-text">Share</span>
-          <img
-            src="../../static/mobileb/ic_qd.png"
-            alt=""
-            class="share-add-pict"
-          />
-          <span class="wish-share-text">Add to wishlist</span>
-        </div>
-        <div class="wish-share-1 wish-share-2">
-          <img
-            src="../../static/mobileb/ic_equipment.png"
-            alt=""
-            class="share-eq-pict"
-          />
-          <span class="wish-share-text-grey"
-            >This app works on all your devices</span
-          >
-        </div>
-      </div>
-
-      <div class="flex-start-box app-show-box">
-        <div class="show-pict-box">
-          <img
-            src="../../static/mobileb/img_1.png"
-            alt=""
-            class="show-pict"
-            @click="gpshowDialog(1)"
-          />
-          <img
-            src="../../static/mobileb/img_2.png"
-            alt=""
-            class="show-pict"
-            @click="gpshowDialog(2)"
-          />
-          <img
-            src="../../static/mobileb/img_3.png"
-            alt=""
-            class="show-pict"
-            @click="gpshowDialog(3)"
-          />
-          <img
-            src="../../static/mobileb/img_4.png"
-            alt=""
-            class="show-pict"
-            @click="gpshowDialog(4)"
-          />
-        </div>
-      </div>
-
-      <div class="flex-start-box about-game-box">
-        <div class="about-title-arrow-box">
-          <span class="about-title">About this game</span>
-          <img
-            src="../../static/mobileb/ic_left.png"
-            alt=""
-            class="right-arrow-pict right-arrow-pict-margin"
-          />
-        </div>
-        <span class="about-content">
-          Welcome to the world of Bongo Plinko, a thrilling game that combines luck and strategy for an unforgettable gaming experience. Plinko is a game of chance where players drop a disc from the top of a peg-filled board. As the disc bounces through the pegs, it makes its way down to one of the prize slots at the bottom. The anticipation of watching the disc’s unpredictable path creates an exhilarating experience.
-          <br />
-          <br />
-          Features: <br />
-          1.Exciting Gameplay <br />
-          2.Big Cash Rewards <br />
-          3.Fast & Secure Withdrawal<br />
-          4.Easy to Learn <br />
-        </span>
-      </div>
-
-      <div class="flex-change-box share-box">
-        <div class="flex-change-box shard-card-box">
-          <div
-            class="mid-box share-card"
-            v-for="shareInfo in shareInfoS"
-            :key="shareInfo.pictStyle"
-          >
-            <img :src="shareInfo.pict" alt="" :class="shareInfo.pictStyle" />
-            <div class="flex-change-box share-content-box">
-              <span class="share-content">
-                {{ shareInfo.content }}
-              </span>
-              <span class="share-content-mini">{{ shareInfo.content2 }}</span>
-            </div>
-          </div>
-        </div>
-        <span class="see-detail">See details</span>
-      </div>
-
-      <div class="flex-start-box rating-box">
-        <div class="about-title-arrow-box">
-          <span class="rating-title">Ratings and reviews</span>
-          <img
-            src="../../static/mobileb/ic_left.png"
-            alt=""
-            class="right-arrow-pict"
-          />
-        </div>
-        <span class="rating-mid-content">
-          Ratings and reviews are verified and are from people who use the same
-          type of device that you use
-        </span>
-        <div class="rate-card-box">
-          <div class="rate-left">
-            <span class="rate-num">4.9</span>
-            <img
-              src="../../static/mobileb/ic_pinfen.png"
-              alt=""
-              class="five-star-pict five-margin-rate"
-            />
-            <span class="rate-count">6,529</span>
-          </div>
-          <div class="rate-right">
-            <img
-              src="../../static/mobileb/ic_dengji.png"
-              alt=""
-              class="pict"
-            />
-          </div>
-        </div>
-      </div>
-
-      <div class="user-box">
-        <div class="user-card" v-for="user in userInfoS" :key="user.name">
-          <div class="flex-start-box head-avatar-width">
-            <img
-              src="../../static/mobileb/ic_people.png"
-              alt=""
-              class="avatar"
-            />
-            <span class="user-name">{{ user.name }}</span>
-            <img
-              src="../../static/mobileb/ic_more.png"
-              alt=""
-              class="more-pict"
-            />
-          </div>
-          <div class="flex-start-box user-mark-box">
-            <img
-              src="../../static/mobileb/ic_pinfen.png"
-              alt=""
-              class="five-star-pict"
-            />
-            <span class="user-date">{{ user.date }}</span>
-          </div>
-          <span class="flex-start-box user-content">
-            {{ user.content }}
-          </span>
-          <div class="flex-start-box last-avatar-box">
-            <span class="user-help-span">Was this review helpful?</span>
-            <div class="mid-box button-box-total">
-              <div class="mid-box yes-button">Yes</div>
-              <div class="mid-box yes-button">No</div>
-            </div>
-          </div>
-        </div>
-        <span class="see-reviews">See all reviews</span>
-        <div class="line-reviews"></div>
-      </div>
-
-      <div class="google-policy-box google-policy-box-1">
-        <span class="policy-title">Google Play</span>
-        <span class="policy-span">Play Pass</span>
-        <span class="policy-span">Play Points</span>
-        <span class="policy-span">Gift cards</span>
-        <span class="policy-span">Redeem</span>
-        <span class="policy-span">Refund policy</span>
-      </div>
-      <div class="google-policy-box google-policy-box-2">
-        <span class="policy-title">Children and family</span>
-        <span class="policy-span">Parent guide</span>
-        <span class="policy-span">Family sharing</span>
-      </div>
-
-      <div class="terms-box">
-        <span>Terms of service</span>
-        <span>Privacy</span>
-        <span>About Google Play</span>
-        <span>Developers</span>
-        <span>Google Store</span>
-        <span>All prices include VAT.</span>
-      </div>
-
-      <div class="flag-box">
-        <img
-          src="../../static/mobileb/ic_lndia.png"
-          alt=""
-          class="india-pict"
-        />
-        <span class="flag-text">India(Hindi)</span>
-      </div>
-    </div>
-    <div class="app-bottom">
-      <div class="app-bottom-card-box">
-        <div
-          class="bottom-card"
-          v-for="bottomInfo in bottomInfoS"
-          :key="bottomInfo.index"
-        >
-          <img :src="bottomInfo.pict" alt="" :class="bottomInfo.pictStyle" />
-          <span class="bottom-card-title">{{ bottomInfo.title }}</span>
-        </div>
-      </div>
-    </div>
-    <!-- tg box -->
-    <div class="tg_reward_box" @click.stop="closeTgRewardBox" id="tgReward">
-      <div
-        class="tg_reward_container"
-        @click.stop="tgOpen('tgch_click_view_laybackscene')"
-      >
-        <div class="tg_reward_top">
-          <img
-            src="../../static/mobileb/ic_reward.png"
-            alt=""
-            class="reward_logo"
-          />
-          <div>We sincerely look forward to your subscribe.</div>
-        </div>
-        <div class="bg_happy">
-          <img
-            src="../../static/mobileb/tg_ICON.png"
-            alt=""
-            class="happy_icon"
-          />
-          <div class="happy_datas">
-            <div class="title">Happy Ace Casino</div>
-            <ul>
-              <li>Official Channel for Happy Ace Casino</li>
-              <li>Get Freecash Gift Code</li>
-              <li>Trusted by 6cr+ players.</li>
-            </ul>
-          </div>
-        </div>
-        <div class="join_box">
-          <img src="../../static/mobileb/ic_join.png" alt="" class="ic_join" />
-          <div>
-            Join our official telegram channel for the latest Gift Code
-            giveaways, updates, and exclusive promotions.
-          </div>
-        </div>
-        <div class="join_btn">
-          <img
-            src="../../static/mobileb/btn_join.png"
-            alt=""
-            width="100%"
-            height="100%"
-          />
-        </div>
+    <div class="bg-img-all">
+      <div class="download-button-sty" @click="download_apk">
       </div>
     </div>
   </div>
@@ -378,63 +31,6 @@ export default {
           date: "7/31/24",
           content:
             "Bongo Plinko combines simple gameplay with the chance to win huge prizes – it's the perfect mix of fun and fortune!",
-        },
-      ],
-      shareInfoS: [
-        {
-          pict: require("../../static/mobileb/ic_lianjie.png"),
-          pictStyle: "share-pict-1",
-          content: "This app may share these data types with third parties",
-          content2: "App activity and Device or other IDs",
-        },
-        {
-          pict: require("../../static/mobileb/ic_yun.png"),
-          pictStyle: "share-pict-2",
-          content: "This app may collect these data",
-          content2:
-            "App activity,App info and performance.and Device or other IDs",
-        },
-        {
-          pict: require("../../static/mobileb/ic_lock.png"),
-          pictStyle: "share-pict-3",
-          content: "Data is encrypted in transit",
-        },
-        {
-          pict: require("../../static/mobileb/ic_ljt.png"),
-          pictStyle: "share-pict-4",
-          content: "You can request that data be deleted",
-        },
-      ],
-      bottomInfoS: [
-        {
-          index: 1,
-          pict: require("../../static/mobileb/ic_Games.png"),
-          pictStyle: "bottom-pict-1",
-          title: "Games",
-        },
-        {
-          index: 2,
-          pict: require("../../static/mobileb/ic_Apps.png"),
-          pictStyle: "bottom-pict-2",
-          title: "Apps",
-        },
-        {
-          index: 3,
-          pict: require("../../static/mobileb/ic_Movies.png"),
-          pictStyle: "bottom-pict-3",
-          title: "Movies & TV",
-        },
-        {
-          index: 4,
-          pict: require("../../static/mobileb/ic_Books.png"),
-          pictStyle: "bottom-pict-4",
-          title: "Books",
-        },
-        {
-          index: 5,
-          pict: require("../../static/mobileb/ic_Children.png"),
-          pictStyle: "bottom-pict-5",
-          title: "Children",
         },
       ],
     };
@@ -527,12 +123,8 @@ export default {
 <style lang="less" scoped>
 .main {
   background: #ffffff;
-  height: auto;
-  box-sizing: border-box;
-  padding: 2.8vw 6.8vw;
-  padding-right: 0vw;
-  font-family: "rb";
-  padding-bottom: 20vw;
+  height: 100vh;
+  width:100vw;
 }
 .flex-start-box {
   .mid-box;
@@ -1240,4 +832,54 @@ export default {
   height: 6.11vw;
   margin: auto;
 }
+
+
+.bg-img-all{
+  display: flex;
+  width: 100vw;
+  height: 177.78vw;
+  background-image: url("../../static/mobileb/bg.png");
+  background-size: cover;
+}
+
+.download-button-sty {
+  display: flex;
+  margin-left: 34.03vw;
+  margin-top: 106.25vw;
+ 	width: 60.83vw;
+	height: 22.36vw;
+  background-image: url("../../static/mobileb/btn.png");
+  background-size: cover;
+  animation-name: scaleDraw;
+  animation-timing-function: ease-in-out;
+  animation-iteration-count: infinite;
+  animation-duration: 1s;
+}
+
+.finger {
+  display: flex;
+  
+}
+
+@keyframes scaleDraw {
+  /*定义关键帧、scaleDrew是需要绑定到选择器的关键帧名称*/
+  0% {
+    transform: scale(1);
+    /*开始为原始大小*/
+  }
+  25% {
+    transform: scale(1.1);
+    /*放大1.1倍*/
+  }
+  50% {
+    transform: scale(1.1);
+    /*放大1.1倍*/
+  }
+  75% {
+    transform: scale(1);
+  }
+}
+
+
+
 </style>
