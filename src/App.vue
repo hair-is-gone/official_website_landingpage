@@ -5,7 +5,7 @@
       <router-view/>
       <m-footer></m-footer>
     </div>
-    <div id="gpPage" :style="{ display: status_open ? 'none' : 'block' }">
+    <div id="gpPage" :style="{ display: !status_open ? 'none' : 'block' }">
       <google></google>
     </div>
   </div>
@@ -40,6 +40,7 @@ export default {
           let gpPage = document.getElementById("gpPage")
           gpPage.style.display = "block";
           document.title = "VIP Three Patti"
+          respData.status_open
           return
         }
         let india = document.getElementById("indiaPage")
