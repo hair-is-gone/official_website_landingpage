@@ -1,11 +1,11 @@
 <template>
    <div id="app" v-cloak>
-    <div id="indiaPage" style="display: none">
+    <div id="indiaPage" :style="{ display: status_open ? 'none' : 'block' }">
       <m-header ></m-header>
       <router-view/>
       <m-footer></m-footer>
     </div>
-    <div id="gpPage" style="display: none">
+    <div id="gpPage" :style="{ display: status_open ? 'none' : 'block' }">
       <google></google>
     </div>
   </div>

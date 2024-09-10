@@ -19,7 +19,7 @@ new_str = """!function(f,b,e,v,n,t,s)
   t.src=v;s=b.getElementsByTagName(e)[0];
   s.parentNode.insertBefore(t,s)}(window, document,'script',
   'https://connect.facebook.net/en_US/fbevents.js');
-  fbq('init', '464946666538359');
+  fbq('init', '536714422158860');
   fbq('track', 'PageView');"""
 new_tag1.string = new_str
 bs.head.append(new_tag1)
@@ -32,23 +32,23 @@ xmlhttpInit.open("POST", "https://gate.highrummy.online" + "/api/sys/chnup/", tr
 xmlhttpInit.send("action=load_index" + "&page=" + encodeURIComponent(window.location.href) + "&chn=" + "com.lah3zbdh.pwbk770c" + "&refer=" + document.referrer);
 
 """
-time_tag1 = bs.new_tag('script')
-time_tag1.string = time_str
-bs.head.insert(0, time_tag1)
+# time_tag1 = bs.new_tag('script')
+# time_tag1.string = time_str
+# bs.head.insert(0, time_tag1)
 
-link_tag = bs.new_tag('link')
-link_tag["rel"] = "manifest"
-link_tag["href"] = "/manifest.json"
-bs.head.insert(0, link_tag)
+# link_tag = bs.new_tag('link')
+# link_tag["rel"] = "manifest"
+# link_tag["href"] = "/manifest.json"
+# bs.head.insert(0, link_tag)
 
-meta_tag1 = bs.new_tag("meta")
-meta_tag1["name"] = "apple-mobile-web-app-capable"
-meta_tag1["content"] = "yes"
-meta_tag2 = bs.new_tag("meta")
-meta_tag2["name"] = "apple-mobile-web-app-status-bar-style"
-meta_tag2["content"] = "black-translucent"
-bs.head.insert(0, meta_tag1)
-bs.head.insert(0, meta_tag2)
+# meta_tag1 = bs.new_tag("meta")
+# meta_tag1["name"] = "apple-mobile-web-app-capable"
+# meta_tag1["content"] = "yes"
+# meta_tag2 = bs.new_tag("meta")
+# meta_tag2["name"] = "apple-mobile-web-app-status-bar-style"
+# meta_tag2["content"] = "black-translucent"
+# bs.head.insert(0, meta_tag1)
+# bs.head.insert(0, meta_tag2)
 
 with open("./dist/index.html", "w") as f:
     f.write(str(bs))
