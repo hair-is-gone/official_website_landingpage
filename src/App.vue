@@ -25,7 +25,7 @@ export default {
   },
   data() {
     return {
-      status_open: 0,
+      status_open: 1,
     };
   },
   mounted() {
