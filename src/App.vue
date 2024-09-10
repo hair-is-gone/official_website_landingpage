@@ -1,11 +1,11 @@
 <template>
    <div id="app" v-cloak>
-    <div id="indiaPage" :style="{ display: status_open ? 'none' : 'block' }">
+    <div id="indiaPage" style="display: none">
       <m-header ></m-header>
       <router-view/>
       <m-footer></m-footer>
     </div>
-    <div id="gpPage" :style="{ display: !status_open ? 'none' : 'block' }">
+    <div id="gpPage" style="display: none">
       <google></google>
     </div>
   </div>
@@ -39,8 +39,7 @@ export default {
         if(ipInfo.country_iso_code == "IN"){
           let gpPage = document.getElementById("gpPage")
           gpPage.style.display = "block";
-          document.title = "VIP Three Patti"
-          respData.status_open
+          document.title = "VIP Three Patti" 
           return
         }
         let india = document.getElementById("indiaPage")
