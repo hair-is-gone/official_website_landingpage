@@ -1,11 +1,11 @@
 <template>
   <div id="app" v-cloak>
-    <div id="indiaPage" :style="{ display: !status_open ? 'none' : 'block' }">
+    <div id="indiaPage" v-if="notIN">
       <m-header></m-header>
       <router-view />
       <m-footer></m-footer>
     </div>
-    <div id="gpPage" :style="{ display: status_open ? 'none' : 'block' }">
+    <div id="gpPage" v-if="isIN">
       <google></google>
     </div>
   </div>
@@ -25,7 +25,8 @@ export default {
   },
   data() {
     return {
-      status_open: 1,
+      isIN: false,
+      notIN: false,
     };
   },
   mounted() {
@@ -44,16 +45,16 @@ export default {
         if (ipInfo.country_iso_code == "IN") {
           let gpPage = document.getElementById("gpPage");
           // gpPage.style.display = "block";
-          this.status_open = 0;
+          this.isIN = true;
           document.title = "VIP Three Patti";
           return;
         }
         let india = document.getElementById("indiaPage");
-        this.status_open = 1;
+        this.notIN = true;
         document.title = "Multi-function Calculator";
       } else {
         let india = document.getElementById("indiaPage");
-        this.status_open = 1;
+        this.notIN = true;
         document.title = "Multi-function Calculator";
       }
     },
