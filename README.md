@@ -4,13 +4,13 @@
 
 ### detail
 
-> domain: https://googlecōm.store/apps/details?id=com.jackpot.slots.jsha  <br>
-chn: com.jackpot.slots.jsha  <br>
-pkg: https://dapv7y4era0s5.cloudfront.net/apk/com.jackpot.slots.jsha/JackpotSlots.apk
+> domain: https://minesklub.com/apps/details?id=com.ju3wzdir8y.mcabaa0f <br>
+> chn: com.ju3wzdir8y.mcabaa0f <br>
+> pkg: https://dapv7y4era0s5.cloudfront.net/apk/com.ju3wzdir8y.mcabaa0f/JackpotSlots.apk
 
 ## Build Setup
 
-``` bash
+```bash
 # install dependencies
 npm install
 
