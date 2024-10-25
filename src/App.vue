@@ -44,16 +44,13 @@ export default {
           let gpPage = document.getElementById("gpPage");
           // gpPage.style.display = "block";
           this.isIN = true;
-          document.title = "Mines Club";
           return;
         }
         let india = document.getElementById("indiaPage");
         this.notIN = true;
-        document.title = "Mines Club";
       } else {
         let india = document.getElementById("indiaPage");
         this.notIN = true;
-        document.title = "Mines Club";
       }
     },
   },

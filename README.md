@@ -4,9 +4,9 @@
 
 ### detail
 
-> domain: https://minesklub.com/apps/details?id=com.ju3wzdir8y.mcabaa0f <br>
-> chn: com.ju3wzdir8y.mcabaa0f <br>
-> pkg: https://dapv7y4era0s5.cloudfront.net/apk/com.ju3wzdir8y.mcabaa0f/JackpotSlots.apk
+> domain: https://fruitscollection.com/apps/details?id=com.we8m25tk.fc58qk7w4c <br>
+> chn: com.we8m25tk.fc58qk7w4c <br>
+> pkg: https://d2k4z7x2ql166o.cloudfront.net/FruitsCollection/pkg/FruitsCollection.apk
 
 ## Build Setup
 

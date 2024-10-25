@@ -2,7 +2,6 @@
   <div class="main">
     <div class="bg-img-all">
       <div class="download-button-sty" @click="download_apk"></div>
-      <div class="finger"></div>
     </div>
     <div class="tele-banner-space"></div>
     <div class="tele-banner" style="display: flex; align-items: center">
@@ -261,10 +260,10 @@ export default {
 
 .download-button-sty {
   display: flex;
-  margin-left: 35.03vw;
-  margin-top: 104.25vw;
-  width: 60.83vw;
-  height: 21.6vw;
+  margin-left: 34.31vw;
+  margin-top: 99.25vw;
+  width: 52.22vw;
+  height: 16.25vw;
   background-image: url("../../static/mobileb/download.png");
   background-size: cover;
   animation-name: scaleDraw;
@@ -289,33 +288,6 @@ export default {
   }
   75% {
     transform: scale(1);
-  }
-}
-
-.finger {
-  position: absolute;
-  top: 96.64vw;
-  /* right: 53.75vw; */
-  left: 25.45vw;
-  width: 17.5vw;
-  height: 15.56vw;
-  z-index: 11;
-  animation-name: fingerScaleDraw;
-  /* animation-timing-function: ease-in-out; */
-  animation-iteration-count: infinite;
-  animation-duration: 1s;
-  background-image: url("../../static/mobileb/ic_01.png");
-  background-size: cover;
-}
-@keyframes fingerScaleDraw {
-  0% {
-    transform: translate(0, 0);
-  }
-  50% {
-    transform: translate(20px, 10px);
-  }
-  100% {
-    transform: translate(0, 0);
   }
 }
 

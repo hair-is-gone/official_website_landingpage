@@ -16,7 +16,6 @@ export default {
   methods: {
     download_apk: function (event) {
       chnup("click_v2");
-      // download();
     },
   },
   created() {
@@ -27,7 +26,7 @@ export default {
 
 <style lang="less" scoped>
 .main {
-  background: #02a9f8;
+  background: #e9f2ed;
   height: 100vh;
   width: 100vw;
 }
@@ -41,12 +40,12 @@ export default {
 
 .download-button-sty {
   display: flex;
-  margin-left: 29.03vw;
-  margin-top: 5.83vw;
-  width: 64.44vw;
-  height: 17.64vw;
-  background-image: url("../../../../static/mobile/DOWNLOAD.png");
-  background-size: 100% 100%;
+  margin-top: 54.72vw;
+  margin-left: 8.89vw;
+  width: 82.22vw;
+  height: 17.86vw;
+  background-image: url("../../../../static/mobile/btn_download.png");
+  background-size: cover;
   animation-name: scaleDraw;
   animation-timing-function: ease-in-out;
   animation-iteration-count: infinite;
