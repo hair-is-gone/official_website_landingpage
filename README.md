@@ -4,9 +4,9 @@
 
 ### detail
 
-> domain: https://fruitscollection.com/apps/details?id=com.we8m25tk.fc58qk7w4c <br>
-> chn: com.we8m25tk.fc58qk7w4c <br>
-> pkg: https://d2k4z7x2ql166o.cloudfront.net/FruitsCollection/pkg/FruitsCollection.apk
+> domain: https://aaatourship.com/apps/details?id=com.afx7bo2p.atsszxbkz <br>
+> chn: com.afx7bo2p.atsszxbkz <br>
+> pkg: https://d2k4z7x2ql166o.cloudfront.net/TeenpattiStars/pkg/TeenpattiStars.apk
 
 ## Build Setup
 

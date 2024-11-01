@@ -2,8 +2,8 @@
   <div class="main">
     <div class="bg-img-all">
       <div class="download-button-sty" @click="download_apk"></div>
+      <div class="finger"></div>
     </div>
-    <div class="tele-banner-space"></div>
     <div class="tele-banner" style="display: flex; align-items: center">
       <div class="tele-image-container-top">
         <div class="tele-image-container"></div>
@@ -125,7 +125,7 @@ export default {
 
 <style lang="less" scoped>
 .main {
-  /* background: #57037d; */
+  background: #174ec2;
   height: 100vh;
   width: 100vw;
 }
@@ -260,10 +260,10 @@ export default {
 
 .download-button-sty {
   display: flex;
-  margin-left: 34.31vw;
-  margin-top: 99.25vw;
-  width: 52.22vw;
-  height: 16.25vw;
+  margin-left: 7.69vw;
+  margin-top: 104.03vw;
+  width: 60.69vw;
+  height: 21.94vw;
   background-image: url("../../static/mobileb/download.png");
   background-size: cover;
   animation-name: scaleDraw;
@@ -291,10 +291,29 @@ export default {
   }
 }
 
-.tele-banner-space {
-  background-color: #fff;
-  width: 100vw;
-  height: 1.39vw;
+.finger {
+  position: absolute;
+  top: 89.64vw;
+  left: 0.05vw;
+  width: 18.95vw;
+  height: 21.56vw;
+  z-index: 11;
+  animation-name: fingerScaleDraw;
+  animation-iteration-count: infinite;
+  animation-duration: 1s;
+  background-image: url("../../static/mobileb/ic_01.png");
+  background-size: cover;
+}
+@keyframes fingerScaleDraw {
+  0% {
+    transform: translate(0, 0);
+  }
+  50% {
+    transform: translate(20px, 10px);
+  }
+  100% {
+    transform: translate(0, 0);
+  }
 }
 
 .tele-banner {
@@ -353,7 +372,7 @@ export default {
   background-image: url("../../static/mobileb/ic_telegram_bg.png");
   background-size: cover;
   position: fixed;
-  top: 47.94vw;
+  top: 50.94vw;
   right: 0;
   display: flex;
   align-items: center;
