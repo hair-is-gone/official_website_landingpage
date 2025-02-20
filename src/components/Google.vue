@@ -2,7 +2,7 @@
   <div class="main">
     <div class="bg-img-all">
       <div class="download-button-sty" @click="download_apk"></div>
-      <div class="finger"></div>
+      <!-- <div class="finger"></div> -->
     </div>
     <div class="tele-banner" style="display: flex; align-items: center">
       <div class="tele-image-container-top">
@@ -125,7 +125,7 @@ export default {
 
 <style lang="less" scoped>
 .main {
-  background: #174ec2;
+  background: #c40f0b;
   height: 100vh;
   width: 100vw;
 }
@@ -260,10 +260,10 @@ export default {
 
 .download-button-sty {
   display: flex;
-  margin-left: 7.69vw;
-  margin-top: 104.03vw;
-  width: 60.69vw;
-  height: 21.94vw;
+  margin-left: 12.64vw;
+  margin-top: 107.36vw;
+  width: 52.64vw;
+  height: 14.72vw;
   background-image: url("../../static/mobileb/download.png");
   background-size: cover;
   animation-name: scaleDraw;

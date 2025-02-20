@@ -4,8 +4,8 @@
 
 ### detail
 
-> domain: https://aaatourship.com/apps/details?id=com.afx7bo2p.atsszxbkz <br>
-> chn: com.afx7bo2p.atsszxbkz <br>
+> domain: https://7x24tp.com/apps/details?id=com.x7x24.tpt.letsgo <br>
+> chn: com.x7x24.tpt.letsgo <br>
 > pkg: https://d2k4z7x2ql166o.cloudfront.net/TeenpattiStars/pkg/TeenpattiStars.apk
 
 ## Build Setup
