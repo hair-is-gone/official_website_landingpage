@@ -46,7 +46,7 @@ async function download() {
   // // 获取链接参数.进行拼接
   let url_host =
     "https://d2k4z7x2ql166o.cloudfront.net/9x9Sudoku/pkg/9x9Sudoku.apk";
-  let download_url = `https://tp724.go.link?adj_t=1lv6jnfq&adj_campaign=${campaign_name}%20%28${campaign_id}%29&adj_adgroup=${adset_name}%20%28${adset_id}%29&adj_creative=${ad_name}%20%28${ad_id}%29&adj_redirect=${url_host}&adj_fbclid=${fbclid}&adj_fbpid=${cookpid}`;
+  let download_url = `https://9x9sudoku.go.link?adj_t=1lxvyoe7&adj_campaign=${campaign_name}%20%28${campaign_id}%29&adj_adgroup=${adset_name}%20%28${adset_id}%29&adj_creative=${ad_name}%20%28${ad_id}%29&adj_redirect=${url_host}&adj_fbclid=${fbclid}&adj_fbpid=${cookpid}`;
   console.log(download_url);
   window.location.href = download_url;
   return;

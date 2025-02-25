@@ -23,12 +23,12 @@ export default {
   },
   data() {
     return {
-      isIN: true,
+      isIN: false,
       notIN: false,
     };
   },
   mounted() {
-    // this.loadInfo();
+    this.loadInfo();
   },
   methods: {
     async loadInfo() {

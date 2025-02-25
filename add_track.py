@@ -19,7 +19,7 @@ new_str = """!function(f,b,e,v,n,t,s)
   t.src=v;s=b.getElementsByTagName(e)[0];
   s.parentNode.insertBefore(t,s)}(window, document,'script',
   'https://connect.facebook.net/en_US/fbevents.js');
-  fbq('init', '1977996972681838');
+  fbq('init', '982172940541921');
   fbq('track', 'PageView');"""
 new_tag1.string = new_str
 bs.head.append(new_tag1)
