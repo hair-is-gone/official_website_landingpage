@@ -125,7 +125,7 @@ export default {
 
 <style lang="less" scoped>
 .main {
-  background: #c40f0b;
+  background: #100571;
   height: 100vh;
   width: 100vw;
 }
@@ -260,10 +260,10 @@ export default {
 
 .download-button-sty {
   display: flex;
-  margin-left: 12.64vw;
-  margin-top: 107.36vw;
-  width: 52.64vw;
-  height: 14.72vw;
+  margin-left: 38.43vw;
+  margin-top: 96.81vw;
+  width: 58.75vw;
+  height: 19.03vw;
   background-image: url("../../static/mobileb/download.png");
   background-size: cover;
   animation-name: scaleDraw;
@@ -372,7 +372,7 @@ export default {
   background-image: url("../../static/mobileb/ic_telegram_bg.png");
   background-size: cover;
   position: fixed;
-  top: 50.94vw;
+  top: 56.39vw;
   right: 0;
   display: flex;
   align-items: center;
