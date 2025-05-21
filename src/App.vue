@@ -10,15 +10,11 @@
 </template>
 
 <script>
-import mHeader from "@/components/Header.vue";
-import mFooter from "@/components/Footer.vue";
 import google from "@/components/Google.vue";
 
 export default {
   name: "App",
   components: {
-    mHeader,
-    mFooter,
     google,
   },
   data() {

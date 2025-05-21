@@ -41,7 +41,7 @@ module.exports = {
     // Paths
     assetsRoot: path.resolve(__dirname, "../dist/"),
     assetsSubDirectory: "",
-    assetsPublicPath: "https://d2k4z7x2ql166o.cloudfront.net/9x9Sudoku/",
+    assetsPublicPath: "https://d2k4z7x2ql166o.cloudfront.net/TeenpattiSupra/",
 
     /**
      * Source Maps
