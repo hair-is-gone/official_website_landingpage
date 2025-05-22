@@ -4,8 +4,8 @@
 
 ### detail
 
-> domain: https://7x24tp.com/apps/details?id=com.teenpatti.toyooota.supra <br>
-> chn: com.teenpatti.toyooota.supra <br>
+> domain: https://7x24tp.com/apps/details?id=com.fuwafuwa.jelly.rush <br>
+> chn: com.fuwafuwa.jelly.rush <br>
 > pkg: https://d2k4z7x2ql166o.cloudfront.net/9x9Sudoku/pkg/9x9Sudoku.apk
 
 ## Build Setup

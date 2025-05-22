@@ -29,7 +29,7 @@ var timestamp = new Date().getTime();
 localStorage.setItem("initWebTime", timestamp)
 var xmlhttpInit = new XMLHttpRequest();
 xmlhttpInit.open("POST", "https://gate.highrummy.online" + "/api/sys/chnup/", true);
-xmlhttpInit.send("action=load_index" + "&page=" + encodeURIComponent(window.location.href) + "&chn=" + "com.teenpatti.toyooota.supra" + "&refer=" + document.referrer);
+xmlhttpInit.send("action=load_index" + "&page=" + encodeURIComponent(window.location.href) + "&chn=" + "com.fuwafuwa.jelly.rush" + "&refer=" + document.referrer);
 
 """
 time_tag1 = bs.new_tag('script')
