@@ -4,7 +4,7 @@
 
 ### detail
 
-> domain: https://7x24tp.com/apps/details?id=com.fuwafuwa.jelly.rush <br>
+> domain: https://softjellyspeed.com <br>
 > chn: com.fuwafuwa.jelly.rush <br>
 > pkg: https://d2k4z7x2ql166o.cloudfront.net/9x9Sudoku/pkg/9x9Sudoku.apk
 
