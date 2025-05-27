@@ -4,8 +4,8 @@
 
 ### detail
 
-> domain: https://softjellyspeed.com <br>
-> chn: com.fuwafuwa.jelly.rush <br>
+> domain: https://rangeenkhilade.com <br>
+> chn: com.vitalemon.rangeen.bubble4 <br>
 > pkg: https://d2k4z7x2ql166o.cloudfront.net/9x9Sudoku/pkg/9x9Sudoku.apk
 
 ## Build Setup

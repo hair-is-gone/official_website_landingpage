@@ -88,7 +88,7 @@ export default {
     },
     goFaceBook() {
       chnup("fbch_click_view");
-      window.open("https://www.facebook.com/HappyAceOfficial");
+      window.open("https://www.facebook.com/happyacerummypage");
     },
     goWhatsapp() {
       chnup("wach_click_view");
@@ -260,10 +260,10 @@ export default {
 
 .download-button-sty {
   display: flex;
-  margin-left: 13.61vw;
-  margin-top: 114.72vw;
-  width: 75.83vw;
-  height: 22.5vw;
+  margin-left: 36.58vw;
+  margin-top: 107.92vw;
+  width: 59.36vw;
+  height: 18.05vw;
   background-image: url("../../static/mobileb/download.png");
   background-size: cover;
   animation-name: scaleDraw;
