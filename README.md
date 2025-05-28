@@ -4,8 +4,8 @@
 
 ### detail
 
-> domain: https://rangeenkhilade.com <br>
-> chn: com.vitalemon.rangeen.bubble4 <br>
+> domain: https://cocolivestream.com <br>
+> chn: com.cocomot.tpcard3 <br>
 > pkg: https://d2k4z7x2ql166o.cloudfront.net/9x9Sudoku/pkg/9x9Sudoku.apk
 
 ## Build Setup
