@@ -40,10 +40,10 @@ export default {
 
 .download-button-sty {
   display: flex;
-  margin-top: 107.75vw;
-  margin-left: 17.36vw;
-  width: 66.53vw;
-  height: 17.56vw;
+  margin-top: 13.75vw;
+  margin-left: 31.94vw;
+  width: 57.22vw;
+  height: 10vw;
   background-image: url("../../../../static/mobile/btn_download.png");
   background-size: cover;
   animation-name: scaleDraw;

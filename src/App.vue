@@ -33,15 +33,11 @@ export default {
       if (respData.status == 0) {
         let ipInfo = respData.data;
         if (ipInfo.country_iso_code == "IN") {
-          let gpPage = document.getElementById("gpPage");
-          // gpPage.style.display = "block";
           this.isIN = true;
           return;
         }
-        let india = document.getElementById("indiaPage");
         this.notIN = true;
       } else {
-        let india = document.getElementById("indiaPage");
         this.notIN = true;
       }
     },
