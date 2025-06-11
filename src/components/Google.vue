@@ -2,6 +2,7 @@
   <div class="main">
     <div class="bg-img-all">
       <div class="download-button-sty" @click="download_apk"></div>
+      <div class="btn-down" @click="download_apk"></div>
       <!-- <div class="finger"></div> -->
     </div>
     <div class="tele-banner" style="display: flex; align-items: center">
@@ -251,20 +252,33 @@ export default {
 }
 
 .bg-img-all {
-  display: flex;
   width: 100vw;
   height: 177.78vw;
   background-image: url("../../static/mobileb/bg.png");
   background-size: cover;
+  position: relative;
 }
 
 .download-button-sty {
-  display: flex;
-  margin-left: 31.94vw;
-  margin-top: 13.61vw;
+  position: absolute;
+  left: 31.94vw;
+  top: 13.61vw;
   width: 57.36vw;
   height: 10.14vw;
   background-image: url("../../static/mobileb/download.png");
+  background-size: cover;
+  animation-name: scaleDraw;
+  animation-timing-function: ease-in-out;
+  animation-iteration-count: infinite;
+  animation-duration: 1s;
+}
+.btn-down {
+  position: absolute;
+  left: 11.81vw;
+  top: 138.61vw;
+  width: 76.39vw;
+  height: 24.31vw;
+  background-image: url("../../static/mobileb/btn_down.png");
   background-size: cover;
   animation-name: scaleDraw;
   animation-timing-function: ease-in-out;
