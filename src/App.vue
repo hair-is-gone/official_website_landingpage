@@ -34,14 +34,14 @@ export default {
         let ipInfo = respData.data;
         if (ipInfo.country_iso_code == "IN") {
           this.isIN = true;
-          document.title = "Brick Sudoku";
+          document.title = "789 Ludo";
           return;
         }
         this.notIN = true;
-        document.title = "Brick PDF Reader";
+        document.title = "789 Easily Calendar";
       } else {
         this.notIN = true;
-        document.title = "Brick PDF Reader";
+        document.title = "789 Easily Calendar";
       }
     },
   },
