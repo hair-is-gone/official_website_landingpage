@@ -4,9 +4,9 @@
 
 ### detail
 
-> domain: https://ballooncatchmatch.com <br>
-> chn: com.last3num.ldou <br>
-> pkg: https://d2k4z7x2ql166o.cloudfront.net/9x9Sudoku/pkg/9x9Sudoku.apk
+> domain: https://mistald.com <br>
+> chn: com.mistaesta.d1ce <br>
+> pkg: https://d2k4z7x2ql166o.cloudfront.net/in/com.mistaesta.d1ce/pkg/MistaLudo.apk
 
 ## Build Setup
 
