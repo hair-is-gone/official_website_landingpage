@@ -5,8 +5,8 @@
 ### detail
 
 > domain: https://mistald.com <br>
-> chn: com.mistaesta.d1ce <br>
-> pkg: https://d2k4z7x2ql166o.cloudfront.net/in/com.mistaesta.d1ce/pkg/MistaLudo.apk
+> chn: com.bethe.silver.ludo <br>
+> pkg: https://d2k4z7x2ql166o.cloudfront.net/in/com.bethe.silver.ludo/pkg/SliverDiceLudo.apk
 
 ## Build Setup
 
