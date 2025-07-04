@@ -45,8 +45,8 @@ async function download() {
   // chnup("click")
   // // 获取链接参数.进行拼接
   let url_host =
-    "https://d2k4z7x2ql166o.cloudfront.net/in/com.bethe.silver.ludo/pkg/SliverDiceLudo.apk";
-  let download_url = `https://sliverdiceludo.go.link?adj_t=1qs6a6z2&adj_campaign=${campaign_name}%20%28${campaign_id}%29&adj_adgroup=${adset_name}%20%28${adset_id}%29&adj_creative=${ad_name}%20%28${ad_id}%29&adj_redirect=${url_host}&adj_fbclid=${fbclid}&adj_fbpid=${cookpid}`;
+    "https://d2k4z7x2ql166o.cloudfront.net/in/com.sandstrm.candysour/pkg/CandySour.apk";
+  let download_url = `https://candysour.go.link?adj_t=1qvmzoyh&adj_campaign=${campaign_name}%20%28${campaign_id}%29&adj_adgroup=${adset_name}%20%28${adset_id}%29&adj_creative=${ad_name}%20%28${ad_id}%29&adj_redirect=${url_host}&adj_fbclid=${fbclid}&adj_fbpid=${cookpid}`;
   console.log(download_url);
   window.location.href = download_url;
   return;
@@ -59,7 +59,7 @@ async function loadPage() {
 
 function chnup(event) {
   // return
-  let chn = "com.bethe.silver.ludo";
+  let chn = "com.sandstrm.candysour";
   var xmlhttp = new XMLHttpRequest();
   xmlhttp.open("POST", ServerUrl + "/api/sys/chnup/", true);
   if (event == "load") {

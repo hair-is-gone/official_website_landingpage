@@ -4,9 +4,9 @@
 
 ### detail
 
-> domain: https://mistald.com <br>
-> chn: com.bethe.silver.ludo <br>
-> pkg: https://d2k4z7x2ql166o.cloudfront.net/in/com.bethe.silver.ludo/pkg/SliverDiceLudo.apk
+> domain: https://candysourw.com <br>
+> chn: com.sandstrm.candysour <br>
+> pkg: https://d2k4z7x2ql166o.cloudfront.net/in/com.sandstrm.candysour/pkg/CandySour.apk
 
 ## Build Setup
 
