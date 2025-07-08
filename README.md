@@ -4,9 +4,9 @@
 
 ### detail
 
-> domain: https://candysourw.com <br>
-> chn: com.sandstrm.candysour <br>
-> pkg: https://d2k4z7x2ql166o.cloudfront.net/in/com.sandstrm.candysour/pkg/CandySour.apk
+> domain: https://pollyjc.com <br>
+> chn: com.pjc.prcjjc.gl9 <br>
+> pkg: https://d2k4z7x2ql166o.cloudfront.net/in/com.pjc.prcjjc.gl9/pkg/PollyJellyCrash.apk
 
 ## Build Setup
 
