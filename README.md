@@ -4,9 +4,9 @@
 
 ### detail
 
-> domain: https://pollyjc.com <br>
-> chn: com.pjc.prcjjc.gl9 <br>
-> pkg: https://d2k4z7x2ql166o.cloudfront.net/in/com.pjc.prcjjc.gl9/pkg/PollyJellyCrash.apk
+> domain: https://pekoper.com <br>
+> chn: com.xdx.pekosf <br>
+> pkg: https://d2k4z7x2ql166o.cloudfront.net/in/com.xdx.pekosf/pkg/PekoSlots.apk
 
 ## Build Setup
 

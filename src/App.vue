@@ -34,11 +34,14 @@ export default {
         let ipInfo = respData.data;
         if (ipInfo.country_iso_code == "IN") {
           this.isIN = true;
+          document.title = "Peko Slots";
           return;
         }
         this.notIN = true;
+        document.title = "Peko Photo Editor";
       } else {
         this.notIN = true;
+        document.title = "Peko Photo Editor";
       }
     },
   },

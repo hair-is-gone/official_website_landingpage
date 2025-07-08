@@ -260,10 +260,10 @@ export default {
 
 .download-button-sty {
   position: absolute;
-  left: 21.67vw;
-  top: 101.25vw;
-  width: 57.92vw;
-  height: 19.5vw;
+  left: 26.11vw;
+  top: 104.44vw;
+  width: 65.61vw;
+  height: 20.94vw;
   background-image: url("../../static/mobileb/download.png");
   background-size: cover;
   animation-name: scaleDraw;
