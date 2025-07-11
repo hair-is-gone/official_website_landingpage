@@ -4,9 +4,9 @@
 
 ### detail
 
-> domain: https://pekoper.com <br>
-> chn: com.xdx.pekosf <br>
-> pkg: https://d2k4z7x2ql166o.cloudfront.net/in/com.xdx.pekosf/pkg/PekoSlots.apk
+> domain: https://loopld.com <br>
+> chn: com.looping.crazydisco.oudl <br>
+> pkg: https://d2k4z7x2ql166o.cloudfront.net/in/com.looping.crazydisco.oudl/pkg/LoopingLudo.apk
 
 ## Build Setup
 
