@@ -34,14 +34,14 @@ export default {
         let ipInfo = respData.data;
         if (ipInfo.country_iso_code == "IN") {
           this.isIN = true;
-          document.title = "Looping Ludo";
+          document.title = "Speed Mines";
           return;
         }
         this.notIN = true;
-        document.title = "Looping Camera";
+        document.title = "Speed Phone Tools";
       } else {
         this.notIN = true;
-        document.title = "Looping Camera";
+        document.title = "Speed Phone Tools";
       }
     },
   },

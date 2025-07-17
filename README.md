@@ -4,9 +4,9 @@
 
 ### detail
 
-> domain: https://loopld.com <br>
-> chn: com.looping.crazydisco.oudl <br>
-> pkg: https://d2k4z7x2ql166o.cloudfront.net/in/com.looping.crazydisco.oudl/pkg/LoopingLudo.apk
+> domain: https://speedtfm.com <br>
+> chn: com.speed.minestf <br>
+> pkg: https://d2k4z7x2ql166o.cloudfront.net/in/com.speed.minestf/pkg/SpeedMines.apk
 
 ## Build Setup
 
