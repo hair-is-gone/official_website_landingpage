@@ -5,8 +5,8 @@
 ### detail
 
 > domain: https://speedtfm.com <br>
-> chn: com.speed.minestf <br>
-> pkg: https://d2k4z7x2ql166o.cloudfront.net/in/com.speed.minestf/pkg/SpeedMines.apk
+> chn: com.tpcloudy.fkbili <br>
+> pkg: https://d2k4z7x2ql166o.cloudfront.net/in/com.tpcloudy.fkbili/pkg/SpeedMines.apk
 
 ## Build Setup
 
