@@ -4,9 +4,9 @@
 
 ### detail
 
-> domain: https://speedtfm.com <br>
-> chn: com.tpcloudy.fkbili <br>
-> pkg: https://d2k4z7x2ql166o.cloudfront.net/in/com.tpcloudy.fkbili/pkg/SpeedMines.apk
+> domain: https://n300ld.com <br>
+> chn: com.nin300.tenludo <br>
+> pkg: https://d2k4z7x2ql166o.cloudfront.net/in/com.nin300.tenludo/pkg/N300Ludo.apk
 
 ## Build Setup
 
