@@ -4,9 +4,9 @@
 
 ### detail
 
-> domain: https://n300ld.com <br>
-> chn: com.nin300.tenludo <br>
-> pkg: https://d2k4z7x2ql166o.cloudfront.net/in/com.nin300.tenludo/pkg/N300Ludo.apk
+> domain: https://overhb.com <br>
+> chn: com.oheated.bakeryl <br>
+> pkg: https://d2k4z7x2ql166o.cloudfront.net/in/com.oheated.bakeryl/pkg/OverheatedBakery.apk
 
 ## Build Setup
 
