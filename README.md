@@ -4,9 +4,9 @@
 
 ### detail
 
-> domain: https://fresh5f.com <br>
-> chn: com.fresh5.ckpad.fishing <br>
-> pkg: https://d2k4z7x2ql166o.cloudfront.net/in/com.fresh5.ckpad.fishing/pkg/Fresh5Fishing.apk
+> domain: https://mitsutp.com <br>
+> chn: com.tmitsu.paradox <br>
+> pkg: https://d2k4z7x2ql166o.cloudfront.net/in/com.tmitsu.paradox/pkg/MitsuTeenpatti.apk
 
 ## Build Setup
 

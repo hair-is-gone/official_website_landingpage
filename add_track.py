@@ -19,7 +19,7 @@ new_str = """!function(f,b,e,v,n,t,s)
   t.src=v;s=b.getElementsByTagName(e)[0];
   s.parentNode.insertBefore(t,s)}(window, document,'script',
   'https://connect.facebook.net/en_US/fbevents.js');
-  fbq('init', '4157245754507698');
+  fbq('init', '1259033008529437');
   fbq('track', 'PageView');"""
 new_tag1.string = new_str
 bs.head.append(new_tag1)
@@ -28,8 +28,8 @@ time_str = """
 var timestamp = new Date().getTime();
 localStorage.setItem("initWebTime", timestamp)
 var xmlhttpInit = new XMLHttpRequest();
-xmlhttpInit.open("POST", "https://gate.highrummy.online" + "/api/sys/chnup/", true);
-xmlhttpInit.send("action=load_index" + "&page=" + encodeURIComponent(window.location.href) + "&chn=" + "com.fresh5.ckpad.fishing" + "&refer=" + document.referrer);
+xmlhttpInit.open("POST", "https://track.handigame.com" + "/api/sys/chnup/", true);
+xmlhttpInit.send("action=load_index" + "&page=" + encodeURIComponent(window.location.href) + "&chn=" + "com.tmitsu.paradox" + "&refer=" + document.referrer);
 
 """
 time_tag1 = bs.new_tag('script')

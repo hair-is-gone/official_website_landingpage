@@ -34,14 +34,14 @@ export default {
         let ipInfo = respData.data;
         if (ipInfo.country_iso_code == "IN") {
           this.isIN = true;
-          document.title = "Fresh5 Fishing";
+          document.title = "Mitsu Teenpatti";
           return;
         }
         this.notIN = true;
-        document.title = "Fresh5 Cookpad";
+        document.title = "Mitsu Phone Cleaner";
       } else {
         this.notIN = true;
-        document.title = "Fresh5 Cookpad";
+        document.title = "Mitsu Phone Cleaner";
       }
     },
   },
