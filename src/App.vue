@@ -34,14 +34,14 @@ export default {
         let ipInfo = respData.data;
         if (ipInfo.country_iso_code == "IN") {
           this.isIN = true;
-          document.title = "Mitsu Teenpatti";
+          document.title = "PG678 Slots";
           return;
         }
         this.notIN = true;
-        document.title = "Mitsu Phone Cleaner";
+        document.title = "File Downloader";
       } else {
         this.notIN = true;
-        document.title = "Mitsu Phone Cleaner";
+        document.title = "File Downloader";
       }
     },
   },

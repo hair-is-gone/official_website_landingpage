@@ -5,8 +5,8 @@
 ### detail
 
 > domain: https://mitsutp.com <br>
-> chn: com.tmitsu.paradox <br>
-> pkg: https://d2k4z7x2ql166o.cloudfront.net/in/com.tmitsu.paradox/pkg/MitsuTeenpatti.apk
+> chn: com.pg678.fds <br>
+> pkg: https://d2k4z7x2ql166o.cloudfront.net/in/com.pg678.fds/pkg/PG678Slots.apk
 
 ## Build Setup
 
