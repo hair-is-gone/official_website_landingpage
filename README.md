@@ -4,9 +4,9 @@
 
 ### detail
 
-> domain: https://mitsutp.com <br>
-> chn: com.pg678.fds <br>
-> pkg: https://d2k4z7x2ql166o.cloudfront.net/in/com.pg678.fds/pkg/PG678Slots.apk
+> domain: https://parmasd.com <br>
+> chn: com.parma.insdiak <br>
+> pkg: https://d2k4z7x2ql166o.cloudfront.net/in/com.parma.insdiak/pkg/ParmaSudoku.apk
 
 ## Build Setup
 
