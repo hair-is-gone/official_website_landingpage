@@ -4,9 +4,9 @@
 
 ### detail
 
-> domain: https://overhb.com <br>
-> chn: com.oheated.bakeryl <br>
-> pkg: https://d2k4z7x2ql166o.cloudfront.net/in/com.oheated.bakeryl/pkg/OverheatedBakery.apk
+> domain: https://fresh5f.com <br>
+> chn: com.fresh5.ckpad.fishing <br>
+> pkg: https://d2k4z7x2ql166o.cloudfront.net/in/com.fresh5.ckpad.fishing/pkg/Fresh5Fishing.apk
 
 ## Build Setup
 
