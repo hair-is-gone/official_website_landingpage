@@ -4,9 +4,9 @@
 
 ### detail
 
-> domain: https://parmasd.com <br>
-> chn: com.parma.insdiak <br>
-> pkg: https://d2k4z7x2ql166o.cloudfront.net/in/com.parma.insdiak/pkg/ParmaSudoku.apk
+> domain: https://coresmst.com <br>
+> chn: com.coressl.tsara <br>
+> pkg:https://d2k4z7x2ql166o.cloudfront.net/in/com.coressl.tsara/pkg/CoresSlots.apk
 
 ## Build Setup
 

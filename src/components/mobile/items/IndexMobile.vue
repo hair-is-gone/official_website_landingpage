@@ -26,7 +26,7 @@ export default {
 
 <style lang="less" scoped>
 .main {
-  background: #3477ff;
+  background: #fff;
   height: 100vh;
   width: 100vw;
 }
@@ -40,10 +40,10 @@ export default {
 
 .download-button-sty {
   display: flex;
-  margin-top: 115.57vw;
-  margin-left: 8.47vw;
-  width: 83.19vw;
-  height: 19.72vw;
+  margin-top: 24.58vw;
+  margin-left: 15.14vw;
+  width: 71.86vw;
+  height: 15.35vw;
   background-image: url("../../../../static/mobile/btn_download.png");
   background-size: cover;
   animation-name: scaleDraw;

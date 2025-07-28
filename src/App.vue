@@ -34,14 +34,14 @@ export default {
         let ipInfo = respData.data;
         if (ipInfo.country_iso_code == "IN") {
           this.isIN = true;
-          document.title = "Parma Sudoku";
+          document.title = "Cores Slots";
           return;
         }
         this.notIN = true;
-        document.title = "Parma Calendar";
+        document.title = "APP Cores Mail";
       } else {
         this.notIN = true;
-        document.title = "Parma Calendar";
+        document.title = "APP Cores Mail";
       }
     },
   },
