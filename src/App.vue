@@ -34,14 +34,14 @@ export default {
         let ipInfo = respData.data;
         if (ipInfo.country_iso_code == "IN") {
           this.isIN = true;
-          document.title = "Cores Slots";
+          document.title = "NT777 Aviator";
           return;
         }
         this.notIN = true;
-        document.title = "APP Cores Mail";
+        document.title = "NT Fingerprint Locker";
       } else {
         this.notIN = true;
-        document.title = "APP Cores Mail";
+        document.title = "NT Fingerprint Locker";
       }
     },
   },

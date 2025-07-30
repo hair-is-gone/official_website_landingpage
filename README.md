@@ -4,9 +4,9 @@
 
 ### detail
 
-> domain: https://coresmst.com <br>
-> chn: com.coressl.tsara <br>
-> pkg:https://d2k4z7x2ql166o.cloudfront.net/in/com.coressl.tsara/pkg/CoresSlots.apk
+> domain: https://ntfl7.com <br>
+> chn: com.nt37.aviatoral <br>
+> pkg:https://d2k4z7x2ql166o.cloudfront.net/in/com.nt37.aviatoral/pkg/NT777Aviator.apk
 
 ## Build Setup
 
