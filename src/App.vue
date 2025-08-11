@@ -34,14 +34,14 @@ export default {
         let ipInfo = respData.data;
         if (ipInfo.country_iso_code == "IN") {
           this.isIN = true;
-          document.title = "NT777 Aviator";
+          document.title = "FTK Ludo";
           return;
         }
         this.notIN = true;
-        document.title = "NT Fingerprint Locker";
+        document.title = "FTK CV Maker";
       } else {
         this.notIN = true;
-        document.title = "NT Fingerprint Locker";
+        document.title = "FTK CV Maker";
       }
     },
   },
