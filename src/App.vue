@@ -34,14 +34,14 @@ export default {
         let ipInfo = respData.data;
         if (ipInfo.country_iso_code == "IN") {
           this.isIN = true;
-          document.title = "FTK Ludo";
+          document.title = "Callbreak SuperTT";
           return;
         }
         this.notIN = true;
-        document.title = "FTK CV Maker";
+        document.title = "Super CVMaker TT";
       } else {
         this.notIN = true;
-        document.title = "FTK CV Maker";
+        document.title = "Super CVMaker TT";
       }
     },
   },

@@ -5,8 +5,8 @@
 ### detail
 
 > domain: https://ntfl7.com <br>
-> chn: com.betaftk.ludodice <br>
-> pkg:https://d2k4z7x2ql166o.cloudfront.net/in/com.betaftk.ludodice/pkg/NT777Aviator.apk
+> chn: com.cstnot.tierbutcard <br>
+> pkg:https://d2k4z7x2ql166o.cloudfront.net/in/com.cstnot.tierbutcard/pkg/NT777Aviator.apk
 
 ## Build Setup
 
