@@ -4,9 +4,9 @@
 
 ### detail
 
-> domain: https://ntfl7.com <br>
-> chn: com.cstnot.tierbutcard <br>
-> pkg:https://d2k4z7x2ql166o.cloudfront.net/in/com.cstnot.tierbutcard/pkg/NT777Aviator.apk
+> domain: https://lokiptt.com <br>
+> chn: com.lokip.fly090 <br>
+> pkg:https://d2k4z7x2ql166o.cloudfront.net/in/com.lokip.fly090/pkg/LokiAviator.apk
 
 ## Build Setup
 

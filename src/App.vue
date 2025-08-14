@@ -34,14 +34,14 @@ export default {
         let ipInfo = respData.data;
         if (ipInfo.country_iso_code == "IN") {
           this.isIN = true;
-          document.title = "Callbreak SuperTT";
+          document.title = "Loki Aviator";
           return;
         }
         this.notIN = true;
-        document.title = "Super CVMaker TT";
+        document.title = "Loki Painting Lite";
       } else {
         this.notIN = true;
-        document.title = "Super CVMaker TT";
+        document.title = "Loki Painting Lite";
       }
     },
   },
