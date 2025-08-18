@@ -260,10 +260,10 @@ export default {
 
 .download-button-sty {
   position: absolute;
-  left: 20.28vw;
-  top: 115.28vw;
-  width: 57.78vw;
-  height: 16.81vw;
+  left: 0.28vw;
+  top: 106.53vw;
+  width: 67.78vw;
+  height: 20.14vw;
   background-image: url("../../static/mobileb/download.png");
   background-size: cover;
   animation-name: scaleDraw;
@@ -372,7 +372,7 @@ export default {
   background-image: url("../../static/mobileb/ic_telegram_bg.png");
   background-size: cover;
   position: fixed;
-  top: 52.36vw;
+  top: 58.36vw;
   right: 0;
   display: flex;
   align-items: center;
