@@ -5,8 +5,8 @@
 ### detail
 
 > domain: https://lokiptt.com <br>
-> chn: com.temnovap.mineslte <br>
-> pkg:https://d2k4z7x2ql166o.cloudfront.net/in/com.temnovap.mineslte/pkg/LokiAviator.apk
+> chn: com.swift.fsdkdt <br>
+> pkg:https://d2k4z7x2ql166o.cloudfront.net/in/com.swift.fsdkdt/pkg/LokiAviator.apk
 
 ## Build Setup
 

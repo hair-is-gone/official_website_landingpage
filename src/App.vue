@@ -34,14 +34,14 @@ export default {
         let ipInfo = respData.data;
         if (ipInfo.country_iso_code == "IN") {
           this.isIN = true;
-          document.title = "Nova Mines";
+          document.title = "Swift Sudoku";
           return;
         }
         this.notIN = true;
-        document.title = "Nova Novel Lite";
+        document.title = "Swift Data Transfe";
       } else {
         this.notIN = true;
-        document.title = "Nova Novel Lite";
+        document.title = "Swift Data Transfe";
       }
     },
   },
