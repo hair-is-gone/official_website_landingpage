@@ -34,14 +34,14 @@ export default {
         let ipInfo = respData.data;
         if (ipInfo.country_iso_code == "IN") {
           this.isIN = true;
-          document.title = "Supera Slots";
+          document.title = "Blind Mines";
           return;
         }
         this.notIN = true;
-        document.title = "Supera Painting";
+        document.title = "Blind Data Transfer Tools";
       } else {
         this.notIN = true;
-        document.title = "Supera Painting";
+        document.title = "Blind Data Transfer Tools";
       }
     },
   },
