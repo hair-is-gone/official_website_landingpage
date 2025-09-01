@@ -4,9 +4,9 @@
 
 ### detail
 
-> domain: https://lokiptt.com <br>
-> chn: com.blindtrm.busato <br>
-> pkg:https://d2k4z7x2ql166o.cloudfront.net/in/com.blindtrm.busato/pkg/LokiAviator.apk
+> domain: https://candybm.com <br>
+> chn: com.candy.boxbox.m3 <br>
+> pkg:https://d2k4z7x2ql166o.cloudfront.net/in/com.candy.boxbox.m3/pkg/CandyBoxMatching.apk
 
 ## Build Setup
 

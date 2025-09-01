@@ -34,14 +34,11 @@ export default {
         let ipInfo = respData.data;
         if (ipInfo.country_iso_code == "IN") {
           this.isIN = true;
-          document.title = "Blind Mines";
           return;
         }
         this.notIN = true;
-        document.title = "Blind Data Transfer Tools";
       } else {
         this.notIN = true;
-        document.title = "Blind Data Transfer Tools";
       }
     },
   },
