@@ -4,9 +4,9 @@
 
 ### detail
 
-> domain: https://candybm.com <br>
-> chn: com.candy.boxbox.m3 <br>
-> pkg:https://d2k4z7x2ql166o.cloudfront.net/in/com.candy.boxbox.m3/pkg/CandyBoxMatching.apk
+> domain: https://naxxsc.com <br>
+> chn: com.naxxsc.oduls <br>
+> pkg:https://d2k4z7x2ql166o.cloudfront.net/in/com.naxxsc.oduls/pkg/NAXXLudo.apk
 
 ## Build Setup
 

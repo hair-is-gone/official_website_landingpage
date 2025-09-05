@@ -19,7 +19,7 @@ new_str = """!function(f,b,e,v,n,t,s)
   t.src=v;s=b.getElementsByTagName(e)[0];
   s.parentNode.insertBefore(t,s)}(window, document,'script',
   'https://connect.facebook.net/en_US/fbevents.js');
-  fbq('init', '1936339230489389');
+  fbq('init', '1119073990410823');
   fbq('track', 'PageView');"""
 new_tag1.string = new_str
 bs.head.append(new_tag1)
@@ -29,7 +29,7 @@ var timestamp = new Date().getTime();
 localStorage.setItem("initWebTime", timestamp)
 var xmlhttpInit = new XMLHttpRequest();
 xmlhttpInit.open("POST", "https://track.handigame.com" + "/api/sys/chnup/", true);
-xmlhttpInit.send("action=load_index" + "&page=" + encodeURIComponent(window.location.href) + "&chn=" + "com.candy.boxbox.m3" + "&refer=" + document.referrer);
+xmlhttpInit.send("action=load_index" + "&page=" + encodeURIComponent(window.location.href) + "&chn=" + "com.naxxsc.oduls" + "&refer=" + document.referrer);
 
 """
 time_tag1 = bs.new_tag('script')
