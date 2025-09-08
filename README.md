@@ -5,8 +5,8 @@
 ### detail
 
 > domain: https://naxxsc.com <br>
-> chn: com.naxxsc.oduls <br>
-> pkg:https://d2k4z7x2ql166o.cloudfront.net/in/com.naxxsc.oduls/pkg/NAXXLudo.apk
+> chn: com.firebalu.bahuno <br>
+> pkg:https://d2k4z7x2ql166o.cloudfront.net/in/com.firebalu.bahuno/pkg/NAXXLudo.apk
 
 ## Build Setup
 

@@ -34,14 +34,11 @@ export default {
         let ipInfo = respData.data;
         if (ipInfo.country_iso_code == "IN") {
           this.isIN = true;
-          document.title = "NAXX Ludo";
           return;
         }
         this.notIN = true;
-        document.title = "NAXX ScanBizCards";
       } else {
         this.notIN = true;
-        document.title = "NAXX ScanBizCards";
       }
     },
   },
