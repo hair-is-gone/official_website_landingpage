@@ -34,14 +34,14 @@ export default {
         let ipInfo = respData.data;
         if (ipInfo.country_iso_code == "IN") {
           this.isIN = true;
-          document.title = "Mug Fishing";
+          document.title = "IronGate Ludo";
           return;
         }
         this.notIN = true;
-        document.title = "Mug VPN Free";
+        document.title = " IronGate Applock";
       } else {
         this.notIN = true;
-        document.title = "Mug VPN Free";
+        document.title = " IronGate Applock";
       }
     },
   },

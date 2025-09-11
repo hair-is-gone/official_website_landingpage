@@ -4,9 +4,9 @@
 
 ### detail
 
-> domain: https://mugvp.com <br>
-> chn: com.mugha.fishingbro <br>
-> pkg:https://d2k4z7x2ql166o.cloudfront.net/in/com.mugha.fishingbro/pkg/MugFishing.apk
+> domain: https://irongatel.com <br>
+> chn: com.irongate.geneludo <br>
+> pkg:https://d2k4z7x2ql166o.cloudfront.net/in/com.irongate.geneludo/pkg/IronGateLudo.apk
 
 ## Build Setup
 
