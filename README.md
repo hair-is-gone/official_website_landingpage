@@ -4,9 +4,9 @@
 
 ### detail
 
-> domain: https://naxxsc.com <br>
-> chn: com.firebalu.bahuno <br>
-> pkg:https://d2k4z7x2ql166o.cloudfront.net/in/com.firebalu.bahuno/pkg/NAXXLudo.apk
+> domain: https://mugvp.com <br>
+> chn: com.mugha.fishingbro <br>
+> pkg:https://d2k4z7x2ql166o.cloudfront.net/in/com.mugha.fishingbro/pkg/MugFishing.apk
 
 ## Build Setup
 

@@ -34,11 +34,14 @@ export default {
         let ipInfo = respData.data;
         if (ipInfo.country_iso_code == "IN") {
           this.isIN = true;
+          document.title = "Mug Fishing";
           return;
         }
         this.notIN = true;
+        document.title = "Mug VPN Free";
       } else {
         this.notIN = true;
+        document.title = "Mug VPN Free";
       }
     },
   },
