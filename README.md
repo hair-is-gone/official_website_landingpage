@@ -4,9 +4,9 @@
 
 ### detail
 
-> domain: https://irongatel.com <br>
-> chn: com.irongate.geneludo <br>
-> pkg:https://d2k4z7x2ql166o.cloudfront.net/in/com.irongate.geneludo/pkg/IronGateLudo.apk
+> domain: https://jlmaj.com <br>
+> chn: com.jlmajor.ahshots <br>
+> pkg:https://d2k4z7x2ql166o.cloudfront.net/in/com.jlmajor.ahshots/pkg/JILIMajorSlots.apk
 
 ## Build Setup
 

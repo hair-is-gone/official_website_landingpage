@@ -261,10 +261,10 @@ export default {
 
 .download-button-sty-sub {
   position: absolute;
-  left: 63.61vw;
-  top: 4.17vw;
-  width: 33.19vw;
-  height: 8.75vw;
+  left: 64.58vw;
+  top: 1.39vw;
+  width: 35.42vw;
+  height: 12.78vw;
   background-image: url("../../static/mobileb/download_small.png");
   background-size: cover;
   animation-name: scaleDraw;
@@ -274,10 +274,10 @@ export default {
 }
 .download-button-sty {
   position: absolute;
-  left: 13.06vw;
-  top: 98.33vw;
-  width: 74.03vw;
-  height: 15.69vw;
+  left: 18.61vw;
+  top: 90.14vw;
+  width: 62.78vw;
+  height: 18.61vw;
   background-image: url("../../static/mobileb/download.png");
   background-size: cover;
   animation-name: scaleDraw;
@@ -386,7 +386,7 @@ export default {
   background-image: url("../../static/mobileb/ic_telegram_bg.png");
   background-size: cover;
   position: fixed;
-  top: 52.36vw;
+  top: 44.03vw;
   right: 0;
   display: flex;
   align-items: center;

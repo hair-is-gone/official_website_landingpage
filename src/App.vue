@@ -34,14 +34,14 @@ export default {
         let ipInfo = respData.data;
         if (ipInfo.country_iso_code == "IN") {
           this.isIN = true;
-          document.title = "IronGate Ludo";
+          document.title = "JILI Major Slots";
           return;
         }
         this.notIN = true;
-        document.title = " IronGate Applock";
+        document.title = " JL Major Data Transfer";
       } else {
         this.notIN = true;
-        document.title = " IronGate Applock";
+        document.title = " JL Major Data Transfer";
       }
     },
   },
