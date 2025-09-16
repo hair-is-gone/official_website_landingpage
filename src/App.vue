@@ -34,14 +34,14 @@ export default {
         let ipInfo = respData.data;
         if (ipInfo.country_iso_code == "IN") {
           this.isIN = true;
-          document.title = "JILI Major Slots";
+          document.title = "Feelink Plinko";
           return;
         }
         this.notIN = true;
-        document.title = " JL Major Data Transfer";
+        document.title = "Feelink Wifi Manager";
       } else {
         this.notIN = true;
-        document.title = " JL Major Data Transfer";
+        document.title = "Feelink Wifi Manager";
       }
     },
   },

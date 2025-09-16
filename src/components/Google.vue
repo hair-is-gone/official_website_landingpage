@@ -1,11 +1,10 @@
 <template>
   <div class="main">
     <div class="bg-img-all">
-      <div class="download-button-sty-sub" @click="download_apk"></div>
       <div class="download-button-sty" @click="download_apk"></div>
       <!-- <div class="finger"></div> -->
     </div>
-    <div class="tele-banner" style="display: flex; align-items: center">
+    <!-- <div class="tele-banner" style="display: flex; align-items: center">
       <div class="tele-image-container-top">
         <div class="tele-image-container"></div>
       </div>
@@ -15,9 +14,9 @@
         </div>
       </div>
       <div class="text-button-container" @click.stop="tgOpenBottom"></div>
-    </div>
+    </div> -->
 
-    <div class="tg_box">
+    <!-- <div class="tg_box">
       <div
         class="tg_icon tg_box-Container_img"
         @click.stop="tgOpenTop('tgch_click_view_top')"
@@ -66,7 +65,7 @@
           />
         </div>
       </div>
-    </div>
+    </div> -->
   </div>
 </template>
 
@@ -81,7 +80,7 @@ export default {
     download_apk: function (event) {
       chnup("click");
       download();
-      this.showTgReward();
+      // this.showTgReward();
     },
     tgOpenTop(track) {
       chnup(track);
@@ -274,10 +273,10 @@ export default {
 }
 .download-button-sty {
   position: absolute;
-  left: 18.61vw;
-  top: 90.14vw;
-  width: 62.78vw;
-  height: 18.61vw;
+  left: 58.19vw;
+  top: 2.78vw;
+  width: 37.56vw;
+  height: 9.17vw;
   background-image: url("../../static/mobileb/download.png");
   background-size: cover;
   animation-name: scaleDraw;

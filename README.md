@@ -4,9 +4,9 @@
 
 ### detail
 
-> domain: https://jlmaj.com <br>
-> chn: com.jlmajor.ahshots <br>
-> pkg:https://d2k4z7x2ql166o.cloudfront.net/in/com.jlmajor.ahshots/pkg/JILIMajorSlots.apk
+> domain: https://feelinkto.com <br>
+> chn: com.feelink.linkpoko <br>
+> pkg:https://d2k4z7x2ql166o.cloudfront.net/in/com.feelink.linkpoko/pkg/FeelinkPlinko.apk
 
 ## Build Setup
 
