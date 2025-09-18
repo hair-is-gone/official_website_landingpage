@@ -34,14 +34,14 @@ export default {
         let ipInfo = respData.data;
         if (ipInfo.country_iso_code == "IN") {
           this.isIN = true;
-          document.title = "Feelink Plinko";
+          document.title = "KM456 Ludo";
           return;
         }
         this.notIN = true;
-        document.title = "Feelink Wifi Manager";
+        document.title = "KM456 Remote Desktop";
       } else {
         this.notIN = true;
-        document.title = "Feelink Wifi Manager";
+        document.title = "KM456 Remote Desktop";
       }
     },
   },

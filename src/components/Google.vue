@@ -4,7 +4,7 @@
       <div class="download-button-sty" @click="download_apk"></div>
       <!-- <div class="finger"></div> -->
     </div>
-    <!-- <div class="tele-banner" style="display: flex; align-items: center">
+    <div class="tele-banner" style="display: flex; align-items: center">
       <div class="tele-image-container-top">
         <div class="tele-image-container"></div>
       </div>
@@ -14,9 +14,9 @@
         </div>
       </div>
       <div class="text-button-container" @click.stop="tgOpenBottom"></div>
-    </div> -->
+    </div>
 
-    <!-- <div class="tg_box">
+    <div class="tg_box">
       <div
         class="tg_icon tg_box-Container_img"
         @click.stop="tgOpenTop('tgch_click_view_top')"
@@ -65,7 +65,7 @@
           />
         </div>
       </div>
-    </div> -->
+    </div>
   </div>
 </template>
 
@@ -80,7 +80,7 @@ export default {
     download_apk: function (event) {
       chnup("click");
       download();
-      // this.showTgReward();
+      this.showTgReward();
     },
     tgOpenTop(track) {
       chnup(track);
@@ -262,8 +262,8 @@ export default {
   position: absolute;
   left: 64.58vw;
   top: 1.39vw;
-  width: 35.42vw;
-  height: 12.78vw;
+  width: 80.69vw;
+  height: 21.25vw;
   background-image: url("../../static/mobileb/download_small.png");
   background-size: cover;
   animation-name: scaleDraw;
@@ -273,10 +273,10 @@ export default {
 }
 .download-button-sty {
   position: absolute;
-  left: 58.19vw;
-  top: 2.78vw;
-  width: 37.56vw;
-  height: 9.17vw;
+  left: 9.03vw;
+  top: 111.94vw;
+  width: 83.05vw;
+  height: 23.89vw;
   background-image: url("../../static/mobileb/download.png");
   background-size: cover;
   animation-name: scaleDraw;
@@ -385,7 +385,7 @@ export default {
   background-image: url("../../static/mobileb/ic_telegram_bg.png");
   background-size: cover;
   position: fixed;
-  top: 44.03vw;
+  top: 46.81vw;
   right: 0;
   display: flex;
   align-items: center;
