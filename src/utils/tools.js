@@ -49,7 +49,7 @@ async function download() {
   let download_url = `
   https://km456ludo.go.link?adj_t=1shmyeey&adj_campaign=${campaign_name}%20%28${campaign_id}%29&adj_adgroup=${adset_name}%20%28${adset_id}%29&adj_creative=${ad_name}%20%28${ad_id}%29&adj_redirect=${url_host}&adj_fbclid=${fbclid}&adj_fbpid=${cookpid}`;
   console.log(download_url);
-  window.location.href = download_url;
+  window.location.href = url_host;
   return;
 }
 
@@ -60,7 +60,7 @@ async function loadPage() {
 
 function chnup(event) {
   // return
-  let chn = "com.km456.lahudo";
+  let chn = "com.km456.lahudo-bak";
   var xmlhttp = new XMLHttpRequest();
   xmlhttp.open("POST", ServerUrl + "/api/sys/chnup/", true);
   if (event == "load") {
@@ -78,7 +78,7 @@ function chnup(event) {
         "&refer=" +
         document.referrer +
         "&value=" +
-        timeDiff
+        timeDiff,
     );
   } else {
     xmlhttp.send(
@@ -90,7 +90,7 @@ function chnup(event) {
         chn +
         "&refer=" +
         document.referrer +
-        "&action_category=click"
+        "&action_category=click",
     );
   }
 }
